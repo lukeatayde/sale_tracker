@@ -1,0 +1,187 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Cycling Sale Tracker</title>
+<style>
+  :root {
+    --bg: #fff;
+    --fg: #1a1a1a;
+    --muted: #666;
+    --line: #e5e5e5;
+    --head: #f7f7f7;
+    --link: #0b5fff;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #141414;
+      --fg: #e8e8e8;
+      --muted: #999;
+      --line: #2c2c2c;
+      --head: #1c1c1c;
+      --link: #7aa7ff;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    padding: 2rem 1rem;
+    background: var(--bg);
+    color: var(--fg);
+    font: 15px/1.5 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  }
+  main { max-width: 1100px; margin: 0 auto; }
+  h1 { font-size: 1.5rem; margin: 0 0 .25rem; }
+  p.sub { color: var(--muted); margin: 0 0 1.5rem; }
+  a { color: var(--link); text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  .wrap { overflow-x: auto; border: 1px solid var(--line); border-radius: 6px; }
+  table { width: 100%; border-collapse: collapse; }
+  th, td { padding: .55rem .75rem; text-align: left; vertical-align: top; border-bottom: 1px solid var(--line); }
+  tbody tr:last-child td { border-bottom: 0; }
+  th {
+    background: var(--head);
+    font-weight: 600;
+    white-space: nowrap;
+    cursor: pointer;
+    user-select: none;
+    position: sticky;
+    top: 0;
+  }
+  th:hover { color: var(--link); }
+  th::after { content: " ↕"; color: var(--muted); font-size: .8em; }
+  th[aria-sort="ascending"]::after { content: " ↑"; color: inherit; }
+  th[aria-sort="descending"]::after { content: " ↓"; color: inherit; }
+  td:nth-child(1), td:nth-child(3) { white-space: nowrap; }
+  td:nth-child(4) { min-width: 18rem; }
+  .status { font-size: .85em; }
+  .status::before { content: "●"; margin-right: .35em; }
+  .s-live::before { color: #1f9d55; }
+  .s-other_sale::before { color: #d69e2e; }
+  .s-not_yet::before { color: #999; }
+  .s-unknown::before { color: #999; content: "○"; }
+  .s-closed::before { color: #c53030; }
+  footer { color: var(--muted); font-size: .85em; margin-top: 1rem; }
+</style>
+</head>
+<body>
+<main>
+  <h1 id="title">Loading…</h1>
+  <p class="sub" id="sub"></p>
+  <div class="wrap"><table id="t"><thead></thead><tbody></tbody></table></div>
+  <footer id="foot"></footer>
+</main>
+<script>
+const DATA_URL = "data/brands.json";
+
+// Display columns, in order. `key` is the field in data/brands.json.
+const COLUMNS = [
+  { key: "brand",   label: "Brand" },
+  { key: "website", label: "Website" },
+  { key: "status",  label: "Black Friday" },
+  { key: "notes",   label: "What's on the site" },
+  { key: "country", label: "Country" },
+  { key: "type",    label: "Type" },
+];
+
+// Status values in sort order, with display labels.
+const STATUSES = {
+  live:       "Live now",
+  other_sale: "Other sale on",
+  not_yet:    "Not yet",
+  unknown:    "Couldn't check",
+  closed:     "Closed",
+};
+const STATUS_ORDER = Object.keys(STATUSES);
+
+const thead = document.querySelector("#t thead");
+const tbody = document.querySelector("#t tbody");
+
+function cell(key, value) {
+  const td = document.createElement("td");
+  if (key === "website" && value) {
+    const a = document.createElement("a");
+    a.href = value;
+    a.textContent = value.replace(/^https?:\/\/(www\.)?/, "").replace(/\/$/, "");
+    a.target = "_blank";
+    a.rel = "noopener";
+    td.appendChild(a);
+  } else if (key === "status") {
+    const span = document.createElement("span");
+    span.className = "status s-" + value;
+    span.textContent = STATUSES[value] || value;
+    td.appendChild(span);
+  } else {
+    td.textContent = value ?? "";
+  }
+  return td;
+}
+
+function sortKey(key, value) {
+  if (key === "status") {
+    const i = STATUS_ORDER.indexOf(value);
+    return i === -1 ? STATUS_ORDER.length : i;
+  }
+  return (value ?? "").toLowerCase();
+}
+
+function render(data) {
+  const brands = data.brands;
+  document.title = data.title;
+  document.getElementById("title").textContent = data.title;
+  const checked = new Date(data.checked + "T00:00:00").toLocaleDateString("en-US",
+    { year: "numeric", month: "long", day: "numeric" });
+  document.getElementById("sub").textContent =
+    `Sale status by brand, last checked ${checked}. Click a column header to sort.`;
+
+  const tr = document.createElement("tr");
+  COLUMNS.forEach((col, i) => {
+    const th = document.createElement("th");
+    th.textContent = col.label;
+    th.addEventListener("click", () => sortBy(i));
+    tr.appendChild(th);
+  });
+  thead.appendChild(tr);
+
+  const rows = brands.map((b, idx) => {
+    const row = document.createElement("tr");
+    COLUMNS.forEach(col => row.appendChild(cell(col.key, b[col.key])));
+    return { el: row, data: b, idx };
+  });
+  rows.forEach(r => tbody.appendChild(r.el));
+
+  let current = { col: -1, dir: 1 };
+  function sortBy(i) {
+    const key = COLUMNS[i].key;
+    current.dir = current.col === i ? -current.dir : 1;
+    current.col = i;
+    rows.sort((a, b) => {
+      const x = sortKey(key, a.data[key]);
+      const y = sortKey(key, b.data[key]);
+      if (x === "" && y !== "") return 1;   // blanks always last
+      if (y === "" && x !== "") return -1;
+      const c = typeof x === "number" ? x - y : x.localeCompare(y);
+      return c * current.dir || a.idx - b.idx;
+    });
+    rows.forEach(r => tbody.appendChild(r.el));
+    [...tr.cells].forEach((th, j) =>
+      th.setAttribute("aria-sort", j === i ? (current.dir === 1 ? "ascending" : "descending") : "none"));
+  }
+
+  const live = brands.filter(b => b.status === "live").length;
+  document.getElementById("foot").textContent =
+    `${brands.length} brands · ${live} with a Black Friday sale live`;
+}
+
+fetch(DATA_URL, { cache: "no-cache" })
+  .then(r => { if (!r.ok) throw new Error("HTTP " + r.status); return r.json(); })
+  .then(render)
+  .catch(err => {
+    document.getElementById("title").textContent = "Couldn't load data";
+    document.getElementById("foot").textContent = err.message +
+      ". If you opened this file directly, serve the folder with a local web server instead.";
+  });
+</script>
+</body>
+</html>
