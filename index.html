@@ -24,6 +24,7 @@
     }
   }
   * { box-sizing: border-box; }
+  [hidden] { display: none !important; }
   body {
     margin: 0;
     padding: 2rem 1rem;
@@ -33,34 +34,36 @@
   }
   main { max-width: 1320px; margin: 0 auto; }
   h1 { font-size: 1.5rem; margin: 0 0 .25rem; }
-  h2 { font-size: 1.15rem; margin: 0; }
-  p.sub { color: var(--muted); margin: 0 0 1.25rem; }
+  p.sub { color: var(--muted); margin: 0 0 1rem; }
   a { color: var(--link); text-decoration: none; }
   a:hover { text-decoration: underline; }
 
-  .search {
+  .controls {
     position: sticky; top: 0; z-index: 1;
     background: var(--bg);
-    padding: .5rem 0;
-    display: flex; gap: .75rem; align-items: center; flex-wrap: wrap;
+    padding: .5rem 0 .75rem;
   }
-  .search input {
-    flex: 1 1 18rem;
+  .controls input[type=search] {
+    width: 100%;
     font: inherit;
+    font-size: 16px; /* below 16px, iOS zooms the page on focus */
     padding: .5rem .75rem;
     color: var(--fg);
     background: var(--bg);
     border: 1px solid var(--line);
     border-radius: 6px;
   }
-  .search input:focus { outline: 2px solid var(--link); outline-offset: -1px; }
-  .search .count { color: var(--muted); font-size: .9em; }
-  nav { margin: .25rem 0 1.5rem; font-size: .9em; color: var(--muted); }
-  nav a { margin-right: 1rem; white-space: nowrap; }
+  .controls input[type=search]:focus { outline: 2px solid var(--link); outline-offset: -1px; }
+  .filters {
+    display: flex; flex-wrap: wrap; align-items: center; gap: .35rem 1.1rem;
+    margin-top: .6rem; font-size: .9em;
+  }
+  .filters label { display: inline-flex; align-items: center; gap: .35rem; cursor: pointer; white-space: nowrap; }
+  .filters input { margin: 0; accent-color: var(--link); }
+  .filters .n { color: var(--muted); }
+  .filters .sep { width: 1px; align-self: stretch; background: var(--line); }
+  .count { color: var(--muted); font-size: .85em; margin-top: .5rem; }
 
-  section { margin-bottom: 2.25rem; }
-  section > header { display: flex; align-items: baseline; gap: .75rem; flex-wrap: wrap; margin-bottom: .5rem; }
-  section > header .meta { color: var(--muted); font-size: .85em; }
   .wrap { overflow-x: auto; border: 1px solid var(--line); border-radius: 6px; }
   table { width: 100%; border-collapse: collapse; }
   th, td { padding: .55rem .75rem; text-align: left; vertical-align: top; border-bottom: 1px solid var(--line); }
@@ -76,9 +79,9 @@
   th::after { content: " ↕"; color: var(--muted); font-size: .8em; }
   th[aria-sort="ascending"]::after { content: " ↑"; color: inherit; }
   th[aria-sort="descending"]::after { content: " ↓"; color: inherit; }
-  .k-name, .k-status, .k-detected, .k-website { white-space: nowrap; }
+  .k-name, .k-status, .k-detected, .k-website, .k-category { white-space: nowrap; }
   .k-notes { min-width: 18rem; }
-  .k-detected { color: var(--muted); }
+  .k-detected, .k-category { color: var(--muted); }
   .status { font-size: .85em; }
   .status::before { content: "●"; margin-right: .35em; }
   .s-live::before { color: #1f9d55; }
@@ -87,20 +90,77 @@
   .s-unknown::before { color: #999; content: "○"; }
   .s-closed::before { color: #c53030; }
   .empty { color: var(--muted); padding: 1rem 0; }
-  footer { color: var(--muted); font-size: .85em; }
+  footer { color: var(--muted); font-size: .85em; margin-top: 1rem; }
+
+  /* Phones: each row becomes a card, and the header row becomes sort chips. */
+  @media (max-width: 760px) {
+    body { padding: 1.25rem 16px; }
+    h1 { font-size: 1.3rem; }
+    .filters .sep { display: none; }
+    .wrap { overflow: visible; }
+    table, thead, tbody { display: block; }
+
+    thead tr {
+      display: flex; gap: .4rem; align-items: center;
+      overflow-x: auto; scrollbar-width: none;
+      padding: .6rem .75rem;
+      background: var(--head);
+      border-bottom: 1px solid var(--line);
+      font-size: .8em;
+    }
+    thead tr::-webkit-scrollbar { display: none; }
+    thead tr::before { content: "Sort:"; color: var(--muted); margin-right: .1rem; flex: none; }
+    th {
+      padding: .2rem .55rem;
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      background: var(--bg);
+      font-weight: 500;
+    }
+    th[aria-sort="ascending"], th[aria-sort="descending"] { border-color: var(--link); color: var(--link); }
+
+    tbody tr {
+      display: flex; flex-wrap: wrap; align-items: baseline;
+      gap: .3rem 1rem;
+      padding: .8rem .75rem;
+      border-bottom: 1px solid var(--line);
+    }
+    tbody tr:last-child { border-bottom: 0; }
+    td { display: block; padding: 0; border: 0; min-width: 0; }
+    td:empty { display: none; }
+
+    /* Line 1: name and status. Line 2: notes. Line 3: everything else. */
+    td.k-name { order: -2; flex: 1 1 auto; font-weight: 600; white-space: normal; }
+    td.k-status { order: -1; flex: 0 0 auto; }
+    td.k-notes { flex-basis: 100%; }
+    td:not(.k-name):not(.k-status):not(.k-notes) {
+      order: 1;
+      font-size: .82em;
+      color: var(--muted);
+      white-space: normal;
+    }
+    td:not(.k-name):not(.k-status):not(.k-notes):not(.k-website):not(.k-category)::before {
+      content: attr(data-label) ": ";
+      opacity: .8;
+    }
+  }
 </style>
 </head>
 <body>
 <main>
   <h1 id="title">Loading…</h1>
-  <p class="sub">Click a column header to sort. Search tolerates typos.</p>
-  <div class="search">
+  <p class="sub" id="sub"></p>
+  <div class="controls">
     <input id="q" type="search" placeholder="Search brands, notes, countries… (press /)" autocomplete="off" aria-label="Search">
-    <span class="count" id="count"></span>
+    <div class="filters" id="filters">
+      <span id="cats" style="display:contents"></span>
+      <span class="sep"></span>
+      <label><input type="checkbox" id="saleOnly"> On sale now only</label>
+    </div>
+    <div class="count" id="count"></div>
   </div>
-  <nav id="nav"></nav>
-  <div id="tables"></div>
-  <p class="empty" id="empty" hidden>No matches.</p>
+  <div class="wrap"><table id="t"><thead><tr></tr></thead><tbody></tbody></table></div>
+  <p class="empty" id="empty" hidden>Nothing matches these filters.</p>
   <footer id="foot"></footer>
 </main>
 <script>
@@ -115,9 +175,13 @@ const STATUSES = {
   closed:     "Closed",
 };
 const STATUS_ORDER = Object.keys(STATUSES);
+// Statuses that count as "some form of sale going on".
+const ON_SALE = new Set(["live", "other_sale"]);
 
 const $ = id => document.getElementById(id);
-const tables = [];   // { section, navLink, meta, rows: [{ el, data, idx, text, words }] }
+const rows = [];        // { el, data, category, idx, text, words }
+const categories = [];  // { id, title, input, n }
+let columns = [];       // combined columns across all tables
 
 // ---------- formatting ----------
 
@@ -133,9 +197,10 @@ function display(key, value) {
   return value ?? "";
 }
 
-function cell(key, value) {
+function cell(key, value, label) {
   const td = document.createElement("td");
   td.className = "k-" + key;
+  td.dataset.label = label;   // shown as a prefix in the mobile card layout
   if (key === "website" && value) {
     const a = document.createElement("a");
     a.href = value;
@@ -180,7 +245,7 @@ function lev(a, b, max) {
 }
 
 // A query token matches a row if it appears anywhere in the row's text.
-// Only when a token appears nowhere in any table (likely a typo) do we fall
+// Only when a token appears nowhere in the data (likely a typo) do we fall
 // back to fuzzy matching: within 1 typo (5+ letters) or 2 typos (7+ letters)
 // of a word, or of the start of a word.
 function tokenMatches(t, row, fuzzy) {
@@ -191,32 +256,40 @@ function tokenMatches(t, row, fuzzy) {
     lev(t, w, max) <= max || (w.length > t.length && lev(t, w.slice(0, t.length), max) <= max));
 }
 
-function applySearch() {
+// ---------- filtering ----------
+
+function apply() {
   const q = $("q").value;
+  const saleOnly = $("saleOnly").checked;
   const tokens = norm(q).split(/\s+/).filter(Boolean);
-  const allRows = tables.flatMap(t => t.rows);
-  const fuzzy = tokens.map(tok => !allRows.some(r => r.text.includes(tok)));
-  let shown = 0, total = 0;
-  for (const t of tables) {
-    let n = 0;
-    for (const r of t.rows) {
-      const ok = tokens.every((tok, i) => tokenMatches(tok, r, fuzzy[i]));
-      r.el.hidden = !ok;
-      if (ok) n++;
-    }
-    shown += n; total += t.rows.length;
-    t.section.hidden = tokens.length > 0 && n === 0;
-    t.meta.textContent = (tokens.length ? `${n} of ${t.rows.length}` : `${t.rows.length}`) + t.checkedText;
-    t.navLink.textContent = `${t.title} (${n})`;
+  const fuzzy = tokens.map(tok => !rows.some(r => r.text.includes(tok)));
+  const shownCats = new Set(categories.filter(c => c.input.checked).map(c => c.id));
+
+  const perCat = Object.fromEntries(categories.map(c => [c.id, 0]));
+  let shown = 0;
+  for (const r of rows) {
+    const passesOther = (!saleOnly || ON_SALE.has(r.data.status)) &&
+                        tokens.every((tok, i) => tokenMatches(tok, r, fuzzy[i]));
+    if (passesOther) perCat[r.category]++;
+    const ok = passesOther && shownCats.has(r.category);
+    r.el.hidden = !ok;
+    if (ok) shown++;
   }
-  $("count").textContent = tokens.length ? `${shown} of ${total} match` : "";
-  $("empty").hidden = !(tokens.length && shown === 0);
+  // Each checkbox shows how many rows it would contribute under the other filters.
+  categories.forEach(c => c.n.textContent = `(${perCat[c.id]})`);
+  $("count").textContent = `Showing ${shown} of ${rows.length}`;
+  $("empty").hidden = shown > 0;
+
+  // Keep filters in the URL so a filtered view can be shared.
   const url = new URL(location);
-  if (q) url.searchParams.set("q", q); else url.searchParams.delete("q");
+  const set = (k, v) => v ? url.searchParams.set(k, v) : url.searchParams.delete(k);
+  set("q", q);
+  set("sale", saleOnly ? "1" : "");
+  set("hide", categories.filter(c => !c.input.checked).map(c => c.id).join(","));
   history.replaceState(null, "", url);
 }
 
-// ---------- tables ----------
+// ---------- table ----------
 
 function sortKey(key, value) {
   if (key === "status") {
@@ -226,35 +299,11 @@ function sortKey(key, value) {
   return norm(value ?? "");
 }
 
-function renderTable(id, data) {
-  const section = document.createElement("section");
-  section.id = id;
-  const header = document.createElement("header");
-  const h2 = document.createElement("h2");
-  h2.textContent = data.title;
-  const meta = document.createElement("span");
-  meta.className = "meta";
-  header.append(h2, meta);
-
-  const wrap = document.createElement("div");
-  wrap.className = "wrap";
-  const table = document.createElement("table");
-  const thead = table.createTHead();
-  const tbody = table.createTBody();
-  const htr = thead.insertRow();
-  wrap.appendChild(table);
-  section.append(header, wrap);
-
-  const rows = data.rows.map((d, idx) => {
-    const el = document.createElement("tr");
-    data.columns.forEach(c => el.appendChild(cell(c.key, d[c.key])));
-    tbody.appendChild(el);
-    const text = norm(data.columns.map(c => display(c.key, d[c.key])).join(" · "));
-    return { el, data: d, idx, text, words: text.split(/[^a-z0-9%]+/).filter(Boolean) };
-  });
-
+function buildTable() {
+  const htr = $("t").tHead.rows[0];
+  const tbody = $("t").tBodies[0];
   let current = { col: -1, dir: 1 };
-  data.columns.forEach((c, i) => {
+  columns.forEach((c, i) => {
     const th = document.createElement("th");
     th.textContent = c.label;
     th.addEventListener("click", () => {
@@ -274,26 +323,46 @@ function renderTable(id, data) {
     });
     htr.appendChild(th);
   });
-
-  const navLink = document.createElement("a");
-  navLink.href = "#" + id;
-  $("nav").appendChild(navLink);
-
-  const checkedText = data.checked ? ` · checked ${fmtDate(data.checked, { month: "long", day: "numeric", year: "numeric" })}` : "";
-  return { title: data.title, section, navLink, meta, rows, checkedText };
+  for (const r of rows) {
+    r.el = document.createElement("tr");
+    columns.forEach(c => r.el.appendChild(cell(c.key, r.data[c.key], c.label)));
+    tbody.appendChild(r.el);
+    const text = norm(columns.map(c => display(c.key, r.data[c.key])).join(" · "));
+    r.text = text;
+    r.words = text.split(/[^a-z0-9%]+/).filter(Boolean);
+  }
 }
 
-function renderError(file, err) {
-  const section = document.createElement("section");
-  section.innerHTML = "<h2></h2><p class='empty'></p>";
-  section.querySelector("h2").textContent = file;
-  section.querySelector("p").textContent = "Couldn't load this table: " + err.message;
-  return section;
+function buildFilters(params) {
+  const hidden = new Set((params.get("hide") || "").split(","));
+  for (const c of categories) {
+    const label = document.createElement("label");
+    c.input = document.createElement("input");
+    c.input.type = "checkbox";
+    c.input.checked = !hidden.has(c.id);
+    c.input.addEventListener("change", apply);
+    c.n = document.createElement("span");
+    c.n.className = "n";
+    label.append(c.input, " " + c.title + " ", c.n);
+    $("cats").appendChild(label);
+  }
+  $("saleOnly").checked = params.get("sale") === "1";
+  $("saleOnly").addEventListener("change", apply);
+
+  const q = $("q");
+  q.value = params.get("q") || "";
+  q.addEventListener("input", apply);
+  q.addEventListener("keydown", e => { if (e.key === "Escape") { q.value = ""; apply(); } });
+  document.addEventListener("keydown", e => {
+    if (e.key === "/" && document.activeElement !== q) { e.preventDefault(); q.focus(); }
+  });
 }
+
+// ---------- loading ----------
 
 async function getJSON(file) {
   const r = await fetch(DATA_DIR + file, { cache: "no-cache" });
-  if (!r.ok) throw new Error("HTTP " + r.status);
+  if (!r.ok) throw new Error(`${file}: HTTP ${r.status}`);
   return r.json();
 }
 
@@ -310,29 +379,33 @@ async function main() {
   document.title = $("title").textContent = manifest.title;
 
   const results = await Promise.allSettled(manifest.tables.map(getJSON));
+  const errors = [];
+  // Combined columns: every key used by any table, in first-seen order, with a
+  // Category column after the name.
+  const seen = new Map([["name", "Name"], ["category", "Category"]]);
+  let checked = "";
   results.forEach((res, i) => {
     const file = manifest.tables[i];
-    if (res.status === "fulfilled") {
-      const t = renderTable(file.replace(/\.json$/, ""), res.value);
-      tables.push(t);
-      $("tables").appendChild(t.section);
-    } else {
-      $("tables").appendChild(renderError(file, res.reason));
-    }
+    if (res.status !== "fulfilled") { errors.push(res.reason.message); return; }
+    const t = res.value;
+    const id = file.replace(/\.json$/, "");
+    categories.push({ id, title: t.title });
+    if (t.checked > checked) checked = t.checked;
+    t.columns.forEach(c => { if (!seen.has(c.key)) seen.set(c.key, c.label); });
+    t.rows.forEach(d => rows.push({ data: { ...d, category: t.title }, category: id, idx: rows.length }));
   });
+  columns = [...seen].map(([key, label]) => ({ key, label }));
 
-  const all = tables.flatMap(t => t.rows);
-  const live = all.filter(r => r.data.status === "live").length;
-  $("foot").textContent = `${all.length} entries · ${live} Black Friday sales live`;
+  $("sub").textContent = (checked ? `Last checked ${fmtDate(checked, { month: "long", day: "numeric", year: "numeric" })}. ` : "") +
+    "Click a column to sort. Search tolerates typos.";
+  buildTable();
+  buildFilters(new URLSearchParams(location.search));
+  apply();
 
-  const q = $("q");
-  q.value = new URLSearchParams(location.search).get("q") || "";
-  q.addEventListener("input", applySearch);
-  q.addEventListener("keydown", e => { if (e.key === "Escape") { q.value = ""; applySearch(); } });
-  document.addEventListener("keydown", e => {
-    if (e.key === "/" && document.activeElement !== q) { e.preventDefault(); q.focus(); }
-  });
-  applySearch();
+  const live = rows.filter(r => r.data.status === "live").length;
+  const onSale = rows.filter(r => ON_SALE.has(r.data.status)).length;
+  $("foot").textContent = `${rows.length} entries · ${live} Black Friday sales live · ${onSale} with some sale on` +
+    (errors.length ? ` · couldn't load: ${errors.join(", ")}` : "");
 }
 
 main();
