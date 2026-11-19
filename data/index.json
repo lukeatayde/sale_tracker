@@ -1,0 +1,10 @@
+{
+  "$schema": "./index.schema.json",
+  "title": "Road Cycling: Black Friday 2026",
+  "tables": [
+    "apparel.json",
+    "road-bikes.json",
+    "components.json",
+    "retailers.json"
+  ]
+}

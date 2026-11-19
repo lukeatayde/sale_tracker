@@ -31,11 +31,36 @@
     color: var(--fg);
     font: 15px/1.5 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
   }
-  main { max-width: 1100px; margin: 0 auto; }
+  main { max-width: 1320px; margin: 0 auto; }
   h1 { font-size: 1.5rem; margin: 0 0 .25rem; }
-  p.sub { color: var(--muted); margin: 0 0 1.5rem; }
+  h2 { font-size: 1.15rem; margin: 0; }
+  p.sub { color: var(--muted); margin: 0 0 1.25rem; }
   a { color: var(--link); text-decoration: none; }
   a:hover { text-decoration: underline; }
+
+  .search {
+    position: sticky; top: 0; z-index: 1;
+    background: var(--bg);
+    padding: .5rem 0;
+    display: flex; gap: .75rem; align-items: center; flex-wrap: wrap;
+  }
+  .search input {
+    flex: 1 1 18rem;
+    font: inherit;
+    padding: .5rem .75rem;
+    color: var(--fg);
+    background: var(--bg);
+    border: 1px solid var(--line);
+    border-radius: 6px;
+  }
+  .search input:focus { outline: 2px solid var(--link); outline-offset: -1px; }
+  .search .count { color: var(--muted); font-size: .9em; }
+  nav { margin: .25rem 0 1.5rem; font-size: .9em; color: var(--muted); }
+  nav a { margin-right: 1rem; white-space: nowrap; }
+
+  section { margin-bottom: 2.25rem; }
+  section > header { display: flex; align-items: baseline; gap: .75rem; flex-wrap: wrap; margin-bottom: .5rem; }
+  section > header .meta { color: var(--muted); font-size: .85em; }
   .wrap { overflow-x: auto; border: 1px solid var(--line); border-radius: 6px; }
   table { width: 100%; border-collapse: collapse; }
   th, td { padding: .55rem .75rem; text-align: left; vertical-align: top; border-bottom: 1px solid var(--line); }
@@ -46,15 +71,14 @@
     white-space: nowrap;
     cursor: pointer;
     user-select: none;
-    position: sticky;
-    top: 0;
   }
   th:hover { color: var(--link); }
   th::after { content: " ↕"; color: var(--muted); font-size: .8em; }
   th[aria-sort="ascending"]::after { content: " ↑"; color: inherit; }
   th[aria-sort="descending"]::after { content: " ↓"; color: inherit; }
-  td:nth-child(1), td:nth-child(3) { white-space: nowrap; }
-  td:nth-child(4) { min-width: 18rem; }
+  .k-name, .k-status, .k-detected, .k-website { white-space: nowrap; }
+  .k-notes { min-width: 18rem; }
+  .k-detected { color: var(--muted); }
   .status { font-size: .85em; }
   .status::before { content: "●"; margin-right: .35em; }
   .s-live::before { color: #1f9d55; }
@@ -62,28 +86,25 @@
   .s-not_yet::before { color: #999; }
   .s-unknown::before { color: #999; content: "○"; }
   .s-closed::before { color: #c53030; }
-  footer { color: var(--muted); font-size: .85em; margin-top: 1rem; }
+  .empty { color: var(--muted); padding: 1rem 0; }
+  footer { color: var(--muted); font-size: .85em; }
 </style>
 </head>
 <body>
 <main>
   <h1 id="title">Loading…</h1>
-  <p class="sub" id="sub"></p>
-  <div class="wrap"><table id="t"><thead></thead><tbody></tbody></table></div>
+  <p class="sub">Click a column header to sort. Search tolerates typos.</p>
+  <div class="search">
+    <input id="q" type="search" placeholder="Search brands, notes, countries… (press /)" autocomplete="off" aria-label="Search">
+    <span class="count" id="count"></span>
+  </div>
+  <nav id="nav"></nav>
+  <div id="tables"></div>
+  <p class="empty" id="empty" hidden>No matches.</p>
   <footer id="foot"></footer>
 </main>
 <script>
-const DATA_URL = "data/brands.json";
-
-// Display columns, in order. `key` is the field in data/brands.json.
-const COLUMNS = [
-  { key: "brand",   label: "Brand" },
-  { key: "website", label: "Website" },
-  { key: "status",  label: "Black Friday" },
-  { key: "notes",   label: "What's on the site" },
-  { key: "country", label: "Country" },
-  { key: "type",    label: "Type" },
-];
+const DATA_DIR = "data/";
 
 // Status values in sort order, with display labels.
 const STATUSES = {
@@ -95,93 +116,226 @@ const STATUSES = {
 };
 const STATUS_ORDER = Object.keys(STATUSES);
 
-const thead = document.querySelector("#t thead");
-const tbody = document.querySelector("#t tbody");
+const $ = id => document.getElementById(id);
+const tables = [];   // { section, navLink, meta, rows: [{ el, data, idx, text, words }] }
+
+// ---------- formatting ----------
+
+function fmtDate(iso, opts = { month: "short", day: "numeric" }) {
+  if (!iso) return "";
+  return new Date(iso + "T00:00:00").toLocaleDateString("en-US", opts);
+}
+
+function display(key, value) {
+  if (key === "status") return STATUSES[value] || value;
+  if (key === "detected") return fmtDate(value);
+  if (key === "website") return value ? value.replace(/^https?:\/\/(www\.)?/, "").replace(/\/$/, "") : "";
+  return value ?? "";
+}
 
 function cell(key, value) {
   const td = document.createElement("td");
+  td.className = "k-" + key;
   if (key === "website" && value) {
     const a = document.createElement("a");
     a.href = value;
-    a.textContent = value.replace(/^https?:\/\/(www\.)?/, "").replace(/\/$/, "");
+    a.textContent = display(key, value);
     a.target = "_blank";
     a.rel = "noopener";
     td.appendChild(a);
   } else if (key === "status") {
     const span = document.createElement("span");
     span.className = "status s-" + value;
-    span.textContent = STATUSES[value] || value;
+    span.textContent = display(key, value);
     td.appendChild(span);
   } else {
-    td.textContent = value ?? "";
+    td.textContent = display(key, value);
   }
   return td;
 }
+
+// ---------- fuzzy search ----------
+
+const norm = s => String(s).normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCase();
+
+// Edit distance where insert, delete, substitute and swapping two adjacent
+// letters each count as one typo. Gives up early once it exceeds `max`.
+function lev(a, b, max) {
+  if (Math.abs(a.length - b.length) > max) return max + 1;
+  const d = [];
+  for (let i = 0; i <= a.length; i++) d[i] = [i];
+  for (let j = 0; j <= b.length; j++) d[0][j] = j;
+  for (let i = 1; i <= a.length; i++) {
+    let best = Infinity;
+    for (let j = 1; j <= b.length; j++) {
+      const cost = a[i - 1] === b[j - 1] ? 0 : 1;
+      d[i][j] = Math.min(d[i - 1][j] + 1, d[i][j - 1] + 1, d[i - 1][j - 1] + cost);
+      if (i > 1 && j > 1 && a[i - 1] === b[j - 2] && a[i - 2] === b[j - 1])
+        d[i][j] = Math.min(d[i][j], d[i - 2][j - 2] + 1);
+      best = Math.min(best, d[i][j]);
+    }
+    if (best > max) return max + 1;
+  }
+  return d[a.length][b.length];
+}
+
+// A query token matches a row if it appears anywhere in the row's text.
+// Only when a token appears nowhere in any table (likely a typo) do we fall
+// back to fuzzy matching: within 1 typo (5+ letters) or 2 typos (7+ letters)
+// of a word, or of the start of a word.
+function tokenMatches(t, row, fuzzy) {
+  if (row.text.includes(t)) return true;
+  if (!fuzzy || t.length < 5) return false;
+  const max = t.length >= 7 ? 2 : 1;
+  return row.words.some(w =>
+    lev(t, w, max) <= max || (w.length > t.length && lev(t, w.slice(0, t.length), max) <= max));
+}
+
+function applySearch() {
+  const q = $("q").value;
+  const tokens = norm(q).split(/\s+/).filter(Boolean);
+  const allRows = tables.flatMap(t => t.rows);
+  const fuzzy = tokens.map(tok => !allRows.some(r => r.text.includes(tok)));
+  let shown = 0, total = 0;
+  for (const t of tables) {
+    let n = 0;
+    for (const r of t.rows) {
+      const ok = tokens.every((tok, i) => tokenMatches(tok, r, fuzzy[i]));
+      r.el.hidden = !ok;
+      if (ok) n++;
+    }
+    shown += n; total += t.rows.length;
+    t.section.hidden = tokens.length > 0 && n === 0;
+    t.meta.textContent = (tokens.length ? `${n} of ${t.rows.length}` : `${t.rows.length}`) + t.checkedText;
+    t.navLink.textContent = `${t.title} (${n})`;
+  }
+  $("count").textContent = tokens.length ? `${shown} of ${total} match` : "";
+  $("empty").hidden = !(tokens.length && shown === 0);
+  const url = new URL(location);
+  if (q) url.searchParams.set("q", q); else url.searchParams.delete("q");
+  history.replaceState(null, "", url);
+}
+
+// ---------- tables ----------
 
 function sortKey(key, value) {
   if (key === "status") {
     const i = STATUS_ORDER.indexOf(value);
     return i === -1 ? STATUS_ORDER.length : i;
   }
-  return (value ?? "").toLowerCase();
+  return norm(value ?? "");
 }
 
-function render(data) {
-  const brands = data.brands;
-  document.title = data.title;
-  document.getElementById("title").textContent = data.title;
-  const checked = new Date(data.checked + "T00:00:00").toLocaleDateString("en-US",
-    { year: "numeric", month: "long", day: "numeric" });
-  document.getElementById("sub").textContent =
-    `Sale status by brand, last checked ${checked}. Click a column header to sort.`;
+function renderTable(id, data) {
+  const section = document.createElement("section");
+  section.id = id;
+  const header = document.createElement("header");
+  const h2 = document.createElement("h2");
+  h2.textContent = data.title;
+  const meta = document.createElement("span");
+  meta.className = "meta";
+  header.append(h2, meta);
 
-  const tr = document.createElement("tr");
-  COLUMNS.forEach((col, i) => {
-    const th = document.createElement("th");
-    th.textContent = col.label;
-    th.addEventListener("click", () => sortBy(i));
-    tr.appendChild(th);
-  });
-  thead.appendChild(tr);
+  const wrap = document.createElement("div");
+  wrap.className = "wrap";
+  const table = document.createElement("table");
+  const thead = table.createTHead();
+  const tbody = table.createTBody();
+  const htr = thead.insertRow();
+  wrap.appendChild(table);
+  section.append(header, wrap);
 
-  const rows = brands.map((b, idx) => {
-    const row = document.createElement("tr");
-    COLUMNS.forEach(col => row.appendChild(cell(col.key, b[col.key])));
-    return { el: row, data: b, idx };
+  const rows = data.rows.map((d, idx) => {
+    const el = document.createElement("tr");
+    data.columns.forEach(c => el.appendChild(cell(c.key, d[c.key])));
+    tbody.appendChild(el);
+    const text = norm(data.columns.map(c => display(c.key, d[c.key])).join(" · "));
+    return { el, data: d, idx, text, words: text.split(/[^a-z0-9%]+/).filter(Boolean) };
   });
-  rows.forEach(r => tbody.appendChild(r.el));
 
   let current = { col: -1, dir: 1 };
-  function sortBy(i) {
-    const key = COLUMNS[i].key;
-    current.dir = current.col === i ? -current.dir : 1;
-    current.col = i;
-    rows.sort((a, b) => {
-      const x = sortKey(key, a.data[key]);
-      const y = sortKey(key, b.data[key]);
-      if (x === "" && y !== "") return 1;   // blanks always last
-      if (y === "" && x !== "") return -1;
-      const c = typeof x === "number" ? x - y : x.localeCompare(y);
-      return c * current.dir || a.idx - b.idx;
+  data.columns.forEach((c, i) => {
+    const th = document.createElement("th");
+    th.textContent = c.label;
+    th.addEventListener("click", () => {
+      current.dir = current.col === i ? -current.dir : 1;
+      current.col = i;
+      rows.sort((a, b) => {
+        const x = sortKey(c.key, a.data[c.key]);
+        const y = sortKey(c.key, b.data[c.key]);
+        if (x === "" && y !== "") return 1;   // blanks always last
+        if (y === "" && x !== "") return -1;
+        const cmp = typeof x === "number" ? x - y : x.localeCompare(y);
+        return cmp * current.dir || a.idx - b.idx;
+      });
+      rows.forEach(r => tbody.appendChild(r.el));
+      [...htr.cells].forEach((h, j) =>
+        h.setAttribute("aria-sort", j === i ? (current.dir === 1 ? "ascending" : "descending") : "none"));
     });
-    rows.forEach(r => tbody.appendChild(r.el));
-    [...tr.cells].forEach((th, j) =>
-      th.setAttribute("aria-sort", j === i ? (current.dir === 1 ? "ascending" : "descending") : "none"));
-  }
+    htr.appendChild(th);
+  });
 
-  const live = brands.filter(b => b.status === "live").length;
-  document.getElementById("foot").textContent =
-    `${brands.length} brands · ${live} with a Black Friday sale live`;
+  const navLink = document.createElement("a");
+  navLink.href = "#" + id;
+  $("nav").appendChild(navLink);
+
+  const checkedText = data.checked ? ` · checked ${fmtDate(data.checked, { month: "long", day: "numeric", year: "numeric" })}` : "";
+  return { title: data.title, section, navLink, meta, rows, checkedText };
 }
 
-fetch(DATA_URL, { cache: "no-cache" })
-  .then(r => { if (!r.ok) throw new Error("HTTP " + r.status); return r.json(); })
-  .then(render)
-  .catch(err => {
-    document.getElementById("title").textContent = "Couldn't load data";
-    document.getElementById("foot").textContent = err.message +
+function renderError(file, err) {
+  const section = document.createElement("section");
+  section.innerHTML = "<h2></h2><p class='empty'></p>";
+  section.querySelector("h2").textContent = file;
+  section.querySelector("p").textContent = "Couldn't load this table: " + err.message;
+  return section;
+}
+
+async function getJSON(file) {
+  const r = await fetch(DATA_DIR + file, { cache: "no-cache" });
+  if (!r.ok) throw new Error("HTTP " + r.status);
+  return r.json();
+}
+
+async function main() {
+  let manifest;
+  try {
+    manifest = await getJSON("index.json");
+  } catch (err) {
+    $("title").textContent = "Couldn't load data";
+    $("foot").textContent = err.message +
       ". If you opened this file directly, serve the folder with a local web server instead.";
+    return;
+  }
+  document.title = $("title").textContent = manifest.title;
+
+  const results = await Promise.allSettled(manifest.tables.map(getJSON));
+  results.forEach((res, i) => {
+    const file = manifest.tables[i];
+    if (res.status === "fulfilled") {
+      const t = renderTable(file.replace(/\.json$/, ""), res.value);
+      tables.push(t);
+      $("tables").appendChild(t.section);
+    } else {
+      $("tables").appendChild(renderError(file, res.reason));
+    }
   });
+
+  const all = tables.flatMap(t => t.rows);
+  const live = all.filter(r => r.data.status === "live").length;
+  $("foot").textContent = `${all.length} entries · ${live} Black Friday sales live`;
+
+  const q = $("q");
+  q.value = new URLSearchParams(location.search).get("q") || "";
+  q.addEventListener("input", applySearch);
+  q.addEventListener("keydown", e => { if (e.key === "Escape") { q.value = ""; applySearch(); } });
+  document.addEventListener("keydown", e => {
+    if (e.key === "/" && document.activeElement !== q) { e.preventDefault(); q.focus(); }
+  });
+  applySearch();
+}
+
+main();
 </script>
 </body>
 </html>

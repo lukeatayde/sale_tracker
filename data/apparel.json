@@ -1,303 +1,370 @@
 {
-  "$schema": "./brands.schema.json",
-  "title": "Road Cycling Apparel: Black Friday 2026",
+  "$schema": "./table.schema.json",
+  "title": "Apparel",
   "checked": "2026-11-18",
-  "brands": [
+  "columns": [
     {
-      "brand": "Assos",
+      "key": "name",
+      "label": "Brand"
+    },
+    {
+      "key": "website",
+      "label": "Website"
+    },
+    {
+      "key": "status",
+      "label": "Black Friday"
+    },
+    {
+      "key": "detected",
+      "label": "Sale detected"
+    },
+    {
+      "key": "type",
+      "label": "Type"
+    },
+    {
+      "key": "notes",
+      "label": "What's on the site"
+    },
+    {
+      "key": "country",
+      "label": "Country"
+    }
+  ],
+  "rows": [
+    {
+      "name": "Assos",
       "website": "https://assos.com",
       "status": "live",
+      "detected": "2026-11-18",
+      "type": "Heritage / performance",
       "notes": "Black Friday sale, up to 50% off",
-      "country": "Switzerland",
-      "type": "Heritage / performance"
+      "country": "Switzerland"
     },
     {
-      "brand": "Castelli",
+      "name": "Castelli",
       "website": "https://castelli-cycling.com",
       "status": "live",
+      "detected": "2026-11-18",
+      "type": "Heritage / performance",
       "notes": "Black Friday early access: 25% off the collection when you sign up",
-      "country": "Italy",
-      "type": "Heritage / performance"
+      "country": "Italy"
     },
     {
-      "brand": "Bioracer",
+      "name": "Bioracer",
       "website": "https://bioracer.com",
       "status": "live",
+      "detected": "2026-11-18",
+      "type": "Heritage / performance",
       "notes": "\"Black Weeks\" sale",
-      "country": "Belgium",
-      "type": "Heritage / performance"
+      "country": "Belgium"
     },
     {
-      "brand": "Le Col",
+      "name": "Le Col",
       "website": "https://lecol.cc",
       "status": "live",
+      "detected": "2026-11-18",
+      "type": "Modern premium",
       "notes": "Black Friday sale, up to 50% off",
-      "country": "UK",
-      "type": "Modern premium"
+      "country": "UK"
     },
     {
-      "brand": "MAAP",
+      "name": "MAAP",
       "website": "https://maap.cc",
       "status": "live",
+      "detected": "2026-11-18",
+      "type": "Modern premium",
       "notes": "Black Friday sale, up to 50% off selected styles",
-      "country": "Australia",
-      "type": "Modern premium"
+      "country": "Australia"
     },
     {
-      "brand": "Isadore",
+      "name": "Isadore",
       "website": "https://isadore.com",
       "status": "live",
+      "detected": "2026-11-18",
+      "type": "Modern premium",
       "notes": "Black Friday sale, up to 40% off",
-      "country": "Slovakia",
-      "type": "Modern premium"
+      "country": "Slovakia"
     },
     {
-      "brand": "Pearl iZUMi",
+      "name": "Pearl iZUMi",
       "website": "https://pearlizumi.com",
       "status": "live",
+      "detected": "2026-11-18",
+      "type": "Value / mid-range",
       "notes": "Black Friday: 25% off sitewide plus free shipping",
-      "country": "USA",
-      "type": "Value / mid-range"
+      "country": "USA"
     },
     {
-      "brand": "Endura",
+      "name": "Endura",
       "website": "https://endurasport.com",
       "status": "live",
+      "detected": "2026-11-18",
+      "type": "Value / mid-range",
       "notes": "Black Friday: 25% off selected gear",
-      "country": "UK",
-      "type": "Value / mid-range"
+      "country": "UK"
     },
     {
-      "brand": "Van Rysel (Decathlon)",
+      "name": "Van Rysel (Decathlon)",
       "website": "https://decathlon.com",
       "status": "live",
+      "detected": "2026-11-18",
+      "type": "Value / mid-range",
       "notes": "Black Friday early access, up to 40% off",
-      "country": "France",
-      "type": "Value / mid-range"
+      "country": "France"
     },
     {
-      "brand": "Velocio",
+      "name": "Velocio",
       "website": "https://velocio.cc",
       "status": "live",
+      "detected": "2026-11-18",
+      "type": "Independent",
       "notes": "Black Friday sale: up to 30% off, plus an extra 10% off orders over $500",
-      "country": "USA",
-      "type": "Independent"
+      "country": "USA"
     },
     {
-      "brand": "Ornot",
+      "name": "Ornot",
       "website": "https://ornotbike.com",
       "status": "live",
+      "detected": "2026-11-18",
+      "type": "Independent",
       "notes": "Black Friday sale: 20% off sitewide, up to 45% off the archive",
-      "country": "USA",
-      "type": "Independent"
+      "country": "USA"
     },
     {
-      "brand": "Peppermint Cycling",
+      "name": "Peppermint Cycling",
       "website": "https://peppermintcycling.com",
       "status": "live",
+      "detected": "2026-11-18",
+      "type": "Independent",
       "notes": "Black Friday sale on the homepage",
-      "country": "Canada",
-      "type": "Independent"
+      "country": "Canada"
     },
     {
-      "brand": "Primal",
+      "name": "Primal",
       "website": "https://primalwear.com",
       "status": "live",
+      "detected": "2026-11-18",
+      "type": "Custom / team kit",
       "notes": "Black Friday: extra 50% off the sale collection with code BFCM50",
-      "country": "USA",
-      "type": "Custom / team kit"
+      "country": "USA"
     },
     {
-      "brand": "7mesh",
+      "name": "7mesh",
       "website": "https://7mesh.com",
       "status": "live",
+      "detected": "2026-11-18",
+      "type": "Modern premium",
       "notes": "Black Friday sale, up to 50% off",
-      "country": "Canada",
-      "type": "Modern premium"
+      "country": "Canada"
     },
     {
-      "brand": "Specialized",
+      "name": "Specialized",
       "website": "https://specialized.com",
       "status": "live",
+      "detected": "2026-11-18",
+      "type": "Heritage / performance",
       "notes": "Black Friday offers have started (across bikes, apparel and gear)",
-      "country": "USA",
-      "type": "Heritage / performance"
+      "country": "USA"
     },
     {
-      "brand": "Sportful",
+      "name": "Sportful",
       "website": "https://sportful.com",
       "status": "other_sale",
+      "detected": null,
+      "type": "Heritage / performance",
       "notes": "Up to 33% off selected styles until Nov 26",
-      "country": "Italy",
-      "type": "Heritage / performance"
+      "country": "Italy"
     },
     {
-      "brand": "Santini",
+      "name": "Santini",
       "website": "https://santinicycling.com",
       "status": "other_sale",
+      "detected": null,
+      "type": "Heritage / performance",
       "notes": "US store: winter kit up to 20% off (15% over €200, 20% over €300)",
-      "country": "Italy",
-      "type": "Heritage / performance"
+      "country": "Italy"
     },
     {
-      "brand": "Q36.5",
+      "name": "Q36.5",
       "website": "https://q36-5.com",
       "status": "other_sale",
+      "detected": null,
+      "type": "Heritage / performance",
       "notes": "Curated selection up to 30% off, limited quantities",
-      "country": "Italy",
-      "type": "Heritage / performance"
+      "country": "Italy"
     },
     {
-      "brand": "Voler",
+      "name": "Voler",
       "website": "https://voler.com",
       "status": "other_sale",
+      "detected": null,
+      "type": "Custom / team kit",
       "notes": "\"Last call\" sale, 20% off",
-      "country": "USA",
-      "type": "Custom / team kit"
+      "country": "USA"
     },
     {
-      "brand": "Attaquer",
+      "name": "Attaquer",
       "website": "https://attaquercycling.com",
       "status": "other_sale",
+      "detected": null,
+      "type": "Modern premium",
       "notes": "\"Annual Sale\" is live (not called Black Friday)",
-      "country": "Australia",
-      "type": "Modern premium"
+      "country": "Australia"
     },
     {
-      "brand": "Black Sheep Cycling",
+      "name": "Black Sheep Cycling",
       "website": "https://blacksheep.cc",
       "status": "other_sale",
+      "detected": null,
+      "type": "Modern premium",
       "notes": "Up to 60% off (not called Black Friday)",
-      "country": "Australia",
-      "type": "Modern premium"
+      "country": "Australia"
     },
     {
-      "brand": "Rapha",
+      "name": "Rapha",
       "website": "https://rapha.cc",
       "status": "not_yet",
+      "detected": null,
+      "type": "Modern premium",
       "notes": "Checked the homepage and shop: no sale or sale page yet. Ran 25% off sitewide last year and says its sale usually starts in late November",
-      "country": "UK",
-      "type": "Modern premium"
+      "country": "UK"
     },
     {
-      "brand": "Gobik",
+      "name": "Gobik",
       "website": "https://gobik.com",
       "status": "not_yet",
+      "detected": null,
+      "type": "Value / mid-range",
       "notes": "Full prices; usually runs a Black Friday week",
-      "country": "Spain",
-      "type": "Value / mid-range"
+      "country": "Spain"
     },
     {
-      "brand": "Pas Normal Studios",
+      "name": "Pas Normal Studios",
       "website": "https://pasnormalstudios.com",
       "status": "not_yet",
+      "detected": null,
+      "type": "Modern premium",
       "notes": "Gift shop on the homepage, no sale",
-      "country": "Denmark",
-      "type": "Modern premium"
+      "country": "Denmark"
     },
     {
-      "brand": "Café du Cycliste",
+      "name": "Café du Cycliste",
       "website": "https://cafeducycliste.com",
       "status": "not_yet",
+      "detected": null,
+      "type": "Modern premium",
       "notes": "Gift guide on the homepage, no sale",
-      "country": "France",
-      "type": "Modern premium"
+      "country": "France"
     },
     {
-      "brand": "POC",
+      "name": "POC",
       "website": "https://poc.com",
       "status": "not_yet",
+      "detected": null,
+      "type": "Modern premium",
       "notes": "No sale on the homepage",
-      "country": "Sweden",
-      "type": "Modern premium"
+      "country": "Sweden"
     },
     {
-      "brand": "Giordana",
+      "name": "Giordana",
       "website": "https://giordanacycling.com",
       "status": "not_yet",
+      "detected": null,
+      "type": "Heritage / performance",
       "notes": "No Black Friday sale; has a regular Sale section",
-      "country": "Italy",
-      "type": "Heritage / performance"
+      "country": "Italy"
     },
     {
-      "brand": "Nalini",
+      "name": "Nalini",
       "website": "https://nalini.com",
       "status": "not_yet",
+      "detected": null,
+      "type": "Heritage / performance",
       "notes": "No Black Friday sale; has an archive sale section",
-      "country": "Italy",
-      "type": "Heritage / performance"
+      "country": "Italy"
     },
     {
-      "brand": "Alé",
+      "name": "Alé",
       "website": "https://alecycling.com",
       "status": "not_yet",
+      "detected": null,
+      "type": "Heritage / performance",
       "notes": "No sale on the homepage",
-      "country": "Italy",
-      "type": "Heritage / performance"
+      "country": "Italy"
     },
     {
-      "brand": "Northwave",
+      "name": "Northwave",
       "website": "https://northwave.com",
       "status": "not_yet",
+      "detected": null,
+      "type": "Value / mid-range",
       "notes": "No sale on the homepage",
-      "country": "Italy",
-      "type": "Value / mid-range"
+      "country": "Italy"
     },
     {
-      "brand": "Search and State",
+      "name": "Search and State",
       "website": "https://searchandstate.com",
       "status": "not_yet",
+      "detected": null,
+      "type": "Independent",
       "notes": "No sale on the homepage",
-      "country": "USA",
-      "type": "Independent"
+      "country": "USA"
     },
     {
-      "brand": "Universal Colours",
+      "name": "Universal Colours",
       "website": "https://universalcolours.com",
       "status": "not_yet",
+      "detected": null,
+      "type": "Modern premium",
       "notes": "No sale on its own site; some items are discounted at Sigma Sports",
-      "country": "UK",
-      "type": "Modern premium"
+      "country": "UK"
     },
     {
-      "brand": "Pedal Mafia",
+      "name": "Pedal Mafia",
       "website": "https://pedalmafia.cc",
       "status": "not_yet",
+      "detected": null,
+      "type": "Modern premium",
       "notes": "No Black Friday sale; has an archive sale section",
-      "country": "Australia",
-      "type": "Modern premium"
+      "country": "Australia"
     },
     {
-      "brand": "Albion",
+      "name": "Albion",
       "website": "https://albioncycling.com",
       "status": "not_yet",
+      "detected": null,
+      "type": "Modern premium",
       "notes": "No sale; in past years it skipped Black Friday and offered free repairs instead. Some items are discounted at Sigma Sports",
-      "country": "UK",
-      "type": "Modern premium"
+      "country": "UK"
     },
     {
-      "brand": "dhb",
+      "name": "dhb",
       "website": "https://evanscycles.com",
       "status": "unknown",
+      "detected": null,
+      "type": "Value / mid-range",
       "notes": "wiggle.com now redirects to Evans Cycles, which has early Black Friday deals up to 70%; not clear whether dhb is included",
-      "country": "UK",
-      "type": "Value / mid-range"
+      "country": "UK"
     },
     {
-      "brand": "Pissei",
+      "name": "Pissei",
       "website": "https://pissei.com",
       "status": "unknown",
+      "detected": null,
+      "type": "Heritage / performance",
       "notes": "Site showed a bot check I can't get past",
-      "country": "Italy",
-      "type": "Heritage / performance"
+      "country": "Italy"
     },
     {
-      "brand": "Machines for Freedom",
+      "name": "Machines for Freedom",
       "website": null,
       "status": "closed",
+      "detected": null,
+      "type": "Independent",
       "notes": "Listed as no longer operating; it was owned by Specialized",
-      "country": "USA",
-      "type": "Independent"
+      "country": "USA"
     }
   ]
 }

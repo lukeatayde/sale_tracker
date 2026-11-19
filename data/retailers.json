@@ -1,0 +1,105 @@
+{
+  "$schema": "./table.schema.json",
+  "title": "Retailers",
+  "checked": "2026-11-18",
+  "columns": [
+    {
+      "key": "name",
+      "label": "Retailer"
+    },
+    {
+      "key": "website",
+      "label": "Website"
+    },
+    {
+      "key": "status",
+      "label": "Black Friday"
+    },
+    {
+      "key": "detected",
+      "label": "Sale detected"
+    },
+    {
+      "key": "notes",
+      "label": "What's on the site"
+    },
+    {
+      "key": "ships_from",
+      "label": "Ships from"
+    }
+  ],
+  "rows": [
+    {
+      "name": "Competitive Cyclist",
+      "website": "https://competitivecyclist.com",
+      "status": "live",
+      "detected": "2026-11-18",
+      "notes": "\"Beat Black Friday\": up to 50% off apparel, helmets, components and more",
+      "ships_from": "USA"
+    },
+    {
+      "name": "Jenson USA",
+      "website": "https://jensonusa.com",
+      "status": "live",
+      "detected": "2026-11-18",
+      "notes": "Early Black Friday deals on bikes, components and accessories; Insiders get 20% off one full-price item through Nov 30",
+      "ships_from": "USA"
+    },
+    {
+      "name": "Performance Bicycle",
+      "website": "https://performancebike.com",
+      "status": "live",
+      "detected": "2026-11-18",
+      "notes": "Pre-Black Friday sale, up to 70% off",
+      "ships_from": "USA"
+    },
+    {
+      "name": "Mike's Bikes",
+      "website": "https://mikesbikes.com",
+      "status": "live",
+      "detected": "2026-11-18",
+      "notes": "Early Black Friday deals; also a reward card worth up to $400 when you spend $250+",
+      "ships_from": "USA"
+    },
+    {
+      "name": "Sigma Sports",
+      "website": "https://sigmasports.com",
+      "status": "live",
+      "detected": "2026-11-18",
+      "notes": "Black Friday sale, up to 50% off",
+      "ships_from": "UK"
+    },
+    {
+      "name": "Evans Cycles",
+      "website": "https://evanscycles.com",
+      "status": "live",
+      "detected": "2026-11-18",
+      "notes": "Early Black Friday deals, up to 70% off (wiggle.com now redirects here)",
+      "ships_from": "UK"
+    },
+    {
+      "name": "REI",
+      "website": "https://rei.com",
+      "status": "other_sale",
+      "detected": null,
+      "notes": "Holiday Sale through Nov 23: up to 25% off; members get 20% off one full-price item and an extra 20% off one Outlet item with code HOLIDAY2026",
+      "ships_from": "USA"
+    },
+    {
+      "name": "Backcountry",
+      "website": "https://backcountry.com",
+      "status": "other_sale",
+      "detected": null,
+      "notes": "Big Brands Sale, up to 40% off, plus 20% off full-price items",
+      "ships_from": "USA"
+    },
+    {
+      "name": "Bike24",
+      "website": "https://bike24.com",
+      "status": "not_yet",
+      "detected": null,
+      "notes": "Its Black Friday page says the sale runs Nov 20–30",
+      "ships_from": "Germany"
+    }
+  ]
+}
