@@ -1,6 +1,6 @@
 {
   "$schema": "./brands.schema.json",
-  "title": "Road Cycling: Black Friday 2026",
+  "title": "Black Friday 2026 Cycling Sales",
   "checked": "2026-11-18",
   "tags": [
     {
@@ -29,7 +29,7 @@
       "tags": [
         "apparel"
       ],
-      "type": "Heritage / performance",
+      "type": "Performance",
       "notes": "Black Friday sale, up to 50% off",
       "country": "Switzerland"
     },
@@ -41,7 +41,7 @@
       "tags": [
         "apparel"
       ],
-      "type": "Heritage / performance",
+      "type": "Performance",
       "notes": "Black Friday early access: 25% off the collection when you sign up",
       "country": "Italy"
     },
@@ -53,7 +53,7 @@
       "tags": [
         "apparel"
       ],
-      "type": "Heritage / performance",
+      "type": "Performance",
       "notes": "\"Black Weeks\" sale",
       "country": "Belgium"
     },
@@ -198,7 +198,7 @@
         "apparel",
         "road-bikes"
       ],
-      "type": "Heritage / performance; Race, aero & endurance (Tarmac, Aethos, Roubaix)",
+      "type": "Performance; Race, aero & endurance (Tarmac, Aethos, Roubaix)",
       "notes": "\"Black Friday Offers Start Now\" with a Black Friday menu tab and financing from 0% APR for up to 24 months; no % off shown on the homepage",
       "country": "USA"
     },
@@ -210,7 +210,7 @@
       "tags": [
         "apparel"
       ],
-      "type": "Heritage / performance",
+      "type": "Performance",
       "notes": "Up to 33% off selected styles until Nov 26",
       "country": "Italy"
     },
@@ -222,7 +222,7 @@
       "tags": [
         "apparel"
       ],
-      "type": "Heritage / performance",
+      "type": "Performance",
       "notes": "US store: winter kit up to 20% off (15% over €200, 20% over €300)",
       "country": "Italy"
     },
@@ -234,7 +234,7 @@
       "tags": [
         "apparel"
       ],
-      "type": "Heritage / performance",
+      "type": "Performance",
       "notes": "Curated selection up to 30% off, limited quantities",
       "country": "Italy"
     },
@@ -343,7 +343,7 @@
       "tags": [
         "apparel"
       ],
-      "type": "Heritage / performance",
+      "type": "Performance",
       "notes": "No Black Friday sale; has a regular Sale section",
       "country": "Italy"
     },
@@ -355,7 +355,7 @@
       "tags": [
         "apparel"
       ],
-      "type": "Heritage / performance",
+      "type": "Performance",
       "notes": "No Black Friday sale; has an archive sale section",
       "country": "Italy"
     },
@@ -367,7 +367,7 @@
       "tags": [
         "apparel"
       ],
-      "type": "Heritage / performance",
+      "type": "Performance",
       "notes": "No sale on the homepage",
       "country": "Italy"
     },
@@ -451,7 +451,7 @@
       "tags": [
         "apparel"
       ],
-      "type": "Heritage / performance",
+      "type": "Performance",
       "notes": "Site showed a bot check I can't get past",
       "country": "Italy"
     },

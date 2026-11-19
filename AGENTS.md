@@ -33,7 +33,7 @@ This repo is a static GitHub Pages site that tracks Black Friday sales at road c
   "status": "live",
   "detected": "2026-11-18",
   "tags": ["apparel"],
-  "type": "Heritage / performance",
+  "type": "Performance",
   "notes": "Black Friday early access: 25% off the collection when you sign up",
   "country": "Italy"
 }

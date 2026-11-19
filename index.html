@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Cycling Sale Tracker</title>
+<title>Black Friday 2026 Cycling Sales</title>
 <style>
   :root {
     --bg: #fff;
@@ -66,21 +66,21 @@
 
   .wrap { overflow-x: auto; border: 1px solid var(--line); border-radius: 6px; }
   table { width: 100%; border-collapse: collapse; }
-  th, td { padding: .55rem .75rem; text-align: left; vertical-align: top; border-bottom: 1px solid var(--line); }
+  th, td { padding: .55rem .6rem; text-align: left; vertical-align: top; border-bottom: 1px solid var(--line); }
   tbody tr:last-child td { border-bottom: 0; }
   th {
     background: var(--head);
     font-weight: 600;
-    white-space: nowrap;
     cursor: pointer;
     user-select: none;
   }
   th:hover { color: var(--link); }
-  th::after { content: " ↕"; color: var(--muted); font-size: .8em; }
-  th[aria-sort="ascending"]::after { content: " ↑"; color: inherit; }
-  th[aria-sort="descending"]::after { content: " ↓"; color: inherit; }
-  .k-name, .k-status, .k-detected, .k-website { white-space: nowrap; }
-  .k-notes { min-width: 18rem; }
+  th::after { content: "\00a0↕"; color: var(--muted); font-size: .8em; }
+  th[aria-sort="ascending"]::after { content: "\00a0↑"; color: inherit; }
+  th[aria-sort="descending"]::after { content: "\00a0↓"; color: inherit; }
+  .k-status, .k-detected { white-space: nowrap; }
+  .k-website { white-space: nowrap; }
+  .k-notes { min-width: 10rem; }
   .k-detected { color: var(--muted); }
   /* Colored labels for tags and types. Each label sets --h (a hue). */
   .label {
@@ -94,7 +94,6 @@
     color: hsl(var(--h) 60% 28%);
   }
   .label.tag { font-weight: 600; border-radius: 999px; white-space: nowrap; }
-  .k-type { min-width: 10rem; }
   @media (prefers-color-scheme: dark) {
     .label { background: hsl(var(--h) 35% 22%); color: hsl(var(--h) 75% 82%); }
   }
@@ -105,35 +104,38 @@
   .s-not_yet::before { color: #999; }
   .s-unknown::before { color: #999; content: "○"; }
   .s-closed::before { color: #c53030; }
+  .msort { display: none; }
   .empty { color: var(--muted); padding: 1rem 0; }
   footer { color: var(--muted); font-size: .85em; margin-top: 1rem; }
 
-  /* Phones: each row becomes a card, and the header row becomes sort chips. */
-  @media (max-width: 760px) {
+  /* Narrow screens: each row becomes a card, and a dropdown replaces the header row for sorting. */
+  @media (max-width: 1120px) {
     body { padding: 1.25rem 16px; }
     h1 { font-size: 1.3rem; }
     .filters .sep { display: none; }
     .wrap { overflow: visible; }
     table, thead, tbody { display: block; }
 
-    thead tr {
-      display: flex; gap: .4rem; align-items: center;
-      overflow-x: auto; scrollbar-width: none;
-      padding: .6rem .75rem;
+    thead { display: none; }
+    .msort {
+      display: flex; align-items: center; gap: .5rem;
+      padding: .5rem .75rem;
       background: var(--head);
       border-bottom: 1px solid var(--line);
-      font-size: .8em;
+      font-size: .85em;
+      color: var(--muted);
     }
-    thead tr::-webkit-scrollbar { display: none; }
-    thead tr::before { content: "Sort:"; color: var(--muted); margin-right: .1rem; flex: none; }
-    th {
-      padding: .2rem .55rem;
-      border: 1px solid var(--line);
-      border-radius: 999px;
+    .msort select, .msort button {
+      font: inherit;
+      color: var(--fg);
       background: var(--bg);
-      font-weight: 500;
+      border: 1px solid var(--line);
+      border-radius: 6px;
+      padding: .25rem .5rem;
     }
-    th[aria-sort="ascending"], th[aria-sort="descending"] { border-color: var(--link); color: var(--link); }
+    .msort select { flex: 1 1 auto; min-width: 0; }
+    .msort button { flex: none; cursor: pointer; min-width: 2.25rem; }
+    .msort button:disabled { opacity: .4; cursor: default; }
 
     tbody tr {
       display: flex; flex-wrap: wrap; align-items: baseline;
@@ -148,7 +150,7 @@
     /* Line 1: name and status. Line 2: notes. Line 3: everything else. */
     td.k-name { order: -2; flex: 1 1 auto; font-weight: 600; white-space: normal; }
     td.k-status { order: -1; flex: 0 0 auto; }
-    td.k-notes { flex-basis: 100%; }
+    td.k-notes { flex-basis: 100%; min-width: 0; }
     td.k-type { min-width: 0; }
     td:not(.k-name):not(.k-status):not(.k-notes) {
       order: 1;
@@ -176,7 +178,14 @@
     </div>
     <div class="count" id="count"></div>
   </div>
-  <div class="wrap"><table id="t"><thead><tr></tr></thead><tbody></tbody></table></div>
+  <div class="wrap">
+    <div class="msort">
+      <label for="sortSel">Sort by</label>
+      <select id="sortSel"><option value="-1">Default order</option></select>
+      <button id="sortDir" type="button" aria-label="Reverse sort order">↑</button>
+    </div>
+    <table id="t"><thead><tr></tr></thead><tbody></tbody></table>
+  </div>
   <p class="empty" id="empty" hidden>Nothing matches these filters.</p>
   <footer id="foot"></footer>
 </main>
@@ -360,27 +369,41 @@ function sortKey(key, value) {
 function buildTable() {
   const htr = $("t").tHead.rows[0];
   const tbody = $("t").tBodies[0];
+  const sel = $("sortSel"), dirBtn = $("sortDir");
   let current = { col: -1, dir: 1 };
+
+  // Sort by column i (-1 = original order) in direction dir (1 or -1).
+  function sortBy(i, dir) {
+    current = { col: i, dir };
+    const key = i >= 0 ? COLUMNS[i].key : null;
+    rows.sort((a, b) => {
+      if (!key) return a.idx - b.idx;
+      const x = sortKey(key, a.data[key]);
+      const y = sortKey(key, b.data[key]);
+      if (x === "" && y !== "") return 1;   // blanks always last
+      if (y === "" && x !== "") return -1;
+      const cmp = typeof x === "number" ? x - y : x.localeCompare(y);
+      return cmp * dir || a.idx - b.idx;
+    });
+    rows.forEach(r => tbody.appendChild(r.el));
+    [...htr.cells].forEach((h, j) =>
+      h.setAttribute("aria-sort", j === i ? (dir === 1 ? "ascending" : "descending") : "none"));
+    sel.value = String(i);
+    dirBtn.textContent = dir === 1 ? "↑" : "↓";
+    dirBtn.disabled = i < 0;
+  }
+
   COLUMNS.forEach((c, i) => {
     const th = document.createElement("th");
     th.textContent = c.label;
-    th.addEventListener("click", () => {
-      current.dir = current.col === i ? -current.dir : 1;
-      current.col = i;
-      rows.sort((a, b) => {
-        const x = sortKey(c.key, a.data[c.key]);
-        const y = sortKey(c.key, b.data[c.key]);
-        if (x === "" && y !== "") return 1;   // blanks always last
-        if (y === "" && x !== "") return -1;
-        const cmp = typeof x === "number" ? x - y : x.localeCompare(y);
-        return cmp * current.dir || a.idx - b.idx;
-      });
-      rows.forEach(r => tbody.appendChild(r.el));
-      [...htr.cells].forEach((h, j) =>
-        h.setAttribute("aria-sort", j === i ? (current.dir === 1 ? "ascending" : "descending") : "none"));
-    });
+    th.addEventListener("click", () => sortBy(i, current.col === i ? -current.dir : 1));
     htr.appendChild(th);
+    sel.add(new Option(c.label, String(i)));
   });
+  sel.addEventListener("change", () => sortBy(Number(sel.value), 1));
+  dirBtn.addEventListener("click", () => { if (current.col >= 0) sortBy(current.col, -current.dir); });
+  dirBtn.disabled = true;
+
   for (const r of rows) {
     r.el = document.createElement("tr");
     COLUMNS.forEach(c => r.el.appendChild(cell(c.key, r.data[c.key], c.label)));
