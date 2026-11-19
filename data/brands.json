@@ -1,0 +1,1287 @@
+{
+  "$schema": "./brands.schema.json",
+  "title": "Road Cycling: Black Friday 2026",
+  "checked": "2026-11-18",
+  "tags": [
+    {
+      "id": "apparel",
+      "label": "Apparel"
+    },
+    {
+      "id": "road-bikes",
+      "label": "Road bikes"
+    },
+    {
+      "id": "components",
+      "label": "Components & gear"
+    },
+    {
+      "id": "retailer",
+      "label": "Retailers"
+    }
+  ],
+  "brands": [
+    {
+      "name": "Assos",
+      "website": "https://assos.com",
+      "status": "live",
+      "detected": "2026-11-18",
+      "tags": [
+        "apparel"
+      ],
+      "type": "Heritage / performance",
+      "notes": "Black Friday sale, up to 50% off",
+      "country": "Switzerland"
+    },
+    {
+      "name": "Castelli",
+      "website": "https://castelli-cycling.com",
+      "status": "live",
+      "detected": "2026-11-18",
+      "tags": [
+        "apparel"
+      ],
+      "type": "Heritage / performance",
+      "notes": "Black Friday early access: 25% off the collection when you sign up",
+      "country": "Italy"
+    },
+    {
+      "name": "Bioracer",
+      "website": "https://bioracer.com",
+      "status": "live",
+      "detected": "2026-11-18",
+      "tags": [
+        "apparel"
+      ],
+      "type": "Heritage / performance",
+      "notes": "\"Black Weeks\" sale",
+      "country": "Belgium"
+    },
+    {
+      "name": "Le Col",
+      "website": "https://lecol.cc",
+      "status": "live",
+      "detected": "2026-11-18",
+      "tags": [
+        "apparel"
+      ],
+      "type": "Modern premium",
+      "notes": "Black Friday sale, up to 50% off",
+      "country": "UK"
+    },
+    {
+      "name": "MAAP",
+      "website": "https://maap.cc",
+      "status": "live",
+      "detected": "2026-11-18",
+      "tags": [
+        "apparel"
+      ],
+      "type": "Modern premium",
+      "notes": "Black Friday sale, up to 50% off selected styles",
+      "country": "Australia"
+    },
+    {
+      "name": "Isadore",
+      "website": "https://isadore.com",
+      "status": "live",
+      "detected": "2026-11-18",
+      "tags": [
+        "apparel"
+      ],
+      "type": "Modern premium",
+      "notes": "Black Friday sale, up to 40% off",
+      "country": "Slovakia"
+    },
+    {
+      "name": "Pearl iZUMi",
+      "website": "https://pearlizumi.com",
+      "status": "live",
+      "detected": "2026-11-18",
+      "tags": [
+        "apparel"
+      ],
+      "type": "Value / mid-range",
+      "notes": "Black Friday: 25% off sitewide plus free shipping",
+      "country": "USA"
+    },
+    {
+      "name": "Endura",
+      "website": "https://endurasport.com",
+      "status": "live",
+      "detected": "2026-11-18",
+      "tags": [
+        "apparel"
+      ],
+      "type": "Value / mid-range",
+      "notes": "Black Friday: 25% off selected gear",
+      "country": "UK"
+    },
+    {
+      "name": "Van Rysel (Decathlon)",
+      "website": "https://decathlon.com",
+      "status": "live",
+      "detected": "2026-11-18",
+      "tags": [
+        "apparel"
+      ],
+      "type": "Value / mid-range",
+      "notes": "Black Friday early access, up to 40% off",
+      "country": "France"
+    },
+    {
+      "name": "Velocio",
+      "website": "https://velocio.cc",
+      "status": "live",
+      "detected": "2026-11-18",
+      "tags": [
+        "apparel"
+      ],
+      "type": "Independent",
+      "notes": "Black Friday sale: up to 30% off, plus an extra 10% off orders over $500",
+      "country": "USA"
+    },
+    {
+      "name": "Ornot",
+      "website": "https://ornotbike.com",
+      "status": "live",
+      "detected": "2026-11-18",
+      "tags": [
+        "apparel"
+      ],
+      "type": "Independent",
+      "notes": "Black Friday sale: 20% off sitewide, up to 45% off the archive",
+      "country": "USA"
+    },
+    {
+      "name": "Peppermint Cycling",
+      "website": "https://peppermintcycling.com",
+      "status": "live",
+      "detected": "2026-11-18",
+      "tags": [
+        "apparel"
+      ],
+      "type": "Independent",
+      "notes": "Black Friday sale on the homepage",
+      "country": "Canada"
+    },
+    {
+      "name": "Primal",
+      "website": "https://primalwear.com",
+      "status": "live",
+      "detected": "2026-11-18",
+      "tags": [
+        "apparel"
+      ],
+      "type": "Custom / team kit",
+      "notes": "Black Friday: extra 50% off the sale collection with code BFCM50",
+      "country": "USA"
+    },
+    {
+      "name": "7mesh",
+      "website": "https://7mesh.com",
+      "status": "live",
+      "detected": "2026-11-18",
+      "tags": [
+        "apparel"
+      ],
+      "type": "Modern premium",
+      "notes": "Black Friday sale, up to 50% off",
+      "country": "Canada"
+    },
+    {
+      "name": "Specialized",
+      "website": "https://specialized.com",
+      "status": "live",
+      "detected": "2026-11-18",
+      "tags": [
+        "apparel",
+        "road-bikes"
+      ],
+      "type": "Heritage / performance; Race, aero & endurance (Tarmac, Aethos, Roubaix)",
+      "notes": "\"Black Friday Offers Start Now\" with a Black Friday menu tab and financing from 0% APR for up to 24 months; no % off shown on the homepage",
+      "country": "USA"
+    },
+    {
+      "name": "Sportful",
+      "website": "https://sportful.com",
+      "status": "other_sale",
+      "detected": null,
+      "tags": [
+        "apparel"
+      ],
+      "type": "Heritage / performance",
+      "notes": "Up to 33% off selected styles until Nov 26",
+      "country": "Italy"
+    },
+    {
+      "name": "Santini",
+      "website": "https://santinicycling.com",
+      "status": "other_sale",
+      "detected": null,
+      "tags": [
+        "apparel"
+      ],
+      "type": "Heritage / performance",
+      "notes": "US store: winter kit up to 20% off (15% over €200, 20% over €300)",
+      "country": "Italy"
+    },
+    {
+      "name": "Q36.5",
+      "website": "https://q36-5.com",
+      "status": "other_sale",
+      "detected": null,
+      "tags": [
+        "apparel"
+      ],
+      "type": "Heritage / performance",
+      "notes": "Curated selection up to 30% off, limited quantities",
+      "country": "Italy"
+    },
+    {
+      "name": "Voler",
+      "website": "https://voler.com",
+      "status": "other_sale",
+      "detected": null,
+      "tags": [
+        "apparel"
+      ],
+      "type": "Custom / team kit",
+      "notes": "\"Last call\" sale, 20% off",
+      "country": "USA"
+    },
+    {
+      "name": "Attaquer",
+      "website": "https://attaquercycling.com",
+      "status": "other_sale",
+      "detected": null,
+      "tags": [
+        "apparel"
+      ],
+      "type": "Modern premium",
+      "notes": "\"Annual Sale\" is live (not called Black Friday)",
+      "country": "Australia"
+    },
+    {
+      "name": "Black Sheep Cycling",
+      "website": "https://blacksheep.cc",
+      "status": "other_sale",
+      "detected": null,
+      "tags": [
+        "apparel"
+      ],
+      "type": "Modern premium",
+      "notes": "Up to 60% off (not called Black Friday)",
+      "country": "Australia"
+    },
+    {
+      "name": "Rapha",
+      "website": "https://rapha.cc",
+      "status": "not_yet",
+      "detected": null,
+      "tags": [
+        "apparel"
+      ],
+      "type": "Modern premium",
+      "notes": "Checked the homepage and shop: no sale or sale page yet. Ran 25% off sitewide last year and says its sale usually starts in late November",
+      "country": "UK"
+    },
+    {
+      "name": "Gobik",
+      "website": "https://gobik.com",
+      "status": "not_yet",
+      "detected": null,
+      "tags": [
+        "apparel"
+      ],
+      "type": "Value / mid-range",
+      "notes": "Full prices; usually runs a Black Friday week",
+      "country": "Spain"
+    },
+    {
+      "name": "Pas Normal Studios",
+      "website": "https://pasnormalstudios.com",
+      "status": "not_yet",
+      "detected": null,
+      "tags": [
+        "apparel"
+      ],
+      "type": "Modern premium",
+      "notes": "Gift shop on the homepage, no sale",
+      "country": "Denmark"
+    },
+    {
+      "name": "Café du Cycliste",
+      "website": "https://cafeducycliste.com",
+      "status": "not_yet",
+      "detected": null,
+      "tags": [
+        "apparel"
+      ],
+      "type": "Modern premium",
+      "notes": "Gift guide on the homepage, no sale",
+      "country": "France"
+    },
+    {
+      "name": "POC",
+      "website": "https://poc.com",
+      "status": "not_yet",
+      "detected": null,
+      "tags": [
+        "apparel",
+        "components"
+      ],
+      "type": "Modern premium; Helmets & eyewear",
+      "notes": "No discounts; extended holiday returns only",
+      "country": "Sweden"
+    },
+    {
+      "name": "Giordana",
+      "website": "https://giordanacycling.com",
+      "status": "not_yet",
+      "detected": null,
+      "tags": [
+        "apparel"
+      ],
+      "type": "Heritage / performance",
+      "notes": "No Black Friday sale; has a regular Sale section",
+      "country": "Italy"
+    },
+    {
+      "name": "Nalini",
+      "website": "https://nalini.com",
+      "status": "not_yet",
+      "detected": null,
+      "tags": [
+        "apparel"
+      ],
+      "type": "Heritage / performance",
+      "notes": "No Black Friday sale; has an archive sale section",
+      "country": "Italy"
+    },
+    {
+      "name": "Alé",
+      "website": "https://alecycling.com",
+      "status": "not_yet",
+      "detected": null,
+      "tags": [
+        "apparel"
+      ],
+      "type": "Heritage / performance",
+      "notes": "No sale on the homepage",
+      "country": "Italy"
+    },
+    {
+      "name": "Northwave",
+      "website": "https://northwave.com",
+      "status": "not_yet",
+      "detected": null,
+      "tags": [
+        "apparel"
+      ],
+      "type": "Value / mid-range",
+      "notes": "No sale on the homepage",
+      "country": "Italy"
+    },
+    {
+      "name": "Search and State",
+      "website": "https://searchandstate.com",
+      "status": "not_yet",
+      "detected": null,
+      "tags": [
+        "apparel"
+      ],
+      "type": "Independent",
+      "notes": "No sale on the homepage",
+      "country": "USA"
+    },
+    {
+      "name": "Universal Colours",
+      "website": "https://universalcolours.com",
+      "status": "not_yet",
+      "detected": null,
+      "tags": [
+        "apparel"
+      ],
+      "type": "Modern premium",
+      "notes": "No sale on its own site; some items are discounted at Sigma Sports",
+      "country": "UK"
+    },
+    {
+      "name": "Pedal Mafia",
+      "website": "https://pedalmafia.cc",
+      "status": "not_yet",
+      "detected": null,
+      "tags": [
+        "apparel"
+      ],
+      "type": "Modern premium",
+      "notes": "No Black Friday sale; has an archive sale section",
+      "country": "Australia"
+    },
+    {
+      "name": "Albion",
+      "website": "https://albioncycling.com",
+      "status": "not_yet",
+      "detected": null,
+      "tags": [
+        "apparel"
+      ],
+      "type": "Modern premium",
+      "notes": "No sale; in past years it skipped Black Friday and offered free repairs instead. Some items are discounted at Sigma Sports",
+      "country": "UK"
+    },
+    {
+      "name": "dhb",
+      "website": "https://evanscycles.com",
+      "status": "unknown",
+      "detected": null,
+      "tags": [
+        "apparel"
+      ],
+      "type": "Value / mid-range",
+      "notes": "wiggle.com now redirects to Evans Cycles, which has early Black Friday deals up to 70%; not clear whether dhb is included",
+      "country": "UK"
+    },
+    {
+      "name": "Pissei",
+      "website": "https://pissei.com",
+      "status": "unknown",
+      "detected": null,
+      "tags": [
+        "apparel"
+      ],
+      "type": "Heritage / performance",
+      "notes": "Site showed a bot check I can't get past",
+      "country": "Italy"
+    },
+    {
+      "name": "Machines for Freedom",
+      "website": null,
+      "status": "closed",
+      "detected": null,
+      "tags": [
+        "apparel"
+      ],
+      "type": "Independent",
+      "notes": "Listed as no longer operating; it was owned by Specialized",
+      "country": "USA"
+    },
+    {
+      "name": "Cannondale",
+      "website": "https://cannondale.com",
+      "status": "live",
+      "detected": "2026-11-18",
+      "tags": [
+        "road-bikes"
+      ],
+      "type": "Race, aero & endurance (SuperSix, Synapse)",
+      "notes": "Black Friday: up to 30% off bikes and 50% off gear",
+      "country": "USA"
+    },
+    {
+      "name": "Canyon",
+      "website": "https://canyon.com",
+      "status": "live",
+      "detected": "2026-11-18",
+      "tags": [
+        "road-bikes"
+      ],
+      "type": "Direct-to-consumer race, aero & endurance",
+      "notes": "Black Friday: up to 60% off bikes and up to 50% off gear, plus daily deals and price protection",
+      "country": "Germany"
+    },
+    {
+      "name": "Ridley",
+      "website": "https://ridley-bikes.com",
+      "status": "live",
+      "detected": "2026-11-18",
+      "tags": [
+        "road-bikes"
+      ],
+      "type": "Race, aero & cyclocross",
+      "notes": "Black Friday deals: up to 50% off selected bikes",
+      "country": "Belgium"
+    },
+    {
+      "name": "TIME",
+      "website": "https://timebicycles.com",
+      "status": "live",
+      "detected": "2026-11-18",
+      "tags": [
+        "road-bikes"
+      ],
+      "type": "Premium carbon race & aero (Scylon, Alpe d'Huez)",
+      "notes": "Black Friday: buy a qualifying frameset and get 20% off a cockpit and 20% off wheels; free shipping on complete bikes with code BIKEFREESHIP",
+      "country": "France"
+    },
+    {
+      "name": "Rose",
+      "website": "https://rosebikes.com",
+      "status": "live",
+      "detected": "2026-11-18",
+      "tags": [
+        "road-bikes"
+      ],
+      "type": "Direct-to-consumer race & endurance",
+      "notes": "\"Black Deals\" on bikes, plus 20% off clothing, parts and accessories with code BLACKDEALS20 (international site; US shipping not confirmed)",
+      "country": "Germany"
+    },
+    {
+      "name": "Bianchi",
+      "website": "https://bianchi.com",
+      "status": "live",
+      "detected": "2026-11-18",
+      "tags": [
+        "road-bikes"
+      ],
+      "type": "Italian race & endurance (Oltre, Specialissima)",
+      "notes": "Black Friday slide on the Italian-language site; US terms unclear",
+      "country": "Italy"
+    },
+    {
+      "name": "Giant",
+      "website": "https://giant-bicycles.com",
+      "status": "other_sale",
+      "detected": null,
+      "tags": [
+        "road-bikes"
+      ],
+      "type": "Race, aero & endurance (TCR, Propel, Defy)",
+      "notes": "Online clearance sale and \"Early Savings\" promos with 0% APR financing; not called Black Friday yet",
+      "country": "Taiwan"
+    },
+    {
+      "name": "Liv",
+      "website": "https://liv-cycling.com",
+      "status": "other_sale",
+      "detected": null,
+      "tags": [
+        "road-bikes"
+      ],
+      "type": "Women-specific road & endurance (Giant's women's brand)",
+      "notes": "Online-exclusive sales and \"Early Savings\" promos; not called Black Friday",
+      "country": "Taiwan"
+    },
+    {
+      "name": "Allied",
+      "website": "https://alliedcycleworks.com",
+      "status": "other_sale",
+      "detected": null,
+      "tags": [
+        "road-bikes"
+      ],
+      "type": "US-made premium carbon road & gravel",
+      "notes": "Holiday sale: 25% off select bikes and framesets",
+      "country": "USA"
+    },
+    {
+      "name": "Lauf",
+      "website": "https://laufcycles.com",
+      "status": "other_sale",
+      "detected": null,
+      "tags": [
+        "road-bikes"
+      ],
+      "type": "Direct-to-consumer endurance road & gravel",
+      "notes": "Says \"No Black Friday\" but has a standing \"save up to 40%\" page and an outlet; many models sold out",
+      "country": "Iceland"
+    },
+    {
+      "name": "Pinarello",
+      "website": "https://pinarello.com",
+      "status": "other_sale",
+      "detected": null,
+      "tags": [
+        "road-bikes"
+      ],
+      "type": "Italian luxury race (Dogma)",
+      "notes": "\"Apparel Days\" deals on clothing only; no bike sale",
+      "country": "Italy"
+    },
+    {
+      "name": "Trek",
+      "website": "https://trekbikes.com",
+      "status": "not_yet",
+      "detected": null,
+      "tags": [
+        "road-bikes"
+      ],
+      "type": "Race, aero & endurance (Madone, Émonda, Domane)",
+      "notes": "Holiday gift guide on the homepage; only its regular Sale section",
+      "country": "USA"
+    },
+    {
+      "name": "Cervélo",
+      "website": "https://cervelo.com",
+      "status": "not_yet",
+      "detected": null,
+      "tags": [
+        "road-bikes"
+      ],
+      "type": "Aero race & triathlon",
+      "notes": "No sale on the homepage",
+      "country": "Canada"
+    },
+    {
+      "name": "Colnago",
+      "website": "https://colnago.com",
+      "status": "not_yet",
+      "detected": null,
+      "tags": [
+        "road-bikes"
+      ],
+      "type": "Italian luxury race (V4Rs, C68)",
+      "notes": "No sale on the homepage",
+      "country": "Italy"
+    },
+    {
+      "name": "BMC",
+      "website": "https://bmc-switzerland.com",
+      "status": "not_yet",
+      "detected": null,
+      "tags": [
+        "road-bikes"
+      ],
+      "type": "Swiss race & aero (Teammachine, Timemachine)",
+      "notes": "No sale on the homepage",
+      "country": "Switzerland"
+    },
+    {
+      "name": "Scott",
+      "website": "https://scott-sports.com",
+      "status": "not_yet",
+      "detected": null,
+      "tags": [
+        "road-bikes"
+      ],
+      "type": "Race, aero & endurance (Addict, Foil)",
+      "notes": "Only its regular Sale section; no Black Friday promo",
+      "country": "Switzerland"
+    },
+    {
+      "name": "Orbea",
+      "website": "https://orbea.com",
+      "status": "not_yet",
+      "detected": null,
+      "tags": [
+        "road-bikes"
+      ],
+      "type": "Race & endurance with custom paint (Orca)",
+      "notes": "No sale on the homepage",
+      "country": "Spain"
+    },
+    {
+      "name": "Factor",
+      "website": "https://factorbikes.com",
+      "status": "not_yet",
+      "detected": null,
+      "tags": [
+        "road-bikes"
+      ],
+      "type": "Premium aero & race (Ostro, ONE)",
+      "notes": "No sale on the homepage",
+      "country": "UK"
+    },
+    {
+      "name": "Wilier Triestina",
+      "website": "https://wilier.com",
+      "status": "not_yet",
+      "detected": null,
+      "tags": [
+        "road-bikes"
+      ],
+      "type": "Italian race & aero (Filante, Verticale)",
+      "notes": "No sale on the homepage",
+      "country": "Italy"
+    },
+    {
+      "name": "Look",
+      "website": "https://lookcycle.com",
+      "status": "not_yet",
+      "detected": null,
+      "tags": [
+        "road-bikes"
+      ],
+      "type": "French carbon race & track",
+      "notes": "No sale on the homepage",
+      "country": "France"
+    },
+    {
+      "name": "Felt",
+      "website": "https://feltbicycles.com",
+      "status": "not_yet",
+      "detected": null,
+      "tags": [
+        "road-bikes"
+      ],
+      "type": "Aero road & triathlon",
+      "notes": "No sale on the homepage",
+      "country": "USA (now based in Spain)"
+    },
+    {
+      "name": "3T",
+      "website": "https://3t.bike",
+      "status": "not_yet",
+      "detected": null,
+      "tags": [
+        "road-bikes"
+      ],
+      "type": "Aero road & gravel",
+      "notes": "No sale; only 5% off for a newsletter signup",
+      "country": "Italy"
+    },
+    {
+      "name": "Argonaut",
+      "website": "https://argonautcycles.com",
+      "status": "not_yet",
+      "detected": null,
+      "tags": [
+        "road-bikes"
+      ],
+      "type": "Custom carbon",
+      "notes": "No sale on the homepage",
+      "country": "USA"
+    },
+    {
+      "name": "Basso",
+      "website": "https://bassobikes.com",
+      "status": "not_yet",
+      "detected": null,
+      "tags": [
+        "road-bikes"
+      ],
+      "type": "Italian race & endurance",
+      "notes": "No sale on the homepage",
+      "country": "Italy"
+    },
+    {
+      "name": "De Rosa",
+      "website": "https://derosa.it",
+      "status": "not_yet",
+      "detected": null,
+      "tags": [
+        "road-bikes"
+      ],
+      "type": "Italian luxury race, titanium & steel",
+      "notes": "No sale on the homepage",
+      "country": "Italy"
+    },
+    {
+      "name": "Cube",
+      "website": "https://cube.eu",
+      "status": "not_yet",
+      "detected": null,
+      "tags": [
+        "road-bikes"
+      ],
+      "type": "Value-oriented race & endurance",
+      "notes": "No sale on the homepage; no US site",
+      "country": "Germany"
+    },
+    {
+      "name": "Merida",
+      "website": "https://merida-bikes.com",
+      "status": "not_yet",
+      "detected": null,
+      "tags": [
+        "road-bikes"
+      ],
+      "type": "Race, aero & endurance (Reacto, Scultura)",
+      "notes": "No sale on the homepage; little US presence",
+      "country": "Taiwan"
+    },
+    {
+      "name": "Hunt",
+      "website": "https://huntbikewheels.com",
+      "status": "live",
+      "detected": "2026-11-18",
+      "tags": [
+        "components"
+      ],
+      "type": "Wheels",
+      "notes": "Black Friday sale, up to 40% off (wheelsets 40% off)",
+      "country": "UK"
+    },
+    {
+      "name": "Silca",
+      "website": "https://silca.cc",
+      "status": "live",
+      "detected": "2026-11-18",
+      "tags": [
+        "components"
+      ],
+      "type": "Pumps, tools & accessories",
+      "notes": "Black Friday sale: up to 75% off, at least 20% off almost everything (Pista floor pump 50% off)",
+      "country": "USA"
+    },
+    {
+      "name": "Muc-Off",
+      "website": "https://muc-off.com",
+      "status": "live",
+      "detected": "2026-11-18",
+      "tags": [
+        "components"
+      ],
+      "type": "Cleaning, lube & accessories",
+      "notes": "Black Friday: 25% off everything",
+      "country": "UK"
+    },
+    {
+      "name": "Lake Cycling",
+      "website": "https://lakecycling.com",
+      "status": "live",
+      "detected": "2026-11-18",
+      "tags": [
+        "components"
+      ],
+      "type": "Shoes",
+      "notes": "Black Friday collection (e.g. CX177 at 50% off), plus 50% off an accessory with shoes",
+      "country": "USA"
+    },
+    {
+      "name": "100%",
+      "website": "https://100percent.com",
+      "status": "live",
+      "detected": "2026-11-18",
+      "tags": [
+        "components"
+      ],
+      "type": "Eyewear",
+      "notes": "Black Friday sale: buy 2 sunglasses, get both 40% off",
+      "country": "USA"
+    },
+    {
+      "name": "Oakley",
+      "website": "https://oakley.com",
+      "status": "live",
+      "detected": "2026-11-18",
+      "tags": [
+        "components"
+      ],
+      "type": "Eyewear",
+      "notes": "Members' early Black Friday until Nov 20: 40% off prescription lenses plus an extra 10% at checkout",
+      "country": "USA"
+    },
+    {
+      "name": "Garmin",
+      "website": "https://garmin.com",
+      "status": "other_sale",
+      "detected": null,
+      "tags": [
+        "components"
+      ],
+      "type": "Bike computers, power meters & trainers (Tacx)",
+      "notes": "Holiday Sale: featured items $50–$250 off; not called Black Friday",
+      "country": "USA"
+    },
+    {
+      "name": "Giro",
+      "website": "https://giro.com",
+      "status": "other_sale",
+      "detected": null,
+      "tags": [
+        "components"
+      ],
+      "type": "Helmets & shoes",
+      "notes": "Holiday Savings: up to 50% off select gear",
+      "country": "USA"
+    },
+    {
+      "name": "Fizik",
+      "website": "https://fizik.com",
+      "status": "other_sale",
+      "detected": null,
+      "tags": [
+        "components"
+      ],
+      "type": "Saddles & shoes",
+      "notes": "Sale section promoted in the top bar; no Black Friday branding",
+      "country": "Italy"
+    },
+    {
+      "name": "Wahoo",
+      "website": "https://wahoofitness.com",
+      "status": "other_sale",
+      "detected": null,
+      "tags": [
+        "components"
+      ],
+      "type": "Bike computers & smart trainers",
+      "notes": "Savings on reconditioned trainers only",
+      "country": "USA"
+    },
+    {
+      "name": "SRAM",
+      "website": "https://sram.com",
+      "status": "other_sale",
+      "detected": null,
+      "tags": [
+        "components"
+      ],
+      "type": "Groupsets",
+      "notes": "Its shop has a sale on the AXS Reverb dropper post only",
+      "country": "USA"
+    },
+    {
+      "name": "Shimano",
+      "website": "https://shimano.com",
+      "status": "not_yet",
+      "detected": null,
+      "tags": [
+        "components"
+      ],
+      "type": "Groupsets & shoes",
+      "notes": "No promotion; its US shop (ride.shimano.com) has only a regular Sale section",
+      "country": "Japan"
+    },
+    {
+      "name": "Campagnolo",
+      "website": "https://campagnolo.com",
+      "status": "not_yet",
+      "detected": null,
+      "tags": [
+        "components"
+      ],
+      "type": "Groupsets & wheels",
+      "notes": "No sale on the homepage",
+      "country": "Italy"
+    },
+    {
+      "name": "Zipp",
+      "website": "https://zipp.com",
+      "status": "not_yet",
+      "detected": null,
+      "tags": [
+        "components"
+      ],
+      "type": "Wheels",
+      "notes": "No sale (zipp.com now redirects to SRAM's site)",
+      "country": "USA"
+    },
+    {
+      "name": "ENVE",
+      "website": "https://enve.com",
+      "status": "not_yet",
+      "detected": null,
+      "tags": [
+        "components"
+      ],
+      "type": "Wheels & components",
+      "notes": "No sale; free shipping over $100 only",
+      "country": "USA"
+    },
+    {
+      "name": "DT Swiss",
+      "website": "https://dtswiss.com",
+      "status": "not_yet",
+      "detected": null,
+      "tags": [
+        "components"
+      ],
+      "type": "Wheels & hubs",
+      "notes": "No sale on the homepage",
+      "country": "Switzerland"
+    },
+    {
+      "name": "Princeton CarbonWorks",
+      "website": "https://princetoncarbon.com",
+      "status": "not_yet",
+      "detected": null,
+      "tags": [
+        "components"
+      ],
+      "type": "Wheels",
+      "notes": "No sale on the homepage",
+      "country": "USA"
+    },
+    {
+      "name": "Hammerhead",
+      "website": "https://hammerhead.io",
+      "status": "not_yet",
+      "detected": null,
+      "tags": [
+        "components"
+      ],
+      "type": "Bike computers",
+      "notes": "No sale (hammerhead.io now redirects to SRAM's Karoo page)",
+      "country": "USA"
+    },
+    {
+      "name": "4iiii",
+      "website": "https://4iiii.com",
+      "status": "not_yet",
+      "detected": null,
+      "tags": [
+        "components"
+      ],
+      "type": "Power meters",
+      "notes": "No discount; 8 weeks of free training plans with a power meter",
+      "country": "Canada"
+    },
+    {
+      "name": "Favero",
+      "website": "https://favero.com",
+      "status": "not_yet",
+      "detected": null,
+      "tags": [
+        "components"
+      ],
+      "type": "Power meters",
+      "notes": "Full prices; free shipping only",
+      "country": "Italy"
+    },
+    {
+      "name": "Zwift",
+      "website": "https://zwift.com",
+      "status": "not_yet",
+      "detected": null,
+      "tags": [
+        "components"
+      ],
+      "type": "Smart trainers & indoor app",
+      "notes": "No hardware sale; promoting its new Zwift+ subscription",
+      "country": "USA"
+    },
+    {
+      "name": "Kask",
+      "website": "https://kask.com",
+      "status": "not_yet",
+      "detected": null,
+      "tags": [
+        "components"
+      ],
+      "type": "Helmets",
+      "notes": "Doesn't ship to the US direct; deals are at retailers",
+      "country": "Italy"
+    },
+    {
+      "name": "MET",
+      "website": "https://met-helmets.com",
+      "status": "not_yet",
+      "detected": null,
+      "tags": [
+        "components"
+      ],
+      "type": "Helmets",
+      "notes": "Only 10% off for a newsletter signup",
+      "country": "Italy"
+    },
+    {
+      "name": "Sidi",
+      "website": "https://sidi.com",
+      "status": "not_yet",
+      "detected": null,
+      "tags": [
+        "components"
+      ],
+      "type": "Shoes",
+      "notes": "No visible sale, but a hidden Black Friday countdown is in the page, so one looks close",
+      "country": "Italy"
+    },
+    {
+      "name": "Bont",
+      "website": "https://bontcycling.com",
+      "status": "not_yet",
+      "detected": null,
+      "tags": [
+        "components"
+      ],
+      "type": "Shoes",
+      "notes": "Doesn't sell direct; deals are at retailers",
+      "country": "Australia"
+    },
+    {
+      "name": "Selle Italia",
+      "website": "https://selleitalia.com",
+      "status": "not_yet",
+      "detected": null,
+      "tags": [
+        "components"
+      ],
+      "type": "Saddles",
+      "notes": "No sale banner; a regular Promo section has some items 15% off",
+      "country": "Italy"
+    },
+    {
+      "name": "Brooks England",
+      "website": "https://brooksengland.com",
+      "status": "not_yet",
+      "detected": null,
+      "tags": [
+        "components"
+      ],
+      "type": "Saddles",
+      "notes": "Teasing an upcoming sale with newsletter early access",
+      "country": "UK"
+    },
+    {
+      "name": "Continental",
+      "website": "https://continental-tires.com",
+      "status": "not_yet",
+      "detected": null,
+      "tags": [
+        "components"
+      ],
+      "type": "Tires",
+      "notes": "Doesn't sell direct; deals are at retailers",
+      "country": "Germany"
+    },
+    {
+      "name": "Pirelli",
+      "website": "https://pirelli.com",
+      "status": "not_yet",
+      "detected": null,
+      "tags": [
+        "components"
+      ],
+      "type": "Tires",
+      "notes": "Doesn't sell direct; deals are at retailers",
+      "country": "Italy"
+    },
+    {
+      "name": "Vittoria",
+      "website": "https://vittoria.com",
+      "status": "not_yet",
+      "detected": null,
+      "tags": [
+        "components"
+      ],
+      "type": "Tires",
+      "notes": "No sale banner",
+      "country": "Italy"
+    },
+    {
+      "name": "Schwalbe",
+      "website": "https://schwalbe.com",
+      "status": "not_yet",
+      "detected": null,
+      "tags": [
+        "components"
+      ],
+      "type": "Tires",
+      "notes": "Doesn't sell direct; deals are at retailers",
+      "country": "Germany"
+    },
+    {
+      "name": "Lezyne",
+      "website": "https://lezyne.com",
+      "status": "not_yet",
+      "detected": null,
+      "tags": [
+        "components"
+      ],
+      "type": "Lights, pumps & accessories",
+      "notes": "No Black Friday promotion; has a regular outlet section",
+      "country": "USA"
+    },
+    {
+      "name": "Competitive Cyclist",
+      "website": "https://competitivecyclist.com",
+      "status": "live",
+      "detected": "2026-11-18",
+      "tags": [
+        "retailer"
+      ],
+      "type": "",
+      "notes": "\"Beat Black Friday\": up to 50% off apparel, helmets, components and more",
+      "country": "USA"
+    },
+    {
+      "name": "Jenson USA",
+      "website": "https://jensonusa.com",
+      "status": "live",
+      "detected": "2026-11-18",
+      "tags": [
+        "retailer"
+      ],
+      "type": "",
+      "notes": "Early Black Friday deals on bikes, components and accessories; Insiders get 20% off one full-price item through Nov 30",
+      "country": "USA"
+    },
+    {
+      "name": "Performance Bicycle",
+      "website": "https://performancebike.com",
+      "status": "live",
+      "detected": "2026-11-18",
+      "tags": [
+        "retailer"
+      ],
+      "type": "",
+      "notes": "Pre-Black Friday sale, up to 70% off",
+      "country": "USA"
+    },
+    {
+      "name": "Mike's Bikes",
+      "website": "https://mikesbikes.com",
+      "status": "live",
+      "detected": "2026-11-18",
+      "tags": [
+        "retailer"
+      ],
+      "type": "",
+      "notes": "Early Black Friday deals; also a reward card worth up to $400 when you spend $250+",
+      "country": "USA"
+    },
+    {
+      "name": "Sigma Sports",
+      "website": "https://sigmasports.com",
+      "status": "live",
+      "detected": "2026-11-18",
+      "tags": [
+        "retailer"
+      ],
+      "type": "",
+      "notes": "Black Friday sale, up to 50% off",
+      "country": "UK"
+    },
+    {
+      "name": "Evans Cycles",
+      "website": "https://evanscycles.com",
+      "status": "live",
+      "detected": "2026-11-18",
+      "tags": [
+        "retailer"
+      ],
+      "type": "",
+      "notes": "Early Black Friday deals, up to 70% off (wiggle.com now redirects here)",
+      "country": "UK"
+    },
+    {
+      "name": "REI",
+      "website": "https://rei.com",
+      "status": "other_sale",
+      "detected": null,
+      "tags": [
+        "retailer"
+      ],
+      "type": "",
+      "notes": "Holiday Sale through Nov 23: up to 25% off; members get 20% off one full-price item and an extra 20% off one Outlet item with code HOLIDAY2026",
+      "country": "USA"
+    },
+    {
+      "name": "Backcountry",
+      "website": "https://backcountry.com",
+      "status": "other_sale",
+      "detected": null,
+      "tags": [
+        "retailer"
+      ],
+      "type": "",
+      "notes": "Big Brands Sale, up to 40% off, plus 20% off full-price items",
+      "country": "USA"
+    },
+    {
+      "name": "Bike24",
+      "website": "https://bike24.com",
+      "status": "not_yet",
+      "detected": null,
+      "tags": [
+        "retailer"
+      ],
+      "type": "",
+      "notes": "Its Black Friday page says the sale runs Nov 20–30",
+      "country": "Germany"
+    }
+  ]
+}

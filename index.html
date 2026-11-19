@@ -79,9 +79,25 @@
   th::after { content: " ↕"; color: var(--muted); font-size: .8em; }
   th[aria-sort="ascending"]::after { content: " ↑"; color: inherit; }
   th[aria-sort="descending"]::after { content: " ↓"; color: inherit; }
-  .k-name, .k-status, .k-detected, .k-website, .k-category { white-space: nowrap; }
+  .k-name, .k-status, .k-detected, .k-website { white-space: nowrap; }
   .k-notes { min-width: 18rem; }
-  .k-detected, .k-category { color: var(--muted); }
+  .k-detected { color: var(--muted); }
+  /* Colored labels for tags and types. Each label sets --h (a hue). */
+  .label {
+    display: inline-block;
+    margin: 0 .25rem .2rem 0;
+    padding: .05rem .5rem;
+    font-size: .78em;
+    line-height: 1.5;
+    border-radius: 4px;
+    background: hsl(var(--h) 75% 93%);
+    color: hsl(var(--h) 60% 28%);
+  }
+  .label.tag { font-weight: 600; border-radius: 999px; white-space: nowrap; }
+  .k-type { min-width: 10rem; }
+  @media (prefers-color-scheme: dark) {
+    .label { background: hsl(var(--h) 35% 22%); color: hsl(var(--h) 75% 82%); }
+  }
   .status { font-size: .85em; }
   .status::before { content: "●"; margin-right: .35em; }
   .s-live::before { color: #1f9d55; }
@@ -133,13 +149,14 @@
     td.k-name { order: -2; flex: 1 1 auto; font-weight: 600; white-space: normal; }
     td.k-status { order: -1; flex: 0 0 auto; }
     td.k-notes { flex-basis: 100%; }
+    td.k-type { min-width: 0; }
     td:not(.k-name):not(.k-status):not(.k-notes) {
       order: 1;
       font-size: .82em;
       color: var(--muted);
       white-space: normal;
     }
-    td:not(.k-name):not(.k-status):not(.k-notes):not(.k-website):not(.k-category)::before {
+    td:not(.k-name):not(.k-status):not(.k-notes):not(.k-website):not(.k-tags):not(.k-type)::before {
       content: attr(data-label) ": ";
       opacity: .8;
     }
@@ -153,9 +170,9 @@
   <div class="controls">
     <input id="q" type="search" placeholder="Search brands, notes, countries… (press /)" autocomplete="off" aria-label="Search">
     <div class="filters" id="filters">
-      <span id="cats" style="display:contents"></span>
+      <span id="tagFilters" style="display:contents"></span>
       <span class="sep"></span>
-      <label><input type="checkbox" id="saleOnly"> On sale now only</label>
+      <label><input type="checkbox" id="saleOnly"> Show only brands with sales</label>
     </div>
     <div class="count" id="count"></div>
   </div>
@@ -164,7 +181,19 @@
   <footer id="foot"></footer>
 </main>
 <script>
-const DATA_DIR = "data/";
+const DATA_URL = "data/brands.json";
+
+// Columns, in order. `key` is the field in data/brands.json.
+const COLUMNS = [
+  { key: "name",     label: "Name" },
+  { key: "tags",     label: "Tags" },
+  { key: "website",  label: "Website" },
+  { key: "status",   label: "Black Friday" },
+  { key: "detected", label: "Sale detected" },
+  { key: "type",     label: "Type" },
+  { key: "notes",    label: "What's on the site" },
+  { key: "country",  label: "Country" },
+];
 
 // Status values in sort order, with display labels.
 const STATUSES = {
@@ -179,9 +208,31 @@ const STATUS_ORDER = Object.keys(STATUSES);
 const ON_SALE = new Set(["live", "other_sale"]);
 
 const $ = id => document.getElementById(id);
-const rows = [];        // { el, data, category, idx, text, words }
-const categories = [];  // { id, title, input, n }
-let columns = [];       // combined columns across all tables
+const rows = [];        // { el, data, idx, text, words }
+const tags = [];        // { id, label, input, n }
+const tagLabel = id => tags.find(t => t.id === id)?.label ?? id;
+
+// Label colors. Tags take hues in order. Each distinct type gets the next hue
+// in order of first appearance (after the ones tags use), so common types are
+// distinct and the same type is always the same color.
+const HUES = [212, 145, 28, 275, 345, 185, 48, 100, 240, 5, 310, 160];
+const tagHue = id => HUES[Math.max(0, tags.findIndex(t => t.id === id)) % HUES.length];
+const typeHues = new Map();
+function typeHue(text) {
+  const k = norm(text);
+  if (!typeHues.has(k)) typeHues.set(k, HUES[(typeHues.size + 4) % HUES.length]);
+  return typeHues.get(k);
+}
+// A brand's type can hold several values separated by ";".
+const splitTypes = v => (v || "").split(";").map(x => x.trim()).filter(Boolean);
+
+function chip(text, hue, extraClass = "") {
+  const span = document.createElement("span");
+  span.className = ("label " + extraClass).trim();
+  span.style.setProperty("--h", hue);
+  span.textContent = text;
+  return span;
+}
 
 // ---------- formatting ----------
 
@@ -193,6 +244,7 @@ function fmtDate(iso, opts = { month: "short", day: "numeric" }) {
 function display(key, value) {
   if (key === "status") return STATUSES[value] || value;
   if (key === "detected") return fmtDate(value);
+  if (key === "tags") return (value || []).map(tagLabel).join(", ");
   if (key === "website") return value ? value.replace(/^https?:\/\/(www\.)?/, "").replace(/\/$/, "") : "";
   return value ?? "";
 }
@@ -208,6 +260,10 @@ function cell(key, value, label) {
     a.target = "_blank";
     a.rel = "noopener";
     td.appendChild(a);
+  } else if (key === "tags") {
+    for (const id of value || []) td.appendChild(chip(tagLabel(id), tagHue(id), "tag"));
+  } else if (key === "type") {
+    for (const t of splitTypes(value)) td.appendChild(chip(t, typeHue(t)));
   } else if (key === "status") {
     const span = document.createElement("span");
     span.className = "status s-" + value;
@@ -221,7 +277,7 @@ function cell(key, value, label) {
 
 // ---------- fuzzy search ----------
 
-const norm = s => String(s).normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCase();
+const norm = s => String(s).normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase();
 
 // Edit distance where insert, delete, substitute and swapping two adjacent
 // letters each count as one typo. Gives up early once it exceeds `max`.
@@ -263,20 +319,21 @@ function apply() {
   const saleOnly = $("saleOnly").checked;
   const tokens = norm(q).split(/\s+/).filter(Boolean);
   const fuzzy = tokens.map(tok => !rows.some(r => r.text.includes(tok)));
-  const shownCats = new Set(categories.filter(c => c.input.checked).map(c => c.id));
+  const shownTags = new Set(tags.filter(t => t.input.checked).map(t => t.id));
 
-  const perCat = Object.fromEntries(categories.map(c => [c.id, 0]));
+  // A brand is shown if any of its tags is ticked and it passes search + sale filter.
+  const perTag = Object.fromEntries(tags.map(t => [t.id, 0]));
   let shown = 0;
   for (const r of rows) {
     const passesOther = (!saleOnly || ON_SALE.has(r.data.status)) &&
                         tokens.every((tok, i) => tokenMatches(tok, r, fuzzy[i]));
-    if (passesOther) perCat[r.category]++;
-    const ok = passesOther && shownCats.has(r.category);
+    if (passesOther) r.data.tags.forEach(id => perTag[id]++);
+    const ok = passesOther && r.data.tags.some(id => shownTags.has(id));
     r.el.hidden = !ok;
     if (ok) shown++;
   }
-  // Each checkbox shows how many rows it would contribute under the other filters.
-  categories.forEach(c => c.n.textContent = `(${perCat[c.id]})`);
+  // Each checkbox shows how many brands carry that tag under the other filters.
+  tags.forEach(t => t.n.textContent = `(${perTag[t.id]})`);
   $("count").textContent = `Showing ${shown} of ${rows.length}`;
   $("empty").hidden = shown > 0;
 
@@ -285,7 +342,7 @@ function apply() {
   const set = (k, v) => v ? url.searchParams.set(k, v) : url.searchParams.delete(k);
   set("q", q);
   set("sale", saleOnly ? "1" : "");
-  set("hide", categories.filter(c => !c.input.checked).map(c => c.id).join(","));
+  set("hide", tags.filter(t => !t.input.checked).map(t => t.id).join(","));
   history.replaceState(null, "", url);
 }
 
@@ -296,6 +353,7 @@ function sortKey(key, value) {
     const i = STATUS_ORDER.indexOf(value);
     return i === -1 ? STATUS_ORDER.length : i;
   }
+  if (key === "tags") return norm(display(key, value));
   return norm(value ?? "");
 }
 
@@ -303,7 +361,7 @@ function buildTable() {
   const htr = $("t").tHead.rows[0];
   const tbody = $("t").tBodies[0];
   let current = { col: -1, dir: 1 };
-  columns.forEach((c, i) => {
+  COLUMNS.forEach((c, i) => {
     const th = document.createElement("th");
     th.textContent = c.label;
     th.addEventListener("click", () => {
@@ -325,9 +383,9 @@ function buildTable() {
   });
   for (const r of rows) {
     r.el = document.createElement("tr");
-    columns.forEach(c => r.el.appendChild(cell(c.key, r.data[c.key], c.label)));
+    COLUMNS.forEach(c => r.el.appendChild(cell(c.key, r.data[c.key], c.label)));
     tbody.appendChild(r.el);
-    const text = norm(columns.map(c => display(c.key, r.data[c.key])).join(" · "));
+    const text = norm(COLUMNS.map(c => display(c.key, r.data[c.key])).join(" · "));
     r.text = text;
     r.words = text.split(/[^a-z0-9%]+/).filter(Boolean);
   }
@@ -335,16 +393,16 @@ function buildTable() {
 
 function buildFilters(params) {
   const hidden = new Set((params.get("hide") || "").split(","));
-  for (const c of categories) {
+  for (const t of tags) {
     const label = document.createElement("label");
-    c.input = document.createElement("input");
-    c.input.type = "checkbox";
-    c.input.checked = !hidden.has(c.id);
-    c.input.addEventListener("change", apply);
-    c.n = document.createElement("span");
-    c.n.className = "n";
-    label.append(c.input, " " + c.title + " ", c.n);
-    $("cats").appendChild(label);
+    t.input = document.createElement("input");
+    t.input.type = "checkbox";
+    t.input.checked = !hidden.has(t.id);
+    t.input.addEventListener("change", apply);
+    t.n = document.createElement("span");
+    t.n.className = "n";
+    label.append(t.input, " " + t.label + " ", t.n);
+    $("tagFilters").appendChild(label);
   }
   $("saleOnly").checked = params.get("sale") === "1";
   $("saleOnly").addEventListener("change", apply);
@@ -360,52 +418,35 @@ function buildFilters(params) {
 
 // ---------- loading ----------
 
-async function getJSON(file) {
-  const r = await fetch(DATA_DIR + file, { cache: "no-cache" });
-  if (!r.ok) throw new Error(`${file}: HTTP ${r.status}`);
-  return r.json();
-}
-
 async function main() {
-  let manifest;
+  let data;
   try {
-    manifest = await getJSON("index.json");
+    const r = await fetch(DATA_URL, { cache: "no-cache" });
+    if (!r.ok) throw new Error("HTTP " + r.status);
+    data = await r.json();
   } catch (err) {
     $("title").textContent = "Couldn't load data";
     $("foot").textContent = err.message +
       ". If you opened this file directly, serve the folder with a local web server instead.";
     return;
   }
-  document.title = $("title").textContent = manifest.title;
+  document.title = $("title").textContent = data.title;
 
-  const results = await Promise.allSettled(manifest.tables.map(getJSON));
-  const errors = [];
-  // Combined columns: every key used by any table, in first-seen order, with a
-  // Category column after the name.
-  const seen = new Map([["name", "Name"], ["category", "Category"]]);
-  let checked = "";
-  results.forEach((res, i) => {
-    const file = manifest.tables[i];
-    if (res.status !== "fulfilled") { errors.push(res.reason.message); return; }
-    const t = res.value;
-    const id = file.replace(/\.json$/, "");
-    categories.push({ id, title: t.title });
-    if (t.checked > checked) checked = t.checked;
-    t.columns.forEach(c => { if (!seen.has(c.key)) seen.set(c.key, c.label); });
-    t.rows.forEach(d => rows.push({ data: { ...d, category: t.title }, category: id, idx: rows.length }));
+  tags.push(...data.tags.map(t => ({ ...t })));
+  data.brands.forEach((d, idx) => {
+    if (!d.tags?.length) d.tags = ["untagged"];
+    // Any tag id not defined at the top still gets a checkbox, labelled by its id.
+    d.tags.forEach(id => { if (!tags.some(t => t.id === id)) tags.push({ id, label: id }); });
+    rows.push({ data: d, idx });
   });
-  columns = [...seen].map(([key, label]) => ({ key, label }));
 
-  $("sub").textContent = (checked ? `Last checked ${fmtDate(checked, { month: "long", day: "numeric", year: "numeric" })}. ` : "") +
-    "Click a column to sort. Search tolerates typos.";
+  $("sub").textContent = data.checked
+    ? `Last checked ${fmtDate(data.checked, { month: "long", day: "numeric", year: "numeric" })}`
+    : "";
   buildTable();
   buildFilters(new URLSearchParams(location.search));
   apply();
 
-  const live = rows.filter(r => r.data.status === "live").length;
-  const onSale = rows.filter(r => ON_SALE.has(r.data.status)).length;
-  $("foot").textContent = `${rows.length} entries · ${live} Black Friday sales live · ${onSale} with some sale on` +
-    (errors.length ? ` · couldn't load: ${errors.join(", ")}` : "");
 }
 
 main();
