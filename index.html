@@ -181,7 +181,7 @@
   <div class="wrap">
     <div class="msort">
       <label for="sortSel">Sort by</label>
-      <select id="sortSel"><option value="-1">Default order</option></select>
+      <select id="sortSel"></select>
       <button id="sortDir" type="button" aria-label="Reverse sort order">↑</button>
     </div>
     <table id="t"><thead><tr></tr></thead><tbody></tbody></table>
@@ -412,6 +412,9 @@ function buildTable() {
     r.text = text;
     r.words = text.split(/[^a-z0-9%]+/).filter(Boolean);
   }
+
+  // Default: brands with active sales first (status order: live, other sale, ...).
+  sortBy(COLUMNS.findIndex(c => c.key === "status"), 1);
 }
 
 function buildFilters(params) {
