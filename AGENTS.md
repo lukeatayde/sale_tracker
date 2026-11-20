@@ -6,13 +6,17 @@ This repo is a static GitHub Pages site that tracks Black Friday sales at road c
 
 ## Daily update
 
+All dates ("today", `checked`, `detected`, the commit title) are in US Eastern time (`America/New_York`), not UTC. Get today's date with `TZ=America/New_York date +%F`.
+
 1. Open `data/brands.json`.
-2. For each brand, visit its `website` (the homepage, plus any sale or Black Friday page linked from it) and update:
+2. Skip brands whose `status` is already `live`: their sale is established, so don't recheck them or change their entry.
+3. For each other brand, visit its `website` (the homepage, plus any sale or Black Friday page linked from it) and update:
    - `status`: see the table below.
    - `notes`: one short, factual sentence about what's on the site. Include the discount, any code, and any end date shown, e.g. `Black Friday: 25% off sitewide plus free shipping` or `Up to 33% off selected styles until Nov 26`. If nothing changed since the last check, leave the notes as they are.
    - `detected`: if `status` is now `live` and `detected` is `null`, set it to today's date. **Never change `detected` once it's set**, even if the sale ends.
-3. Set the top-level `checked` to today's date (`YYYY-MM-DD`).
-4. Validate (see below), then commit and push.
+4. If you can't check a brand (the site is down, blocks you, or shows a bot check), leave its entry exactly as it is. Don't set it to `unknown` or rewrite its notes; list it in the commit message instead (see below). Never try to get past bot checks.
+5. Set the top-level `checked` to today's date (`YYYY-MM-DD`, Eastern time).
+6. Validate (see below), then commit and push.
 
 ### Status values
 
@@ -21,7 +25,7 @@ This repo is a static GitHub Pages site that tracks Black Friday sales at road c
 | `live` | A sale explicitly called Black Friday (or Black Week, BFCM, Cyber Week, etc.) is live |
 | `other_sale` | Some other sale is on (clearance, holiday, "annual sale", archive sale promoted on the homepage) |
 | `not_yet` | No sale on the site, or only a standing Sale section that isn't promoted |
-| `unknown` | You couldn't check: the site was down, blocked you, or showed a bot check. Say which in `notes`. Never try to get past bot checks. |
+| `unknown` | Not used by the daily update. A failed check leaves the entry unchanged and goes in the commit message instead. |
 | `closed` | The brand no longer operates |
 
 ## Brand fields
@@ -77,6 +81,9 @@ Update sale data for 2026-11-19
 
 New Black Friday sales: Rapha, Gobik
 Other changes: Sportful sale ended
+Couldn't check: POC (bot check), REI (site down)
 ```
+
+Leave out the `Couldn't check` line if every site loaded.
 
 Then push to `master`.
