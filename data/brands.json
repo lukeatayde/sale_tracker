@@ -1,7 +1,7 @@
 {
   "$schema": "./brands.schema.json",
   "title": "Black Friday 2026 Cycling Sales",
-  "checked": "2026-11-18",
+  "checked": "2026-11-20",
   "tags": [
     {
       "id": "apparel",
@@ -205,13 +205,13 @@
     {
       "name": "Sportful",
       "website": "https://sportful.com",
-      "status": "other_sale",
-      "detected": null,
+      "status": "live",
+      "detected": "2026-11-20",
       "tags": [
         "apparel"
       ],
       "type": "Performance",
-      "notes": "Up to 33% off selected styles until Nov 26",
+      "notes": "\"Prime Selection: Black Friday Edition\": up to 35% off selected styles until Nov 26",
       "country": "Italy"
     },
     {
@@ -223,7 +223,7 @@
         "apparel"
       ],
       "type": "Performance",
-      "notes": "US store: winter kit up to 20% off (15% over €200, 20% over €300)",
+      "notes": "US store: winter kit up to 20% off (15% over €200, 20% over €300), plus archive sale up to 40% off",
       "country": "Italy"
     },
     {
@@ -241,13 +241,13 @@
     {
       "name": "Voler",
       "website": "https://voler.com",
-      "status": "other_sale",
+      "status": "not_yet",
       "detected": null,
       "tags": [
         "apparel"
       ],
       "type": "Custom / team kit",
-      "notes": "\"Last call\" sale, 20% off",
+      "notes": "No sale on the homepage, only a gift guide and free holiday returns through Jan 31; has a standing outlet section",
       "country": "USA"
     },
     {
@@ -265,13 +265,13 @@
     {
       "name": "Black Sheep Cycling",
       "website": "https://blacksheep.cc",
-      "status": "other_sale",
-      "detected": null,
+      "status": "live",
+      "detected": "2026-11-20",
       "tags": [
         "apparel"
       ],
       "type": "Modern premium",
-      "notes": "Up to 60% off (not called Black Friday)",
+      "notes": "US store \"Black Friday Sale\": 30%, 45% and 60% off selected styles",
       "country": "Australia"
     },
     {
@@ -295,7 +295,7 @@
         "apparel"
       ],
       "type": "Value / mid-range",
-      "notes": "Full prices; usually runs a Black Friday week",
+      "notes": "Full prices; Black Friday teaser page promises up to 60% off but says the sale is not yet available",
       "country": "Spain"
     },
     {
@@ -325,14 +325,14 @@
     {
       "name": "POC",
       "website": "https://poc.com",
-      "status": "not_yet",
+      "status": "other_sale",
       "detected": null,
       "tags": [
         "apparel",
         "components"
       ],
       "type": "Modern premium; Helmets & eyewear",
-      "notes": "No discounts; extended holiday returns only",
+      "notes": "End of Year Sale: up to 45% off selected archive pieces",
       "country": "Sweden"
     },
     {
@@ -350,13 +350,13 @@
     {
       "name": "Nalini",
       "website": "https://nalini.com",
-      "status": "not_yet",
-      "detected": null,
+      "status": "live",
+      "detected": "2026-11-20",
       "tags": [
         "apparel"
       ],
       "type": "Performance",
-      "notes": "No Black Friday sale; has an archive sale section",
+      "notes": "\"Black Weeks\" sale, up to 50% off",
       "country": "Italy"
     },
     {
@@ -434,13 +434,13 @@
     {
       "name": "dhb",
       "website": "https://evanscycles.com",
-      "status": "unknown",
-      "detected": null,
+      "status": "live",
+      "detected": "2026-11-20",
       "tags": [
         "apparel"
       ],
       "type": "Value / mid-range",
-      "notes": "wiggle.com now redirects to Evans Cycles, which has early Black Friday deals up to 70%; not clear whether dhb is included",
+      "notes": "Evans Cycles' Black Friday clothing deals include dhb items, plus a £20 voucher on £100 spend until Dec 5",
       "country": "UK"
     },
     {
@@ -650,13 +650,13 @@
     {
       "name": "Scott",
       "website": "https://scott-sports.com",
-      "status": "not_yet",
-      "detected": null,
+      "status": "live",
+      "detected": "2026-11-20",
       "tags": [
         "road-bikes"
       ],
       "type": "Race, aero & endurance (Addict, Foil)",
-      "notes": "Only its regular Sale section; no Black Friday promo",
+      "notes": "Black Friday Sale: up to 50% off bike, winter, moto and more",
       "country": "Switzerland"
     },
     {
@@ -722,13 +722,13 @@
     {
       "name": "3T",
       "website": "https://3t.bike",
-      "status": "not_yet",
+      "status": "other_sale",
       "detected": null,
       "tags": [
         "road-bikes"
       ],
       "type": "Aero road & gravel",
-      "notes": "No sale; only 5% off for a newsletter signup",
+      "notes": "\"Archive\" sale linked in the main menu: up to 30% off bikes and framesets, 30% off merch, and a half-price extra wheelset with a Racemax WPNT; no end date shown",
       "country": "Italy"
     },
     {
@@ -902,13 +902,13 @@
     {
       "name": "Wahoo",
       "website": "https://wahoofitness.com",
-      "status": "other_sale",
-      "detected": null,
+      "status": "live",
+      "detected": "2026-11-20",
       "tags": [
         "components"
       ],
       "type": "Bike computers & smart trainers",
-      "notes": "Savings on reconditioned trainers only",
+      "notes": "Early Black Friday sale: up to 27% off KICKR CORE 2, the Zwift Ride and KICKR RUN; offers end Nov 30",
       "country": "USA"
     },
     {
@@ -1070,13 +1070,13 @@
     {
       "name": "Sidi",
       "website": "https://sidi.com",
-      "status": "not_yet",
-      "detected": null,
+      "status": "live",
+      "detected": "2026-11-20",
       "tags": [
         "components"
       ],
       "type": "Shoes",
-      "notes": "No visible sale, but a hidden Black Friday countdown is in the page, so one looks close",
+      "notes": "Black Friday deals on cycling and moto footwear, up to 40% off",
       "country": "Italy"
     },
     {
@@ -1274,13 +1274,13 @@
     {
       "name": "Bike24",
       "website": "https://bike24.com",
-      "status": "not_yet",
-      "detected": null,
+      "status": "live",
+      "detected": "2026-11-20",
       "tags": [
         "retailer"
       ],
       "type": "",
-      "notes": "Its Black Friday page says the sale runs Nov 20–30",
+      "notes": "Black Friday sale is on until Nov 30, 2026, with daily 24-hour deals; no discount or code shown",
       "country": "Germany"
     }
   ]
