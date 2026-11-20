@@ -217,13 +217,13 @@
     {
       "name": "Santini",
       "website": "https://santinicycling.com",
-      "status": "other_sale",
-      "detected": null,
+      "status": "live",
+      "detected": "2026-11-20",
       "tags": [
         "apparel"
       ],
       "type": "Performance",
-      "notes": "US store: winter kit up to 20% off (15% over €200, 20% over €300), plus archive sale up to 40% off",
+      "notes": "US store: Black Friday sale up to 40% off, plus archive deals",
       "country": "Italy"
     },
     {
@@ -313,13 +313,13 @@
     {
       "name": "Café du Cycliste",
       "website": "https://cafeducycliste.com",
-      "status": "not_yet",
+      "status": "other_sale",
       "detected": null,
       "tags": [
         "apparel"
       ],
       "type": "Modern premium",
-      "notes": "Gift guide on the homepage, no sale",
+      "notes": "No named sale, but most of the range shows 20-30% off with crossed-out prices, plus an Archive section",
       "country": "France"
     },
     {
@@ -542,25 +542,25 @@
     {
       "name": "Giant",
       "website": "https://giant-bicycles.com",
-      "status": "other_sale",
-      "detected": null,
+      "status": "live",
+      "detected": "2026-11-20",
       "tags": [
         "road-bikes"
       ],
       "type": "Race, aero & endurance (TCR, Propel, Defy)",
-      "notes": "Online clearance sale and \"Early Savings\" promos with 0% APR financing; not called Black Friday yet",
+      "notes": "Pre Black Friday Sale page (linked as \"Early Savings\"): bike deals such as TCR Advanced SL 0 $3,500 off, plus an online clearance sale",
       "country": "Taiwan"
     },
     {
       "name": "Liv",
       "website": "https://liv-cycling.com",
-      "status": "other_sale",
-      "detected": null,
+      "status": "live",
+      "detected": "2026-11-20",
       "tags": [
         "road-bikes"
       ],
       "type": "Women-specific road & endurance (Giant's women's brand)",
-      "notes": "Online-exclusive sales and \"Early Savings\" promos; not called Black Friday",
+      "notes": "Black Friday Sale page (linked as \"Early Savings\"): bike deals up to $1,900 off, plus online-exclusive sales",
       "country": "Taiwan"
     },
     {
@@ -638,13 +638,13 @@
     {
       "name": "BMC",
       "website": "https://bmc-switzerland.com",
-      "status": "not_yet",
+      "status": "other_sale",
       "detected": null,
       "tags": [
         "road-bikes"
       ],
       "type": "Swiss race & aero (Teammachine, Timemachine)",
-      "notes": "No sale on the homepage",
+      "notes": "US site homepage spotlights marked-down bikes (e.g. Speedmachine 01 ONE \"Save 2,500\", Teammachine SLR 01 SIX $5,799 from $7,299); no named sale",
       "country": "Switzerland"
     },
     {
@@ -722,13 +722,13 @@
     {
       "name": "3T",
       "website": "https://3t.bike",
-      "status": "other_sale",
-      "detected": null,
+      "status": "live",
+      "detected": "2026-11-20",
       "tags": [
         "road-bikes"
       ],
       "type": "Aero road & gravel",
-      "notes": "\"Archive\" sale linked in the main menu: up to 30% off bikes and framesets, 30% off merch, and a half-price extra wheelset with a Racemax WPNT; no end date shown",
+      "notes": "\"Archive\" menu link opens a Black Friday Bike Deals page: up to 30% off bikes and framesets, 30% off merch, and a half-price extra wheelset with a Racemax WPNT; no end date shown",
       "country": "Italy"
     },
     {
@@ -1100,7 +1100,7 @@
         "components"
       ],
       "type": "Saddles",
-      "notes": "No sale banner; a regular Promo section has some items 15% off",
+      "notes": "No sale banner; an unlinked Black Friday page (up to 40% off, through Nov 30) is up but prices aren't discounted yet",
       "country": "Italy"
     },
     {
@@ -1166,13 +1166,13 @@
     {
       "name": "Lezyne",
       "website": "https://lezyne.com",
-      "status": "not_yet",
-      "detected": null,
+      "status": "live",
+      "detected": "2026-11-20",
       "tags": [
         "components"
       ],
       "type": "Lights, pumps & accessories",
-      "notes": "No Black Friday promotion; has a regular outlet section",
+      "notes": "Black Friday / Cyber Monday sale: up to 25% off until Dec 1",
       "country": "USA"
     },
     {

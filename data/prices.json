@@ -1,7 +1,7 @@
 {
   "$schema": "./prices.schema.json",
   "currency": "USD",
-  "checked": null,
+  "checked": "2026-11-20",
   "categories": [
     {
       "id": "bib-shorts",
@@ -118,5 +118,3687 @@
       "description": "Cycling sunglasses with standard (non-prescription) lenses."
     }
   ],
-  "observations": []
+  "observations": [
+    {
+      "category": "bib-shorts",
+      "brand": "7mesh",
+      "product": "Men's MK3 Bib Short - Black",
+      "url": "https://www.7mesh.com/products/mens-mk3-bib-short-black",
+      "price": 115,
+      "full_price": 230,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "bib-shorts",
+      "brand": "7mesh",
+      "product": "Men's MK3 Cargo Bib Short - Black",
+      "url": "https://www.7mesh.com/products/mens-mk3-cargo-bib-short-black",
+      "price": 125,
+      "full_price": 250,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "bib-shorts",
+      "brand": "7mesh",
+      "product": "Men's RK2 Bib Short - Black",
+      "url": "https://www.7mesh.com/products/mens-rk2-bib-short-black",
+      "price": 125,
+      "full_price": 250,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "bib-shorts",
+      "brand": "Attaquer",
+      "product": "All Day Bib Short Black",
+      "url": "https://attaquercycling.com/products/all-day-bib-short-3-black",
+      "price": 320,
+      "full_price": 320,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "bib-shorts",
+      "brand": "Attaquer",
+      "product": "Race Bib Short Black",
+      "url": "https://attaquercycling.com/products/race-bib-short-3-black",
+      "price": 320,
+      "full_price": 320,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "bib-shorts",
+      "brand": "Attaquer",
+      "product": "ULTRA Aero Bib Short Black",
+      "url": "https://attaquercycling.com/products/ultra-aero-bib-short-black",
+      "price": 410,
+      "full_price": 410,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "bib-shorts",
+      "brand": "Black Sheep Cycling",
+      "product": "Men's Team Bib - Black",
+      "url": "https://us.blacksheep.cc/products/mens-team-bib-black",
+      "price": 84,
+      "full_price": 152,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "bib-shorts",
+      "brand": "Black Sheep Cycling",
+      "product": "Men's Enduro Bib - Black",
+      "url": "https://us.blacksheep.cc/products/mens-enduro-bib-black",
+      "price": 107,
+      "full_price": 152,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "bib-shorts",
+      "brand": "Black Sheep Cycling",
+      "product": "Men's Zer0 Bib Performance Black",
+      "url": "https://us.blacksheep.cc/products/mens-zer0-bib-and-brace-performance-black",
+      "price": 135,
+      "full_price": 193,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "bib-shorts",
+      "brand": "Café du Cycliste",
+      "product": "Marinette",
+      "url": "https://www.cafeducycliste.com/en-us/products/men-cycling-bibshort-marinette4-black",
+      "price": 248,
+      "full_price": 310,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "bib-shorts",
+      "brand": "Café du Cycliste",
+      "product": "Victoire",
+      "url": "https://www.cafeducycliste.com/en-us/products/men-cycling-bibshort-victoire-navy",
+      "price": 262.5,
+      "full_price": 375,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "bib-shorts",
+      "brand": "Café du Cycliste",
+      "product": "Adrienne",
+      "url": "https://www.cafeducycliste.com/en-us/products/men-cycling-bibshort-adrienne2-black",
+      "price": 272,
+      "full_price": 340,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "bib-shorts",
+      "brand": "Castelli",
+      "product": "COMPETIZIONE 2 BIBSHORT",
+      "url": "https://www.castelli-cycling.com/en-us/products/competizione-2-bibshort-4525004",
+      "price": 105,
+      "full_price": 150,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "bib-shorts",
+      "brand": "Castelli",
+      "product": "ENDURANCE 4 BIBSHORT",
+      "url": "https://www.castelli-cycling.com/en-us/products/endurance-4-bibshort-4526003",
+      "price": 175,
+      "full_price": 175,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "bib-shorts",
+      "brand": "Castelli",
+      "product": "PREMIO EVO BIBSHORT",
+      "url": "https://www.castelli-cycling.com/en-us/products/premio-evo-bibshort-4525000",
+      "price": 245,
+      "full_price": 350,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "bib-shorts",
+      "brand": "Giordana",
+      "product": "Men's Vero Forma Bib Short",
+      "url": "https://giordanacycling.com/products/mens-vero-forma-bib-short",
+      "price": 84,
+      "full_price": 140,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "bib-shorts",
+      "brand": "Giordana",
+      "product": "Men's FR-C Pro Cargo Bib Short",
+      "url": "https://giordanacycling.com/products/frc-cargo-mens-bib-short",
+      "price": 187.5,
+      "full_price": 250,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "bib-shorts",
+      "brand": "Giordana",
+      "product": "Men's NX-G Bib Short",
+      "url": "https://giordanacycling.com/products/s5-nx-g-bib-short-mens",
+      "price": 262.5,
+      "full_price": 350,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "bib-shorts",
+      "brand": "Le Col",
+      "product": "Hors Categorie Bib Shorts",
+      "url": "https://lecol.cc/en-us/products/hors-categorie-bib-shorts",
+      "price": 160,
+      "full_price": 320,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "bib-shorts",
+      "brand": "Ornot",
+      "product": "Men's Work Bib Short - Black",
+      "url": "https://www.ornotbike.com/products/mens-work-bib-short-black",
+      "price": 147,
+      "full_price": 184,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "bib-shorts",
+      "brand": "Ornot",
+      "product": "Men's Cargo Bib Short - Black",
+      "url": "https://www.ornotbike.com/products/cargo-bib-short-black",
+      "price": 182,
+      "full_price": 228,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "bib-shorts",
+      "brand": "Ornot",
+      "product": "Men's NOT Cargo Bib Short - Black",
+      "url": "https://www.ornotbike.com/products/mens-bib-short-no-pocket-black",
+      "price": 197,
+      "full_price": 208,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "bib-shorts",
+      "brand": "Pas Normal Studios",
+      "product": "Men's Essential Bibs",
+      "url": "https://pasnormalstudios.com/en-us/products/mens-essential-bibs-black-1",
+      "price": 255,
+      "full_price": 255,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "bib-shorts",
+      "brand": "Pas Normal Studios",
+      "product": "Men's Mechanism Bibs",
+      "url": "https://pasnormalstudios.com/en-us/products/mechanism-bibs-black",
+      "price": 300,
+      "full_price": 300,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "bib-shorts",
+      "brand": "Pas Normal Studios",
+      "product": "Men's Mechanism Pro Bibs",
+      "url": "https://pasnormalstudios.com/en-us/products/mens-mechanism-pro-bib-black",
+      "price": 350,
+      "full_price": 350,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "bib-shorts",
+      "brand": "Pearl iZUMi",
+      "product": "Men's Expedition Bib Shorts",
+      "url": "https://www.pearlizumi.com/products/mens-expedition-bib-shorts-11112502",
+      "price": 116.25,
+      "full_price": 155,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "bib-shorts",
+      "brand": "Pearl iZUMi",
+      "product": "Men's PI/Red Bib Shorts",
+      "url": "https://www.pearlizumi.com/products/mens-pi-red-bib-shorts-11112602",
+      "price": 126,
+      "full_price": 180,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "bib-shorts",
+      "brand": "Pearl iZUMi",
+      "product": "Men's Pi PRO/BLACK Bib Shorts",
+      "url": "https://www.pearlizumi.com/products/mens-pi-pro-black-bib-shorts-11112601",
+      "price": 245,
+      "full_price": 350,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "bib-shorts",
+      "brand": "Pedal Mafia",
+      "product": "Men's Core Bib - Black/White",
+      "url": "https://usa.pedalmafia.cc/products/mens-core-bib-black-white-26",
+      "price": 168,
+      "full_price": 168,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "bib-shorts",
+      "brand": "Pedal Mafia",
+      "product": "Men's Pro Delta Bibshort - Black",
+      "url": "https://usa.pedalmafia.cc/products/mens-pro-delta-bibshort-black",
+      "price": 248,
+      "full_price": 248,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "bib-shorts",
+      "brand": "Pedal Mafia",
+      "product": "Men's Pro Bib - Grey",
+      "url": "https://usa.pedalmafia.cc/products/mens-pro-bib-grey",
+      "price": 278,
+      "full_price": 278,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "bib-shorts",
+      "brand": "Rapha",
+      "product": "Men's Core Bib Shorts",
+      "url": "https://www.rapha.cc/us/en/product/mens-core-bib-shorts/DAA01XXDNW",
+      "price": 160,
+      "full_price": 160,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "bib-shorts",
+      "brand": "Rapha",
+      "product": "Men's Pro Team Bib Shorts III - Regular",
+      "url": "https://www.rapha.cc/us/en/product/mens-pro-team-bib-shorts-iii---regular/BEP02XXDAL",
+      "price": 350,
+      "full_price": 350,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "bib-shorts",
+      "brand": "Rapha",
+      "product": "Men's Classic Bib Shorts",
+      "url": "https://www.rapha.cc/us/en/product/mens-classic-bib-shorts/CVB01XXBBK",
+      "price": 430,
+      "full_price": 430,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "bib-shorts",
+      "brand": "Specialized",
+      "product": "Men's Specialized Foundation Bib Shorts",
+      "url": "https://www.specialized.com/us/en/mens-specialized-foundation-bib-shorts/p/1000267707",
+      "price": 129.99,
+      "full_price": 129.99,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "bib-shorts",
+      "brand": "Specialized",
+      "product": "Men's Prime Bib Shorts",
+      "url": "https://www.specialized.com/us/en/mens-prime-bib-shorts/p/1000097990",
+      "price": 249.99,
+      "full_price": 249.99,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "bib-shorts",
+      "brand": "Universal Colours",
+      "product": "Men's Mono Bib Shorts 2.0 - Black",
+      "url": "https://www.universalcolours.com/en-us/products/mono-bib-short-2-black",
+      "price": 135,
+      "full_price": 180,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "bib-shorts",
+      "brand": "Universal Colours",
+      "product": "Men’s Chroma Bib Shorts - Black",
+      "url": "https://www.universalcolours.com/en-us/products/chroma-bib-short-black",
+      "price": 220,
+      "full_price": 310,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "bib-shorts",
+      "brand": "Universal Colours",
+      "product": "Men's Chroma Cargo Bib Shorts - Black",
+      "url": "https://www.universalcolours.com/en-us/products/mens-chroma-cargo-bib-short-black",
+      "price": 340,
+      "full_price": 340,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "bib-shorts",
+      "brand": "Voler",
+      "product": "M. PELOTON BIB SHORT - BLACK - ELAN",
+      "url": "https://store.voler.com/products/1111002",
+      "price": 95,
+      "full_price": 95,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "bib-shorts",
+      "brand": "Voler",
+      "product": "M. BLACK LABEL BIB - BLACK",
+      "url": "https://store.voler.com/products/1110987",
+      "price": 179,
+      "full_price": 179,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "bib-shorts",
+      "brand": "Voler",
+      "product": "M. SUPER BIB - BLACK",
+      "url": "https://store.voler.com/products/1110917",
+      "price": 219,
+      "full_price": 219,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "ss-jerseys",
+      "brand": "7mesh",
+      "product": "Men's Atlas Short Sleeve Jersey - Black",
+      "url": "https://www.7mesh.com/products/mens-atlas-jersey-short-sleeve-black",
+      "price": 128,
+      "full_price": 160,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "ss-jerseys",
+      "brand": "7mesh",
+      "product": "Men's Pace Short Sleeve Jersey - Black",
+      "url": "https://www.7mesh.com/products/mens-pace-jersey-short-sleeve-black",
+      "price": 136,
+      "full_price": 170,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "ss-jerseys",
+      "brand": "7mesh",
+      "product": "Men's Ashlu Merino Short Sleeve Jersey - Black",
+      "url": "https://www.7mesh.com/products/mens-ashlu-merino-jersey-short-sleeve-black",
+      "price": 152,
+      "full_price": 190,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "ss-jerseys",
+      "brand": "Attaquer",
+      "product": "All Day Jersey Black",
+      "url": "https://attaquercycling.com/products/all-day-jersey-3-black",
+      "price": 195,
+      "full_price": 195,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "ss-jerseys",
+      "brand": "Attaquer",
+      "product": "OrbKnit™ Race Jersey Black",
+      "url": "https://attaquercycling.com/products/race-jersey-seamless-black",
+      "price": 215,
+      "full_price": 215,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "ss-jerseys",
+      "brand": "Attaquer",
+      "product": "ULTRA Aero Jersey Black",
+      "url": "https://attaquercycling.com/products/ultra26-aero-ss-jersey-black",
+      "price": 250,
+      "full_price": 250,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "ss-jerseys",
+      "brand": "Black Sheep Cycling",
+      "product": "Men's Team SS Jersey - State of Blue",
+      "url": "https://us.blacksheep.cc/products/mens-team-ss-jersey-state-of-blue",
+      "price": 55,
+      "full_price": 136,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "ss-jerseys",
+      "brand": "Black Sheep Cycling",
+      "product": "Men's AeroWeave SS Jersey Classic Black",
+      "url": "https://us.blacksheep.cc/products/mens-aeroweave-ss-jersey-classic-black",
+      "price": 112,
+      "full_price": 159,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "ss-jerseys",
+      "brand": "Café du Cycliste",
+      "product": "Barbara",
+      "url": "https://www.cafeducycliste.com/en-us/products/men-cycling-jersey-barbara2-golden-olive",
+      "price": 105,
+      "full_price": 105,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "ss-jerseys",
+      "brand": "Café du Cycliste",
+      "product": "Fleurette",
+      "url": "https://www.cafeducycliste.com/en-us/products/men-cycling-jersey-fleurette2-navy",
+      "price": 133,
+      "full_price": 190,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "ss-jerseys",
+      "brand": "Café du Cycliste",
+      "product": "Laurette",
+      "url": "https://www.cafeducycliste.com/en-us/products/men-cycling-jersey-laurette-anthracite",
+      "price": 140,
+      "full_price": 200,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "ss-jerseys",
+      "brand": "Castelli",
+      "product": "QUADRO JERSEY",
+      "url": "https://www.castelli-cycling.com/en-us/products/quadro-jersey-4526119",
+      "price": 91,
+      "full_price": 130,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "ss-jerseys",
+      "brand": "Castelli",
+      "product": "ESPRESSO 2 JERSEY",
+      "url": "https://www.castelli-cycling.com/en-us/products/espresso-2-jersey-4526011",
+      "price": 112,
+      "full_price": 160,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "ss-jerseys",
+      "brand": "Castelli",
+      "product": "AERO RACE 8S JERSEY",
+      "url": "https://www.castelli-cycling.com/en-us/products/aero-race-8s-jersey-4526008",
+      "price": 154,
+      "full_price": 220,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "ss-jerseys",
+      "brand": "Giordana",
+      "product": "Men's Fusion Jersey",
+      "url": "https://giordanacycling.com/products/fusion-mens-short-sleeve-cycling-jersey",
+      "price": 66.5,
+      "full_price": 95,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "ss-jerseys",
+      "brand": "Giordana",
+      "product": "Men's Moda FR-C Pro Jersey",
+      "url": "https://giordanacycling.com/products/mens-moda-fr-c-pro-jersey",
+      "price": 130,
+      "full_price": 200,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "ss-jerseys",
+      "brand": "Le Col",
+      "product": "Pro Aero Jersey",
+      "url": "https://lecol.cc/en-us/products/pro-aero-jersey-1",
+      "price": 215,
+      "full_price": 215,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "ss-jerseys",
+      "brand": "Ornot",
+      "product": "Men's House Jersey - Olive",
+      "url": "https://www.ornotbike.com/products/mens-house-jersey-olive",
+      "price": 105,
+      "full_price": 155,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "ss-jerseys",
+      "brand": "Ornot",
+      "product": "Men's Micro Grid Jersey - Black",
+      "url": "https://www.ornotbike.com/products/mens-micro-grid-jersey-black",
+      "price": 132,
+      "full_price": 165,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "ss-jerseys",
+      "brand": "Ornot",
+      "product": "Men's Park Jersey - Pinnacle",
+      "url": "https://www.ornotbike.com/products/mens-park-jersey-pinnacle",
+      "price": 149,
+      "full_price": 187,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "ss-jerseys",
+      "brand": "Pas Normal Studios",
+      "product": "Men's Mechanism Jersey",
+      "url": "https://pasnormalstudios.com/en-us/products/men-mechanism-jersey-black",
+      "price": 215,
+      "full_price": 215,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "ss-jerseys",
+      "brand": "Pas Normal Studios",
+      "product": "Men's Escapism Jersey",
+      "url": "https://pasnormalstudios.com/en-us/products/mens-escapism-jersey-dark-olive",
+      "price": 235,
+      "full_price": 235,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "ss-jerseys",
+      "brand": "Pas Normal Studios",
+      "product": "Men's Mechanism Pro Jersey",
+      "url": "https://pasnormalstudios.com/en-us/products/mens-mechanism-pro-jersey-black",
+      "price": 255,
+      "full_price": 255,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "ss-jerseys",
+      "brand": "Pearl iZUMi",
+      "product": "Men's Classic Jersey",
+      "url": "https://www.pearlizumi.com/products/mens-classic-jersey-11122504",
+      "price": 67.5,
+      "full_price": 90,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "ss-jerseys",
+      "brand": "Pearl iZUMi",
+      "product": "Men's PI/Red Jersey",
+      "url": "https://www.pearlizumi.com/products/mens-pi-red-jersey-11122602",
+      "price": 120,
+      "full_price": 160,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "ss-jerseys",
+      "brand": "Pearl iZUMi",
+      "product": "Men's Pi PRO/BLACK Jersey",
+      "url": "https://www.pearlizumi.com/products/mens-pi-pro-black-jersey-11122601",
+      "price": 168.75,
+      "full_price": 225,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "ss-jerseys",
+      "brand": "Pedal Mafia",
+      "product": "Men's Core Jersey - Iron",
+      "url": "https://usa.pedalmafia.cc/products/mens-core-jersey-iron-26",
+      "price": 118,
+      "full_price": 118,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "ss-jerseys",
+      "brand": "Pedal Mafia",
+      "product": "Men's Pro Jersey - Grey",
+      "url": "https://usa.pedalmafia.cc/products/mens-pro-jersey-grey",
+      "price": 198,
+      "full_price": 198,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "ss-jerseys",
+      "brand": "Pedal Mafia",
+      "product": "Men's Pro HyperAir Jersey - Grey",
+      "url": "https://usa.pedalmafia.cc/products/mens-pro-hyperair-jersey-grey",
+      "price": 218,
+      "full_price": 218,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "ss-jerseys",
+      "brand": "Primal",
+      "product": "Alitios Men's Navy Etheros SR Jersey",
+      "url": "https://primalwear.com/products/alitios-mens-navy-etheros-sr-jersey",
+      "price": 150,
+      "full_price": 150,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "ss-jerseys",
+      "brand": "Rapha",
+      "product": "Men's Core Jersey",
+      "url": "https://www.rapha.cc/us/en/product/mens-core-jersey/COR05XXORW",
+      "price": 110,
+      "full_price": 110,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "ss-jerseys",
+      "brand": "Rapha",
+      "product": "Men's Classic Jersey",
+      "url": "https://www.rapha.cc/us/en/product/mens-classic-jersey/CLJ13XXBLW",
+      "price": 200,
+      "full_price": 200,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "ss-jerseys",
+      "brand": "Rapha",
+      "product": "Men's Pro Team Jersey II",
+      "url": "https://www.rapha.cc/us/en/product/mens-pro-team-jersey-ii/CUM01XXBLY",
+      "price": 210,
+      "full_price": 210,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "ss-jerseys",
+      "brand": "Specialized",
+      "product": "Men's Specialized Foundation Short Sleeve Jersey",
+      "url": "https://www.specialized.com/us/en/mens-specialized-foundation-short-sleeve-jersey/p/1000097755",
+      "price": 89.99,
+      "full_price": 89.99,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "ss-jerseys",
+      "brand": "Specialized",
+      "product": "Men's Prime Short Sleeve Jersey",
+      "url": "https://www.specialized.com/us/en/mens-prime-short-sleeve-jersey/p/1000098015",
+      "price": 199.99,
+      "full_price": 199.99,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "ss-jerseys",
+      "brand": "Universal Colours",
+      "product": "Men's Mono Short Sleeve Jersey - Black",
+      "url": "https://www.universalcolours.com/en-us/products/mono-short-sleeve-jersey-black",
+      "price": 115,
+      "full_price": 150,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "ss-jerseys",
+      "brand": "Universal Colours",
+      "product": "Men's Chroma Short Sleeve Jersey - Black",
+      "url": "https://www.universalcolours.com/en-us/products/mens-chroma-short-sleeve-jersey-black",
+      "price": 155,
+      "full_price": 220,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "ss-jerseys",
+      "brand": "Voler",
+      "product": "M. CLASSIC JERSEY - FLUORESCENT",
+      "url": "https://store.voler.com/products/1t1028t",
+      "price": 85,
+      "full_price": 85,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "ss-jerseys",
+      "brand": "Voler",
+      "product": "M. VELOCITY AIR JERSEY - FLUORESCENT",
+      "url": "https://store.voler.com/products/1t1028q",
+      "price": 115,
+      "full_price": 115,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "ss-jerseys",
+      "brand": "Voler",
+      "product": "M. LIGHTWEIGHT MERINO JERSEY - BLACK",
+      "url": "https://store.voler.com/products/1010n58",
+      "price": 139,
+      "full_price": 139,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "ls-jerseys",
+      "brand": "7mesh",
+      "product": "Men's Atlas Long Sleeve Jersey - Black",
+      "url": "https://www.7mesh.com/products/mens-atlas-jersey-long-sleeve-black",
+      "price": 152,
+      "full_price": 190,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "ls-jerseys",
+      "brand": "7mesh",
+      "product": "Men's Ashlu Merino Long Sleeve Jersey - Black",
+      "url": "https://www.7mesh.com/products/mens-ashlu-merino-jersey-long-sleeve-black",
+      "price": 160,
+      "full_price": 200,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "ls-jerseys",
+      "brand": "7mesh",
+      "product": "Men's Seton Long Sleeve Jersey - Black",
+      "url": "https://www.7mesh.com/products/mens-seton-jersey-long-sleeve-black",
+      "price": 176,
+      "full_price": 220,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "ls-jerseys",
+      "brand": "Attaquer",
+      "product": "All Day Lightweight Long Sleeved Jersey Black",
+      "url": "https://attaquercycling.com/products/all-day-sls-jersey-3-black",
+      "price": 230,
+      "full_price": 230,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "ls-jerseys",
+      "brand": "Attaquer",
+      "product": "All Day Winter Long Sleeved Jersey Black",
+      "url": "https://attaquercycling.com/products/all-day-winter-ls-jersey-3-black",
+      "price": 250,
+      "full_price": 250,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "ls-jerseys",
+      "brand": "Attaquer",
+      "product": "ULTRA Aero Long Sleeve Jersey Black",
+      "url": "https://attaquercycling.com/products/ultra26-aero-ls-jersey-black",
+      "price": 265,
+      "full_price": 265,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "ls-jerseys",
+      "brand": "Black Sheep Cycling",
+      "product": "Men's Team LS Jersey - BLACK",
+      "url": "https://us.blacksheep.cc/products/mens-team-ls-jersey-black",
+      "price": 55,
+      "full_price": 136,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "ls-jerseys",
+      "brand": "Black Sheep Cycling",
+      "product": "Men's ThermoDream Jersey - Black",
+      "url": "https://us.blacksheep.cc/products/mens-thermodream-jersey-black",
+      "price": 69,
+      "full_price": 173,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "ls-jerseys",
+      "brand": "Black Sheep Cycling",
+      "product": "Men's AeroWeave LS Jersey - Classic Black",
+      "url": "https://us.blacksheep.cc/products/mens-aeroweave-ls-jersey-classic-black",
+      "price": 116,
+      "full_price": 166,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "ls-jerseys",
+      "brand": "Café du Cycliste",
+      "product": "Faustine",
+      "url": "https://www.cafeducycliste.com/en-us/products/men-cycling-jersey-faustine-forest-black",
+      "price": 168,
+      "full_price": 240,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "ls-jerseys",
+      "brand": "Café du Cycliste",
+      "product": "Corinne",
+      "url": "https://www.cafeducycliste.com/en-us/products/men-cycling-jersey-corinne2-black",
+      "price": 171.5,
+      "full_price": 245,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "ls-jerseys",
+      "brand": "Café du Cycliste",
+      "product": "Constance The Grip",
+      "url": "https://www.cafeducycliste.com/en-us/products/men-cycling-jersey-constance-the-grip",
+      "price": 182,
+      "full_price": 260,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "ls-jerseys",
+      "brand": "Castelli",
+      "product": "ENTRATA THERMAL JERSEY",
+      "url": "https://www.castelli-cycling.com/en-us/products/entrata-thermal-jersey-4523512",
+      "price": 130,
+      "full_price": 130,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "ls-jerseys",
+      "brand": "Castelli",
+      "product": "CLASSIFICA THERMAL JERSEY",
+      "url": "https://www.castelli-cycling.com/en-us/products/classifica-thermal-jersey-4526591",
+      "price": 150,
+      "full_price": 150,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "ls-jerseys",
+      "brand": "Castelli",
+      "product": "ESPRESSO THERMAL 2 JERSEY",
+      "url": "https://www.castelli-cycling.com/en-us/products/espresso-thermal-2-jersey-4526510",
+      "price": 190,
+      "full_price": 190,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "ls-jerseys",
+      "brand": "Giordana",
+      "product": "Men's FR-C Thermal Long Sleeve Jersey",
+      "url": "https://giordanacycling.com/products/w5-mens-fr-c-pro-long-sleeve-jersey",
+      "price": 180,
+      "full_price": 240,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "ls-jerseys",
+      "brand": "Le Col",
+      "product": "Pro Long Sleeve Jersey Thermology",
+      "url": "https://lecol.cc/en-us/products/pro-long-sleeve-jersey-thermology",
+      "price": 165,
+      "full_price": 235,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "ls-jerseys",
+      "brand": "Le Col",
+      "product": "Hors Categorie Long Sleeve Jersey",
+      "url": "https://lecol.cc/en-us/products/hors-categorie-long-sleeve-jersey-1",
+      "price": 245,
+      "full_price": 245,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "ls-jerseys",
+      "brand": "Ornot",
+      "product": "Men's LS House Jersey - Fog",
+      "url": "https://www.ornotbike.com/products/mens-ls-house-jersey-fog",
+      "price": 132,
+      "full_price": 165,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "ls-jerseys",
+      "brand": "Ornot",
+      "product": "Men's Merino Grid Thermal Jersey - Charcoal",
+      "url": "https://www.ornotbike.com/products/mens-merino-grid-thermal-jersey-charcoal",
+      "price": 156,
+      "full_price": 195,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "ls-jerseys",
+      "brand": "Ornot",
+      "product": "Men's Frost Thermal Jersey - Mosswood",
+      "url": "https://www.ornotbike.com/products/mens-frost-thermal-jersey-mosswood",
+      "price": 164,
+      "full_price": 205,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "ls-jerseys",
+      "brand": "Pas Normal Studios",
+      "product": "Men's Essential Long Sleeve Jersey",
+      "url": "https://pasnormalstudios.com/en-us/products/mens-essential-long-sleeve-jersey-navy",
+      "price": 250,
+      "full_price": 250,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "ls-jerseys",
+      "brand": "Pas Normal Studios",
+      "product": "Men's Mechanism Pro Long Sleeve Jersey",
+      "url": "https://pasnormalstudios.com/en-us/products/mens-mechanism-pro-long-sleeve-jersey-black-1",
+      "price": 290,
+      "full_price": 290,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "ls-jerseys",
+      "brand": "Pas Normal Studios",
+      "product": "Men's Mechanism Thermal Long Sleeve Jersey 2.0",
+      "url": "https://pasnormalstudios.com/en-us/products/mens-mechanism-thermal-long-sleeve-jersey-2-0-black",
+      "price": 330,
+      "full_price": 330,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "ls-jerseys",
+      "brand": "Pearl iZUMi",
+      "product": "Men's Quest Thermal Jersey",
+      "url": "https://www.pearlizumi.com/products/mens-quest-thermal-jersey-11122605",
+      "price": 75,
+      "full_price": 100,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "ls-jerseys",
+      "brand": "Pearl iZUMi",
+      "product": "Men's Attack Long Sleeve Jersey",
+      "url": "https://www.pearlizumi.com/products/mens-attack-long-sleeve-jersey-11122403",
+      "price": 75,
+      "full_price": 100,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "ls-jerseys",
+      "brand": "Pearl iZUMi",
+      "product": "Men's PRO Thermal Jersey",
+      "url": "https://www.pearlizumi.com/products/mens-pro-thermal-jersey-11132405",
+      "price": 180,
+      "full_price": 240,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "ls-jerseys",
+      "brand": "Pedal Mafia",
+      "product": "Men's Core Long Sleeve Jersey - Night Navy",
+      "url": "https://usa.pedalmafia.cc/products/mens-core-long-sleeve-jersey-night-navy-26",
+      "price": 128,
+      "full_price": 128,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "ls-jerseys",
+      "brand": "Pedal Mafia",
+      "product": "Men's Pro Midweight Thermal Jersey - Black",
+      "url": "https://usa.pedalmafia.cc/products/mens-pro-mid-weight-jersey-black",
+      "price": 188,
+      "full_price": 188,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "ls-jerseys",
+      "brand": "Pedal Mafia",
+      "product": "Men's Pro Long Sleeve Jersey - Grey",
+      "url": "https://usa.pedalmafia.cc/products/mens-pro-long-sleeve-jersey-grey",
+      "price": 208,
+      "full_price": 208,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "ls-jerseys",
+      "brand": "Rapha",
+      "product": "Men's Core Thermal Long Sleeve Jersey",
+      "url": "https://www.rapha.cc/us/en/product/mens-core-long-sleeve-thermal-jersey/BNE01XXHAW",
+      "price": 130,
+      "full_price": 130,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "ls-jerseys",
+      "brand": "Rapha",
+      "product": "Men's Classic Long Sleeve Jersey",
+      "url": "https://www.rapha.cc/us/en/product/mens-classic-long-sleeve-jersey/CLL05XXDWA",
+      "price": 220,
+      "full_price": 220,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "ls-jerseys",
+      "brand": "Rapha",
+      "product": "Men's Pro Team Long Sleeve Midweight Jersey II",
+      "url": "https://www.rapha.cc/us/en/product/mens-pro-team-long-sleeve-midweight-jersey-ii/BMY02XXSHW",
+      "price": 260,
+      "full_price": 260,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "ls-jerseys",
+      "brand": "Universal Colours",
+      "product": "Men's Mono Long Sleeve Jersey - Black",
+      "url": "https://www.universalcolours.com/en-us/products/mono-mens-long-sleeve-jersey-black",
+      "price": 130,
+      "full_price": 185,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "ls-jerseys",
+      "brand": "Voler",
+      "product": "M. JET THERMAL LS JERSEY - THERMOFLEX - WHITE",
+      "url": "https://store.voler.com/products/1010p55",
+      "price": 62,
+      "full_price": 62,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "ls-jerseys",
+      "brand": "Voler",
+      "product": "M. PRO THERMAL JERSEY - SOLID",
+      "url": "https://store.voler.com/products/1t1028y",
+      "price": 129,
+      "full_price": 129,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "ls-jerseys",
+      "brand": "Voler",
+      "product": "M. MIDWEIGHT MERINO LS JERSEY - INDIGO",
+      "url": "https://store.voler.com/products/1010m03",
+      "price": 149,
+      "full_price": 149,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "jackets",
+      "brand": "7mesh",
+      "product": "Men's Mission Jacket - Black",
+      "url": "https://www.7mesh.com/products/mens-mission-jacket-black",
+      "price": 280,
+      "full_price": 350,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "jackets",
+      "brand": "7mesh",
+      "product": "Men's Guardian Apex Jacket - Black",
+      "url": "https://www.7mesh.com/products/mens-guardian-apex-jacket-black",
+      "price": 480,
+      "full_price": 600,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "jackets",
+      "brand": "Attaquer",
+      "product": "Race Rain Jacket Black",
+      "url": "https://attaquercycling.com/products/race-3-0-rain-jacket-black",
+      "price": 225,
+      "full_price": 330,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "jackets",
+      "brand": "Attaquer",
+      "product": "All Day Insulated Jacket Black",
+      "url": "https://attaquercycling.com/products/all-day-quilted-26-jacket-black",
+      "price": 320,
+      "full_price": 320,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "jackets",
+      "brand": "Black Sheep Cycling",
+      "product": "Protect Jacket",
+      "url": "https://us.blacksheep.cc/products/protect-jacket-black",
+      "price": 64,
+      "full_price": 159,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "jackets",
+      "brand": "Black Sheep Cycling",
+      "product": "Men's ActiveDown Jacket - Black",
+      "url": "https://us.blacksheep.cc/products/mens-activedown-jacket-black",
+      "price": 72,
+      "full_price": 179,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "jackets",
+      "brand": "Café du Cycliste",
+      "product": "Manon",
+      "url": "https://www.cafeducycliste.com/en-us/products/men-cycling-jacket-manon-oyster-grey",
+      "price": 255.5,
+      "full_price": 365,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "jackets",
+      "brand": "Café du Cycliste",
+      "product": "Lise",
+      "url": "https://www.cafeducycliste.com/en-us/products/men-cycling-jacket-lise-black",
+      "price": 262.5,
+      "full_price": 375,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "jackets",
+      "brand": "Café du Cycliste",
+      "product": "Albertine",
+      "url": "https://www.cafeducycliste.com/en-us/products/men-cycling-jacket-albertine2-khaki",
+      "price": 269.5,
+      "full_price": 385,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "jackets",
+      "brand": "Castelli",
+      "product": "ENTRATA 2 JACKET",
+      "url": "https://www.castelli-cycling.com/en-us/products/entrata-2-jacket-4525507",
+      "price": 138,
+      "full_price": 230,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "jackets",
+      "brand": "Castelli",
+      "product": "PERFETTO 4 JACKET",
+      "url": "https://www.castelli-cycling.com/en-us/products/perfetto-4-jacket-4526500",
+      "price": 330,
+      "full_price": 330,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "jackets",
+      "brand": "Castelli",
+      "product": "ALPHA 150 JACKET",
+      "url": "https://www.castelli-cycling.com/en-us/products/alpha-150-jacket-4525502",
+      "price": 420,
+      "full_price": 420,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "jackets",
+      "brand": "Giordana",
+      "product": "Men's SilverLine Winter Jacket",
+      "url": "https://giordanacycling.com/products/w5-mens-silverline-winter-jacket",
+      "price": 206.25,
+      "full_price": 275,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "jackets",
+      "brand": "Giordana",
+      "product": "Men's AV Extreme Jacket",
+      "url": "https://giordanacycling.com/products/w5-mens-av-extreme-jacket",
+      "price": 296.25,
+      "full_price": 395,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "jackets",
+      "brand": "Le Col",
+      "product": "Pro Jacket",
+      "url": "https://lecol.cc/en-us/products/pro-jacket-1",
+      "price": 235,
+      "full_price": 385,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "jackets",
+      "brand": "Le Col",
+      "product": "Unisex ARC Insulated Jacket",
+      "url": "https://lecol.cc/en-us/products/unisex-arc-insulated-jacket",
+      "price": 270,
+      "full_price": 335,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "jackets",
+      "brand": "Ornot",
+      "product": "Men's Micro Climate Jacket - Obsidian",
+      "url": "https://www.ornotbike.com/products/mens-micro-climate-jacket-obsidian",
+      "price": 198,
+      "full_price": 248,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "jackets",
+      "brand": "Ornot",
+      "product": "Men's Fog Eater Hooded Rain Jacket - Stone Green",
+      "url": "https://www.ornotbike.com/products/mens-fog-eater-hooded-rain-jacket-stone-green",
+      "price": 260,
+      "full_price": 325,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "jackets",
+      "brand": "Pas Normal Studios",
+      "product": "Men's Essential Insulated Jacket",
+      "url": "https://pasnormalstudios.com/en-us/products/mens-essential-insulated-jacket-black",
+      "price": 280,
+      "full_price": 280,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "jackets",
+      "brand": "Pas Normal Studios",
+      "product": "Men's Mechanism Rain Jacket",
+      "url": "https://pasnormalstudios.com/en-us/products/men-mechanism-rain-jacket-black",
+      "price": 330,
+      "full_price": 330,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "jackets",
+      "brand": "Pas Normal Studios",
+      "product": "Men's Mechanism Thermal Jacket",
+      "url": "https://pasnormalstudios.com/en-us/products/mens-mechanism-thermal-jacket-black",
+      "price": 520,
+      "full_price": 520,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "jackets",
+      "brand": "Pearl iZUMi",
+      "product": "Men's Attack Winter Jacket",
+      "url": "https://www.pearlizumi.com/products/mens-attack-winter-jacket-11132408",
+      "price": 81,
+      "full_price": 180,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "jackets",
+      "brand": "Pearl iZUMi",
+      "product": "Men's PRO Winter Jacket",
+      "url": "https://www.pearlizumi.com/products/mens-pro-winter-jacket-11132401",
+      "price": 217.5,
+      "full_price": 290,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "jackets",
+      "brand": "Pearl iZUMi",
+      "product": "Men's PRO Rain Jacket",
+      "url": "https://www.pearlizumi.com/products/mens-pro-rain-jacket-11132402",
+      "price": 247.5,
+      "full_price": 330,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "jackets",
+      "brand": "Pedal Mafia",
+      "product": "Men's Core Thermal Jacket - Baby Blue",
+      "url": "https://usa.pedalmafia.cc/products/mens-core-thermal-jersey-baby-blue",
+      "price": 158,
+      "full_price": 158,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "jackets",
+      "brand": "Pedal Mafia",
+      "product": "Men's Pro Sub 0 Thermal Jacket - Black",
+      "url": "https://usa.pedalmafia.cc/products/mens-pro-sub-0-thermal-jacket-black",
+      "price": 200,
+      "full_price": 200,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "jackets",
+      "brand": "Pedal Mafia",
+      "product": "Men's Pro Sympatex Heavy Rain Jacket - Black",
+      "url": "https://usa.pedalmafia.cc/products/mens-pro-symapatex-heavy-rain-jacket-black",
+      "price": 320,
+      "full_price": 320,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "jackets",
+      "brand": "Rapha",
+      "product": "Men's Core Winter Jacket",
+      "url": "https://www.rapha.cc/us/en/product/mens-core-winter-jacket/CWK04XXDBH",
+      "price": 200,
+      "full_price": 200,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "jackets",
+      "brand": "Rapha",
+      "product": "Men's Pro Team Insulated GORE-TEX Rain Jacket",
+      "url": "https://www.rapha.cc/us/en/product/mens-pro-team-insulated-gore-tex-rain-jacket/AHF01XXDNW",
+      "price": 420,
+      "full_price": 420,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "jackets",
+      "brand": "Specialized",
+      "product": "Men's SL Rain Jacket",
+      "url": "https://www.specialized.com/us/en/mens-sl-rain-jacket/p/200456",
+      "price": 104.99,
+      "full_price": 349.99,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "jackets",
+      "brand": "Specialized",
+      "product": "Men's Race-Series Rain Jacket",
+      "url": "https://www.specialized.com/us/en/mens-race-series-rain-jacket/p/187977",
+      "price": 104.99,
+      "full_price": 349.99,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "jackets",
+      "brand": "Voler",
+      "product": "M. THERMAL JACKET - STORM BLUE",
+      "url": "https://store.voler.com/products/1010p12",
+      "price": 149,
+      "full_price": 149,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "gilets",
+      "brand": "7mesh",
+      "product": "Men's Chilco Vest - Black",
+      "url": "https://www.7mesh.com/products/mens-chilco-vest-black",
+      "price": 144,
+      "full_price": 180,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "gilets",
+      "brand": "7mesh",
+      "product": "Men's Seton Vest - Black",
+      "url": "https://www.7mesh.com/products/mens-seton-vest-black",
+      "price": 144,
+      "full_price": 180,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "gilets",
+      "brand": "Attaquer",
+      "product": "Intra Stow Gilet Black",
+      "url": "https://attaquercycling.com/products/intra-stow-gilet-black",
+      "price": 100,
+      "full_price": 145,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "gilets",
+      "brand": "Attaquer",
+      "product": "Race Rain Gilet Black",
+      "url": "https://attaquercycling.com/products/race-3-0-rain-gilet-black",
+      "price": 150,
+      "full_price": 225,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "gilets",
+      "brand": "Attaquer",
+      "product": "All Day Insulated Gilet Black",
+      "url": "https://attaquercycling.com/products/all-day-quilted-gilet-26-black",
+      "price": 230,
+      "full_price": 230,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "gilets",
+      "brand": "Black Sheep Cycling",
+      "product": "Men's Team Vest - Black",
+      "url": "https://us.blacksheep.cc/products/mens-team-vest-black",
+      "price": 44,
+      "full_price": 109,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "gilets",
+      "brand": "Black Sheep Cycling",
+      "product": "Men's ActiveDown Vest - Black Forest",
+      "url": "https://us.blacksheep.cc/products/activedown-vest-black-forest",
+      "price": 59,
+      "full_price": 146,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "gilets",
+      "brand": "Café du Cycliste",
+      "product": "Edith",
+      "url": "https://www.cafeducycliste.com/en-us/products/men-cycling-gilet-edith-black",
+      "price": 119,
+      "full_price": 170,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "gilets",
+      "brand": "Café du Cycliste",
+      "product": "Sibille",
+      "url": "https://www.cafeducycliste.com/en-us/products/men-cycling-gilet-sibille-black",
+      "price": 182,
+      "full_price": 260,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "gilets",
+      "brand": "Castelli",
+      "product": "SQUADRA STRETCH VEST",
+      "url": "https://www.castelli-cycling.com/en-us/products/squadra-stretch-vest-4521512",
+      "price": 56,
+      "full_price": 80,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "gilets",
+      "brand": "Castelli",
+      "product": "ESPRESSO 2 VEST",
+      "url": "https://www.castelli-cycling.com/en-us/products/espresso-2-vest-4526013",
+      "price": 155,
+      "full_price": 155,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "gilets",
+      "brand": "Castelli",
+      "product": "PERFETTO 2 VEST",
+      "url": "https://www.castelli-cycling.com/en-us/products/perfetto-2-vest-4526505",
+      "price": 210,
+      "full_price": 210,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "gilets",
+      "brand": "Giordana",
+      "product": "Zephyr Vest",
+      "url": "https://giordanacycling.com/products/s5-zephyr-vest-mens",
+      "price": 75,
+      "full_price": 100,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "gilets",
+      "brand": "Giordana",
+      "product": "FR-C Pro Wind Vest",
+      "url": "https://giordanacycling.com/products/s5-fr-c-pro-wind-vest-mens",
+      "price": 112.5,
+      "full_price": 150,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "gilets",
+      "brand": "Giordana",
+      "product": "Men's SilverLine Thermal Vest",
+      "url": "https://giordanacycling.com/products/w5-mens-silverline-winter-vest",
+      "price": 146.25,
+      "full_price": 195,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "gilets",
+      "brand": "Ornot",
+      "product": "Men's Lightweight Vest - Apex",
+      "url": "https://www.ornotbike.com/products/mens-lightweight-vest-apex",
+      "price": 94,
+      "full_price": 118,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "gilets",
+      "brand": "Ornot",
+      "product": "Men's Alpha Riding Vest - Black",
+      "url": "https://www.ornotbike.com/products/mens-alpha-riding-vest-black",
+      "price": 121,
+      "full_price": 152,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "gilets",
+      "brand": "Ornot",
+      "product": "Men's Micro Climate Vest - Obsidian",
+      "url": "https://www.ornotbike.com/products/micro-climate-vest-obsidian",
+      "price": 126,
+      "full_price": 158,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "gilets",
+      "brand": "Pas Normal Studios",
+      "product": "Men's Mechanism Stow Away Gilet",
+      "url": "https://pasnormalstudios.com/en-us/products/mens-mechanism-stow-away-gilet-black",
+      "price": 165,
+      "full_price": 165,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "gilets",
+      "brand": "Pas Normal Studios",
+      "product": "Men's Essential Insulated Gilet",
+      "url": "https://pasnormalstudios.com/en-us/products/mens-essential-insulated-gilet-black-1",
+      "price": 200,
+      "full_price": 200,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "gilets",
+      "brand": "Pearl iZUMi",
+      "product": "Men's Expedition PRO Alpha Vest",
+      "url": "https://www.pearlizumi.com/products/mens-expedition-pro-alpha-vest-11132407",
+      "price": 85.5,
+      "full_price": 190,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "gilets",
+      "brand": "Pearl iZUMi",
+      "product": "Men's PRO Barrier Vest",
+      "url": "https://www.pearlizumi.com/products/mens-pro-barrier-vest-11132205",
+      "price": 105,
+      "full_price": 140,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "gilets",
+      "brand": "Pearl iZUMi",
+      "product": "Men's Pi PRO/BLACK Wind Vest",
+      "url": "https://www.pearlizumi.com/products/mens-pi-pro-black-wind-vest-11132601",
+      "price": 112.5,
+      "full_price": 150,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "gilets",
+      "brand": "Pedal Mafia",
+      "product": "Men's Core Light Vest - Black",
+      "url": "https://usa.pedalmafia.cc/products/mens-core-light-vest-black",
+      "price": 148,
+      "full_price": 148,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "gilets",
+      "brand": "Pedal Mafia",
+      "product": "Men's Core Insulated Vest - Black",
+      "url": "https://usa.pedalmafia.cc/products/mens-core-insulated-vest-black-1",
+      "price": 158,
+      "full_price": 158,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "gilets",
+      "brand": "Pedal Mafia",
+      "product": "Men's Pro Sympatex Heavy Rain Vest - Black",
+      "url": "https://usa.pedalmafia.cc/products/mens-pro-sympatex-heavy-rain-vest-black",
+      "price": 260,
+      "full_price": 260,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "gilets",
+      "brand": "Rapha",
+      "product": "Men's Core Gilet",
+      "url": "https://www.rapha.cc/us/en/product/mens-core-gilet/AQW01XXBLW",
+      "price": 115,
+      "full_price": 115,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "gilets",
+      "brand": "Rapha",
+      "product": "Men's Pro Team Insulated Gilet",
+      "url": "https://www.rapha.cc/us/en/product/mens-pro-team-insulated-gilet/BMZ01XXGGW",
+      "price": 250,
+      "full_price": 250,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "gilets",
+      "brand": "Rapha",
+      "product": "Men's Brevet Lightweight Insulated Gilet",
+      "url": "https://www.rapha.cc/us/en/product/mens-brevet-lightweight-insulated-gilet/BIG10XXFRT",
+      "price": 270,
+      "full_price": 270,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "gilets",
+      "brand": "Specialized",
+      "product": "Men's Prime Wind Vest",
+      "url": "https://www.specialized.com/us/en/mens-prime-wind-vest/p/1000127563",
+      "price": 99.99,
+      "full_price": 149.99,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "gilets",
+      "brand": "Voler",
+      "product": "M. CLASSIC WIND VEST",
+      "url": "https://store.voler.com/products/1010m97",
+      "price": 105,
+      "full_price": 105,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "gilets",
+      "brand": "Voler",
+      "product": "M. THERMAL VEST - CLOUD GREY",
+      "url": "https://store.voler.com/products/1010p14",
+      "price": 129,
+      "full_price": 129,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "gilets",
+      "brand": "Voler",
+      "product": "M. REFLECTIVE WIND VEST 26 - HI-LITE ORANGE",
+      "url": "https://store.voler.com/products/1010p48",
+      "price": 139,
+      "full_price": 139,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "bib-tights",
+      "brand": "Attaquer",
+      "product": "Intra Winter Bib Longs Black",
+      "url": "https://attaquercycling.com/products/intra-bib-long-black",
+      "price": 215,
+      "full_price": 305,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "bib-tights",
+      "brand": "Attaquer",
+      "product": "All Day Winter Bib Long Black Reflective Logo",
+      "url": "https://attaquercycling.com/products/all-day-bib-long-black-reflective",
+      "price": 355,
+      "full_price": 355,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "bib-tights",
+      "brand": "Attaquer",
+      "product": "Race Winter Bib Longs Black",
+      "url": "https://attaquercycling.com/products/race-bib-longs-black",
+      "price": 375,
+      "full_price": 375,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "bib-tights",
+      "brand": "Café du Cycliste",
+      "product": "Elise",
+      "url": "https://www.cafeducycliste.com/en-us/products/men-cycling-bibtight-elise2-black",
+      "price": 273,
+      "full_price": 390,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "bib-tights",
+      "brand": "Café du Cycliste",
+      "product": "Rosie",
+      "url": "https://www.cafeducycliste.com/en-us/products/men-cycling-bibtight-rosie-black",
+      "price": 273,
+      "full_price": 390,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "bib-tights",
+      "brand": "Café du Cycliste",
+      "product": "Marie",
+      "url": "https://www.cafeducycliste.com/en-us/products/men-cycling-bibtight-marie2-black",
+      "price": 280,
+      "full_price": 350,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "bib-tights",
+      "brand": "Castelli",
+      "product": "COMPETIZIONE BIBTIGHT",
+      "url": "https://www.castelli-cycling.com/en-us/products/competizione-bibtight-4525514",
+      "price": 170,
+      "full_price": 170,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "bib-tights",
+      "brand": "Castelli",
+      "product": "ESPRESSO 2 BIBTIGHT",
+      "url": "https://www.castelli-cycling.com/en-us/products/espresso-2-bibtight-4526518",
+      "price": 210,
+      "full_price": 210,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "bib-tights",
+      "brand": "Castelli",
+      "product": "THERMOWOVEN BIBTIGHT",
+      "url": "https://www.castelli-cycling.com/en-us/products/thermowoven-bibtight-4526516",
+      "price": 400,
+      "full_price": 400,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "bib-tights",
+      "brand": "Giordana",
+      "product": "Men's SilverLine Thermal Bib Tight",
+      "url": "https://giordanacycling.com/products/w5-silverline-thermal-bib-tight",
+      "price": 131.25,
+      "full_price": 175,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "bib-tights",
+      "brand": "Giordana",
+      "product": "Men's G-Shield Thermal Bib Tight",
+      "url": "https://giordanacycling.com/products/mens-g-shield-bib-tight",
+      "price": 168.75,
+      "full_price": 225,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "bib-tights",
+      "brand": "Giordana",
+      "product": "Men's AV Windfront Bib Tight",
+      "url": "https://giordanacycling.com/products/mens-av-windfront-bib-tight",
+      "price": 221.25,
+      "full_price": 295,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "bib-tights",
+      "brand": "Le Col",
+      "product": "Hors Categorie Bib Tights",
+      "url": "https://lecol.cc/en-us/products/hors-categorie-bib-tights",
+      "price": 215,
+      "full_price": 355,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "bib-tights",
+      "brand": "Ornot",
+      "product": "Men's Lightweight Cargo Bib Tight - Obsidian",
+      "url": "https://www.ornotbike.com/products/mens-lightweight-cargo-bib-tight-obsidian",
+      "price": 174,
+      "full_price": 218,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "bib-tights",
+      "brand": "Ornot",
+      "product": "Men's Thermal Cargo Bib Tight - Obsidian",
+      "url": "https://www.ornotbike.com/products/thermal-cargo-bib-tight-obsidian",
+      "price": 198,
+      "full_price": 248,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "bib-tights",
+      "brand": "Ornot",
+      "product": "Men's Super Thermal Cargo Bib Tight - Obsidian",
+      "url": "https://www.ornotbike.com/products/mens-super-thermal-cargo-bib-tight-obsidian",
+      "price": 222,
+      "full_price": 278,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "bib-tights",
+      "brand": "Pas Normal Studios",
+      "product": "Men's Mechanism Thermal Long Bibs",
+      "url": "https://pasnormalstudios.com/en-us/products/mens-mechanism-thermal-long-bibs-black",
+      "price": 350,
+      "full_price": 350,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "bib-tights",
+      "brand": "Pas Normal Studios",
+      "product": "Men's Mechanism Deep Winter Long Bibs",
+      "url": "https://pasnormalstudios.com/en-us/products/mens-mechanism-deep-winter-long-bibs-black",
+      "price": 370,
+      "full_price": 370,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "bib-tights",
+      "brand": "Pearl iZUMi",
+      "product": "Men's Quest Thermal Cycling Bib Tights",
+      "url": "https://www.pearlizumi.com/products/mens-quest-thermal-cycling-bib-tights-11112406",
+      "price": 91,
+      "full_price": 130,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "bib-tights",
+      "brand": "Pearl iZUMi",
+      "product": "Men's AmFIB® Lite Cycling Bib Tights",
+      "url": "https://www.pearlizumi.com/products/mens-amfib-lite-cycling-bib-tights-11112213",
+      "price": 147,
+      "full_price": 210,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "bib-tights",
+      "brand": "Pearl iZUMi",
+      "product": "Men's AmFIB® Cycling Bib Tights",
+      "url": "https://www.pearlizumi.com/products/mens-amfib-cycling-bib-tights-11112210",
+      "price": 157.5,
+      "full_price": 225,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "bib-tights",
+      "brand": "Pedal Mafia",
+      "product": "Men's Core Thermal Bib Tight - Black",
+      "url": "https://usa.pedalmafia.cc/products/mens-core-thermal-bib-tight-black",
+      "price": 188,
+      "full_price": 188,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "bib-tights",
+      "brand": "Pedal Mafia",
+      "product": "Men's Pro Sub 0 Thermal Bib Tight - Black",
+      "url": "https://usa.pedalmafia.cc/products/mens-pro-sub-0-thermal-bib-tight-black",
+      "price": 288,
+      "full_price": 288,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "bib-tights",
+      "brand": "Primal",
+      "product": "Obsidian Slate Men's Thermal Cargo Tight Bib w/ Volcan Chamois",
+      "url": "https://primalwear.com/products/obsidian-slate-mens-thermal-cargo-tight-bib-w-volcan-chamois",
+      "price": 175,
+      "full_price": 175,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "bib-tights",
+      "brand": "Rapha",
+      "product": "Men's Core Winter Tights With Pad",
+      "url": "https://www.rapha.cc/us/en/product/mens-core-winter-tights-with-pad/CPD02XXBLK",
+      "price": 200,
+      "full_price": 200,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "bib-tights",
+      "brand": "Rapha",
+      "product": "Men's Pro Team Lightweight Tights",
+      "url": "https://www.rapha.cc/us/en/product/mens-pro-team-lightweight-tights/BMX01XXBBK",
+      "price": 295,
+      "full_price": 295,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "bib-tights",
+      "brand": "Rapha",
+      "product": "Men's Classic Winter Tights",
+      "url": "https://www.rapha.cc/us/en/product/mens-classic-winter-tights/CGX01XXDNY",
+      "price": 390,
+      "full_price": 390,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "bib-tights",
+      "brand": "Voler",
+      "product": "M. ARTICO X CARGO BIB TIGHT - BLACK",
+      "url": "https://store.voler.com/products/1110946",
+      "price": 249,
+      "full_price": 249,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "base-layers",
+      "brand": "Attaquer",
+      "product": "Summer Base Layer Black",
+      "url": "https://attaquercycling.com/products/undershirt-summer-weight-black",
+      "price": 80,
+      "full_price": 80,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "base-layers",
+      "brand": "Attaquer",
+      "product": "Merino Base Layer Short Sleeved Black",
+      "url": "https://attaquercycling.com/products/merino-base-layer-short-sleeved-black",
+      "price": 90,
+      "full_price": 90,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "base-layers",
+      "brand": "Attaquer",
+      "product": "Merino Base Layer Long Sleeve Black",
+      "url": "https://attaquercycling.com/products/merino-base-layer-long-sleeved-black",
+      "price": 100,
+      "full_price": 100,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "base-layers",
+      "brand": "Black Sheep Cycling",
+      "product": "ActiveMerino SS Baselayer - Off White",
+      "url": "https://us.blacksheep.cc/products/activemerino-ss-baselayer-off-white",
+      "price": 26,
+      "full_price": 65,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "base-layers",
+      "brand": "Black Sheep Cycling",
+      "product": "ActiveMerino LS Baselayer - Off White",
+      "url": "https://us.blacksheep.cc/products/activemerino-ls-baselayer-off-white",
+      "price": 29,
+      "full_price": 71,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "base-layers",
+      "brand": "Café du Cycliste",
+      "product": "Liliane",
+      "url": "https://www.cafeducycliste.com/en-us/products/men-cycling-baselayer-liliane-anthracite",
+      "price": 56,
+      "full_price": 80,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "base-layers",
+      "brand": "Café du Cycliste",
+      "product": "Coline",
+      "url": "https://www.cafeducycliste.com/en-us/products/men-cycling-baselayer-coline-black",
+      "price": 92,
+      "full_price": 115,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "base-layers",
+      "brand": "Café du Cycliste",
+      "product": "Carmen",
+      "url": "https://www.cafeducycliste.com/en-us/products/men-cycling-baselayer-carmen-mountain-fog",
+      "price": 94.5,
+      "full_price": 135,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "base-layers",
+      "brand": "Castelli",
+      "product": "CORE SEAMLESS BASE LAYER SS",
+      "url": "https://www.castelli-cycling.com/en-us/products/core-seamless-base-layer-ss-4520575",
+      "price": 85,
+      "full_price": 85,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "base-layers",
+      "brand": "Castelli",
+      "product": "MEDIO BASE LAYER LS",
+      "url": "https://www.castelli-cycling.com/en-us/products/medio-base-layer-ls-4525526",
+      "price": 100,
+      "full_price": 100,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "base-layers",
+      "brand": "Castelli",
+      "product": "MERINO SEAMLESS BASELAYER",
+      "url": "https://www.castelli-cycling.com/en-us/products/merino-seamless-baselayer-4524527",
+      "price": 110,
+      "full_price": 110,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "base-layers",
+      "brand": "Giordana",
+      "product": "Men's Dri-Release Sleeveless Base Layer",
+      "url": "https://giordanacycling.com/products/mens-dri-release-sleeveless-base-layer",
+      "price": 22.5,
+      "full_price": 30,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "base-layers",
+      "brand": "Giordana",
+      "product": "Ceramic Short Sleeve Base Layer",
+      "url": "https://giordanacycling.com/products/ceramic-base-layer-short-sleeve",
+      "price": 60,
+      "full_price": 80,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "base-layers",
+      "brand": "Giordana",
+      "product": "Ceramic Long Sleeve Base Layer",
+      "url": "https://giordanacycling.com/products/ceramic-base-layer-long-sleeve",
+      "price": 67.5,
+      "full_price": 90,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "base-layers",
+      "brand": "Le Col",
+      "product": "Deep Winter Base Layer",
+      "url": "https://lecol.cc/en-us/products/deep-winter-base-layer",
+      "price": 100,
+      "full_price": 109,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "base-layers",
+      "brand": "Ornot",
+      "product": "Lightweight Base layer - Gravel",
+      "url": "https://www.ornotbike.com/products/delta-sleeveless-base-layer",
+      "price": 49,
+      "full_price": 62,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "base-layers",
+      "brand": "Ornot",
+      "product": "Merino Base Layer - Gravel",
+      "url": "https://www.ornotbike.com/products/merino-base-layer-gravel",
+      "price": 63,
+      "full_price": 79,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "base-layers",
+      "brand": "Pas Normal Studios",
+      "product": "Men's Sleeveless Base Layer",
+      "url": "https://pasnormalstudios.com/en-us/products/mens-sleeveless-base-layer-black",
+      "price": 76,
+      "full_price": 76,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "base-layers",
+      "brand": "Pas Normal Studios",
+      "product": "Men's Thermal Long Sleeve Base Layer",
+      "url": "https://pasnormalstudios.com/en-us/products/mens-thermal-long-sleeve-base-layer-off-white",
+      "price": 116,
+      "full_price": 116,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "base-layers",
+      "brand": "Pas Normal Studios",
+      "product": "Men's Thermal Hooded Windproof Base Layer",
+      "url": "https://pasnormalstudios.com/en-us/products/mens-thermal-hooded-windproof-base-layer-dark-stone",
+      "price": 165,
+      "full_price": 165,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "base-layers",
+      "brand": "Pearl iZUMi",
+      "product": "Men's Transfer Mesh Sleeveless Baselayer",
+      "url": "https://www.pearlizumi.com/products/mens-transfer-mesh-sleeveless-baselayer-11122502",
+      "price": 42,
+      "full_price": 60,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "base-layers",
+      "brand": "Pearl iZUMi",
+      "product": "Men's Transfer Wool Long Sleeve Baselayer",
+      "url": "https://www.pearlizumi.com/products/mens-transfer-wool-long-sleeve-baselayer-11122307",
+      "price": 56,
+      "full_price": 80,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "base-layers",
+      "brand": "Pedal Mafia",
+      "product": "Men's Pro Merino Short Sleeve Base Layer - Grey",
+      "url": "https://usa.pedalmafia.cc/products/mens-pro-merino-short-sleeve-base-layer-grey",
+      "price": 90,
+      "full_price": 90,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "base-layers",
+      "brand": "Pedal Mafia",
+      "product": "Men's Pro Merino Long Sleeve Base Layer - Grey",
+      "url": "https://usa.pedalmafia.cc/products/mens-pro-merino-long-sleeve-base-layer-grey",
+      "price": 100,
+      "full_price": 100,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "base-layers",
+      "brand": "Rapha",
+      "product": "Men's Lightweight Base Layer - Sleeveless",
+      "url": "https://www.rapha.cc/us/en/product/mens-lightweight-base-layer---sleeveless/BFK02XXWBW",
+      "price": 85,
+      "full_price": 85,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "base-layers",
+      "brand": "Rapha",
+      "product": "Men's Merino Base Layer - Long Sleeve",
+      "url": "https://www.rapha.cc/us/en/product/mens-merino-base-layer---long-sleeve/CHZ01XXPWA",
+      "price": 120,
+      "full_price": 120,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "base-layers",
+      "brand": "Rapha",
+      "product": "Men's Winter Windblock Base Layer",
+      "url": "https://www.rapha.cc/us/en/product/mens-winter-windblock-base-layer/IBL03XXBBK",
+      "price": 205,
+      "full_price": 205,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "base-layers",
+      "brand": "Voler",
+      "product": "M. DRYTECH TANK BASE - 25",
+      "url": "https://store.voler.com/products/1010n20",
+      "price": 35,
+      "full_price": 39,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "base-layers",
+      "brand": "Voler",
+      "product": "M. LIGHTWEIGHT MERINO TANK BASE",
+      "url": "https://store.voler.com/products/m-lightweight-merino-tank-base",
+      "price": 55,
+      "full_price": 55,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "base-layers",
+      "brand": "Voler",
+      "product": "M. LIGHTWEIGHT MERINO LS BASE - GREY HEATHER",
+      "url": "https://store.voler.com/products/1010n82",
+      "price": 79,
+      "full_price": 79,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "gloves",
+      "brand": "Attaquer",
+      "product": "Short Fingered Logo Gloves Black",
+      "url": "https://attaquercycling.com/products/gloves-short-finger-logo-black",
+      "price": 60,
+      "full_price": 60,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "gloves",
+      "brand": "Attaquer",
+      "product": "Light Winter Logo Gloves Black",
+      "url": "https://attaquercycling.com/products/gloves-light-winter-logo-black",
+      "price": 80,
+      "full_price": 80,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "gloves",
+      "brand": "Attaquer",
+      "product": "Deep Winter Insulated Logo Gloves Black",
+      "url": "https://attaquercycling.com/products/gloves-deep-winter-logo-black",
+      "price": 115,
+      "full_price": 115,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "gloves",
+      "brand": "Black Sheep Cycling",
+      "product": "Racing Glove - Radical Black",
+      "url": "https://us.blacksheep.cc/products/racing-glove-black",
+      "price": 32,
+      "full_price": 58,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "gloves",
+      "brand": "Black Sheep Cycling",
+      "product": "ThermoFleece Gloves 2.0 - Black",
+      "url": "https://us.blacksheep.cc/products/thermofleece-gloves-2-0-black",
+      "price": 39,
+      "full_price": 71,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "gloves",
+      "brand": "Black Sheep Cycling",
+      "product": "ThermoFleece Gloves - Black",
+      "url": "https://us.blacksheep.cc/products/thermofleece-gloves-black",
+      "price": 83,
+      "full_price": 83,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "gloves",
+      "brand": "Café du Cycliste",
+      "product": "Lightweight Gloves",
+      "url": "https://www.cafeducycliste.com/en-us/products/unisex-cycling-gloves-lightweight2-black",
+      "price": 40,
+      "full_price": 50,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "gloves",
+      "brand": "Café du Cycliste",
+      "product": "Summer Mitts",
+      "url": "https://www.cafeducycliste.com/en-us/products/unisex-cycling-summer-mitts2-black",
+      "price": 64,
+      "full_price": 80,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "gloves",
+      "brand": "Café du Cycliste",
+      "product": "Classic Gloves",
+      "url": "https://www.cafeducycliste.com/en-us/products/unisex-cycling-gloves-classic-black",
+      "price": 72,
+      "full_price": 90,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "gloves",
+      "brand": "Castelli",
+      "product": "COMPETIZIONE 3 GLOVE",
+      "url": "https://www.castelli-cycling.com/en-us/products/competizione-3-glove-4526029",
+      "price": 31.5,
+      "full_price": 45,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "gloves",
+      "brand": "Castelli",
+      "product": "PERFETTO LIGHT 2 GLOVE",
+      "url": "https://www.castelli-cycling.com/en-us/products/perfetto-light-2-glove-4526523",
+      "price": 80,
+      "full_price": 80,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "gloves",
+      "brand": "Castelli",
+      "product": "ESTREMO 2 GLOVE",
+      "url": "https://www.castelli-cycling.com/en-us/products/estremo-2-glove-4526524",
+      "price": 140,
+      "full_price": 140,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "gloves",
+      "brand": "Giordana",
+      "product": "Corsa Gloves",
+      "url": "https://giordanacycling.com/products/corsa-gloves",
+      "price": 22.5,
+      "full_price": 30,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "gloves",
+      "brand": "Giordana",
+      "product": "Aero Gloves",
+      "url": "https://giordanacycling.com/products/aero-gloves",
+      "price": 37.5,
+      "full_price": 50,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "gloves",
+      "brand": "Giordana",
+      "product": "AV 200 Winter Gloves",
+      "url": "https://giordanacycling.com/products/w5-av-200-winter-gloves",
+      "price": 63.75,
+      "full_price": 85,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "gloves",
+      "brand": "Ornot",
+      "product": "Lightweight Full Finger Glove - Grayskull",
+      "url": "https://www.ornotbike.com/products/lightweight-glove-grayskull",
+      "price": 46,
+      "full_price": 49,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "gloves",
+      "brand": "Ornot",
+      "product": "Merino Gloves - Charcoal",
+      "url": "https://www.ornotbike.com/products/merino-gloves",
+      "price": 46,
+      "full_price": 49,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "gloves",
+      "brand": "Ornot",
+      "product": "Alpha Winter Gloves - Black",
+      "url": "https://www.ornotbike.com/products/alpha-gloves",
+      "price": 80,
+      "full_price": 85,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "gloves",
+      "brand": "Pas Normal Studios",
+      "product": "Escapism Mitts",
+      "url": "https://pasnormalstudios.com/en-us/products/escapism-mitts-navy",
+      "price": 58,
+      "full_price": 58,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "gloves",
+      "brand": "Pas Normal Studios",
+      "product": "Escapism Gloves",
+      "url": "https://pasnormalstudios.com/en-us/products/escapism-gloves-earth",
+      "price": 70,
+      "full_price": 70,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "gloves",
+      "brand": "Pearl iZUMi",
+      "product": "Men's Cyclone Gel Gloves",
+      "url": "https://www.pearlizumi.com/products/mens-cyclone-gel-gloves-14142606",
+      "price": 35,
+      "full_price": 50,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "gloves",
+      "brand": "Pearl iZUMi",
+      "product": "Men's Elite Gel Full Finger Gloves",
+      "url": "https://www.pearlizumi.com/products/mens-elite-gel-full-finger-gloves-14142003",
+      "price": 35,
+      "full_price": 50,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "gloves",
+      "brand": "Pearl iZUMi",
+      "product": "Men's AmFIB® Gel Gloves",
+      "url": "https://www.pearlizumi.com/products/mens-amfib-gel-gloves-14142010",
+      "price": 56,
+      "full_price": 80,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "gloves",
+      "brand": "Rapha",
+      "product": "Core Mitts",
+      "url": "https://www.rapha.cc/us/en/product/core-mitts/CRM03XXDNY",
+      "price": 55,
+      "full_price": 55,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "gloves",
+      "brand": "Rapha",
+      "product": "Merino Gloves",
+      "url": "https://www.rapha.cc/us/en/product/merino-gloves/CIJ01XXDNY",
+      "price": 90,
+      "full_price": 90,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "gloves",
+      "brand": "Rapha",
+      "product": "Pro Team Winter Gloves",
+      "url": "https://www.rapha.cc/us/en/product/pro-team-winter-gloves/PTW03XXBLK",
+      "price": 135,
+      "full_price": 135,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "gloves",
+      "brand": "Specialized",
+      "product": "Men's Body Geometry Sport Gel Short Finger Gloves",
+      "url": "https://www.specialized.com/us/en/mens-body-geometry-sport-gel-short-finger-gloves/p/156945",
+      "price": 29.99,
+      "full_price": 29.99,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "gloves",
+      "brand": "Specialized",
+      "product": "Men's SL Pro Long Finger Gloves",
+      "url": "https://www.specialized.com/us/en/mens-sl-pro-long-finger-gloves/p/157229",
+      "price": 34.99,
+      "full_price": 34.99,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "gloves",
+      "brand": "Voler",
+      "product": "FINGERLESS GLOVE 2.0",
+      "url": "https://store.voler.com/products/1240696",
+      "price": 25,
+      "full_price": 25,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "gloves",
+      "brand": "Voler",
+      "product": "LIGHTWEIGHT GLOVES",
+      "url": "https://store.voler.com/products/1240701",
+      "price": 37,
+      "full_price": 37,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "gloves",
+      "brand": "Voler",
+      "product": "PRIMALOFT® ELEMENT GLOVES",
+      "url": "https://store.voler.com/products/1240702",
+      "price": 67,
+      "full_price": 67,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "road-bikes",
+      "brand": "3T",
+      "product": "STRADA WPNT ~ ULTEGRA Di2 2X12 DISCUS 40|30",
+      "url": "https://us.3t.bike/products/strada-wpnt-ultegra-di2-2x12-discus-40-31",
+      "price": 5988,
+      "full_price": 5988,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "road-bikes",
+      "brand": "3T",
+      "product": "STRADA ITALIA ~ ULTEGRA Di2 2X12 SHARQ",
+      "url": "https://us.3t.bike/products/strada-italia-ultegra-di2-2x12-sharq",
+      "price": 9254,
+      "full_price": 9254,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "road-bikes",
+      "brand": "3T",
+      "product": "STRADA ITALIA_X ~ DURA-ACE PM Di2 2X12 SHARQ",
+      "url": "https://us.3t.bike/products/strada-italia-x-dura-ace-pm-di2-2x12-sharq",
+      "price": 12956,
+      "full_price": 12956,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "road-bikes",
+      "brand": "Allied",
+      "product": "ECHO SRAM Rival XPLR AXS Bike",
+      "url": "https://alliedcycleworks.com/products/echo-sram-rival-xplr-axs-bike",
+      "price": 5800,
+      "full_price": 5800,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "road-bikes",
+      "brand": "Allied",
+      "product": "ECHO SRAM Force XPLR AXS Bike",
+      "url": "https://alliedcycleworks.com/products/echo-sram-force-xplr-axs-bike",
+      "price": 7380,
+      "full_price": 7380,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "road-bikes",
+      "brand": "Allied",
+      "product": "ECHO SRAM Red XPLR AXS Bike",
+      "url": "https://alliedcycleworks.com/products/echo-sram-red-xplr-axs-bike",
+      "price": 10300,
+      "full_price": 10300,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "road-bikes",
+      "brand": "BMC",
+      "product": "Teammachine SLR THREE",
+      "url": "https://us.bmc-switzerland.com/products/teammachine-slr-three-bikes-bmc-27a-000020",
+      "price": 2899,
+      "full_price": 2899,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "road-bikes",
+      "brand": "BMC",
+      "product": "Teammachine SLR 01 SIX",
+      "url": "https://us.bmc-switzerland.com/products/teammachine-slr-01-six-bikes-bmc-27a-000033",
+      "price": 5799,
+      "full_price": 7299,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "road-bikes",
+      "brand": "BMC",
+      "product": "Teammachine SLR 01 ONE",
+      "url": "https://us.bmc-switzerland.com/products/teammachine-slr-01-one-bikes-bmc-27a-000030",
+      "price": 11699,
+      "full_price": 14599,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "road-bikes",
+      "brand": "Cannondale",
+      "product": "Synapse 2",
+      "url": "https://www.cannondale.com/en-us/bikes/road/endurance/synapse/synapse-2",
+      "price": 1799,
+      "full_price": 1799,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "road-bikes",
+      "brand": "Cannondale",
+      "product": "SuperSix EVO 4",
+      "url": "https://www.cannondale.com/en-us/bikes/road/race/supersix-evo/supersix-evo-4",
+      "price": 5499,
+      "full_price": 5499,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "road-bikes",
+      "brand": "Cannondale",
+      "product": "SuperSix EVO LAB71",
+      "url": "https://www.cannondale.com/en-us/bikes/road/race/supersix-evo/supersix-evo-lab71",
+      "price": 13499,
+      "full_price": 13499,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "road-bikes",
+      "brand": "Canyon",
+      "product": "Endurace AllRoad",
+      "url": "https://www.canyon.com/en-us/road-bikes/endurance-bikes/endurace/allroad/endurace-allroad/4477.html",
+      "price": 1499,
+      "full_price": 1499,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "road-bikes",
+      "brand": "Canyon",
+      "product": "Ultimate CF 7 Di2",
+      "url": "https://www.canyon.com/en-us/road-bikes/race-bikes/ultimate/cf-sl/ultimate-cf-7-di2/4419.html",
+      "price": 3199,
+      "full_price": 3799,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "road-bikes",
+      "brand": "Canyon",
+      "product": "Aeroad CFR Di2",
+      "url": "https://www.canyon.com/en-us/road-bikes/aero-bikes/aeroad/cfr/aeroad-cfr-di2/4039.html",
+      "price": 8399,
+      "full_price": 10499,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "road-bikes",
+      "brand": "Cervélo",
+      "product": "Caledonia 105",
+      "url": "https://www.cervelo.com/products/caledonia-105-2027",
+      "price": 3300,
+      "full_price": 3300,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "road-bikes",
+      "brand": "Cervélo",
+      "product": "Soloist RIVAL AXS",
+      "url": "https://www.cervelo.com/products/soloist-rival-axs-2027",
+      "price": 6800,
+      "full_price": 6800,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "road-bikes",
+      "brand": "Cervélo",
+      "product": "S5 RED AXS",
+      "url": "https://www.cervelo.com/products/s5-red-axs-2027",
+      "price": 14500,
+      "full_price": 14500,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "road-bikes",
+      "brand": "Colnago",
+      "product": "V4",
+      "url": "https://www.colnago.com/en-us/products/v4-bike",
+      "price": 5175,
+      "full_price": 5175,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "road-bikes",
+      "brand": "Factor",
+      "product": "MONZA - Shimano Ultegra",
+      "url": "https://factorbikes.com/bike-builder/monza-shimano-ultegra",
+      "price": 6999,
+      "full_price": 6999,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "road-bikes",
+      "brand": "Factor",
+      "product": "OSTRO VAM - Shimano Ultegra",
+      "url": "https://factorbikes.com/bike-builder/ostro-vam-shimano-ultegra",
+      "price": 10399,
+      "full_price": 10399,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "road-bikes",
+      "brand": "Factor",
+      "product": "ONE - Shimano Dura-Ace",
+      "url": "https://factorbikes.com/bike-builder/one-shimano-dura-ace",
+      "price": 13899,
+      "full_price": 13899,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "road-bikes",
+      "brand": "Felt",
+      "product": "VR EXPERT SHIMANO 105 Di2",
+      "url": "https://feltbicycles.com/products/vr-expert-shimano-105-di2",
+      "price": 5499,
+      "full_price": 5499,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "road-bikes",
+      "brand": "Felt",
+      "product": "FR PRO SHIMANO ULTEGRA DI2",
+      "url": "https://feltbicycles.com/products/fr-pro-shimano-ultegra-di2",
+      "price": 6999,
+      "full_price": 6999,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "road-bikes",
+      "brand": "Felt",
+      "product": "NEXAR FRD SHIMANO DURA-ACE Di2 PWR",
+      "url": "https://feltbicycles.com/products/nexar-frd-shimano-durace-ace-di2",
+      "price": 12599,
+      "full_price": 12599,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "road-bikes",
+      "brand": "Giant",
+      "product": "Contend AR 3",
+      "url": "https://www.giant-bicycles.com/us/contend-ar-3",
+      "price": 1100,
+      "full_price": 1450,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "road-bikes",
+      "brand": "Giant",
+      "product": "Defy Advanced 2",
+      "url": "https://www.giant-bicycles.com/us/defy-advanced-2-2027",
+      "price": 3300,
+      "full_price": 3300,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "road-bikes",
+      "brand": "Giant",
+      "product": "TCR Advanced SL 0 (RED)",
+      "url": "https://www.giant-bicycles.com/us/tcr-advanced-sl-0--red-",
+      "price": 10000,
+      "full_price": 13500,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "road-bikes",
+      "brand": "Lauf",
+      "product": "Úthald Weekend Warrior Wireless E1",
+      "url": "https://www.laufcycles.com/product/uthald",
+      "price": 3890,
+      "full_price": 3890,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "road-bikes",
+      "brand": "Liv",
+      "product": "Avail AR 3",
+      "url": "https://www.liv-cycling.com/us/avail-ar-3",
+      "price": 1100,
+      "full_price": 1450,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "road-bikes",
+      "brand": "Liv",
+      "product": "Langma Advanced 0",
+      "url": "https://www.liv-cycling.com/us/langma-advanced-0-2027",
+      "price": 4500,
+      "full_price": 4500,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "road-bikes",
+      "brand": "Liv",
+      "product": "EnviLiv Advanced Pro 0-AXS",
+      "url": "https://www.liv-cycling.com/us/enviliv-advanced-pro-0-axs-2027",
+      "price": 7800,
+      "full_price": 7800,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "road-bikes",
+      "brand": "Look",
+      "product": "765 Optimum 105 / Shimano RS-171",
+      "url": "https://www.lookcycle.com/us-en/products/bikes/road-bikes/endurance/765-optimum-105-shimano-rs171",
+      "price": 3600,
+      "full_price": 3600,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "road-bikes",
+      "brand": "Look",
+      "product": "785 HuezRS Ultegra Di2 / Fulcrum Speed 25",
+      "url": "https://www.lookcycle.com/us-en/products/bikes/road-bikes/altitude/785-huez-rs-ultegra-di2-speed-25",
+      "price": 9000,
+      "full_price": 9000,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "road-bikes",
+      "brand": "Look",
+      "product": "795 BladeRS 3 Dura Ace Di2 / Mavic Comete 50 SLR",
+      "url": "https://www.lookcycle.com/us-en/products/bikes/road-bikes/aero/795-blade-rs-3-dura-ace-di2-mavic-comete-50-slr-usa",
+      "price": 12200,
+      "full_price": 12200,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "road-bikes",
+      "brand": "Specialized",
+      "product": "Allez Shimano Claris",
+      "url": "https://www.specialized.com/us/en/allez-shimano-claris/p/4221796",
+      "price": 1099.99,
+      "full_price": 1199.99,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "road-bikes",
+      "brand": "Specialized",
+      "product": "Tarmac SL9 Comp SRAM Rival AXS",
+      "url": "https://www.specialized.com/us/en/tarmac-sl9-comp-sram-rival-axs/p/4293529",
+      "price": 4499.99,
+      "full_price": 4499.99,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "road-bikes",
+      "brand": "Specialized",
+      "product": "S-Works Tarmac SL9 SRAM RED AXS",
+      "url": "https://www.specialized.com/us/en/s-works-tarmac-sl9-sram-red-axs/p/4293533",
+      "price": 13999.99,
+      "full_price": 13999.99,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "road-bikes",
+      "brand": "TIME",
+      "product": "NXR SRAM Rival Elite",
+      "url": "https://www.timebicycles.com/en-us/products/nxr-sram-rival-elite",
+      "price": 5399,
+      "full_price": 5699,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "road-bikes",
+      "brand": "TIME",
+      "product": "FLUIDITY SRAM Force AXS 2X",
+      "url": "https://www.timebicycles.com/en-us/products/fluidity-sram-force-axs-2x",
+      "price": 7399,
+      "full_price": 8199,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "road-bikes",
+      "brand": "TIME",
+      "product": "SCYLON Shimano Dura-Ace",
+      "url": "https://www.timebicycles.com/en-us/products/scylon-shimano-dura-ace",
+      "price": 10999,
+      "full_price": 11999,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "road-bikes",
+      "brand": "Trek",
+      "product": "Domane AL 2 Gen 4",
+      "url": "https://www.trekbikes.com/us/en_US/bikes/road-bikes/performance-road-bikes/domane/domane-al/f/F221-5/domane-al-2-gen-4/80164/",
+      "price": 1199.99,
+      "full_price": 1199.99,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "road-bikes",
+      "brand": "Trek",
+      "product": "Madone SL 5 Gen 8",
+      "url": "https://www.trekbikes.com/us/en_US/bikes/road-bikes/performance-road-bikes/madone/f/F213/madone-sl-5-gen-8/57653/",
+      "price": 2999.99,
+      "full_price": 2999.99,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "road-bikes",
+      "brand": "Trek",
+      "product": "Madone SLR 9 AXS Gen 8",
+      "url": "https://www.trekbikes.com/us/en_US/bikes/road-bikes/performance-road-bikes/madone/f/F213/madone-slr-9-axs-gen-8/46151/",
+      "price": 13499.99,
+      "full_price": 13499.99,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "framesets",
+      "brand": "3T",
+      "product": "STRADA ITALIA ~ FRAMESET",
+      "url": "https://us.3t.bike/products/strada-italia-frameset-1",
+      "price": 5154,
+      "full_price": 5154,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "framesets",
+      "brand": "3T",
+      "product": "STRADA ITALIA_X ~ FRAMESET",
+      "url": "https://us.3t.bike/products/strada-italia-x-frameset",
+      "price": 6657,
+      "full_price": 6657,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "framesets",
+      "brand": "Allied",
+      "product": "ECHO Frameset Kit",
+      "url": "https://alliedcycleworks.com/products/echo-frameset-kit",
+      "price": 4000,
+      "full_price": 4000,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "framesets",
+      "brand": "BMC",
+      "product": "Teammachine R 01 Frameset",
+      "url": "https://us.bmc-switzerland.com/products/teammachine-r-01-frameset-frames-bmc-27a-000045",
+      "price": 4499,
+      "full_price": 5599,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "framesets",
+      "brand": "Cannondale",
+      "product": "CAAD14 Frameset",
+      "url": "https://www.cannondale.com/en-us/bikes/road/race/caad14/caad14-frameset",
+      "price": 1799,
+      "full_price": 1799,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "framesets",
+      "brand": "Cannondale",
+      "product": "SuperSix EVO Hi-MOD Frameset",
+      "url": "https://www.cannondale.com/en-us/bikes/road/race/supersix-evo/supersix-evo-hi-mod-frameset",
+      "price": 4499,
+      "full_price": 4499,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "framesets",
+      "brand": "Cannondale",
+      "product": "SuperSix EVO LAB71 Frameset",
+      "url": "https://www.cannondale.com/en-us/bikes/road/race/supersix-evo/supersix-evo-lab71-frameset",
+      "price": 5999,
+      "full_price": 5999,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "framesets",
+      "brand": "Cervélo",
+      "product": "Soloist FRAMESET",
+      "url": "https://www.cervelo.com/products/soloist-frameset-2027",
+      "price": 3500,
+      "full_price": 3500,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "framesets",
+      "brand": "Cervélo",
+      "product": "Caledonia-5 FRAMESET",
+      "url": "https://www.cervelo.com/products/caledonia-5-frameset-2027",
+      "price": 5000,
+      "full_price": 5000,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "framesets",
+      "brand": "Cervélo",
+      "product": "S5 FRAMESET 2027",
+      "url": "https://www.cervelo.com/products/s5-frameset-2027",
+      "price": 6500,
+      "full_price": 6500,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "framesets",
+      "brand": "Factor",
+      "product": "MONZA - Standard Package",
+      "url": "https://factorbikes.com/bike-builder/monza-standard-package",
+      "price": 4099,
+      "full_price": 4099,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "framesets",
+      "brand": "Factor",
+      "product": "OSTRO VAM - Premium Package",
+      "url": "https://factorbikes.com/bike-builder/ostro-vam-premium-package",
+      "price": 5999,
+      "full_price": 5999,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "framesets",
+      "brand": "Factor",
+      "product": "ONE - Premium Package",
+      "url": "https://factorbikes.com/bike-builder/one-premium-package",
+      "price": 7599,
+      "full_price": 7599,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "framesets",
+      "brand": "Felt",
+      "product": "NEXAR FRD FRAMEKIT",
+      "url": "https://feltbicycles.com/products/nexar-frd-framekit",
+      "price": 5199,
+      "full_price": 5199,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "framesets",
+      "brand": "Giant",
+      "product": "Propel Advanced Pro-FF",
+      "url": "https://www.giant-bicycles.com/us/propel-advanced-pro-ff-2027",
+      "price": 3200,
+      "full_price": 3200,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "framesets",
+      "brand": "Giant",
+      "product": "Propel Advanced SL Frameset",
+      "url": "https://www.giant-bicycles.com/us/propel-advanced-sl-frameset-2024",
+      "price": 4200,
+      "full_price": 4200,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "framesets",
+      "brand": "Look",
+      "product": "765 Optimum Charcoal Satin Frameset",
+      "url": "https://www.lookcycle.com/us-en/products/bikes/road-bikes/endurance/765-optimum-frameset-charcoal-satin",
+      "price": 2800,
+      "full_price": 2800,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "framesets",
+      "brand": "Look",
+      "product": "785 HuezRS - Frameset",
+      "url": "https://www.lookcycle.com/us-en/products/bikes/road-bikes/altitude/785-huez-rs-frameset-new",
+      "price": 3700,
+      "full_price": 3700,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "framesets",
+      "brand": "Look",
+      "product": "795 BladeRS 3 - Frameset",
+      "url": "https://www.lookcycle.com/us-en/products/bikes/road-bikes/aero/795-blade-rs-3-frameset",
+      "price": 5900,
+      "full_price": 5900,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "framesets",
+      "brand": "Specialized",
+      "product": "Allez Sprint Frameset D'Aluisio Smartweld Alloy",
+      "url": "https://www.specialized.com/us/en/allez-sprint-frameset-daluisio-smartweld-alloy/p/4221551",
+      "price": 1899.99,
+      "full_price": 1899.99,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "framesets",
+      "brand": "Specialized",
+      "product": "Aethos 2 Frameset FACT 10r Carbon",
+      "url": "https://www.specialized.com/us/en/aethos-2-frameset-fact-10r-carbon/p/4221561",
+      "price": 3499.99,
+      "full_price": 3499.99,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "framesets",
+      "brand": "Specialized",
+      "product": "S-Works Tarmac SL9 Frameset FACT 12r Carbon",
+      "url": "https://www.specialized.com/us/en/s-works-tarmac-sl9-frameset-fact-12r-carbon/p/4293537",
+      "price": 5799.99,
+      "full_price": 5799.99,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "framesets",
+      "brand": "TIME",
+      "product": "NXR FRAMESET",
+      "url": "https://www.timebicycles.com/en-us/products/nxr-frameset",
+      "price": 2699,
+      "full_price": 2999,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "framesets",
+      "brand": "TIME",
+      "product": "FLUIDITY FRAMESET",
+      "url": "https://www.timebicycles.com/en-us/products/fluidity-frameset",
+      "price": 3199,
+      "full_price": 3999,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "framesets",
+      "brand": "TIME",
+      "product": "SCYLON FRAMESET",
+      "url": "https://www.timebicycles.com/en-us/products/scylon-frameset",
+      "price": 3999,
+      "full_price": 4999,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "framesets",
+      "brand": "Trek",
+      "product": "Madone SL Gen 8 Frameset",
+      "url": "https://www.trekbikes.com/us/en_US/bikes/road-bikes/performance-road-bikes/madone/f/F213/madone-sl-gen-8-frameset/58244/",
+      "price": 2499.99,
+      "full_price": 2499.99,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "framesets",
+      "brand": "Trek",
+      "product": "Madone SLR Gen 8 Frameset",
+      "url": "https://www.trekbikes.com/us/en_US/bikes/road-bikes/performance-road-bikes/madone/f/F213/madone-slr-gen-8-frameset/46775/",
+      "price": 5499.99,
+      "full_price": 5499.99,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "wheelsets",
+      "brand": "Hunt",
+      "product": "HUNT 40 Carbon Disc Wheelset | IC356",
+      "url": "https://us.huntbikewheels.com/products/hunt-40-carbon-disc-wheelset-ic356",
+      "price": 737.4,
+      "full_price": 1229,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "wheelsets",
+      "brand": "Hunt",
+      "product": "HUNT 50 Carbon Disc Wheelset | IC354",
+      "url": "https://us.huntbikewheels.com/products/hunt-50-carbon-disc-wheelset-ic354-1",
+      "price": 874.3,
+      "full_price": 1249,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "wheelsets",
+      "brand": "Hunt",
+      "product": "HUNT 5AM Limitless Ti_UD Carbon Spoke Disc Wheelset",
+      "url": "https://us.huntbikewheels.com/products/hunt-5am-limitless-carbon-spoke-disc-wheelset",
+      "price": 2599,
+      "full_price": 2599,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "wheelsets",
+      "brand": "Princeton CarbonWorks",
+      "product": "Peak 4550 Evolution II",
+      "url": "https://www.princetoncarbon.com/product/peak-4550/",
+      "price": 3150,
+      "full_price": 3150,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "wheelsets",
+      "brand": "Princeton CarbonWorks",
+      "product": "Wake 6560 Evolution II",
+      "url": "https://www.princetoncarbon.com/product/wake-6560/",
+      "price": 3150,
+      "full_price": 3150,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "wheelsets",
+      "brand": "Princeton CarbonWorks",
+      "product": "Mach 7580 Evolution",
+      "url": "https://www.princetoncarbon.com/product/mach-7580/",
+      "price": 3150,
+      "full_price": 3150,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "wheelsets",
+      "brand": "Shimano",
+      "product": "105 WH-RS710 C46",
+      "url": "https://ride.shimano.com/products/wh-rs710-c46-tl",
+      "price": 1285,
+      "full_price": 1285,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "wheelsets",
+      "brand": "Shimano",
+      "product": "ULTEGRA WH-R8170 C50",
+      "url": "https://ride.shimano.com/products/wh-r8170-c50-tl",
+      "price": 1570,
+      "full_price": 1570,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "wheelsets",
+      "brand": "Shimano",
+      "product": "DURA-ACE WH-R9370 C50",
+      "url": "https://ride.shimano.com/products/wh-r9370-c50-tl",
+      "price": 2970,
+      "full_price": 2970,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "power-meters",
+      "brand": "4iiii",
+      "product": "4iiii PRECISION 3+ Left-Side Powermeter - Ride Ready",
+      "url": "https://shop.4iiii.com/products/left-side-precision-3-plus-powermeter-ride-ready",
+      "price": 349.99,
+      "full_price": 349.99,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "power-meters",
+      "brand": "4iiii",
+      "product": "4iiii PRECISION 3+ PRO Dual-Sided Powermeter - Factory Install",
+      "url": "https://shop.4iiii.com/products/precision-3-plus-pro-powermeter-factory",
+      "price": 549.99,
+      "full_price": 549.99,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "power-meters",
+      "brand": "4iiii",
+      "product": "4iiii PRECISION 3+ PRO Dual-Sided Powermeter - Ride Ready",
+      "url": "https://shop.4iiii.com/products/dual-side-precision-3-pro-powermeter-ride-ready",
+      "price": 979.99,
+      "full_price": 979.99,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "power-meters",
+      "brand": "Favero",
+      "product": "Assioma DUO",
+      "url": "https://cycling.favero.com/shop/assioma-duo/",
+      "price": 499,
+      "full_price": 499,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "power-meters",
+      "brand": "Favero",
+      "product": "Assioma PRO RS-2",
+      "url": "https://cycling.favero.com/shop/assioma-pro-rs2/",
+      "price": 789,
+      "full_price": 789,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "power-meters",
+      "brand": "Garmin",
+      "product": "Rally™ RK210",
+      "url": "https://www.garmin.com/en-US/p/1134010/",
+      "price": 799.99,
+      "full_price": 899.99,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "bike-computers",
+      "brand": "Garmin",
+      "product": "Edge® 540",
+      "url": "https://www.garmin.com/en-US/p/798938/",
+      "price": 299.99,
+      "full_price": 349.99,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "bike-computers",
+      "brand": "Garmin",
+      "product": "Edge® 850",
+      "url": "https://www.garmin.com/en-US/p/1630197/",
+      "price": 499.99,
+      "full_price": 599.99,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "bike-computers",
+      "brand": "Garmin",
+      "product": "Edge® 1060",
+      "url": "https://www.garmin.com/en-US/p/1967830/",
+      "price": 799.99,
+      "full_price": 799.99,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "bike-computers",
+      "brand": "Hammerhead",
+      "product": "Karoo",
+      "url": "https://shop.sram.com/products/karoo",
+      "price": 525,
+      "full_price": 525,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "bike-computers",
+      "brand": "Wahoo",
+      "product": "ELEMNT BOLT 3 GPS Bike Computer",
+      "url": "https://www.wahoofitness.com/devices/bike-computers/elemnt-bolt-buy",
+      "price": 349.99,
+      "full_price": 349.99,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "bike-computers",
+      "brand": "Wahoo",
+      "product": "ELEMNT ROAM 3 GPS Bike Computer",
+      "url": "https://www.wahoofitness.com/devices/bike-computers/elemnt-roam-buy",
+      "price": 464.99,
+      "full_price": 464.99,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "bike-computers",
+      "brand": "Wahoo",
+      "product": "ELEMNT ACE GPS Bike Computer",
+      "url": "https://www.wahoofitness.com/devices/bike-computers/elemnt-ace-buy",
+      "price": 499.99,
+      "full_price": 499.99,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "smart-trainers",
+      "brand": "Garmin",
+      "product": "Tacx® FLUX 2 Smart Trainer",
+      "url": "https://www.garmin.com/en-US/p/690887/",
+      "price": 499.99,
+      "full_price": 699.99,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "smart-trainers",
+      "brand": "Garmin",
+      "product": "Tacx® Nēra Smart Trainer",
+      "url": "https://www.garmin.com/en-US/p/1191149/",
+      "price": 999.99,
+      "full_price": 999.99,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "smart-trainers",
+      "brand": "Garmin",
+      "product": "Tacx® NEO 3M Smart Trainer",
+      "url": "https://www.garmin.com/en-US/p/885302/",
+      "price": 1799.99,
+      "full_price": 1799.99,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "smart-trainers",
+      "brand": "Wahoo",
+      "product": "KICKR CORE 2 with 11-Speed Cassette",
+      "url": "https://www.wahoofitness.com/devices/indoor-cycling/bike-trainers/kickr-core-2-buy",
+      "price": 399.99,
+      "full_price": 549.99,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "smart-trainers",
+      "brand": "Wahoo",
+      "product": "KICKR Smart Trainer",
+      "url": "https://www.wahoofitness.com/devices/indoor-cycling/bike-trainers/kickr-buy",
+      "price": 849.99,
+      "full_price": 849.99,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "smart-trainers",
+      "brand": "Wahoo",
+      "product": "KICKR BIKE PRO Smart Bike",
+      "url": "https://www.wahoofitness.com/devices/indoor-cycling/smart-bikes/kickr-bike-pro-buy",
+      "price": 3999.99,
+      "full_price": 3999.99,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "smart-trainers",
+      "brand": "Zwift",
+      "product": "Zwift Ride with KICKR CORE 2",
+      "url": "https://us.zwift.com/products/zwift-ride-kickr-core-2",
+      "price": 999.99,
+      "full_price": 1299.99,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "helmets",
+      "brand": "Fizik",
+      "product": "KYROS",
+      "url": "https://www.fizik.com/en-us/products/helmets-kyros-black-fhe1000050010",
+      "price": 199.99,
+      "full_price": 199.99,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "helmets",
+      "brand": "Fizik",
+      "product": "KASSIS",
+      "url": "https://www.fizik.com/en-us/products/helmets-kassis-white-fhe1000040020",
+      "price": 219.99,
+      "full_price": 219.99,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "helmets",
+      "brand": "Fizik",
+      "product": "KUDO",
+      "url": "https://www.fizik.com/en-us/products/helmets-kudo-black-fhe1000010010",
+      "price": 319.99,
+      "full_price": 319.99,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "helmets",
+      "brand": "Giro",
+      "product": "Agilis Mips Helmet",
+      "url": "https://www.giro.com/product/agilis-mips-helmet/100000000300000113.html",
+      "price": 144.95,
+      "full_price": 144.95,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "helmets",
+      "brand": "Giro",
+      "product": "Helios Spherical Helmet",
+      "url": "https://www.giro.com/product/helios-spherical-helmet/100000000300000129.html",
+      "price": 279.95,
+      "full_price": 279.95,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "helmets",
+      "brand": "Giro",
+      "product": "Aries Spherical",
+      "url": "https://www.giro.com/product/aries-spherical/100000000300000146.html",
+      "price": 349.95,
+      "full_price": 349.95,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "road-shoes",
+      "brand": "Fizik",
+      "product": "Tempo Powerstrap R5",
+      "url": "https://www.fizik.com/en-us/products/shoes-tempo-powerstrap-r5-kh-black_black-tpr5pspu21010",
+      "price": 149.99,
+      "full_price": 149.99,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "road-shoes",
+      "brand": "Fizik",
+      "product": "Vento Proxy",
+      "url": "https://www.fizik.com/en-us/products/shoes-vento-proxy-kh-vex3bpr1k3c51",
+      "price": 269.99,
+      "full_price": 269.99,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "road-shoes",
+      "brand": "Fizik",
+      "product": "Vega Carbon",
+      "url": "https://www.fizik.com/en-us/products/shoes-vega-carbon-white_white-ver1dmr1c2020",
+      "price": 469.99,
+      "full_price": 469.99,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "road-shoes",
+      "brand": "Giro",
+      "product": "Stylus II Shoe",
+      "url": "https://www.giro.com/product/stylus-ii-shoe/350060000100000112.html",
+      "price": 124.95,
+      "full_price": 124.95,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "road-shoes",
+      "brand": "Giro",
+      "product": "Regime II Shoe",
+      "url": "https://www.giro.com/product/regime-ii-shoe/350060000100000113.html",
+      "price": 249.95,
+      "full_price": 249.95,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "road-shoes",
+      "brand": "Giro",
+      "product": "Imperial II Shoe",
+      "url": "https://www.giro.com/product/imperial-ii-shoe/350060000100000106.html",
+      "price": 449.95,
+      "full_price": 449.95,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "road-shoes",
+      "brand": "Lake Cycling",
+      "product": "CX178",
+      "url": "https://www.lakecycling.com/products/cx178",
+      "price": 179.99,
+      "full_price": 179.99,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "road-shoes",
+      "brand": "Lake Cycling",
+      "product": "CX239",
+      "url": "https://www.lakecycling.com/products/cx239",
+      "price": 369.99,
+      "full_price": 369.99,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "road-shoes",
+      "brand": "Lake Cycling",
+      "product": "CX403",
+      "url": "https://www.lakecycling.com/products/cx-403",
+      "price": 599.99,
+      "full_price": 599.99,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "road-shoes",
+      "brand": "Shimano",
+      "product": "SH-RC102",
+      "url": "https://ride.shimano.com/products/sh-rc102",
+      "price": 120,
+      "full_price": 120,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "road-shoes",
+      "brand": "Shimano",
+      "product": "SH-RC703",
+      "url": "https://ride.shimano.com/products/sh-rc703",
+      "price": 270,
+      "full_price": 270,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "road-shoes",
+      "brand": "Shimano",
+      "product": "S-PHYRE SH-RC910",
+      "url": "https://ride.shimano.com/products/sh-rc910",
+      "price": 525,
+      "full_price": 525,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "road-shoes",
+      "brand": "Sidi",
+      "product": "PRIMA 2",
+      "url": "https://sidi.com/en-us/products/prima-3",
+      "price": 199.99,
+      "full_price": 199.99,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "road-shoes",
+      "brand": "Sidi",
+      "product": "GENIUS X",
+      "url": "https://sidi.com/en-us/products/genius-x",
+      "price": 299.99,
+      "full_price": 299.99,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "road-shoes",
+      "brand": "Sidi",
+      "product": "SHOT 3",
+      "url": "https://sidi.com/en-us/products/shot-4",
+      "price": 549.99,
+      "full_price": 549.99,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "saddles",
+      "brand": "Brooks England",
+      "product": "C15",
+      "url": "https://www.brooksengland.com/en-us/products/saddles-cambium-c15-black-c150000056300",
+      "price": 155,
+      "full_price": 155,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "saddles",
+      "brand": "Brooks England",
+      "product": "C13",
+      "url": "https://www.brooksengland.com/en-us/products/saddles-cambium-c13-black-c130000026300",
+      "price": 240,
+      "full_price": 240,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "saddles",
+      "brand": "Brooks England",
+      "product": "Swift",
+      "url": "https://www.brooksengland.com/en-us/products/saddles-leather-swift-mustard-b360h00a17219",
+      "price": 350,
+      "full_price": 350,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "saddles",
+      "brand": "Fizik",
+      "product": "ARIONE R5",
+      "url": "https://www.fizik.com/en-us/products/saddles-arione-r5-black-varior5fa1",
+      "price": 119.99,
+      "full_price": 119.99,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "saddles",
+      "brand": "Fizik",
+      "product": "ARIONE R3",
+      "url": "https://www.fizik.com/en-us/products/saddles-arione-r3-black-varior3fa0",
+      "price": 174.99,
+      "full_price": 174.99,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "saddles",
+      "brand": "Fizik",
+      "product": "ARIONE R1 ADAPTIVE",
+      "url": "https://www.fizik.com/en-us/products/saddles-arione-r1-adaptive-black-varior1aa0",
+      "price": 329.99,
+      "full_price": 329.99,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "saddles",
+      "brand": "Selle Italia",
+      "product": "SLR Endurance Advan",
+      "url": "https://www.selleitalia.com/slr-endurance-advan/",
+      "price": 129.9,
+      "full_price": 129.9,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "saddles",
+      "brand": "Selle Italia",
+      "product": "SLR Elite",
+      "url": "https://www.selleitalia.com/slr-elite/",
+      "price": 279.9,
+      "full_price": 279.9,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "saddles",
+      "brand": "Selle Italia",
+      "product": "SLR 3D Carbon",
+      "url": "https://www.selleitalia.com/slr-3d-carbon/",
+      "price": 479.9,
+      "full_price": 479.9,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "sunglasses",
+      "brand": "100%",
+      "product": "S2 - Matte White/Pink - HiPER Vital Pink Mirror",
+      "url": "https://www.100percent.com/products/s2-matte-white-pink-hiper-vital-pink-mirror",
+      "price": 119.95,
+      "full_price": 119.95,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "sunglasses",
+      "brand": "100%",
+      "product": "SPEEDCRAFT - Soft Tact Black - HiPER Red Multilayer Mirror Lens",
+      "url": "https://www.100percent.com/products/speedcraft-soft-tact-black-hiper-red-multilayer-mirror-lens-1",
+      "price": 159.95,
+      "full_price": 159.95,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "sunglasses",
+      "brand": "100%",
+      "product": "AEROCRAFT - Gloss Black Chrome - HiPER Silver Mirror Lens",
+      "url": "https://www.100percent.com/products/aerocraft-gloss-black-chrome-hiper-silver-mirror-lens",
+      "price": 199.95,
+      "full_price": 199.95,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "sunglasses",
+      "brand": "Shimano",
+      "product": "Aerolite CE-ARLT2",
+      "url": "https://ride.shimano.com/products/ce-arlt2",
+      "price": 65,
+      "full_price": 65,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "sunglasses",
+      "brand": "Shimano",
+      "product": "Technium CE-TCNM2",
+      "url": "https://ride.shimano.com/products/ce-tcnm2",
+      "price": 100,
+      "full_price": 100,
+      "date": "2026-11-20"
+    },
+    {
+      "category": "sunglasses",
+      "brand": "Shimano",
+      "product": "S-PHYRE SL CE-SPSL2",
+      "url": "https://ride.shimano.com/products/ce-spsl2",
+      "price": 150,
+      "full_price": 150,
+      "date": "2026-11-20"
+    }
+  ]
 }
