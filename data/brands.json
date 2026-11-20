@@ -36,13 +36,13 @@
     {
       "name": "Castelli",
       "website": "https://castelli-cycling.com",
-      "status": "other_sale",
+      "status": "live",
       "detected": "2026-11-18",
       "tags": [
         "apparel"
       ],
       "type": "Performance",
-      "notes": "Black Friday early access no longer shown; up to 30% off selected styles until Nov 23",
+      "notes": "Black Friday early access: 25% off the collection when you sign up",
       "country": "Italy"
     },
     {
@@ -66,7 +66,7 @@
         "apparel"
       ],
       "type": "Modern premium",
-      "notes": "Black Friday sale: up to 60% off plus an extra 20% on selected styles, this weekend only",
+      "notes": "Black Friday sale, up to 50% off",
       "country": "UK"
     },
     {
@@ -132,13 +132,13 @@
     {
       "name": "Velocio",
       "website": "https://velocio.cc",
-      "status": "unknown",
+      "status": "live",
       "detected": "2026-11-18",
       "tags": [
         "apparel"
       ],
       "type": "Independent",
-      "notes": "Couldn't check: site showed a Vercel bot check. Last seen: Black Friday sale: up to 30% off, plus an extra 10% off orders over $500",
+      "notes": "Black Friday sale: up to 30% off, plus an extra 10% off orders over $500",
       "country": "USA"
     },
     {
@@ -206,7 +206,7 @@
       "name": "Sportful",
       "website": "https://sportful.com",
       "status": "live",
-      "detected": "2026-11-20",
+      "detected": "2026-11-19",
       "tags": [
         "apparel"
       ],
@@ -217,13 +217,13 @@
     {
       "name": "Santini",
       "website": "https://santinicycling.com",
-      "status": "unknown",
+      "status": "other_sale",
       "detected": null,
       "tags": [
         "apparel"
       ],
       "type": "Performance",
-      "notes": "Couldn't check: site blocked access (Access Denied). Last seen: US store: winter kit up to 20% off (15% over €200, 20% over €300), plus archive sale up to 40% off",
+      "notes": "US store: winter kit up to 20% off (15% over €200, 20% over €300), plus archive sale up to 40% off",
       "country": "Italy"
     },
     {
@@ -266,7 +266,7 @@
       "name": "Black Sheep Cycling",
       "website": "https://blacksheep.cc",
       "status": "live",
-      "detected": "2026-11-20",
+      "detected": "2026-11-19",
       "tags": [
         "apparel"
       ],
@@ -325,14 +325,14 @@
     {
       "name": "POC",
       "website": "https://poc.com",
-      "status": "unknown",
+      "status": "other_sale",
       "detected": null,
       "tags": [
         "apparel",
         "components"
       ],
       "type": "Modern premium; Helmets & eyewear",
-      "notes": "Couldn't check: site showed a Vercel bot check. Last seen: End of Year Sale: up to 45% off selected archive pieces",
+      "notes": "End of Year Sale: up to 45% off selected archive pieces",
       "country": "Sweden"
     },
     {
@@ -351,7 +351,7 @@
       "name": "Nalini",
       "website": "https://nalini.com",
       "status": "live",
-      "detected": "2026-11-20",
+      "detected": "2026-11-19",
       "tags": [
         "apparel"
       ],
@@ -374,13 +374,13 @@
     {
       "name": "Northwave",
       "website": "https://northwave.com",
-      "status": "unknown",
+      "status": "not_yet",
       "detected": null,
       "tags": [
         "apparel"
       ],
       "type": "Value / mid-range",
-      "notes": "Couldn't check: site showed a Cloudflare bot check. Last seen: No sale on the homepage",
+      "notes": "No sale on the homepage",
       "country": "Italy"
     },
     {
@@ -434,13 +434,13 @@
     {
       "name": "dhb",
       "website": "https://evanscycles.com",
-      "status": "unknown",
-      "detected": "2026-11-20",
+      "status": "live",
+      "detected": "2026-11-19",
       "tags": [
         "apparel"
       ],
       "type": "Value / mid-range",
-      "notes": "Couldn't check: site didn't load. Last seen: Evans Cycles' Black Friday clothing deals include dhb items, plus a £20 voucher on £100 spend until Dec 5",
+      "notes": "Evans Cycles' Black Friday clothing deals include dhb items, plus a £20 voucher on £100 spend until Dec 5",
       "country": "UK"
     },
     {
@@ -476,7 +476,7 @@
         "road-bikes"
       ],
       "type": "Race, aero & endurance (SuperSix, Synapse)",
-      "notes": "Black Friday: up to 36% off bikes and 50% off gear",
+      "notes": "Black Friday: up to 30% off bikes and 50% off gear",
       "country": "USA"
     },
     {
@@ -650,25 +650,25 @@
     {
       "name": "Scott",
       "website": "https://scott-sports.com",
-      "status": "unknown",
-      "detected": "2026-11-20",
+      "status": "live",
+      "detected": "2026-11-19",
       "tags": [
         "road-bikes"
       ],
       "type": "Race, aero & endurance (Addict, Foil)",
-      "notes": "Couldn't check: site blocked access (Access Denied). Last seen: Black Friday Sale: up to 50% off bike, winter, moto and more",
+      "notes": "Black Friday Sale: up to 50% off bike, winter, moto and more",
       "country": "Switzerland"
     },
     {
       "name": "Orbea",
       "website": "https://orbea.com",
-      "status": "unknown",
+      "status": "not_yet",
       "detected": null,
       "tags": [
         "road-bikes"
       ],
       "type": "Race & endurance with custom paint (Orca)",
-      "notes": "Couldn't check: site showed a Cloudflare bot check. Last seen: No sale on the homepage",
+      "notes": "No sale on the homepage",
       "country": "Spain"
     },
     {
@@ -854,13 +854,13 @@
     {
       "name": "Oakley",
       "website": "https://oakley.com",
-      "status": "unknown",
+      "status": "live",
       "detected": "2026-11-18",
       "tags": [
         "components"
       ],
       "type": "Eyewear",
-      "notes": "Couldn't check: site blocked access (Access Denied). Last seen: Members' early Black Friday until Nov 20: 40% off prescription lenses plus an extra 10% at checkout",
+      "notes": "Members' early Black Friday until Nov 20: 40% off prescription lenses plus an extra 10% at checkout",
       "country": "USA"
     },
     {
@@ -903,7 +903,7 @@
       "name": "Wahoo",
       "website": "https://wahoofitness.com",
       "status": "live",
-      "detected": "2026-11-20",
+      "detected": "2026-11-19",
       "tags": [
         "components"
       ],
@@ -926,13 +926,13 @@
     {
       "name": "Shimano",
       "website": "https://shimano.com",
-      "status": "unknown",
+      "status": "not_yet",
       "detected": null,
       "tags": [
         "components"
       ],
       "type": "Groupsets & shoes",
-      "notes": "Couldn't check: site blocked access (Access Denied). Last seen: No promotion; its US shop (ride.shimano.com) has only a regular Sale section",
+      "notes": "No promotion; its US shop (ride.shimano.com) has only a regular Sale section",
       "country": "Japan"
     },
     {
@@ -1071,7 +1071,7 @@
       "name": "Sidi",
       "website": "https://sidi.com",
       "status": "live",
-      "detected": "2026-11-20",
+      "detected": "2026-11-19",
       "tags": [
         "components"
       ],
@@ -1166,37 +1166,37 @@
     {
       "name": "Lezyne",
       "website": "https://lezyne.com",
-      "status": "unknown",
+      "status": "not_yet",
       "detected": null,
       "tags": [
         "components"
       ],
       "type": "Lights, pumps & accessories",
-      "notes": "Couldn't check: site didn't load. Last seen: No Black Friday promotion; has a regular outlet section",
+      "notes": "No Black Friday promotion; has a regular outlet section",
       "country": "USA"
     },
     {
       "name": "Competitive Cyclist",
       "website": "https://competitivecyclist.com",
-      "status": "unknown",
+      "status": "live",
       "detected": "2026-11-18",
       "tags": [
         "retailer"
       ],
       "type": "",
-      "notes": "Couldn't check: site showed a \"confirm you are human\" bot check. Last seen: \"Beat Black Friday\": up to 50% off apparel, helmets, components and more",
+      "notes": "\"Beat Black Friday\": up to 50% off apparel, helmets, components and more",
       "country": "USA"
     },
     {
       "name": "Jenson USA",
       "website": "https://jensonusa.com",
-      "status": "unknown",
+      "status": "live",
       "detected": "2026-11-18",
       "tags": [
         "retailer"
       ],
       "type": "",
-      "notes": "Couldn't check: site showed a Cloudflare bot check. Last seen: Early Black Friday deals on bikes, components and accessories; Insiders get 20% off one full-price item through Nov 30",
+      "notes": "Early Black Friday deals on bikes, components and accessories; Insiders get 20% off one full-price item through Nov 30",
       "country": "USA"
     },
     {
@@ -1220,7 +1220,7 @@
         "retailer"
       ],
       "type": "",
-      "notes": "Early Black Friday deals: up to 50% off select bikes, apparel and components; also a reward card worth up to $400 when you spend $250+",
+      "notes": "Early Black Friday deals; also a reward card worth up to $400 when you spend $250+",
       "country": "USA"
     },
     {
@@ -1232,55 +1232,55 @@
         "retailer"
       ],
       "type": "",
-      "notes": "Black Friday sale with daily deals, up to 50% off",
+      "notes": "Black Friday sale, up to 50% off",
       "country": "UK"
     },
     {
       "name": "Evans Cycles",
       "website": "https://evanscycles.com",
-      "status": "unknown",
+      "status": "live",
       "detected": "2026-11-18",
       "tags": [
         "retailer"
       ],
       "type": "",
-      "notes": "Couldn't check: site didn't load. Last seen: Early Black Friday deals, up to 70% off (wiggle.com now redirects here)",
+      "notes": "Early Black Friday deals, up to 70% off (wiggle.com now redirects here)",
       "country": "UK"
     },
     {
       "name": "REI",
       "website": "https://rei.com",
-      "status": "unknown",
+      "status": "other_sale",
       "detected": null,
       "tags": [
         "retailer"
       ],
       "type": "",
-      "notes": "Couldn't check: site didn't load. Last seen: Holiday Sale through Nov 23: up to 25% off; members get 20% off one full-price item and an extra 20% off one Outlet item with code HOLIDAY2026",
+      "notes": "Holiday Sale through Nov 23: up to 25% off; members get 20% off one full-price item and an extra 20% off one Outlet item with code HOLIDAY2026",
       "country": "USA"
     },
     {
       "name": "Backcountry",
       "website": "https://backcountry.com",
-      "status": "unknown",
+      "status": "other_sale",
       "detected": null,
       "tags": [
         "retailer"
       ],
       "type": "",
-      "notes": "Couldn't check: site showed a \"confirm you are human\" bot check. Last seen: Big Brands Sale, up to 40% off, plus 20% off full-price items",
+      "notes": "Big Brands Sale, up to 40% off, plus 20% off full-price items",
       "country": "USA"
     },
     {
       "name": "Bike24",
       "website": "https://bike24.com",
-      "status": "unknown",
-      "detected": "2026-11-20",
+      "status": "live",
+      "detected": "2026-11-19",
       "tags": [
         "retailer"
       ],
       "type": "",
-      "notes": "Couldn't check: site blocked access (Access Denied). Last seen: Black Friday sale is on until Nov 30, 2026, with daily 24-hour deals; no discount or code shown",
+      "notes": "Black Friday sale is on until Nov 30, 2026, with daily 24-hour deals; no discount or code shown",
       "country": "Germany"
     }
   ]
