@@ -104,37 +104,21 @@
   .s-not_yet::before { color: #999; }
   .s-unknown::before { color: #999; content: "○"; }
   .s-closed::before { color: #c53030; }
+  .k-p_lo, .k-p_med, .k-p_hi { white-space: nowrap; font-variant-numeric: tabular-nums; }
+  .k-p_lo .v, .k-p_med .v, .k-p_hi .v { font-weight: 600; }
+  .v.sale { color: #1f9d55; }
+  .was { display: block; color: var(--muted); font-size: .8em; }
+  /* Price columns only show while a category is picked. */
+  #t:not(.priced) .k-p_lo, #t:not(.priced) .k-p_med, #t:not(.priced) .k-p_hi,
+  #t:not(.priced) th[data-key^="p_"] { display: none !important; }
+  .filters select {
+    font: inherit; color: var(--fg); background: var(--bg);
+    border: 1px solid var(--line); border-radius: 6px; padding: .15rem .4rem;
+  }
+  .sub a { margin-left: .5rem; }
   .msort { display: none; }
   .empty { color: var(--muted); padding: 1rem 0; }
   footer { color: var(--muted); font-size: .85em; margin-top: 1rem; }
-
-  /* Price stats: a grid of categories with lowest / median / highest price. */
-  #prices { margin: 0 0 1.25rem; }
-  #prices summary { cursor: pointer; display: flex; align-items: baseline; gap: .6rem; flex-wrap: wrap; }
-  #prices summary h2 { display: inline; font-size: 1.1rem; margin: 0; }
-  #prices .psub { color: var(--muted); font-size: .85em; }
-  .pstats {
-    display: grid;
-    grid-template-columns: minmax(12rem, 1.6fr) repeat(3, minmax(6.5rem, 1fr));
-    margin-top: .6rem;
-    border: 1px solid var(--line); border-radius: 6px; overflow: hidden;
-  }
-  .pstats > div { padding: .5rem .6rem; border-bottom: 1px solid var(--line); min-width: 0; }
-  .pstats .ph { background: var(--head); font-weight: 600; font-size: .9em; }
-  .pstats .pgroup { grid-column: 1 / -1; background: var(--head); padding: .35rem .6rem; }
-  .pstats .pcat .n, .pstats .pval .by, .pstats .pval .was { display: block; color: var(--muted); font-size: .8em; }
-  .pstats .pval .was s { opacity: .9; }
-  .pstats .pval .v { font-variant-numeric: tabular-nums; font-weight: 600; }
-  .pstats .pval .v.sale { color: #1f9d55; }
-  .pstats .pnone { grid-column: 2 / -1; color: var(--muted); font-size: .9em; }
-  .pstats .last { border-bottom: 0; }
-  @media (max-width: 700px) {
-    .pstats { grid-template-columns: repeat(3, 1fr); }
-    .pstats .ph-cat { display: none; }
-    .pstats .pcat { grid-column: 1 / -1; border-bottom: 0; padding-bottom: 0; font-weight: 600; }
-    .pstats .pcat .n { font-weight: 400; }
-    .pstats .pnone { grid-column: 1 / -1; }
-  }
 
   /* Narrow screens: each row becomes a card, and a dropdown replaces the header row for sorting. */
   @media (max-width: 1120px) {
@@ -196,19 +180,15 @@
 <body>
 <main>
   <h1 id="title">Loading…</h1>
-  <p class="sub" id="sub"></p>
-  <section id="prices" hidden>
-    <details open>
-      <summary><h2>Prices by category</h2><span class="psub" id="psub"></span></summary>
-      <div class="pstats" id="pstats"></div>
-    </details>
-  </section>
+  <p class="sub"><span id="sub"></span><a href="stats.html">Price stats by category →</a></p>
   <div class="controls">
     <input id="q" type="search" placeholder="Search brands, notes, countries… (press /)" autocomplete="off" aria-label="Search">
     <div class="filters" id="filters">
       <span id="tagFilters" style="display:contents"></span>
       <span class="sep"></span>
       <label><input type="checkbox" id="saleOnly"> Show only brands with sales</label>
+      <span class="sep"></span>
+      <label>Prices for <select id="cat"><option value="">— pick a category —</option></select></label>
     </div>
     <div class="count" id="count"></div>
   </div>
@@ -234,6 +214,9 @@ const COLUMNS = [
   { key: "website",  label: "Website" },
   { key: "status",   label: "Black Friday" },
   { key: "detected", label: "Sale detected" },
+  { key: "p_lo",     label: "Lowest",  price: true },
+  { key: "p_med",    label: "Median",  price: true },
+  { key: "p_hi",     label: "Highest", price: true },
   { key: "type",     label: "Type" },
   { key: "notes",    label: "What's on the site" },
   { key: "country",  label: "Country" },
@@ -289,6 +272,7 @@ function display(key, value) {
   if (key === "status") return STATUSES[value] || value;
   if (key === "detected") return fmtDate(value);
   if (key === "tags") return (value || []).map(tagLabel).join(", ");
+  if (COLUMNS.find(c => c.key === key)?.price) return "";
   if (key === "website") return value ? value.replace(/^https?:\/\/(www\.)?/, "").replace(/\/$/, "") : "";
   return value ?? "";
 }
@@ -317,6 +301,81 @@ function cell(key, value, label) {
     td.textContent = display(key, value);
   }
   return td;
+}
+
+// ---------- prices ----------
+
+// data/prices.json, keyed by category: { [category id]: { [entry name]: [observations] } }
+let prices = null;
+const priceIndex = {};
+let currentCat = "";
+
+const money = v => "$" + Math.round(v).toLocaleString("en-US");
+
+function median(xs) {
+  const a = [...xs].sort((x, y) => x - y);
+  const m = a.length >> 1;
+  return a.length % 2 ? a[m] : (a[m - 1] + a[m]) / 2;
+}
+
+// Fill one price cell. `o` is the observation behind it (lowest/highest), or null (median).
+function priceCell(td, price, full, o) {
+  td.textContent = "";
+  if (price == null) return;
+  const v = document.createElement("span");
+  v.className = "v" + (full > price ? " sale" : "");
+  v.textContent = money(price);
+  if (o) {
+    const a = document.createElement("a");
+    a.href = o.url;
+    a.target = "_blank";
+    a.rel = "noopener";
+    a.title = o.product;
+    a.appendChild(v);
+    td.appendChild(a);
+  } else {
+    td.appendChild(v);
+  }
+  if (full > price) {
+    const was = document.createElement("span");
+    was.className = "was";
+    const st = document.createElement("s");
+    st.textContent = money(full);
+    was.append("was ", st);
+    td.appendChild(was);
+  }
+}
+
+// Show lowest / median / highest for category `id` ("" hides the columns).
+function setCategory(id) {
+  currentCat = prices && priceIndex[id] ? id : "";
+  $("cat").value = currentCat;
+  $("t").classList.toggle("priced", !!currentCat);
+  for (const opt of $("sortSel").options) {
+    const c = COLUMNS[Number(opt.value)];
+    if (c?.price) opt.hidden = !currentCat;
+  }
+  const cat = prices?.categories.find(c => c.id === currentCat);
+  for (const r of rows) {
+    const obs = currentCat ? (priceIndex[currentCat][r.data.name] || []) : [];
+    let lo = null, hi = null;
+    if (obs.length) {
+      lo = obs.reduce((a, b) => b.price < a.price ? b : a);
+      hi = obs.reduce((a, b) => b.price > a.price ? b : a);
+    }
+    r.data.p_lo = lo ? lo.price : null;
+    r.data.p_hi = hi ? hi.price : null;
+    r.data.p_med = obs.length ? median(obs.map(o => o.price)) : null;
+    const tds = Object.fromEntries(["p_lo", "p_med", "p_hi"].map(k => [k, r.el.querySelector(".k-" + k)]));
+    priceCell(tds.p_lo, r.data.p_lo, lo?.full_price, lo);
+    priceCell(tds.p_med, r.data.p_med, obs.length ? median(obs.map(o => o.full_price)) : null, null);
+    priceCell(tds.p_hi, r.data.p_hi, hi?.full_price, hi);
+    for (const k in tds) tds[k].dataset.label = `${COLUMNS.find(c => c.key === k).label} ${cat ? cat.label.toLowerCase() : ""}`;
+    if (obs.length) tds.p_lo.title = `${obs.length} product${obs.length > 1 ? "s" : ""}: ` + obs.map(o => o.product).join(", ");
+  }
+  // Picking a category sorts cheapest-median first; brands without prices go last.
+  if (currentCat) sortTable(COLUMNS.findIndex(c => c.key === "p_med"), 1);
+  else if (COLUMNS[sortState.col]?.price) sortTable(COLUMNS.findIndex(c => c.key === "status"), 1);
 }
 
 // ---------- fuzzy search ----------
@@ -376,7 +435,6 @@ function apply() {
     r.el.hidden = !ok;
     if (ok) shown++;
   }
-  applyPriceFilters(shownTags);
   // Each checkbox shows how many brands carry that tag under the other filters.
   tags.forEach(t => t.n.textContent = `(${perTag[t.id]})`);
   $("count").textContent = `Showing ${shown} of ${rows.length}`;
@@ -388,6 +446,7 @@ function apply() {
   set("q", q);
   set("sale", saleOnly ? "1" : "");
   set("hide", tags.filter(t => !t.input.checked).map(t => t.id).join(","));
+  set("cat", currentCat);
   history.replaceState(null, "", url);
 }
 
@@ -399,18 +458,22 @@ function sortKey(key, value) {
     return i === -1 ? STATUS_ORDER.length : i;
   }
   if (key === "tags") return norm(display(key, value));
+  if (COLUMNS.find(c => c.key === key)?.price) return value == null ? "" : value;
   return norm(value ?? "");
 }
+
+const sortState = { col: -1, dir: 1 };
+let sortTable = () => {};
 
 function buildTable() {
   const htr = $("t").tHead.rows[0];
   const tbody = $("t").tBodies[0];
   const sel = $("sortSel"), dirBtn = $("sortDir");
-  let current = { col: -1, dir: 1 };
+  const current = sortState;
 
   // Sort by column i (-1 = original order) in direction dir (1 or -1).
   function sortBy(i, dir) {
-    current = { col: i, dir };
+    current.col = i; current.dir = dir;
     const key = i >= 0 ? COLUMNS[i].key : null;
     rows.sort((a, b) => {
       if (!key) return a.idx - b.idx;
@@ -432,6 +495,7 @@ function buildTable() {
   COLUMNS.forEach((c, i) => {
     const th = document.createElement("th");
     th.textContent = c.label;
+    th.dataset.key = c.key;
     th.addEventListener("click", () => sortBy(i, current.col === i ? -current.dir : 1));
     htr.appendChild(th);
     sel.add(new Option(c.label, String(i)));
@@ -449,6 +513,7 @@ function buildTable() {
     r.words = text.split(/[^a-z0-9%]+/).filter(Boolean);
   }
 
+  sortTable = sortBy;
   // Default: brands with active sales first (status order: live, other sale, ...).
   sortBy(COLUMNS.findIndex(c => c.key === "status"), 1);
 }
@@ -466,6 +531,22 @@ function buildFilters(params) {
     label.append(t.input, " " + t.label + " ", t.n);
     $("tagFilters").appendChild(label);
   }
+  if (prices) {
+    let group = null;
+    for (const c of prices.categories) {
+      if (!group || group.dataset.tag !== c.tag) {
+        group = document.createElement("optgroup");
+        group.label = tagLabel(c.tag);
+        group.dataset.tag = c.tag;
+        $("cat").appendChild(group);
+      }
+      const n = Object.keys(priceIndex[c.id]).length;
+      group.appendChild(new Option(`${c.label}${n ? ` (${n})` : ""}`, c.id));
+    }
+    $("cat").addEventListener("change", () => { setCategory($("cat").value); apply(); });
+  } else {
+    $("cat").closest("label").hidden = true;
+  }
   $("saleOnly").checked = params.get("sale") === "1";
   $("saleOnly").addEventListener("change", apply);
 
@@ -476,106 +557,6 @@ function buildFilters(params) {
   document.addEventListener("keydown", e => {
     if (e.key === "/" && document.activeElement !== q) { e.preventDefault(); q.focus(); }
   });
-}
-
-// ---------- price stats ----------
-
-const priceGroups = [];  // { tag, els } so the tag checkboxes can hide a group
-
-const money = v => "$" + Math.round(v).toLocaleString("en-US");
-
-function median(xs) {
-  const a = [...xs].sort((x, y) => x - y);
-  const m = a.length >> 1;
-  return a.length % 2 ? a[m] : (a[m - 1] + a[m]) / 2;
-}
-
-function div(cls, ...kids) {
-  const d = document.createElement("div");
-  d.className = cls;
-  d.append(...kids);
-  return d;
-}
-
-function span(cls, text) {
-  const s = document.createElement("span");
-  s.className = cls;
-  s.textContent = text;
-  return s;
-}
-
-// A price cell. `o` is the observation it came from (lowest/highest), or null (median).
-function priceCell(price, full, o) {
-  const v = span("v" + (full > price ? " sale" : ""), money(price));
-  const cellEl = div("pval");
-  if (o) {
-    const a = document.createElement("a");
-    a.href = o.url;
-    a.target = "_blank";
-    a.rel = "noopener";
-    a.title = `${o.brand}: ${o.product}`;
-    a.appendChild(v);
-    cellEl.append(a, span("by", o.brand));
-  } else {
-    cellEl.append(v);
-  }
-  if (full > price) {
-    const was = span("was", "was ");
-    const s = document.createElement("s");
-    s.textContent = money(full);
-    was.appendChild(s);
-    cellEl.append(was);
-  }
-  return cellEl;
-}
-
-function buildPrices(p) {
-  const grid = $("pstats");
-  grid.append(div("ph ph-cat", "Category"), div("ph", "Lowest"), div("ph", "Median"), div("ph", "Highest"));
-
-  const byCat = new Map(p.categories.map(c => [c.id, []]));
-  for (const o of p.observations) byCat.get(o.category)?.push(o);
-
-  let lastTag = null, group = null, lastRow = [];
-  for (const c of p.categories) {
-    if (c.tag !== lastTag) {
-      lastTag = c.tag;
-      group = { tag: c.tag, els: [div("pgroup", chip(tagLabel(c.tag), tagHue(c.tag), "tag"))] };
-      priceGroups.push(group);
-      grid.append(group.els[0]);
-    }
-    const obs = byCat.get(c.id);
-    const brands = new Set(obs.map(o => o.brand)).size;
-    const cat = div("pcat", c.label, span("n", obs.length
-      ? `${obs.length} product${obs.length > 1 ? "s" : ""} from ${brands} brand${brands > 1 ? "s" : ""}`
-      : ""));
-    cat.title = c.description;
-    const row = [cat];
-    if (!obs.length) {
-      row.push(div("pnone", "No prices yet"));
-    } else {
-      // Lowest and highest are by today's price; ties go to the first one listed.
-      const lo = obs.reduce((a, b) => b.price < a.price ? b : a);
-      const hi = obs.reduce((a, b) => b.price > a.price ? b : a);
-      row.push(
-        priceCell(lo.price, lo.full_price, lo),
-        priceCell(median(obs.map(o => o.price)), median(obs.map(o => o.full_price)), null),
-        priceCell(hi.price, hi.full_price, hi));
-    }
-    grid.append(...row);
-    group.els.push(...row);
-    lastRow = row;
-  }
-  lastRow.forEach(e => e.classList.add("last"));
-
-  $("psub").textContent = p.checked
-    ? `From brands' US sites, in US dollars. Last checked ${fmtDate(p.checked, { month: "long", day: "numeric" })}. Sale prices are in green, with the full price below.`
-    : "No prices collected yet.";
-  $("prices").hidden = false;
-}
-
-function applyPriceFilters(shownTags) {
-  for (const g of priceGroups) g.els.forEach(e => e.hidden = !shownTags.has(g.tag));
 }
 
 // ---------- loading ----------
@@ -605,14 +586,21 @@ async function main() {
   $("sub").textContent = data.checked
     ? `Last checked ${fmtDate(data.checked, { month: "long", day: "numeric", year: "numeric" })}`
     : "";
-  buildTable();
   try {
     const r = await fetch(PRICES_URL, { cache: "no-cache" });
-    if (r.ok) buildPrices(await r.json());
+    if (r.ok) {
+      prices = await r.json();
+      for (const c of prices.categories) priceIndex[c.id] = {};
+      for (const o of prices.observations)
+        if (priceIndex[o.category]) (priceIndex[o.category][o.brand] ??= []).push(o);
+    }
   } catch (err) {
     console.warn("Couldn't load prices:", err);
   }
-  buildFilters(new URLSearchParams(location.search));
+  buildTable();
+  const params = new URLSearchParams(location.search);
+  buildFilters(params);
+  setCategory(params.get("cat") || "");
   apply();
 
 }

@@ -2,7 +2,7 @@
 
 This repo is a static GitHub Pages site that tracks Black Friday sales at road cycling brands and retailers. Pushing to `master` publishes it.
 
-**A data update edits only `data/brands.json` and `data/prices.json`.** Their formats are defined in `data/brands.schema.json` and `data/prices.schema.json`. Don't change `index.html`, the schemas or `scripts/` as part of a data update.
+**A data update edits only `data/brands.json` and `data/prices.json`.** Their formats are defined in `data/brands.schema.json` and `data/prices.schema.json`. Don't change `index.html`, `stats.html`, the schemas or `scripts/` as part of a data update.
 
 The daily update has two parts: the sale **status** of each brand (`brands.json`) and the **prices** of tracked products (`prices.json`, see [Prices](#prices)).
 
@@ -62,7 +62,12 @@ All dates ("today", `checked`, `detected`, the commit title) are in US Eastern t
 
 ## Prices
 
-`data/prices.json` tracks prices of individual products so the page can show, for each product category, the **lowest, median and highest** price today (and the full price behind any sale). The page computes those numbers itself; you only record the products.
+`data/prices.json` tracks prices of individual products on each brand's own site. Retailers aren't priced (it would mean too many pages to check); they only get a sale status. The site computes the **lowest, median and highest** price (and the full price behind any sale) from them in two places:
+
+- **Main page (`index.html`):** picking a category in "Prices for" adds Lowest, Median and Highest columns to the table, one row per brand, from that brand's own products.
+- **Stats page (`stats.html`):** the same three numbers per category across every brand.
+
+You only record the products; the pages do the math.
 
 ### Categories
 
@@ -87,7 +92,7 @@ Each entry in `observations` is one product:
 ```
 
 - `category`: a category `id`.
-- `brand`: exactly the brand's `name` in `brands.json`. The brand must have the category's tag there (so POC, tagged `apparel` and `components`, can have helmets and jackets). Retailers aren't brands for pricing: only record prices from a brand's own site.
+- `brand`: exactly the brand's `name` in `brands.json`. The brand must have the category's tag there (so POC, tagged `apparel` and `components`, can have helmets and jackets). Don't record prices for retailers (tag `retailer`).
 - `product`: the product name as the site shows it.
 - `url`: the product page the price came from. Each product appears once.
 - `price`: what it costs today on the product page, in US dollars, including any sale price shown there. Ignore discount codes, member-only prices, bundles and discounts that only appear at checkout.
@@ -98,6 +103,7 @@ Each entry in `observations` is one product:
 
 - **US prices only.** Use the brand's US site, in US dollars. If a brand has no US pricing (euros only, no shipping to the US, dealer-only), skip it; don't convert currencies.
 - **Up to 3 products per brand per category**: the cheapest, a mid-range one, and the flagship of the brand's current range in that category. Use the standard men's or unisex version; skip kids', women's-only duplicates of the same product, and limited-edition prints.
+- **Brands only.** Record prices only from a brand's own site. Skip retailers, and don't take a brand's price from a retailer's listing.
 - **Sizes and colors:** use the price shown for the product before choosing a size. If colors are priced differently, use the regular color, not the discounted leftover.
 - A brand only needs products in the categories it actually sells.
 
@@ -105,7 +111,7 @@ Each entry in `observations` is one product:
 
 1. For **every** existing observation (whatever the brand's status), open its `url` and update `price`, `full_price` and `date`. Keep `product` and `url` unless the product was renamed.
 2. If the product page is gone or the product is sold out in every size, remove the observation and, if the brand still sells something in that category, add a replacement at the same price level.
-3. Fill gaps: for brands with no products in a category they sell, add up to 3 (see above). Spread effort so every category builds up a few brands rather than one category getting dozens.
+3. Fill gaps: for brands with fewer than 3 products in a category they sell, add more (see above). Spread effort so every category builds up a few brands rather than one category getting dozens.
 4. If you can't load a brand's site, leave its observations as they are (their `date` shows they're stale) and list the brand in the commit message's `Couldn't check` line.
 5. Set the top-level `checked` in `prices.json` to today's date.
 

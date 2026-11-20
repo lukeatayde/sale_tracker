@@ -66,6 +66,8 @@ for o in prices["observations"]:
     check(o["brand"] in brand_by_name, f"{where}: brand isn't a `name` in brands.json")
     if o["brand"] in brand_by_name and o["category"] in cats:
         b = brand_by_name[o["brand"]]
+        # Only brands are priced, and only in categories matching their tags.
+        check("retailer" not in b["tags"], f"{where}: retailers aren't priced")
         check(cats[o["category"]]["tag"] in b["tags"],
               f"{where}: brand isn't tagged {cats[o['category']]['tag']!r} in brands.json")
     check(o["url"].startswith("https://"), f"{where}: url must start with https://")

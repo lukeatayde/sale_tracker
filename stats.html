@@ -1,0 +1,186 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Price stats by category</title>
+<style>
+  :root {
+    --bg: #fff;
+    --fg: #1a1a1a;
+    --muted: #666;
+    --line: #e5e5e5;
+    --head: #f7f7f7;
+    --link: #0b5fff;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #141414;
+      --fg: #e8e8e8;
+      --muted: #999;
+      --line: #2c2c2c;
+      --head: #1c1c1c;
+      --link: #7aa7ff;
+    }
+  }
+  * { box-sizing: border-box; }
+  [hidden] { display: none !important; }
+  body {
+    margin: 0;
+    padding: 2rem 1rem;
+    background: var(--bg);
+    color: var(--fg);
+    font: 15px/1.5 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  }
+  main { max-width: 1100px; margin: 0 auto; }
+  h1 { font-size: 1.5rem; margin: 0 0 .25rem; }
+  p.sub { color: var(--muted); margin: 0 0 1rem; }
+  a { color: var(--link); text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  .label {
+    display: inline-block;
+    padding: .05rem .5rem;
+    font-size: .78em;
+    line-height: 1.5;
+    border-radius: 999px;
+    font-weight: 600;
+    background: hsl(var(--h) 75% 93%);
+    color: hsl(var(--h) 60% 28%);
+  }
+  @media (prefers-color-scheme: dark) {
+    .label { background: hsl(var(--h) 35% 22%); color: hsl(var(--h) 75% 82%); }
+  }
+  footer { color: var(--muted); font-size: .85em; margin-top: 1rem; }
+  /* Price stats: a grid of categories with lowest / median / highest price. */
+  .pstats {
+    display: grid;
+    grid-template-columns: minmax(12rem, 1.6fr) repeat(3, minmax(6.5rem, 1fr));
+    margin-top: .6rem;
+    border: 1px solid var(--line); border-radius: 6px; overflow: hidden;
+  }
+  .pstats > div { padding: .5rem .6rem; border-bottom: 1px solid var(--line); min-width: 0; }
+  .pstats .ph { background: var(--head); font-weight: 600; font-size: .9em; }
+  .pstats .pgroup { grid-column: 1 / -1; background: var(--head); padding: .35rem .6rem; }
+  .pstats .pcat .n, .pstats .pval .by, .pstats .pval .was { display: block; color: var(--muted); font-size: .8em; }
+  .pstats .pval .was s { opacity: .9; }
+  .pstats .pval .v { font-variant-numeric: tabular-nums; font-weight: 600; }
+  .pstats .pval .v.sale { color: #1f9d55; }
+  .pstats .pnone { grid-column: 2 / -1; color: var(--muted); font-size: .9em; }
+  .pstats .last { border-bottom: 0; }
+  @media (max-width: 700px) {
+    .pstats { grid-template-columns: repeat(3, 1fr); }
+    .pstats .ph-cat { display: none; }
+    .pstats .pcat { grid-column: 1 / -1; border-bottom: 0; padding-bottom: 0; font-weight: 600; }
+    .pstats .pcat .n { font-weight: 400; }
+    .pstats .pnone { grid-column: 1 / -1; }
+  }
+
+</style>
+</head>
+<body>
+<main>
+  <p><a href="./">← All brands and sales</a></p>
+  <h1>Price stats by category</h1>
+  <p class="sub" id="sub">Loading…</p>
+  <div class="pstats" id="pstats"></div>
+  <footer>Each figure covers every brand with prices in that category; retailers aren't priced. Pick a category on the <a href="./">main page</a> to compare them one by one.</footer>
+</main>
+<script>
+// Must match index.html: tags take hues in the order data/brands.json lists them.
+const HUES = [212, 145, 28, 275, 345, 185, 48, 100, 240, 5, 310, 160];
+const $ = id => document.getElementById(id);
+const money = v => "$" + Math.round(v).toLocaleString("en-US");
+
+function median(xs) {
+  const a = [...xs].sort((x, y) => x - y);
+  const m = a.length >> 1;
+  return a.length % 2 ? a[m] : (a[m - 1] + a[m]) / 2;
+}
+
+function el(tag, cls, ...kids) {
+  const e = document.createElement(tag);
+  if (cls) e.className = cls;
+  e.append(...kids);
+  return e;
+}
+
+// A price cell. `o` is the observation it came from (lowest/highest), or null (median).
+function priceCell(price, full, o) {
+  const v = el("span", "v" + (full > price ? " sale" : ""), money(price));
+  const cell = el("div", "pval");
+  if (o) {
+    const a = el("a", "", v);
+    a.href = o.url;
+    a.target = "_blank";
+    a.rel = "noopener";
+    a.title = `${o.brand}: ${o.product}`;
+    cell.append(a, el("span", "by", o.brand));
+  } else {
+    cell.append(v);
+  }
+  if (full > price) cell.append(el("span", "was", "was ", el("s", "", money(full))));
+  return cell;
+}
+
+async function main() {
+  let brands, prices;
+  try {
+    [brands, prices] = await Promise.all(["data/brands.json", "data/prices.json"].map(async u => {
+      const r = await fetch(u, { cache: "no-cache" });
+      if (!r.ok) throw new Error(`${u}: HTTP ${r.status}`);
+      return r.json();
+    }));
+  } catch (err) {
+    $("sub").textContent = "Couldn't load data: " + err.message;
+    return;
+  }
+  const tagLabel = id => brands.tags.find(t => t.id === id)?.label ?? id;
+  const tagHue = id => HUES[Math.max(0, brands.tags.findIndex(t => t.id === id)) % HUES.length];
+
+  const grid = $("pstats");
+  grid.append(el("div", "ph ph-cat", "Category"), el("div", "ph", "Lowest"), el("div", "ph", "Median"), el("div", "ph", "Highest"));
+
+  const byCat = new Map(prices.categories.map(c => [c.id, []]));
+  for (const o of prices.observations) byCat.get(o.category)?.push(o);
+
+  let lastTag = null, lastRow = [];
+  for (const c of prices.categories) {
+    if (c.tag !== lastTag) {
+      lastTag = c.tag;
+      const chip = el("span", "label", tagLabel(c.tag));
+      chip.style.setProperty("--h", tagHue(c.tag));
+      grid.append(el("div", "pgroup", chip));
+    }
+    const obs = byCat.get(c.id);
+    const sellers = new Set(obs.map(o => o.brand)).size;
+    const name = el("a", "", c.label);
+    name.href = "./?cat=" + encodeURIComponent(c.id);
+    name.title = c.description;
+    const row = [el("div", "pcat", name, el("span", "n", obs.length
+      ? `${obs.length} product${obs.length > 1 ? "s" : ""} from ${sellers} brand${sellers > 1 ? "s" : ""}`
+      : ""))];
+    if (!obs.length) {
+      row.push(el("div", "pnone", "No prices yet"));
+    } else {
+      const lo = obs.reduce((a, b) => b.price < a.price ? b : a);
+      const hi = obs.reduce((a, b) => b.price > a.price ? b : a);
+      row.push(
+        priceCell(lo.price, lo.full_price, lo),
+        priceCell(median(obs.map(o => o.price)), median(obs.map(o => o.full_price)), null),
+        priceCell(hi.price, hi.full_price, hi));
+    }
+    grid.append(...row);
+    lastRow = row;
+  }
+  lastRow.forEach(e => e.classList.add("last"));
+
+  const fmt = iso => new Date(iso + "T00:00:00").toLocaleDateString("en-US", { month: "long", day: "numeric", year: "numeric" });
+  $("sub").textContent = prices.checked
+    ? `From brands' own US sites, in US dollars. Last checked ${fmt(prices.checked)}. Sale prices are in green, with the full price below.`
+    : "No prices have been collected yet.";
+}
+
+main();
+</script>
+</body>
+</html>

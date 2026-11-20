@@ -3,9 +3,11 @@
 A static page (GitHub Pages) that tracks Black Friday sales at road cycling brands and retailers.
 
 ```
-index.html                 the page: price stats by category, then one sortable, searchable table with tag filters
+index.html                 the main page: one sortable, searchable table with tag filters; pick a
+                           category to add lowest/median/highest price columns per brand
+stats.html                 lowest/median/highest price per category across all brands
 data/brands.json           each brand's Black Friday sale status
-data/prices.json           tracked product prices, for the lowest/median/highest stats per category
+data/prices.json           tracked product prices from each brand's own site
 data/*.schema.json         JSON Schemas for the two data files
 scripts/validate.py        checks both data files and prints the price stats
 AGENTS.md                  how to update the data

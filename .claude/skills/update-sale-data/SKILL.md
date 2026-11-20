@@ -1,6 +1,6 @@
 ---
 name: update-sale-data
-description: Run the daily update of the sale tracker. Re-check brands' Black Friday sale status and record product prices for the per-category lowest/median/highest stats, using a browser and parallel subagents, then validate, commit and push data/brands.json and data/prices.json.
+description: Run the daily update of the sale tracker. Re-check brands' Black Friday sale status and record product prices on each brand's own site (for the lowest/median/highest price columns and the stats page), using a browser and parallel subagents, then validate, commit and push data/brands.json and data/prices.json.
 ---
 
 # Daily sale-data update
@@ -10,9 +10,11 @@ The daily update has two parts, and both are defined in `AGENTS.md`. Read it fir
 | Part | File | Which brands |
 |---|---|---|
 | **Sale status**: is a Black Friday sale live? | `data/brands.json` | Brands whose `status` isn't `live` or `closed` |
-| **Prices**: what tracked products cost today | `data/prices.json` | Every brand with a US site, including `live` ones, since their prices are what's changing |
+| **Prices**: what tracked products cost today | `data/prices.json` | Every brand with a US site, including `live` ones, since their prices are what's changing. **Not retailers**: pricing them means too many pages per category |
 
-Only those two files change. Don't edit `index.html`, the schemas or `scripts/`.
+Only those two files change. Don't edit `index.html`, `stats.html`, the schemas or `scripts/`.
+
+The prices feed two views: on the main page, picking a category adds Lowest, Median and Highest columns per brand, computed from that brand's own products; `stats.html` shows the same three numbers per category across all brands. So every brand needs its own products in each category it sells, not just a few products per category overall.
 
 ## 1. Get set up
 
@@ -33,11 +35,11 @@ Only those two files change. Don't edit `index.html`, the schemas or `scripts/`.
    PY
    ```
 
-4. `python3 scripts/validate.py` prints the current stats per category. Note which categories have few or no products: the price work should fill those first.
+4. `python3 scripts/validate.py` prints the current stats per category. Note which categories and brands have few or no products: the price work should fill those first.
 
 ## 2. Use a browser on the user's computer
 
-Check sites in a real browser, not WebFetch or search results: WebFetch misses banners and prices that load with JavaScript, and some sites block it. Retailer listings and deal roundups don't count; only the brand's own site does.
+Check sites in a real browser, not WebFetch or search results: WebFetch misses banners and prices that load with JavaScript, and some sites block it. A brand's status and prices come from the brand's own site, and a retailer's status from the retailer's own site; deal roundups and other sellers' listings don't count.
 
 - **Claude in Chrome** (`mcp__claude-in-chrome__*`) is the user's Chrome. It only works while Chrome is open with the extension connected. If `tabs_context_mcp` says it isn't connected, don't keep retrying.
 - **The desktop app's built-in browser** (`mcp__remote-devices__Claude_Browser__*`) works whenever the Claude desktop app is open on the user's computer, including when the user is messaging from their phone. Use it when Chrome isn't connected.
@@ -45,12 +47,12 @@ Check sites in a real browser, not WebFetch or search results: WebFetch misses b
 
 ## 3. Split the work across subagents
 
-Launch three subagents in the background at the same time, one per tag group: **apparel**, **road bikes**, and **components** (which also takes the **retailers**, for status only; retailers get no prices). Give each one:
+Launch three subagents in the background at the same time, one per tag group: **apparel**, **road bikes** and **components**. The components subagent also checks the **retailers'** sale status (status only; retailers get no prices). Brands with two tags go to the first group they're in, so no brand is checked twice. Give each one:
 
 1. Today's date, and that Black Friday is the Friday after US Thanksgiving.
 2. Which browser tools to use, loaded in one ToolSearch call, and the browser rules below.
 3. **Status list**: its brands that aren't `live` or `closed`, as `index | name | website | status | notes`, plus the status table and notes rule from `AGENTS.md`.
-4. **Price list**: every brand in its group with a US site, the categories for its tag (copy each category's `description`), the brand's existing observations (`url`, `product`, `price`, `full_price`), and the rules from the `AGENTS.md` "What to record" section: US dollars only, up to 3 products per brand per category (cheapest, mid-range, flagship), men's or unisex, the price shown on the product page ignoring codes and checkout-only discounts.
+4. **Price list**: every brand in its group with a US site (no retailers), the categories of its tags (copy each category's `description`), its existing observations (`url`, `product`, `price`, `full_price`), and the rules from the `AGENTS.md` "What to record" section: US dollars only, up to 3 products per brand per category (cheapest, mid-range, flagship), men's or unisex, the price shown on the product page ignoring codes and checkout-only discounts.
 5. The reply format below.
 
 Better starting URLs for sites whose bare domain redirects badly: `https://www.cannondale.com/en-us`, `https://www.canyon.com/en-us/`, `https://www.giant-bicycles.com/us`, `https://pinarello.com/usa/en`, `https://www.trekbikes.com/us/en_US/`, `https://us.santinicycling.com`, `https://us.blacksheep.cc`, `https://www.decathlon.com/collections/van-rysel`, `https://us.muc-off.com/`, `https://ride.shimano.com`, `https://shop.sram.com/`.
@@ -148,7 +150,7 @@ prices["checked"] = TODAY
 save("data/brands.json", brands); save("data/prices.json", prices)
 ```
 
-Then run `python3 scripts/validate.py`. It checks both files (including that each price's brand exists and carries the category's tag, and the 3-per-brand limit) and prints the stats as the page will show them. Fix what it reports. If a lowest or highest value looks out of line, check that product's category and price before committing. Finally check that `git diff --stat` lists only the two data files.
+Then run `python3 scripts/validate.py`. It checks both files (including that each price's brand exists, isn't a retailer and carries the category's tag, and the 3-per-brand limit) and prints the stats as the page will show them. Fix what it reports. If a lowest or highest value looks out of line, check that product's category and price before committing. Finally check that `git diff --stat` lists only the two data files.
 
 ## 5. Commit and push
 
@@ -171,4 +173,4 @@ When the repo is reached through the Claude desktop app's connected-folder shell
 
 ## 6. Report to the user
 
-Summarize: brands that newly went live, other status changes, how many products were priced (and how many are on sale), categories that still have few products, brands skipped for having no US prices, sites you couldn't check, and judgment calls. Give the commit hash and say whether it's pushed.
+Summarize: brands that newly went live, other status changes, how many products were priced (and how many are on sale), categories and brands that still have few products, brands skipped for having no US prices, sites you couldn't check, and judgment calls. Give the commit hash and say whether it's pushed.
