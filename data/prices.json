@@ -1,0 +1,122 @@
+{
+  "$schema": "./prices.schema.json",
+  "currency": "USD",
+  "checked": null,
+  "categories": [
+    {
+      "id": "bib-shorts",
+      "label": "Bib shorts",
+      "tag": "apparel",
+      "description": "Men's or unisex bib shorts (not shorts without straps, not tights)."
+    },
+    {
+      "id": "ss-jerseys",
+      "label": "Short-sleeve jerseys",
+      "tag": "apparel",
+      "description": "Men's or unisex short-sleeve road jerseys."
+    },
+    {
+      "id": "ls-jerseys",
+      "label": "Long-sleeve & thermal jerseys",
+      "tag": "apparel",
+      "description": "Men's or unisex long-sleeve or thermal jerseys (not jackets)."
+    },
+    {
+      "id": "jackets",
+      "label": "Winter & rain jackets",
+      "tag": "apparel",
+      "description": "Men's or unisex insulated, winter or waterproof cycling jackets (not wind shells or gilets)."
+    },
+    {
+      "id": "gilets",
+      "label": "Gilets & vests",
+      "tag": "apparel",
+      "description": "Men's or unisex wind or insulated gilets/vests."
+    },
+    {
+      "id": "bib-tights",
+      "label": "Bib tights",
+      "tag": "apparel",
+      "description": "Men's or unisex full-length bib tights with a chamois."
+    },
+    {
+      "id": "base-layers",
+      "label": "Base layers",
+      "tag": "apparel",
+      "description": "Men's or unisex cycling base layers, any sleeve length."
+    },
+    {
+      "id": "gloves",
+      "label": "Gloves",
+      "tag": "apparel",
+      "description": "Cycling gloves, short- or full-finger."
+    },
+    {
+      "id": "road-bikes",
+      "label": "Complete road bikes",
+      "tag": "road-bikes",
+      "description": "Complete road bikes (race, aero, endurance). Not gravel, not e-bikes, not framesets."
+    },
+    {
+      "id": "framesets",
+      "label": "Framesets",
+      "tag": "road-bikes",
+      "description": "Road framesets (frame and fork, sometimes with cockpit or seatpost)."
+    },
+    {
+      "id": "wheelsets",
+      "label": "Carbon wheelsets",
+      "tag": "components",
+      "description": "Carbon road wheelsets, sold as a front-and-rear pair."
+    },
+    {
+      "id": "groupsets",
+      "label": "Groupsets",
+      "tag": "components",
+      "description": "Complete road groupsets (shifters, derailleurs, brakes, crankset, cassette, chain), mechanical or electronic."
+    },
+    {
+      "id": "power-meters",
+      "label": "Power meters",
+      "tag": "components",
+      "description": "Road power meters of any type (pedal, crank, spider); the dual-sided version if both are sold."
+    },
+    {
+      "id": "bike-computers",
+      "label": "Bike computers",
+      "tag": "components",
+      "description": "GPS bike computers, unit only (not bundles with sensors)."
+    },
+    {
+      "id": "smart-trainers",
+      "label": "Smart trainers",
+      "tag": "components",
+      "description": "Direct-drive or wheel-on smart trainers and smart bikes."
+    },
+    {
+      "id": "helmets",
+      "label": "Helmets",
+      "tag": "components",
+      "description": "Road cycling helmets."
+    },
+    {
+      "id": "road-shoes",
+      "label": "Road shoes",
+      "tag": "components",
+      "description": "Road cycling shoes (3-bolt cleats)."
+    },
+    {
+      "id": "saddles",
+      "label": "Saddles",
+      "tag": "components",
+      "description": "Road saddles."
+    },
+    {
+      "id": "sunglasses",
+      "label": "Sunglasses",
+      "tag": "components",
+      "description": "Cycling sunglasses with standard (non-prescription) lenses."
+    }
+  ],
+  "observations": []
+}

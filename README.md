@@ -3,15 +3,18 @@
 A static page (GitHub Pages) that tracks Black Friday sales at road cycling brands and retailers.
 
 ```
-index.html                 the page: one sortable, searchable table with tag filters
-data/brands.json           the data (the only file that changes day to day)
-data/brands.schema.json    JSON Schema describing brands.json
+index.html                 the page: price stats by category, then one sortable, searchable table with tag filters
+data/brands.json           each brand's Black Friday sale status
+data/prices.json           tracked product prices, for the lowest/median/highest stats per category
+data/*.schema.json         JSON Schemas for the two data files
+scripts/validate.py        checks both data files and prints the price stats
 AGENTS.md                  how to update the data
+.claude/skills/            the update-sale-data skill for running the daily update
 ```
 
 ## Updating the data
 
-Edit only `data/brands.json`; the page picks up changes automatically. See [AGENTS.md](AGENTS.md) for the field reference, status definitions and update steps.
+Edit only `data/brands.json` and `data/prices.json`, then run `python3 scripts/validate.py`; the page picks up changes automatically. See [AGENTS.md](AGENTS.md) for the field reference, status definitions and update steps.
 
 ## Previewing locally
 

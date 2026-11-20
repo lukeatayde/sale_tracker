@@ -1,0 +1,49 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Price observations",
+  "type": "object",
+  "required": ["currency", "checked", "categories", "observations"],
+  "additionalProperties": false,
+  "properties": {
+    "$schema": { "type": "string" },
+    "currency": { "const": "USD", "description": "Every price is in US dollars, from the brand's US site." },
+    "checked": {
+      "type": ["string", "null"],
+      "format": "date",
+      "description": "Date (YYYY-MM-DD, US Eastern) prices were last checked, or null before the first check."
+    },
+    "categories": {
+      "type": "array",
+      "description": "Product categories the page shows statistics for, in display order.",
+      "items": {
+        "type": "object",
+        "required": ["id", "label", "tag", "description"],
+        "additionalProperties": false,
+        "properties": {
+          "id": { "type": "string", "pattern": "^[a-z0-9-]+$" },
+          "label": { "type": "string" },
+          "tag": { "type": "string", "description": "Tag id from data/brands.json that groups this category on the page." },
+          "description": { "type": "string", "description": "What counts as a product in this category." }
+        }
+      }
+    },
+    "observations": {
+      "type": "array",
+      "description": "One entry per product being tracked. Updated in place each check.",
+      "items": {
+        "type": "object",
+        "required": ["category", "brand", "product", "url", "price", "full_price", "date"],
+        "additionalProperties": false,
+        "properties": {
+          "category": { "type": "string", "description": "A category id from `categories`." },
+          "brand": { "type": "string", "description": "Exactly the brand's `name` in data/brands.json." },
+          "product": { "type": "string", "minLength": 1, "description": "Product name as the brand's site shows it." },
+          "url": { "type": "string", "pattern": "^https://", "description": "The product page the price came from. Unique across observations." },
+          "price": { "type": "number", "exclusiveMinimum": 0, "description": "What it costs today on the product page, in USD, including any sale price shown. Ignore codes, member-only or checkout-only discounts." },
+          "full_price": { "type": "number", "exclusiveMinimum": 0, "description": "The regular (crossed-out) price, or the same as `price` when it isn't discounted." },
+          "date": { "type": "string", "format": "date", "description": "Date (YYYY-MM-DD, US Eastern) this price was last seen." }
+        }
+      }
+    }
+  }
+}

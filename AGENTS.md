@@ -2,7 +2,9 @@
 
 This repo is a static GitHub Pages site that tracks Black Friday sales at road cycling brands and retailers. Pushing to `master` publishes it.
 
-**The only file you should edit is `data/brands.json`.** Its format is defined in `data/brands.schema.json`. Don't change `index.html` or the schema as part of a data update.
+**A data update edits only `data/brands.json` and `data/prices.json`.** Their formats are defined in `data/brands.schema.json` and `data/prices.schema.json`. Don't change `index.html`, the schemas or `scripts/` as part of a data update.
+
+The daily update has two parts: the sale **status** of each brand (`brands.json`) and the **prices** of tracked products (`prices.json`, see [Prices](#prices)).
 
 ## Daily update
 
@@ -16,7 +18,8 @@ All dates ("today", `checked`, `detected`, the commit title) are in US Eastern t
    - `detected`: if `status` is now `live` and `detected` is `null`, set it to today's date. **Never change `detected` once it's set**, even if the sale ends.
 4. If you can't check a brand (the site is down, blocks you, or shows a bot check), leave its entry exactly as it is. Don't set it to `unknown` or rewrite its notes; list it in the commit message instead (see below). Never try to get past bot checks.
 5. Set the top-level `checked` to today's date (`YYYY-MM-DD`, Eastern time).
-6. Validate (see below), then commit and push.
+6. Update prices in `data/prices.json` (see [Prices](#prices)). Unlike step 2, this covers `live` brands too, since their prices are what's changing.
+7. Validate (see below), then commit and push.
 
 ### Status values
 
@@ -57,30 +60,87 @@ All dates ("today", `checked`, `detected`, the commit title) are in US Eastern t
 - Don't delete brands that close. Set `status` to `closed` and explain in `notes`.
 - Keep the file formatting: 2-space indent, UTF-8 (write `é`, not `é`), trailing newline.
 
+## Prices
+
+`data/prices.json` tracks prices of individual products so the page can show, for each product category, the **lowest, median and highest** price today (and the full price behind any sale). The page computes those numbers itself; you only record the products.
+
+### Categories
+
+The top-level `categories` list defines what's tracked. Each has an `id`, a `label`, the brand `tag` it belongs to (`apparel`, `road-bikes` or `components`), and a `description` of what counts. Read the description before adding a product: for example, bib shorts are men's or unisex bib shorts with straps, and wheelsets are carbon road wheelsets sold as a pair.
+
+Don't rename, reorder or remove categories as part of a data update; the page shows them in this order. If the user asks for a new category, add it at the end of its tag's group.
+
+### Observations
+
+Each entry in `observations` is one product:
+
+```json
+{
+  "category": "bib-shorts",
+  "brand": "MAAP",
+  "product": "Team Bib Evo",
+  "url": "https://maap.cc/products/team-bib-evo-black",
+  "price": 180,
+  "full_price": 240,
+  "date": "2026-11-20"
+}
+```
+
+- `category`: a category `id`.
+- `brand`: exactly the brand's `name` in `brands.json`. The brand must have the category's tag there (so POC, tagged `apparel` and `components`, can have helmets and jackets). Retailers aren't brands for pricing: only record prices from a brand's own site.
+- `product`: the product name as the site shows it.
+- `url`: the product page the price came from. Each product appears once.
+- `price`: what it costs today on the product page, in US dollars, including any sale price shown there. Ignore discount codes, member-only prices, bundles and discounts that only appear at checkout.
+- `full_price`: the regular price (the crossed-out one). If the product isn't discounted, the same as `price`.
+- `date`: the date (Eastern) you last saw this price.
+
+### What to record
+
+- **US prices only.** Use the brand's US site, in US dollars. If a brand has no US pricing (euros only, no shipping to the US, dealer-only), skip it; don't convert currencies.
+- **Up to 3 products per brand per category**: the cheapest, a mid-range one, and the flagship of the brand's current range in that category. Use the standard men's or unisex version; skip kids', women's-only duplicates of the same product, and limited-edition prints.
+- **Sizes and colors:** use the price shown for the product before choosing a size. If colors are priced differently, use the regular color, not the discounted leftover.
+- A brand only needs products in the categories it actually sells.
+
+### Daily price update
+
+1. For **every** existing observation (whatever the brand's status), open its `url` and update `price`, `full_price` and `date`. Keep `product` and `url` unless the product was renamed.
+2. If the product page is gone or the product is sold out in every size, remove the observation and, if the brand still sells something in that category, add a replacement at the same price level.
+3. Fill gaps: for brands with no products in a category they sell, add up to 3 (see above). Spread effort so every category builds up a few brands rather than one category getting dozens.
+4. If you can't load a brand's site, leave its observations as they are (their `date` shows they're stale) and list the brand in the commit message's `Couldn't check` line.
+5. Set the top-level `checked` in `prices.json` to today's date.
+
+Edit `prices.json` with a script (read the JSON, change it, write it with 2-space indent, `ensure_ascii=False` and a trailing newline), not by retyping it.
+
 ## Validate before committing
 
 ```sh
-python3 -m json.tool data/brands.json > /dev/null && echo "valid JSON"
+python3 scripts/validate.py
 ```
 
-Then check that:
+It checks both files and prints the lowest, median and highest price per category, as the page will show them. It checks that:
 
+- both files keep their formatting (2-space indent, UTF-8, trailing newline)
 - every `status` is one of the five values above
 - every `detected` is `null` or a `YYYY-MM-DD` date, and every `live` brand has one
 - every tag id used by a brand is defined in the top-level `tags`
 - `website` values start with `https://` (or are `null`)
+- every price observation uses a known category, a brand from `brands.json` with that category's tag, a unique `https://` URL, positive prices with `full_price` at least `price`, and a valid `date`
+- no brand has more than 3 products in one category
+
+Fix anything it reports before committing. Glance at the printed stats too: a "lowest" or "highest" far out of line usually means a wrong category or a misread price.
 
 To see the result, serve the folder with `python3 -m http.server` and open http://localhost:8000.
 
 ## Commit
 
-Commit only `data/brands.json`, with a message like:
+Commit only `data/brands.json` and `data/prices.json`, with a message like:
 
 ```
 Update sale data for 2026-11-19
 
 New Black Friday sales: Rapha, Gobik
 Other changes: Sportful sale ended
+Prices: 212 products checked, 14 added, 3 removed; 61 on sale
 Couldn't check: POC (bot check), REI (site down)
 ```
 
