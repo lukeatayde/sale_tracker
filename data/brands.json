@@ -1,7 +1,7 @@
 {
   "$schema": "./brands.schema.json",
   "title": "Black Friday 2026 Cycling Sales",
-  "checked": "2026-11-21",
+  "checked": "2026-11-22",
   "tags": [
     {
       "id": "apparel",
@@ -241,13 +241,13 @@
     {
       "name": "Voler",
       "website": "https://voler.com",
-      "status": "not_yet",
-      "detected": null,
+      "status": "live",
+      "detected": "2026-11-22",
       "tags": [
         "apparel"
       ],
       "type": "Custom / team kit",
-      "notes": "No sale on the homepage, only a gift guide and free holiday returns through Jan 31; has a standing outlet section",
+      "notes": "Black Friday: 25% off sitewide, no code needed, Nov 22 - Nov 30",
       "country": "USA"
     },
     {
@@ -410,13 +410,13 @@
     {
       "name": "Pedal Mafia",
       "website": "https://pedalmafia.cc",
-      "status": "not_yet",
-      "detected": null,
+      "status": "live",
+      "detected": "2026-11-22",
       "tags": [
         "apparel"
       ],
       "type": "Modern premium",
-      "notes": "No Black Friday sale; has an archive sale section",
+      "notes": "Black Friday: up to 50% off on the US site",
       "country": "Australia"
     },
     {
@@ -884,7 +884,7 @@
         "components"
       ],
       "type": "Helmets & shoes",
-      "notes": "Holiday Savings: up to 50% off select gear",
+      "notes": "Holiday Deals in the Gift Guide: up to 40% off select gear",
       "country": "USA"
     },
     {
