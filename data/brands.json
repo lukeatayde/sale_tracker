@@ -1,7 +1,7 @@
 {
   "$schema": "./brands.schema.json",
   "title": "Black Friday 2026 Cycling Sales",
-  "checked": "2026-11-22",
+  "checked": "2026-11-23",
   "tags": [
     {
       "id": "apparel",
@@ -235,7 +235,7 @@
         "apparel"
       ],
       "type": "Performance",
-      "notes": "Curated selection up to 30% off, limited quantities",
+      "notes": "Curated selection up to 30% off (limited quantities), plus a free base layer with any jacket or long-sleeve jersey in November",
       "country": "Italy"
     },
     {
@@ -289,13 +289,13 @@
     {
       "name": "Gobik",
       "website": "https://gobik.com",
-      "status": "not_yet",
-      "detected": null,
+      "status": "live",
+      "detected": "2026-11-23",
       "tags": [
         "apparel"
       ],
       "type": "Value / mid-range",
-      "notes": "Full prices; Black Friday teaser page promises up to 60% off but says the sale is not yet available",
+      "notes": "Black Friday Nov 23-30: 30-60% off a selection of garments",
       "country": "Spain"
     },
     {
@@ -313,13 +313,13 @@
     {
       "name": "Café du Cycliste",
       "website": "https://cafeducycliste.com",
-      "status": "other_sale",
-      "detected": null,
+      "status": "live",
+      "detected": "2026-11-23",
       "tags": [
         "apparel"
       ],
       "type": "Modern premium",
-      "notes": "No named sale, but most of the range shows 20-30% off with crossed-out prices, plus an Archive section",
+      "notes": "Black Friday collections for men, women and accessories: about 30% off a curated selection",
       "country": "France"
     },
     {
@@ -602,13 +602,13 @@
     {
       "name": "Trek",
       "website": "https://trekbikes.com",
-      "status": "not_yet",
+      "status": "other_sale",
       "detected": null,
       "tags": [
         "road-bikes"
       ],
       "type": "Race, aero & endurance (Madone, Émonda, Domane)",
-      "notes": "Holiday gift guide on the homepage; only its regular Sale section",
+      "notes": "Homepage promotes closeout deals (\"Ride more. Spend less. Save now on select models!\") next to its holiday gift guide; no Black Friday sale",
       "country": "USA"
     },
     {
@@ -758,13 +758,13 @@
     {
       "name": "De Rosa",
       "website": "https://derosa.it",
-      "status": "other_sale",
+      "status": "not_yet",
       "detected": null,
       "tags": [
         "road-bikes"
       ],
       "type": "Italian luxury race, titanium & steel",
-      "notes": "\"Dream Week\": 35% off the entire online shop, with a countdown",
+      "notes": "No sale on the homepage or shop; the \"Dream Week\" 35% off promotion is no longer shown",
       "country": "Italy"
     },
     {
@@ -1010,13 +1010,13 @@
     {
       "name": "4iiii",
       "website": "https://4iiii.com",
-      "status": "not_yet",
-      "detected": null,
+      "status": "live",
+      "detected": "2026-11-23",
       "tags": [
         "components"
       ],
       "type": "Power meters",
-      "notes": "No discount; 8 weeks of free training plans with a power meter",
+      "notes": "Black Friday: 20% off all factory-installed power meters",
       "country": "Canada"
     },
     {
@@ -1094,13 +1094,13 @@
     {
       "name": "Selle Italia",
       "website": "https://selleitalia.com",
-      "status": "not_yet",
-      "detected": null,
+      "status": "live",
+      "detected": "2026-11-23",
       "tags": [
         "components"
       ],
       "type": "Saddles",
-      "notes": "No sale banner; an unlinked Black Friday page (up to 40% off, through Nov 30) is up but prices aren't discounted yet",
+      "notes": "Black Friday Week: up to 40% off selected saddles, discounts applied, until Nov 30",
       "country": "Italy"
     },
     {
@@ -1112,7 +1112,7 @@
         "components"
       ],
       "type": "Saddles",
-      "notes": "No sale yet; says its general sale starts Nov 23, with newsletter early access",
+      "notes": "No sale on the US site; the notice of a general sale starting Nov 23 is gone",
       "country": "UK"
     },
     {
