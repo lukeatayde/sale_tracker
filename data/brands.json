@@ -1,7 +1,7 @@
 {
   "$schema": "./brands.schema.json",
   "title": "Black Friday 2026 Cycling Sales",
-  "checked": "2026-11-23",
+  "checked": "2026-11-24",
   "tags": [
     {
       "id": "apparel",
@@ -572,7 +572,7 @@
         "road-bikes"
       ],
       "type": "US-made premium carbon road & gravel",
-      "notes": "Holiday sale: 25% off select bikes and framesets",
+      "notes": "BC40 holiday sale: 25% off select BC40 bikes and framesets",
       "country": "USA"
     },
     {
@@ -866,25 +866,25 @@
     {
       "name": "Garmin",
       "website": "https://garmin.com",
-      "status": "other_sale",
-      "detected": null,
+      "status": "live",
+      "detected": "2026-11-24",
       "tags": [
         "components"
       ],
       "type": "Bike computers, power meters & trainers (Tacx)",
-      "notes": "Holiday Sale: featured items $50–$250 off; not called Black Friday",
+      "notes": "Black Friday Sale, \"our lowest prices of the season\": e.g. $100 off Edge 850 and $200 off Tacx FLUX 2",
       "country": "USA"
     },
     {
       "name": "Giro",
       "website": "https://giro.com",
-      "status": "other_sale",
-      "detected": null,
+      "status": "live",
+      "detected": "2026-11-24",
       "tags": [
         "components"
       ],
       "type": "Helmets & shoes",
-      "notes": "Holiday Deals in the Gift Guide: up to 40% off select gear",
+      "notes": "Black Friday early access for email sign-ups; Gifts & Deals section with about 25–30% off select gear",
       "country": "USA"
     },
     {
