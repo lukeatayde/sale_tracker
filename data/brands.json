@@ -1,7 +1,7 @@
 {
   "$schema": "./brands.schema.json",
   "title": "Black Friday 2026 Cycling Sales",
-  "checked": "2026-11-24",
+  "checked": "2026-11-25",
   "tags": [
     {
       "id": "apparel",
@@ -259,7 +259,7 @@
         "apparel"
       ],
       "type": "Modern premium",
-      "notes": "\"Annual Sale\" is live (not called Black Friday)",
+      "notes": "\"Annual Sale\" is live, now with a further 20% off sale items (not called Black Friday)",
       "country": "Australia"
     },
     {
@@ -698,13 +698,13 @@
     {
       "name": "Look",
       "website": "https://lookcycle.com",
-      "status": "not_yet",
-      "detected": null,
+      "status": "live",
+      "detected": "2026-11-25",
       "tags": [
         "road-bikes"
       ],
       "type": "French carbon race & track",
-      "notes": "No sale on the homepage",
+      "notes": "Black Friday Nov 23-30: reduced prices on select bikes, framesets and pedals (e.g. 795 BladeRS 2 Frameset $4,800, was $5,800)",
       "country": "France"
     },
     {
@@ -746,13 +746,13 @@
     {
       "name": "Basso",
       "website": "https://bassobikes.com",
-      "status": "not_yet",
-      "detected": null,
+      "status": "live",
+      "detected": "2026-11-25",
       "tags": [
         "road-bikes"
       ],
       "type": "Italian race & endurance",
-      "notes": "No sale on the homepage",
+      "notes": "Black Friday: 30% off Basso apparel and accessories with code BASSOBF30 until Nov 30",
       "country": "Italy"
     },
     {
@@ -920,7 +920,7 @@
         "components"
       ],
       "type": "Groupsets",
-      "notes": "Its shop has a sale on the AXS Reverb dropper post only",
+      "notes": "Its shop has 20% off the Reverb AXS B1 dropper post and 10-15% off AXS batteries and chargers; no Black Friday branding",
       "country": "USA"
     },
     {
