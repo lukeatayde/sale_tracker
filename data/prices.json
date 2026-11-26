@@ -1,7 +1,7 @@
 {
   "$schema": "./prices.schema.json",
   "currency": "USD",
-  "checked": "2026-11-25",
+  "checked": "2026-11-26",
   "categories": [
     {
       "id": "bib-shorts",
@@ -126,7 +126,7 @@
       "url": "https://www.7mesh.com/products/mens-mk3-bib-short-black",
       "price": 115,
       "full_price": 230,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "bib-shorts",
@@ -135,7 +135,7 @@
       "url": "https://www.7mesh.com/products/mens-mk3-cargo-bib-short-black",
       "price": 125,
       "full_price": 250,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "bib-shorts",
@@ -144,7 +144,7 @@
       "url": "https://www.7mesh.com/products/mens-rk2-bib-short-black",
       "price": 125,
       "full_price": 250,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "bib-shorts",
@@ -153,7 +153,7 @@
       "url": "https://www.albioncycling.com/en-us/products/mens-abr1-pocket-bib-shorts-black",
       "price": 310,
       "full_price": 310,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "bib-shorts",
@@ -162,7 +162,7 @@
       "url": "https://www.albioncycling.com/en-us/products/mens-abr1-thermal-pocket-bib-shorts-black",
       "price": 340,
       "full_price": 340,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "bib-shorts",
@@ -171,7 +171,7 @@
       "url": "https://alecycling.com/en-us/products/bibshorts-man-corsa-20-25-106",
       "price": 104,
       "full_price": 104,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "bib-shorts",
@@ -180,7 +180,7 @@
       "url": "https://alecycling.com/en-us/products/bibshorts-man-master-20-24-069",
       "price": 157,
       "full_price": 157,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "bib-shorts",
@@ -189,7 +189,7 @@
       "url": "https://alecycling.com/en-us/products/bibshorts-man-sprinter-25-051",
       "price": 235,
       "full_price": 235,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "bib-shorts",
@@ -198,7 +198,7 @@
       "url": "https://www.assos.com/us/mille-gt-bib-shorts-s11-11-10-317-18.html",
       "price": 210,
       "full_price": 210,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "bib-shorts",
@@ -207,7 +207,7 @@
       "url": "https://www.assos.com/us/equipe-r-bib-shorts-s11-11-10-290-18.html",
       "price": 230,
       "full_price": 230,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "bib-shorts",
@@ -216,7 +216,7 @@
       "url": "https://www.assos.com/us/equipe-rsr-bib-shorts-s11-11-10-291-18.html",
       "price": 328,
       "full_price": 410,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "bib-shorts",
@@ -225,7 +225,7 @@
       "url": "https://attaquercycling.com/products/all-day-bib-short-3-black",
       "price": 320,
       "full_price": 320,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "bib-shorts",
@@ -234,7 +234,7 @@
       "url": "https://attaquercycling.com/products/race-bib-short-3-black",
       "price": 320,
       "full_price": 320,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "bib-shorts",
@@ -243,7 +243,7 @@
       "url": "https://attaquercycling.com/products/ultra-aero-bib-short-black",
       "price": 410,
       "full_price": 410,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "bib-shorts",
@@ -252,7 +252,7 @@
       "url": "https://bioracer.com/products/icon_bibshorts_black",
       "price": 89,
       "full_price": 111,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "bib-shorts",
@@ -261,43 +261,43 @@
       "url": "https://bioracer.com/products/speedwear-graphene-bibshorts",
       "price": 112,
       "full_price": 223,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "bib-shorts",
       "brand": "Bioracer",
       "product": "Epic Bibshorts Black",
       "url": "https://bioracer.com/products/epic_bibshorts_black",
-      "price": 142,
+      "price": 143,
       "full_price": 178,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "bib-shorts",
       "brand": "Black Sheep Cycling",
       "product": "Men's Team Bib - Black",
       "url": "https://us.blacksheep.cc/products/mens-team-bib-black",
-      "price": 83,
-      "full_price": 151,
-      "date": "2026-11-25"
+      "price": 84,
+      "full_price": 153,
+      "date": "2026-11-26"
     },
     {
       "category": "bib-shorts",
       "brand": "Black Sheep Cycling",
       "product": "Men's Enduro Bib - Black",
       "url": "https://us.blacksheep.cc/products/mens-enduro-bib-black",
-      "price": 106,
-      "full_price": 151,
-      "date": "2026-11-25"
+      "price": 107,
+      "full_price": 153,
+      "date": "2026-11-26"
     },
     {
       "category": "bib-shorts",
       "brand": "Black Sheep Cycling",
       "product": "Men's Zer0 Bib Performance Black",
       "url": "https://us.blacksheep.cc/products/mens-zer0-bib-and-brace-performance-black",
-      "price": 134,
-      "full_price": 191,
-      "date": "2026-11-25"
+      "price": 135,
+      "full_price": 193,
+      "date": "2026-11-26"
     },
     {
       "category": "bib-shorts",
@@ -306,7 +306,7 @@
       "url": "https://www.cafeducycliste.com/en-us/products/men-cycling-bibshort-marinette4-black",
       "price": 248,
       "full_price": 310,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "bib-shorts",
@@ -315,7 +315,7 @@
       "url": "https://www.cafeducycliste.com/en-us/products/men-cycling-bibshort-victoire-navy",
       "price": 262.5,
       "full_price": 375,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "bib-shorts",
@@ -324,7 +324,7 @@
       "url": "https://www.cafeducycliste.com/en-us/products/men-cycling-bibshort-adrienne2-black",
       "price": 272,
       "full_price": 340,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "bib-shorts",
@@ -333,7 +333,7 @@
       "url": "https://www.castelli-cycling.com/en-us/products/competizione-2-bibshort-4525004",
       "price": 112.5,
       "full_price": 150,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "bib-shorts",
@@ -342,7 +342,7 @@
       "url": "https://www.castelli-cycling.com/en-us/products/endurance-4-bibshort-4526003",
       "price": 131.25,
       "full_price": 175,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "bib-shorts",
@@ -351,7 +351,7 @@
       "url": "https://www.castelli-cycling.com/en-us/products/premio-evo-bibshort-4525000",
       "price": 262.5,
       "full_price": 350,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "bib-shorts",
@@ -360,7 +360,7 @@
       "url": "https://www.endurasport.com/en-us/products/mens-loop-bib-shorts-black-re4053bk",
       "price": 82.5,
       "full_price": 110,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "bib-shorts",
@@ -369,7 +369,7 @@
       "url": "https://www.endurasport.com/en-us/products/mens-pro-sl-bib-shorts-black-re4074bk",
       "price": 125,
       "full_price": 250,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "bib-shorts",
@@ -378,7 +378,7 @@
       "url": "https://www.endurasport.com/en-us/products/mens-pro-sl-power-bib-shorts-black-re4080bk",
       "price": 250,
       "full_price": 250,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "bib-shorts",
@@ -387,7 +387,7 @@
       "url": "https://giordanacycling.com/products/mens-vero-forma-bib-short",
       "price": 84,
       "full_price": 140,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "bib-shorts",
@@ -396,7 +396,7 @@
       "url": "https://giordanacycling.com/products/frc-cargo-mens-bib-short",
       "price": 187.5,
       "full_price": 250,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "bib-shorts",
@@ -405,7 +405,7 @@
       "url": "https://giordanacycling.com/products/s5-nx-g-bib-short-mens",
       "price": 262.5,
       "full_price": 350,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "bib-shorts",
@@ -414,7 +414,7 @@
       "url": "https://isadore.com/debut-bib-shorts-black-white",
       "price": 108.75,
       "full_price": 145,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "bib-shorts",
@@ -423,7 +423,7 @@
       "url": "https://isadore.com/signature-bib-shorts-black",
       "price": 168.75,
       "full_price": 225,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "bib-shorts",
@@ -432,7 +432,7 @@
       "url": "https://isadore.com/echelon-aero-bib-shorts-black-26",
       "price": 236.25,
       "full_price": 315,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "bib-shorts",
@@ -441,7 +441,7 @@
       "url": "https://lecol.cc/en-us/products/sport-bib-shorts",
       "price": 100,
       "full_price": 200,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "bib-shorts",
@@ -450,7 +450,7 @@
       "url": "https://lecol.cc/en-us/products/hors-categorie-bib-shorts",
       "price": 160,
       "full_price": 320,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "bib-shorts",
@@ -459,7 +459,7 @@
       "url": "https://lecol.cc/en-us/products/pro-bibshorts",
       "price": 174,
       "full_price": 290,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "bib-shorts",
@@ -468,7 +468,7 @@
       "url": "https://maap.cc/us/products/team-bib-evo-black-black",
       "price": 175,
       "full_price": 295,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "bib-shorts",
@@ -477,7 +477,7 @@
       "url": "https://maap.cc/us/products/training-bib-3-0-dark-graphite",
       "price": 250,
       "full_price": 250,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "bib-shorts",
@@ -486,7 +486,7 @@
       "url": "https://maap.cc/us/products/pro-bib-2-0-merlot",
       "price": 355,
       "full_price": 355,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "bib-shorts",
@@ -495,7 +495,7 @@
       "url": "https://www.ornotbike.com/products/mens-work-bib-short-black",
       "price": 147,
       "full_price": 184,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "bib-shorts",
@@ -504,7 +504,7 @@
       "url": "https://www.ornotbike.com/products/cargo-bib-short-black",
       "price": 182,
       "full_price": 228,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "bib-shorts",
@@ -513,7 +513,7 @@
       "url": "https://www.ornotbike.com/products/mens-bib-short-no-pocket-black",
       "price": 197,
       "full_price": 208,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "bib-shorts",
@@ -522,7 +522,7 @@
       "url": "https://pasnormalstudios.com/en-us/products/mens-essential-bibs-black-1",
       "price": 255,
       "full_price": 255,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "bib-shorts",
@@ -531,7 +531,7 @@
       "url": "https://pasnormalstudios.com/en-us/products/mechanism-bibs-black",
       "price": 300,
       "full_price": 300,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "bib-shorts",
@@ -540,34 +540,34 @@
       "url": "https://pasnormalstudios.com/en-us/products/mens-mechanism-pro-bib-black",
       "price": 350,
       "full_price": 350,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "bib-shorts",
       "brand": "Pearl iZUMi",
       "product": "Men's Expedition Bib Shorts",
       "url": "https://www.pearlizumi.com/products/mens-expedition-bib-shorts-11112502",
-      "price": 116.25,
+      "price": 108.5,
       "full_price": 155,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "bib-shorts",
       "brand": "Pearl iZUMi",
       "product": "Men's PI/Red Bib Shorts",
       "url": "https://www.pearlizumi.com/products/mens-pi-red-bib-shorts-11112602",
-      "price": 135,
+      "price": 126,
       "full_price": 180,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "bib-shorts",
       "brand": "Pearl iZUMi",
       "product": "Men's Pi PRO/BLACK Bib Shorts",
       "url": "https://www.pearlizumi.com/products/mens-pi-pro-black-bib-shorts-11112601",
-      "price": 262.5,
+      "price": 245,
       "full_price": 350,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "bib-shorts",
@@ -576,7 +576,7 @@
       "url": "https://usa.pedalmafia.cc/products/mens-core-bib-black-white-26",
       "price": 168,
       "full_price": 168,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "bib-shorts",
@@ -585,7 +585,7 @@
       "url": "https://usa.pedalmafia.cc/products/mens-pro-delta-bibshort-black",
       "price": 248,
       "full_price": 248,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "bib-shorts",
@@ -594,7 +594,7 @@
       "url": "https://usa.pedalmafia.cc/products/mens-pro-bib-grey",
       "price": 278,
       "full_price": 278,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "bib-shorts",
@@ -603,7 +603,7 @@
       "url": "https://www.pissei.com/en/man/bottom/bib-shorts/prime-bib-shorts-810640.html",
       "price": 150,
       "full_price": 150,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "bib-shorts",
@@ -612,7 +612,7 @@
       "url": "https://www.pissei.com/en/man/bottom/bib-shorts/primapelle-summer-bib-shorts-736.html",
       "price": 225,
       "full_price": 225,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "bib-shorts",
@@ -621,7 +621,7 @@
       "url": "https://www.pissei.com/en/man/bottom/bib-shorts/primapelle-ultra-bib-shorts-812371.html",
       "price": 390,
       "full_price": 390,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "bib-shorts",
@@ -630,7 +630,7 @@
       "url": "https://www.q36-5.com/en-us/shop/gregarius-pro-bib-shorts-black/",
       "price": 290,
       "full_price": 290,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "bib-shorts",
@@ -639,7 +639,7 @@
       "url": "https://www.q36-5.com/en-us/shop/dottore-pro-bib-shorts-black/",
       "price": 370,
       "full_price": 370,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "bib-shorts",
@@ -648,7 +648,7 @@
       "url": "https://www.q36-5.com/en-us/shop/dottore-clima-bib-shorts-black/",
       "price": 400,
       "full_price": 400,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "bib-shorts",
@@ -657,16 +657,16 @@
       "url": "https://www.rapha.cc/us/en/product/mens-core-bib-shorts/DAA01XXDNW",
       "price": 160,
       "full_price": 160,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "bib-shorts",
       "brand": "Rapha",
       "product": "Men's Pro Team Bib Shorts III - Regular",
       "url": "https://www.rapha.cc/us/en/product/mens-pro-team-bib-shorts-iii---regular/BEP02XXDAL",
-      "price": 350,
+      "price": 262,
       "full_price": 350,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "bib-shorts",
@@ -675,7 +675,7 @@
       "url": "https://www.rapha.cc/us/en/product/mens-pro-team-powerweave-bib-shorts/PIN03RGCBS",
       "price": 400,
       "full_price": 400,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "bib-shorts",
@@ -684,7 +684,7 @@
       "url": "https://us.santinicycling.com/men-s-cycling-bib-shorts/nova-absolute-bib-shorts-6467.html",
       "price": 155,
       "full_price": 155,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "bib-shorts",
@@ -693,7 +693,7 @@
       "url": "https://us.santinicycling.com/men-s-cycling-bib-shorts/ready-to-ride-mens-bib-shorts-7070.html",
       "price": 192,
       "full_price": 192,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "bib-shorts",
@@ -702,7 +702,7 @@
       "url": "https://us.santinicycling.com/men-s-cycling-bib-shorts/unico-edge-mens-bib-shorts-7062.html",
       "price": 264,
       "full_price": 264,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "bib-shorts",
@@ -711,7 +711,7 @@
       "url": "https://searchandstate.com/products/s2-r-performance-bib-short",
       "price": 185,
       "full_price": 215,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "bib-shorts",
@@ -720,7 +720,7 @@
       "url": "https://searchandstate.com/products/s4-performance-bib-short",
       "price": 235,
       "full_price": 235,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "bib-shorts",
@@ -729,7 +729,7 @@
       "url": "https://searchandstate.com/products/p15-performance-bib-short",
       "price": 235,
       "full_price": 235,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "bib-shorts",
@@ -738,7 +738,7 @@
       "url": "https://www.specialized.com/us/en/mens-specialized-foundation-bib-shorts/p/1000267707",
       "price": 129.99,
       "full_price": 129.99,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "bib-shorts",
@@ -747,16 +747,16 @@
       "url": "https://www.specialized.com/us/en/mens-prime-bib-shorts/p/1000097990",
       "price": 249.99,
       "full_price": 249.99,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "bib-shorts",
       "brand": "Sportful",
       "product": "CLASSIC 2 BIBSHORT",
       "url": "https://www.sportful.com/en-us/products/classic-2-bibshort-1127008",
-      "price": 100.43,
-      "full_price": 100.43,
-      "date": "2026-11-25"
+      "price": 100.7,
+      "full_price": 100.7,
+      "date": "2026-11-26"
     },
     {
       "category": "bib-shorts",
@@ -765,7 +765,7 @@
       "url": "https://www.sportful.com/en-us/products/ltd-2-bibshort-1126007",
       "price": 190,
       "full_price": 190,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "bib-shorts",
@@ -774,7 +774,7 @@
       "url": "https://www.sportful.com/en-us/products/ltd-light-bibshort-1126078",
       "price": 250,
       "full_price": 250,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "bib-shorts",
@@ -783,25 +783,25 @@
       "url": "https://www.universalcolours.com/en-us/products/mono-bib-short-2-black",
       "price": 135,
       "full_price": 180,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "bib-shorts",
       "brand": "Universal Colours",
-      "product": "Men’s Chroma Bib Shorts - Black",
-      "url": "https://www.universalcolours.com/en-us/products/chroma-bib-short-black",
-      "price": 220,
+      "product": "Men's Chroma Bib Shorts - Black/Bronze",
+      "url": "https://www.universalcolours.com/products/mens-chroma-bib-short-black-bronze",
+      "price": 205,
       "full_price": 315,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "bib-shorts",
       "brand": "Universal Colours",
       "product": "Men's Chroma Cargo Bib Shorts - Black",
-      "url": "https://www.universalcolours.com/en-us/products/mens-chroma-cargo-bib-short-black",
-      "price": 340,
-      "full_price": 340,
-      "date": "2026-11-25"
+      "url": "https://www.universalcolours.com/products/mens-chroma-cargo-bib-short-black",
+      "price": 345,
+      "full_price": 345,
+      "date": "2026-11-26"
     },
     {
       "category": "bib-shorts",
@@ -810,7 +810,7 @@
       "url": "https://www.decathlon.com/products/van-rysel-mens-edr-cycling-shorts-1",
       "price": 99.99,
       "full_price": 99.99,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "bib-shorts",
@@ -819,7 +819,7 @@
       "url": "https://www.decathlon.com/products/van-rysel-mens-rcr-r-5-road-cycling-shorts",
       "price": 119,
       "full_price": 119,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "bib-shorts",
@@ -828,7 +828,7 @@
       "url": "https://store.voler.com/products/1111002",
       "price": 95,
       "full_price": 95,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "bib-shorts",
@@ -837,7 +837,7 @@
       "url": "https://store.voler.com/products/1110987",
       "price": 179,
       "full_price": 179,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "bib-shorts",
@@ -846,7 +846,7 @@
       "url": "https://store.voler.com/products/1110917",
       "price": 219,
       "full_price": 219,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "ss-jerseys",
@@ -855,7 +855,7 @@
       "url": "https://www.7mesh.com/products/mens-atlas-jersey-short-sleeve-black",
       "price": 128,
       "full_price": 160,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "ss-jerseys",
@@ -864,7 +864,7 @@
       "url": "https://www.7mesh.com/products/mens-pace-jersey-short-sleeve-black",
       "price": 136,
       "full_price": 170,
-      "date": "2026-11-24"
+      "date": "2026-11-26"
     },
     {
       "category": "ss-jerseys",
@@ -873,7 +873,7 @@
       "url": "https://www.7mesh.com/products/mens-ashlu-merino-jersey-short-sleeve-black",
       "price": 152,
       "full_price": 190,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "ss-jerseys",
@@ -882,7 +882,7 @@
       "url": "https://www.albioncycling.com/en-us/products/mens-sun-shield-short-sleeve-jersey-white",
       "price": 225,
       "full_price": 225,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "ss-jerseys",
@@ -891,7 +891,7 @@
       "url": "https://www.albioncycling.com/en-us/products/mens-lidar-jersey-bracken",
       "price": 225,
       "full_price": 225,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "ss-jerseys",
@@ -900,7 +900,7 @@
       "url": "https://www.albioncycling.com/en-us/products/mens-traverse-jersey-slate",
       "price": 240,
       "full_price": 240,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "ss-jerseys",
@@ -909,7 +909,7 @@
       "url": "https://alecycling.com/en-us/products/short-sleeve-jersey-man-safari-25-047",
       "price": 98,
       "full_price": 98,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "ss-jerseys",
@@ -918,16 +918,16 @@
       "url": "https://alecycling.com/en-us/products/short-sleeve-jersey-man-color-block-25-045",
       "price": 149.99,
       "full_price": 149.99,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "ss-jerseys",
       "brand": "Alé",
       "product": "Short Sleeve Jersey Man Sprinter",
       "url": "https://alecycling.com/en-us/products/short-sleeve-jersey-man-sprinter-25-046",
-      "price": 173,
-      "full_price": 173,
-      "date": "2026-11-25"
+      "price": 174,
+      "full_price": 174,
+      "date": "2026-11-26"
     },
     {
       "category": "ss-jerseys",
@@ -936,7 +936,7 @@
       "url": "https://www.assos.com/us/equipe-r-jersey-s11-11-20-401-58.html",
       "price": 133,
       "full_price": 190,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "ss-jerseys",
@@ -945,7 +945,7 @@
       "url": "https://www.assos.com/us/mille-gt-jersey-s11-evo-11-20-432-18.html",
       "price": 170,
       "full_price": 170,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "ss-jerseys",
@@ -954,7 +954,7 @@
       "url": "https://www.assos.com/us/equipe-rs-jersey-s11-11-20-375-59.html",
       "price": 235,
       "full_price": 235,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "ss-jerseys",
@@ -963,7 +963,7 @@
       "url": "https://attaquercycling.com/products/all-day-jersey-3-black",
       "price": 195,
       "full_price": 195,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "ss-jerseys",
@@ -972,7 +972,7 @@
       "url": "https://attaquercycling.com/products/race-jersey-seamless-black",
       "price": 215,
       "full_price": 215,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "ss-jerseys",
@@ -981,7 +981,7 @@
       "url": "https://attaquercycling.com/products/ultra26-aero-ss-jersey-black",
       "price": 250,
       "full_price": 250,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "ss-jerseys",
@@ -989,8 +989,8 @@
       "product": "Epic Ultralight Jersey Eclipse Black",
       "url": "https://bioracer.com/products/epic_ultralight_jersey_eclipse_black",
       "price": 67,
-      "full_price": 133,
-      "date": "2026-11-25"
+      "full_price": 134,
+      "date": "2026-11-26"
     },
     {
       "category": "ss-jerseys",
@@ -999,34 +999,34 @@
       "url": "https://bioracer.com/products/icon-jersey-eclipse-black",
       "price": 80,
       "full_price": 100,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "ss-jerseys",
       "brand": "Bioracer",
       "product": "Speedwear Graphene Jersey Black",
       "url": "https://bioracer.com/products/speedwear_graphene_jersey_black",
-      "price": 187,
+      "price": 188,
       "full_price": 234,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "ss-jerseys",
       "brand": "Black Sheep Cycling",
       "product": "Men's Team SS Jersey - State of Blue",
       "url": "https://us.blacksheep.cc/products/mens-team-ss-jersey-state-of-blue",
-      "price": 54,
-      "full_price": 134,
-      "date": "2026-11-25"
+      "price": 55,
+      "full_price": 136,
+      "date": "2026-11-26"
     },
     {
       "category": "ss-jerseys",
       "brand": "Black Sheep Cycling",
       "product": "Men's AeroWeave SS Jersey Classic Black",
       "url": "https://us.blacksheep.cc/products/mens-aeroweave-ss-jersey-classic-black",
-      "price": 111,
-      "full_price": 158,
-      "date": "2026-11-25"
+      "price": 112,
+      "full_price": 159,
+      "date": "2026-11-26"
     },
     {
       "category": "ss-jerseys",
@@ -1035,7 +1035,7 @@
       "url": "https://www.cafeducycliste.com/en-us/products/men-cycling-jersey-fleurette2-navy",
       "price": 133,
       "full_price": 190,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "ss-jerseys",
@@ -1044,7 +1044,7 @@
       "url": "https://www.cafeducycliste.com/en-us/products/men-cycling-jersey-barbara2-golden-olive",
       "price": 135,
       "full_price": 135,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "ss-jerseys",
@@ -1053,7 +1053,7 @@
       "url": "https://www.cafeducycliste.com/en-us/products/men-cycling-jersey-laurette-anthracite",
       "price": 140,
       "full_price": 200,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "ss-jerseys",
@@ -1062,7 +1062,7 @@
       "url": "https://www.castelli-cycling.com/en-us/products/quadro-jersey-4526119",
       "price": 91,
       "full_price": 130,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "ss-jerseys",
@@ -1071,7 +1071,7 @@
       "url": "https://www.castelli-cycling.com/en-us/products/aero-race-8s-jersey-4526008",
       "price": 110,
       "full_price": 220,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "ss-jerseys",
@@ -1080,7 +1080,7 @@
       "url": "https://www.castelli-cycling.com/en-us/products/espresso-2-jersey-4526011",
       "price": 120,
       "full_price": 160,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "ss-jerseys",
@@ -1089,7 +1089,7 @@
       "url": "https://www.endurasport.com/en-us/products/mens-fs260-s-s-jersey-black-re3235bk",
       "price": 75,
       "full_price": 125,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "ss-jerseys",
@@ -1098,7 +1098,7 @@
       "url": "https://www.endurasport.com/en-us/products/mens-pro-sl-s-s-jersey-aero-blue-re3255bae",
       "price": 90,
       "full_price": 150,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "ss-jerseys",
@@ -1107,7 +1107,7 @@
       "url": "https://www.endurasport.com/en-us/products/mens-trinity-pro-sl-s-s-jersey-2026-black-re3282blk",
       "price": 145,
       "full_price": 145,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "ss-jerseys",
@@ -1116,7 +1116,7 @@
       "url": "https://giordanacycling.com/products/fusion-mens-short-sleeve-cycling-jersey",
       "price": 66.5,
       "full_price": 95,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "ss-jerseys",
@@ -1125,7 +1125,7 @@
       "url": "https://giordanacycling.com/products/s5-silverline-short-sleeve-jersey-mens",
       "price": 112.5,
       "full_price": 150,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "ss-jerseys",
@@ -1134,7 +1134,7 @@
       "url": "https://giordanacycling.com/products/mens-moda-fr-c-pro-jersey",
       "price": 130,
       "full_price": 200,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "ss-jerseys",
@@ -1143,7 +1143,7 @@
       "url": "https://isadore.com/debut-jersey-dark-gull-gray",
       "price": 65,
       "full_price": 100,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "ss-jerseys",
@@ -1152,7 +1152,7 @@
       "url": "https://isadore.com/signature-jersey-anthracite",
       "price": 107.25,
       "full_price": 165,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "ss-jerseys",
@@ -1161,7 +1161,7 @@
       "url": "https://isadore.com/echelon-aero-jersey-mulled-basil",
       "price": 156,
       "full_price": 240,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "ss-jerseys",
@@ -1170,7 +1170,7 @@
       "url": "https://lecol.cc/en-us/products/sport-jersey",
       "price": 70,
       "full_price": 143,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "ss-jerseys",
@@ -1179,7 +1179,7 @@
       "url": "https://lecol.cc/en-us/products/pro-jersey",
       "price": 100,
       "full_price": 200,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "ss-jerseys",
@@ -1188,7 +1188,7 @@
       "url": "https://lecol.cc/en-us/products/hors-categorie-jersey-mens",
       "price": 135,
       "full_price": 225,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "ss-jerseys",
@@ -1197,7 +1197,7 @@
       "url": "https://maap.cc/us/products/training-jersey-2-0-blue-ink",
       "price": 165,
       "full_price": 165,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "ss-jerseys",
@@ -1206,7 +1206,7 @@
       "url": "https://maap.cc/us/products/pro-air-jersey-3-0-halo-green-flux",
       "price": 205,
       "full_price": 205,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "ss-jerseys",
@@ -1215,7 +1215,7 @@
       "url": "https://maap.cc/us/products/pro-aero-jersey-steel",
       "price": 265,
       "full_price": 265,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "ss-jerseys",
@@ -1224,7 +1224,7 @@
       "url": "https://www.ornotbike.com/products/mens-house-jersey-olive",
       "price": 105,
       "full_price": 155,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "ss-jerseys",
@@ -1233,7 +1233,7 @@
       "url": "https://www.ornotbike.com/products/mens-micro-grid-jersey-black",
       "price": 132,
       "full_price": 165,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "ss-jerseys",
@@ -1242,7 +1242,7 @@
       "url": "https://www.ornotbike.com/products/mens-park-jersey-pinnacle",
       "price": 149,
       "full_price": 187,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "ss-jerseys",
@@ -1251,7 +1251,7 @@
       "url": "https://pasnormalstudios.com/en-us/products/men-mechanism-jersey-black",
       "price": 215,
       "full_price": 215,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "ss-jerseys",
@@ -1260,7 +1260,7 @@
       "url": "https://pasnormalstudios.com/en-us/products/mens-escapism-jersey-dark-olive",
       "price": 235,
       "full_price": 235,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "ss-jerseys",
@@ -1269,34 +1269,34 @@
       "url": "https://pasnormalstudios.com/en-us/products/mens-mechanism-pro-jersey-black",
       "price": 255,
       "full_price": 255,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "ss-jerseys",
       "brand": "Pearl iZUMi",
       "product": "Men's Classic Jersey",
       "url": "https://www.pearlizumi.com/products/mens-classic-jersey-11122504",
-      "price": 67.5,
+      "price": 63,
       "full_price": 90,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "ss-jerseys",
       "brand": "Pearl iZUMi",
       "product": "Men's PI/Red Jersey",
       "url": "https://www.pearlizumi.com/products/mens-pi-red-jersey-11122602",
-      "price": 120,
+      "price": 112,
       "full_price": 160,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "ss-jerseys",
       "brand": "Pearl iZUMi",
       "product": "Men's Pi PRO/BLACK Jersey",
       "url": "https://www.pearlizumi.com/products/mens-pi-pro-black-jersey-11122601",
-      "price": 168.75,
+      "price": 157.5,
       "full_price": 225,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "ss-jerseys",
@@ -1305,7 +1305,7 @@
       "url": "https://usa.pedalmafia.cc/products/mens-core-jersey-iron-26",
       "price": 118,
       "full_price": 118,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "ss-jerseys",
@@ -1314,7 +1314,7 @@
       "url": "https://usa.pedalmafia.cc/products/mens-pro-jersey-grey",
       "price": 198,
       "full_price": 198,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "ss-jerseys",
@@ -1323,7 +1323,7 @@
       "url": "https://usa.pedalmafia.cc/products/mens-pro-hyperair-jersey-grey",
       "price": 218,
       "full_price": 218,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "ss-jerseys",
@@ -1332,7 +1332,7 @@
       "url": "https://www.pissei.com/en/man/top/short-sleeve-jerseys/primapelle-short-sleeve-jersey-755.html",
       "price": 180,
       "full_price": 180,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "ss-jerseys",
@@ -1341,7 +1341,7 @@
       "url": "https://www.pissei.com/en/man/top/short-sleeve-jerseys/primapelle-ultra-short-sleeve-jersey-812441.html",
       "price": 240,
       "full_price": 240,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "ss-jerseys",
@@ -1359,7 +1359,7 @@
       "url": "https://www.q36-5.com/en-us/shop/gregarius-clima-qlab-jersey-nautica-blue/",
       "price": 190,
       "full_price": 190,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "ss-jerseys",
@@ -1368,7 +1368,7 @@
       "url": "https://www.q36-5.com/en-us/shop/dottore-pro-jersey-black/",
       "price": 240,
       "full_price": 240,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "ss-jerseys",
@@ -1377,7 +1377,7 @@
       "url": "https://www.q36-5.com/en-us/shop/dottore-clima-jersey-black/",
       "price": 300,
       "full_price": 300,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "ss-jerseys",
@@ -1386,7 +1386,7 @@
       "url": "https://www.rapha.cc/us/en/product/mens-core-jersey/COR05XXORW",
       "price": 110,
       "full_price": 110,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "ss-jerseys",
@@ -1395,7 +1395,7 @@
       "url": "https://www.rapha.cc/us/en/product/mens-classic-jersey/CLJ13XXBLW",
       "price": 200,
       "full_price": 200,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "ss-jerseys",
@@ -1404,7 +1404,7 @@
       "url": "https://www.rapha.cc/us/en/product/mens-pro-team-jersey-ii/CUM01XXBLY",
       "price": 210,
       "full_price": 210,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "ss-jerseys",
@@ -1413,7 +1413,7 @@
       "url": "https://us.santinicycling.com/unisex/ready-to-ride-short-sleeve-jersey-unisex-7110.html",
       "price": 120,
       "full_price": 120,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "ss-jerseys",
@@ -1422,7 +1422,7 @@
       "url": "https://us.santinicycling.com/unisex/unico-short-sleeve-jersey-unisex-7034.html",
       "price": 144,
       "full_price": 144,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "ss-jerseys",
@@ -1431,7 +1431,7 @@
       "url": "https://us.santinicycling.com/unisex/aero-race-cc-short-sleeve-jersey-unisex-7037.html",
       "price": 192,
       "full_price": 192,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "ss-jerseys",
@@ -1440,7 +1440,7 @@
       "url": "https://searchandstate.com/products/s2-r-performance-jersey",
       "price": 175,
       "full_price": 175,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "ss-jerseys",
@@ -1449,7 +1449,7 @@
       "url": "https://searchandstate.com/products/s1-a-riding-jersey",
       "price": 175,
       "full_price": 175,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "ss-jerseys",
@@ -1458,16 +1458,16 @@
       "url": "https://searchandstate.com/products/merino-riding-jersey",
       "price": 195,
       "full_price": 195,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "ss-jerseys",
       "brand": "Specialized",
       "product": "Men's Specialized Foundation Short Sleeve Jersey",
       "url": "https://www.specialized.com/us/en/mens-specialized-foundation-short-sleeve-jersey/p/1000097755",
-      "price": 89.99,
-      "full_price": 89.99,
-      "date": "2026-11-25"
+      "price": 55.99,
+      "full_price": 74.99,
+      "date": "2026-11-26"
     },
     {
       "category": "ss-jerseys",
@@ -1476,7 +1476,7 @@
       "url": "https://www.specialized.com/us/en/mens-prime-lightweight-short-sleeve-jersey/p/1000097845",
       "price": 146.99,
       "full_price": 209.99,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "ss-jerseys",
@@ -1485,7 +1485,7 @@
       "url": "https://www.specialized.com/us/en/mens-prime-short-sleeve-jersey/p/1000098015",
       "price": 199.99,
       "full_price": 199.99,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "ss-jerseys",
@@ -1494,16 +1494,16 @@
       "url": "https://www.sportful.com/en-us/products/light-2-jersey-1126001",
       "price": 72,
       "full_price": 120,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "ss-jerseys",
       "brand": "Sportful",
       "product": "SUPERNOVA JERSEY",
       "url": "https://www.sportful.com/en-us/products/supernova-jersey-1125000",
-      "price": 98,
+      "price": 84,
       "full_price": 140,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "ss-jerseys",
@@ -1512,16 +1512,16 @@
       "url": "https://www.sportful.com/en-us/products/classic-jersey-1125002",
       "price": 110,
       "full_price": 110,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "ss-jerseys",
       "brand": "Universal Colours",
       "product": "Men's Mono Short Sleeve Jersey - Black",
-      "url": "https://www.universalcolours.com/en-us/products/mono-short-sleeve-jersey-black",
+      "url": "https://www.universalcolours.com/products/mono-short-sleeve-jersey-black",
       "price": 115,
       "full_price": 150,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "ss-jerseys",
@@ -1530,16 +1530,16 @@
       "url": "https://www.universalcolours.com/products/mens-chroma-short-sleeve-jersey-black",
       "price": 155,
       "full_price": 225,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "ss-jerseys",
       "brand": "Universal Colours",
       "product": "Men's Chroma Light Short Sleeve Jersey - Vivid Blue",
       "url": "https://www.universalcolours.com/products/mens-chroma-light-short-sleeve-jersey-vivid-blue",
-      "price": 235,
-      "full_price": 235,
-      "date": "2026-11-25"
+      "price": 240,
+      "full_price": 240,
+      "date": "2026-11-26"
     },
     {
       "category": "ss-jerseys",
@@ -1548,7 +1548,7 @@
       "url": "https://www.decathlon.com/products/van-rysel-unisex-edr-ultra-cycling-jersey-1",
       "price": 99.99,
       "full_price": 99.99,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "ss-jerseys",
@@ -1557,7 +1557,7 @@
       "url": "https://www.decathlon.com/products/van-rysel-unisex-rcr-r-2-short-sleeved-cycling-jersey-snowy-white-8969588",
       "price": 99.99,
       "full_price": 99.99,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "ss-jerseys",
@@ -1566,7 +1566,7 @@
       "url": "https://store.voler.com/products/1t1028t",
       "price": 85,
       "full_price": 85,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "ss-jerseys",
@@ -1575,7 +1575,7 @@
       "url": "https://store.voler.com/products/1t1028q",
       "price": 115,
       "full_price": 115,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "ss-jerseys",
@@ -1584,7 +1584,7 @@
       "url": "https://store.voler.com/products/1010n58",
       "price": 139,
       "full_price": 139,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "ls-jerseys",
@@ -1593,7 +1593,7 @@
       "url": "https://www.7mesh.com/products/mens-atlas-jersey-long-sleeve-black",
       "price": 152,
       "full_price": 190,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "ls-jerseys",
@@ -1602,7 +1602,7 @@
       "url": "https://www.7mesh.com/products/mens-ashlu-merino-jersey-long-sleeve-black",
       "price": 160,
       "full_price": 200,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "ls-jerseys",
@@ -1611,7 +1611,7 @@
       "url": "https://www.7mesh.com/products/mens-seton-jersey-long-sleeve-black",
       "price": 176,
       "full_price": 220,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "ls-jerseys",
@@ -1620,7 +1620,7 @@
       "url": "https://www.albioncycling.com/en-us/products/mens-traverse-long-sleeve-jersey-basalt",
       "price": 260,
       "full_price": 260,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "ls-jerseys",
@@ -1629,16 +1629,16 @@
       "url": "https://www.albioncycling.com/en-us/products/mens-thermal-wind-jersey-black",
       "price": 325,
       "full_price": 325,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "ls-jerseys",
       "brand": "Alé",
       "product": "Long Sleeve Jersey Man Fondo 3.0",
       "url": "https://alecycling.com/en-us/products/long-sleeve-jersey-man-fondo-30-26-007",
-      "price": 123,
-      "full_price": 123,
-      "date": "2026-11-25"
+      "price": 124,
+      "full_price": 124,
+      "date": "2026-11-26"
     },
     {
       "category": "ls-jerseys",
@@ -1647,7 +1647,7 @@
       "url": "https://alecycling.com/en-us/products/long-sleeve-jersey-man-warm-race-27-005",
       "price": 159,
       "full_price": 159,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "ls-jerseys",
@@ -1656,7 +1656,7 @@
       "url": "https://alecycling.com/en-us/products/long-sleeve-jersey-man-grafenium-27-001",
       "price": 195,
       "full_price": 195,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "ls-jerseys",
@@ -1665,7 +1665,7 @@
       "url": "https://www.assos.com/us/mille-gt-ls-jersey-s11-evo-11-24-433-18.html",
       "price": 180,
       "full_price": 180,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "ls-jerseys",
@@ -1674,7 +1674,7 @@
       "url": "https://www.assos.com/us/mille-gt-men-s-spring-fall-jersey-s11-11-24-451-18.html",
       "price": 230,
       "full_price": 230,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "ls-jerseys",
@@ -1683,7 +1683,7 @@
       "url": "https://www.assos.com/us/equipe-r-spring-fall-jersey-s11-11-24-386-18.html",
       "price": 235,
       "full_price": 235,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "ls-jerseys",
@@ -1692,7 +1692,7 @@
       "url": "https://attaquercycling.com/products/all-day-sls-jersey-3-black",
       "price": 230,
       "full_price": 230,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "ls-jerseys",
@@ -1701,7 +1701,7 @@
       "url": "https://attaquercycling.com/products/all-day-winter-ls-jersey-3-black",
       "price": 250,
       "full_price": 250,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "ls-jerseys",
@@ -1710,7 +1710,7 @@
       "url": "https://attaquercycling.com/products/ultra26-aero-ls-jersey-black",
       "price": 265,
       "full_price": 265,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "ls-jerseys",
@@ -1718,17 +1718,17 @@
       "product": "Epic Long Sleeve Jersey Cool Grey",
       "url": "https://bioracer.com/products/epic-long-sleeve-jersey-cool-grey-1",
       "price": 107,
-      "full_price": 133,
-      "date": "2026-11-25"
+      "full_price": 134,
+      "date": "2026-11-26"
     },
     {
       "category": "ls-jerseys",
       "brand": "Black Sheep Cycling",
       "product": "Men's Team LS Jersey - BLACK",
       "url": "https://us.blacksheep.cc/products/mens-team-ls-jersey-black",
-      "price": 54,
-      "full_price": 134,
-      "date": "2026-11-25"
+      "price": 55,
+      "full_price": 136,
+      "date": "2026-11-26"
     },
     {
       "category": "ls-jerseys",
@@ -1736,17 +1736,17 @@
       "product": "Men's ThermoDream Jersey - Black",
       "url": "https://us.blacksheep.cc/products/mens-thermodream-jersey-black",
       "price": 69,
-      "full_price": 171,
-      "date": "2026-11-25"
+      "full_price": 173,
+      "date": "2026-11-26"
     },
     {
       "category": "ls-jerseys",
       "brand": "Black Sheep Cycling",
       "product": "Men's AeroWeave LS Jersey - Classic Black",
       "url": "https://us.blacksheep.cc/products/mens-aeroweave-ls-jersey-classic-black",
-      "price": 115,
-      "full_price": 165,
-      "date": "2026-11-25"
+      "price": 116,
+      "full_price": 166,
+      "date": "2026-11-26"
     },
     {
       "category": "ls-jerseys",
@@ -1755,7 +1755,7 @@
       "url": "https://www.cafeducycliste.com/en-us/products/men-cycling-jersey-faustine-forest-black",
       "price": 168,
       "full_price": 240,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "ls-jerseys",
@@ -1764,7 +1764,7 @@
       "url": "https://www.cafeducycliste.com/en-us/products/men-cycling-jersey-corinne2-black",
       "price": 171.5,
       "full_price": 245,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "ls-jerseys",
@@ -1773,7 +1773,7 @@
       "url": "https://www.cafeducycliste.com/en-us/products/men-cycling-jersey-constance-the-grip",
       "price": 182,
       "full_price": 260,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "ls-jerseys",
@@ -1782,16 +1782,16 @@
       "url": "https://www.castelli-cycling.com/en-us/products/classifica-thermal-jersey-4526591",
       "price": 112.5,
       "full_price": 150,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "ls-jerseys",
       "brand": "Castelli",
-      "product": "ENTRATA THERMAL JERSEY",
-      "url": "https://www.castelli-cycling.com/en-us/products/entrata-thermal-jersey-4523512",
-      "price": 130,
-      "full_price": 130,
-      "date": "2026-11-25"
+      "product": "VENTRA THERMAL JERSEY",
+      "url": "https://www.castelli-cycling.com/en-us/products/ventra-thermal-jersey-4526514",
+      "price": 112.5,
+      "full_price": 150,
+      "date": "2026-11-26"
     },
     {
       "category": "ls-jerseys",
@@ -1800,7 +1800,7 @@
       "url": "https://www.castelli-cycling.com/en-us/products/espresso-thermal-2-jersey-4526510",
       "price": 142.5,
       "full_price": 190,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "ls-jerseys",
@@ -1809,7 +1809,7 @@
       "url": "https://www.endurasport.com/en-us/products/mens-pro-sl-l-s-jersey-fossil-re3177fo",
       "price": 93,
       "full_price": 155,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "ls-jerseys",
@@ -1818,7 +1818,7 @@
       "url": "https://www.endurasport.com/en-us/products/mens-loop-ride-l-s-jersey-carbon-grey-re3266gca",
       "price": 120,
       "full_price": 120,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "ls-jerseys",
@@ -1827,7 +1827,7 @@
       "url": "https://www.endurasport.com/en-us/products/mens-alltrack-race-roubaix-jersey-black-re3269blk",
       "price": 160,
       "full_price": 160,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "ls-jerseys",
@@ -1836,7 +1836,7 @@
       "url": "https://giordanacycling.com/products/w5-mens-silverline-long-sleeve-jersey",
       "price": 120,
       "full_price": 160,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "ls-jerseys",
@@ -1845,7 +1845,7 @@
       "url": "https://giordanacycling.com/products/w5-g-mens-shield-thermal-long-sleeve-jersey",
       "price": 172.5,
       "full_price": 230,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "ls-jerseys",
@@ -1854,7 +1854,7 @@
       "url": "https://giordanacycling.com/products/w5-mens-fr-c-pro-long-sleeve-jersey",
       "price": 180,
       "full_price": 240,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "ls-jerseys",
@@ -1863,7 +1863,7 @@
       "url": "https://isadore.com/debut-long-sleeve-jersey-nero",
       "price": 124,
       "full_price": 155,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "ls-jerseys",
@@ -1872,7 +1872,7 @@
       "url": "https://isadore.com/signature-thermal-long-sleeve-jersey-anthracite-2-0",
       "price": 130,
       "full_price": 200,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "ls-jerseys",
@@ -1881,7 +1881,7 @@
       "url": "https://isadore.com/echelon-thermal-long-sleeve-jersey-zinfandel",
       "price": 135,
       "full_price": 225,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "ls-jerseys",
@@ -1890,7 +1890,7 @@
       "url": "https://lecol.cc/en-us/products/sport-long-sleeve-jersey",
       "price": 85,
       "full_price": 171,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "ls-jerseys",
@@ -1899,7 +1899,7 @@
       "url": "https://lecol.cc/en-us/products/pro-long-sleeve-jersey-thermology",
       "price": 120,
       "full_price": 235,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "ls-jerseys",
@@ -1908,7 +1908,7 @@
       "url": "https://lecol.cc/en-us/products/hors-categorie-long-sleeve-jersey-1",
       "price": 245,
       "full_price": 245,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "ls-jerseys",
@@ -1917,7 +1917,7 @@
       "url": "https://maap.cc/us/products/training-thermal-ls-jersey-2-0-cream",
       "price": 210,
       "full_price": 210,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "ls-jerseys",
@@ -1926,7 +1926,7 @@
       "url": "https://maap.cc/us/products/team-thermal-ls-jersey-halo-static-grey",
       "price": 225,
       "full_price": 225,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "ls-jerseys",
@@ -1935,7 +1935,7 @@
       "url": "https://maap.cc/us/products/pro-aero-thermal-ls-jersey-meteorite",
       "price": 260,
       "full_price": 260,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "ls-jerseys",
@@ -1944,7 +1944,7 @@
       "url": "https://www.ornotbike.com/products/mens-ls-house-jersey-fog",
       "price": 132,
       "full_price": 165,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "ls-jerseys",
@@ -1953,7 +1953,7 @@
       "url": "https://www.ornotbike.com/products/mens-merino-grid-thermal-jersey-charcoal",
       "price": 156,
       "full_price": 195,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "ls-jerseys",
@@ -1962,7 +1962,7 @@
       "url": "https://www.ornotbike.com/products/mens-frost-thermal-jersey-mosswood",
       "price": 164,
       "full_price": 205,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "ls-jerseys",
@@ -1971,7 +1971,7 @@
       "url": "https://pasnormalstudios.com/en-us/products/mens-essential-long-sleeve-jersey-navy",
       "price": 250,
       "full_price": 250,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "ls-jerseys",
@@ -1980,7 +1980,7 @@
       "url": "https://pasnormalstudios.com/en-us/products/mens-mechanism-pro-long-sleeve-jersey-black-1",
       "price": 290,
       "full_price": 290,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "ls-jerseys",
@@ -1989,34 +1989,34 @@
       "url": "https://pasnormalstudios.com/en-us/products/mens-mechanism-thermal-long-sleeve-jersey-2-0-black",
       "price": 330,
       "full_price": 330,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "ls-jerseys",
       "brand": "Pearl iZUMi",
       "product": "Men's Quest Thermal Jersey",
       "url": "https://www.pearlizumi.com/products/mens-quest-thermal-jersey-11122605",
-      "price": 75,
+      "price": 70,
       "full_price": 100,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "ls-jerseys",
       "brand": "Pearl iZUMi",
       "product": "Men's Attack Long Sleeve Jersey",
       "url": "https://www.pearlizumi.com/products/mens-attack-long-sleeve-jersey-11122403",
-      "price": 75,
+      "price": 70,
       "full_price": 100,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "ls-jerseys",
       "brand": "Pearl iZUMi",
       "product": "Men's PRO Thermal Jersey",
       "url": "https://www.pearlizumi.com/products/mens-pro-thermal-jersey-11132405",
-      "price": 180,
+      "price": 168,
       "full_price": 240,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "ls-jerseys",
@@ -2025,7 +2025,7 @@
       "url": "https://usa.pedalmafia.cc/products/mens-core-long-sleeve-jersey-night-navy-26",
       "price": 128,
       "full_price": 128,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "ls-jerseys",
@@ -2034,7 +2034,7 @@
       "url": "https://usa.pedalmafia.cc/products/mens-pro-mid-weight-jersey-black",
       "price": 188,
       "full_price": 188,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "ls-jerseys",
@@ -2043,7 +2043,7 @@
       "url": "https://usa.pedalmafia.cc/products/mens-pro-long-sleeve-jersey-grey",
       "price": 208,
       "full_price": 208,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "ls-jerseys",
@@ -2052,7 +2052,7 @@
       "url": "https://www.pissei.com/en/man/top/long-sleeve-jerseys/sanremo-unisex-thermal-long-sleeve-jersey-814531.html",
       "price": 210,
       "full_price": 210,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "ls-jerseys",
@@ -2061,7 +2061,7 @@
       "url": "https://www.pissei.com/en/man/top/long-sleeve-jerseys/primapelle-thermal-long-sleeve-jersey-894.html",
       "price": 225,
       "full_price": 225,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "ls-jerseys",
@@ -2070,7 +2070,7 @@
       "url": "https://www.pissei.com/en/man/top/long-sleeve-jerseys/primapelle-windproof-long-sleeve-jersey-809826.html",
       "price": 270,
       "full_price": 270,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "ls-jerseys",
@@ -2079,7 +2079,7 @@
       "url": "https://www.q36-5.com/en-us/shop/dottore-pro-long-sleeve-jersey-nautica-blue/",
       "price": 270,
       "full_price": 270,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "ls-jerseys",
@@ -2088,7 +2088,7 @@
       "url": "https://www.q36-5.com/en-us/shop/dottore-woolf-long-sleeve-jersey-black/",
       "price": 300,
       "full_price": 300,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "ls-jerseys",
@@ -2097,16 +2097,16 @@
       "url": "https://www.q36-5.com/en-us/shop/dottore-hybrid-que-long-sleeve-jersey-black/",
       "price": 340,
       "full_price": 340,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "ls-jerseys",
       "brand": "Rapha",
       "product": "Men's Core Thermal Long Sleeve Jersey",
       "url": "https://www.rapha.cc/us/en/product/mens-core-long-sleeve-thermal-jersey/BNE01XXHAW",
-      "price": 130,
+      "price": 97,
       "full_price": 130,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "ls-jerseys",
@@ -2115,7 +2115,7 @@
       "url": "https://www.rapha.cc/us/en/product/mens-classic-long-sleeve-jersey/CLL05XXDWA",
       "price": 220,
       "full_price": 220,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "ls-jerseys",
@@ -2124,7 +2124,7 @@
       "url": "https://www.rapha.cc/us/en/product/mens-pro-team-long-sleeve-midweight-jersey-ii/BMY02XXSHW",
       "price": 260,
       "full_price": 260,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "ls-jerseys",
@@ -2133,7 +2133,7 @@
       "url": "https://us.santinicycling.com/unisex/sensation-unisex-long-sleeve-jersey-6991.html",
       "price": 144,
       "full_price": 144,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "ls-jerseys",
@@ -2142,7 +2142,7 @@
       "url": "https://us.santinicycling.com/unisex/unico-long-sleeve-jersey-7457.html",
       "price": 192,
       "full_price": 192,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "ls-jerseys",
@@ -2151,7 +2151,7 @@
       "url": "https://searchandstate.com/products/high-viz-m90-s2-r-long-sleeve-jersey",
       "price": 150,
       "full_price": 205,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "ls-jerseys",
@@ -2160,7 +2160,7 @@
       "url": "https://searchandstate.com/products/long-sleeve-s2-r-jersey",
       "price": 195,
       "full_price": 195,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "ls-jerseys",
@@ -2169,7 +2169,7 @@
       "url": "https://www.sportful.com/en-us/products/supernova-thermal-jersey-1125547",
       "price": 105,
       "full_price": 150,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "ls-jerseys",
@@ -2178,7 +2178,7 @@
       "url": "https://www.sportful.com/en-us/products/srk-2-thermal-jersey-1126510",
       "price": 112,
       "full_price": 140,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "ls-jerseys",
@@ -2187,7 +2187,7 @@
       "url": "https://www.sportful.com/en-us/products/dyed-thermal-jersey-1126550",
       "price": 165,
       "full_price": 165,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "ls-jerseys",
@@ -2196,7 +2196,7 @@
       "url": "https://www.universalcolours.com/products/mono-mens-long-sleeve-jersey-black",
       "price": 130,
       "full_price": 185,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "ls-jerseys",
@@ -2205,7 +2205,7 @@
       "url": "https://www.decathlon.com/products/unisex-mid-season-long-sleeved-road-cycling-jersey-racer-2",
       "price": 89.99,
       "full_price": 89.99,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "ls-jerseys",
@@ -2214,7 +2214,7 @@
       "url": "https://store.voler.com/products/1010p55",
       "price": 62,
       "full_price": 62,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "ls-jerseys",
@@ -2223,7 +2223,7 @@
       "url": "https://store.voler.com/products/1t1028y",
       "price": 129,
       "full_price": 129,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "ls-jerseys",
@@ -2232,7 +2232,7 @@
       "url": "https://store.voler.com/products/1010m03",
       "price": 149,
       "full_price": 149,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "jackets",
@@ -2241,7 +2241,7 @@
       "url": "https://www.7mesh.com/products/mens-northwoods-jacket-black",
       "price": 152,
       "full_price": 190,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "jackets",
@@ -2250,7 +2250,7 @@
       "url": "https://www.7mesh.com/products/mens-mission-jacket-black",
       "price": 280,
       "full_price": 350,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "jackets",
@@ -2259,7 +2259,7 @@
       "url": "https://www.7mesh.com/products/mens-guardian-apex-jacket-black",
       "price": 480,
       "full_price": 600,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "jackets",
@@ -2268,7 +2268,7 @@
       "url": "https://www.albioncycling.com/en-us/products/mens-ultralight-insulated-jacket-graphite",
       "price": 325,
       "full_price": 325,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "jackets",
@@ -2277,25 +2277,25 @@
       "url": "https://www.albioncycling.com/en-us/products/mens-all-road-pertex-shield-rain-jacket-black",
       "price": 360,
       "full_price": 360,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "jackets",
       "brand": "Albion",
       "product": "Unisex Zoa Rain Shell Midnight Blue",
       "url": "https://www.albioncycling.com/en-us/products/unisex-zoa-rain-shell-midnight-blue-1",
-      "price": 595,
-      "full_price": 595,
-      "date": "2026-11-25"
+      "price": 600,
+      "full_price": 600,
+      "date": "2026-11-26"
     },
     {
       "category": "jackets",
       "brand": "Alé",
       "product": "Jacket Man Fondo 3.0",
       "url": "https://alecycling.com/en-us/products/jacket-man-fondo-30-26-019",
-      "price": 200,
-      "full_price": 200,
-      "date": "2026-11-25"
+      "price": 201,
+      "full_price": 201,
+      "date": "2026-11-26"
     },
     {
       "category": "jackets",
@@ -2304,16 +2304,16 @@
       "url": "https://alecycling.com/en-us/products/water-repellent-jacket-man-k-tornado-25-009",
       "price": 223,
       "full_price": 223,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "jackets",
       "brand": "Alé",
       "product": "Rainproof Jacket Man Thunderstorm",
       "url": "https://alecycling.com/en-us/products/rainproof-jacket-man-thunderstorm-27-022",
-      "price": 345,
-      "full_price": 345,
-      "date": "2026-11-25"
+      "price": 346,
+      "full_price": 346,
+      "date": "2026-11-26"
     },
     {
       "category": "jackets",
@@ -2322,7 +2322,7 @@
       "url": "https://www.assos.com/us/equipe-r-men-s-winter-jacket-s11-evo-11-30-448-18.html",
       "price": 410,
       "full_price": 410,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "jackets",
@@ -2331,7 +2331,7 @@
       "url": "https://www.assos.com/us/mille-gt-men-s-ultraz-winter-jacket-s11-evo-11-30-442-18.html",
       "price": 460,
       "full_price": 460,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "jackets",
@@ -2340,7 +2340,7 @@
       "url": "https://www.assos.com/us/equipe-rs-johdah-men-s-ultraz-winter-jacket-s11-evo-11-30-452-18.html",
       "price": 810,
       "full_price": 810,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "jackets",
@@ -2349,7 +2349,7 @@
       "url": "https://attaquercycling.com/products/all-day-quilted-conv-jacket-black",
       "price": 180,
       "full_price": 325,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "jackets",
@@ -2358,7 +2358,7 @@
       "url": "https://attaquercycling.com/products/race-3-0-rain-jacket-black",
       "price": 225,
       "full_price": 330,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "jackets",
@@ -2367,7 +2367,7 @@
       "url": "https://attaquercycling.com/products/all-day-quilted-26-jacket-black",
       "price": 320,
       "full_price": 320,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "jackets",
@@ -2376,16 +2376,16 @@
       "url": "https://bioracer.com/products/tempest-jacket-eclipse-black",
       "price": 134,
       "full_price": 167,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "jackets",
       "brand": "Bioracer",
       "product": "Kaaiman Jacket Black",
       "url": "https://bioracer.com/products/kaaiman-jacket-black",
-      "price": 148,
-      "full_price": 211,
-      "date": "2026-11-25"
+      "price": 149,
+      "full_price": 212,
+      "date": "2026-11-26"
     },
     {
       "category": "jackets",
@@ -2393,17 +2393,17 @@
       "product": "Stormy Jacket",
       "url": "https://bioracer.com/products/stormy_jacket",
       "price": 214,
-      "full_price": 267,
-      "date": "2026-11-25"
+      "full_price": 268,
+      "date": "2026-11-26"
     },
     {
       "category": "jackets",
       "brand": "Black Sheep Cycling",
       "product": "Protect Jacket",
       "url": "https://us.blacksheep.cc/products/protect-jacket-black",
-      "price": 63,
-      "full_price": 158,
-      "date": "2026-11-25"
+      "price": 64,
+      "full_price": 159,
+      "date": "2026-11-26"
     },
     {
       "category": "jackets",
@@ -2411,8 +2411,8 @@
       "product": "Men's ActiveDown Jacket - Black",
       "url": "https://us.blacksheep.cc/products/mens-activedown-jacket-black",
       "price": 72,
-      "full_price": 178,
-      "date": "2026-11-25"
+      "full_price": 180,
+      "date": "2026-11-26"
     },
     {
       "category": "jackets",
@@ -2421,7 +2421,7 @@
       "url": "https://www.cafeducycliste.com/en-us/products/men-cycling-jacket-manon-oyster-grey",
       "price": 255.5,
       "full_price": 365,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "jackets",
@@ -2430,7 +2430,7 @@
       "url": "https://www.cafeducycliste.com/en-us/products/men-cycling-jacket-lise-black",
       "price": 262.5,
       "full_price": 375,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "jackets",
@@ -2439,7 +2439,7 @@
       "url": "https://www.cafeducycliste.com/en-us/products/men-cycling-jacket-albertine2-khaki",
       "price": 269.5,
       "full_price": 385,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "jackets",
@@ -2448,7 +2448,7 @@
       "url": "https://www.castelli-cycling.com/en-us/products/entrata-2-jacket-4525507",
       "price": 138,
       "full_price": 230,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "jackets",
@@ -2457,7 +2457,7 @@
       "url": "https://www.castelli-cycling.com/en-us/products/perfetto-4-jacket-4526500",
       "price": 247.5,
       "full_price": 330,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "jackets",
@@ -2466,7 +2466,7 @@
       "url": "https://www.castelli-cycling.com/en-us/products/alpha-150-jacket-4525502",
       "price": 315,
       "full_price": 420,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "jackets",
@@ -2475,7 +2475,7 @@
       "url": "https://www.endurasport.com/en-us/products/mens-windchill-jacket-black-re9161bk",
       "price": 95,
       "full_price": 190,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "jackets",
@@ -2484,7 +2484,7 @@
       "url": "https://www.endurasport.com/en-us/products/mens-pro-sl-primaloft-jacket-black-re9143bk",
       "price": 150,
       "full_price": 250,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "jackets",
@@ -2493,7 +2493,7 @@
       "url": "https://www.endurasport.com/en-us/products/mens-pro-sl-3-season-jacket-black-re9179bk",
       "price": 330,
       "full_price": 330,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "jackets",
@@ -2502,7 +2502,7 @@
       "url": "https://giordanacycling.com/products/w5-mens-silverline-winter-jacket",
       "price": 206.25,
       "full_price": 275,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "jackets",
@@ -2511,7 +2511,7 @@
       "url": "https://giordanacycling.com/products/w5-mens-fr-c-pro-lyte-jacket",
       "price": 247.5,
       "full_price": 330,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "jackets",
@@ -2520,7 +2520,7 @@
       "url": "https://giordanacycling.com/products/w5-mens-av-extreme-jacket",
       "price": 296.25,
       "full_price": 395,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "jackets",
@@ -2529,7 +2529,7 @@
       "url": "https://isadore.com/rain-jacket-anthracite",
       "price": 178.75,
       "full_price": 275,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "jackets",
@@ -2538,7 +2538,7 @@
       "url": "https://isadore.com/winter-jacket-black",
       "price": 204,
       "full_price": 255,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "jackets",
@@ -2547,7 +2547,7 @@
       "url": "https://isadore.com/signature-winter-hardshell-jacket-titanium",
       "price": 245,
       "full_price": 350,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "jackets",
@@ -2556,7 +2556,7 @@
       "url": "https://lecol.cc/en-us/products/pro-lightweight-rain-jacket",
       "price": 135,
       "full_price": 270,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "jackets",
@@ -2565,7 +2565,7 @@
       "url": "https://lecol.cc/en-us/products/unisex-arc-insulated-jacket",
       "price": 170,
       "full_price": 335,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "jackets",
@@ -2574,7 +2574,7 @@
       "url": "https://lecol.cc/en-us/products/pro-jacket-1",
       "price": 195,
       "full_price": 385,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "jackets",
@@ -2583,7 +2583,7 @@
       "url": "https://maap.cc/us/products/team-flow-jacket-green-slate",
       "price": 250,
       "full_price": 250,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "jackets",
@@ -2592,7 +2592,7 @@
       "url": "https://maap.cc/us/products/apex-winter-jacket-2-0-charcoal-plum",
       "price": 380,
       "full_price": 380,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "jackets",
@@ -2601,7 +2601,7 @@
       "url": "https://maap.cc/us/products/apex-downpour-jacket-castor-grey",
       "price": 400,
       "full_price": 400,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "jackets",
@@ -2610,7 +2610,7 @@
       "url": "https://www.ornotbike.com/products/mens-micro-climate-jacket-obsidian",
       "price": 198,
       "full_price": 248,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "jackets",
@@ -2619,7 +2619,7 @@
       "url": "https://www.ornotbike.com/products/mens-fog-eater-hooded-rain-jacket-stone-green",
       "price": 260,
       "full_price": 325,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "jackets",
@@ -2628,7 +2628,7 @@
       "url": "https://pasnormalstudios.com/en-us/products/mens-essential-insulated-jacket-black",
       "price": 280,
       "full_price": 280,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "jackets",
@@ -2637,7 +2637,7 @@
       "url": "https://pasnormalstudios.com/en-us/products/men-mechanism-rain-jacket-black",
       "price": 330,
       "full_price": 330,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "jackets",
@@ -2646,16 +2646,7 @@
       "url": "https://pasnormalstudios.com/en-us/products/mens-mechanism-thermal-jacket-black",
       "price": 520,
       "full_price": 520,
-      "date": "2026-11-25"
-    },
-    {
-      "category": "jackets",
-      "brand": "Pearl iZUMi",
-      "product": "Men's Attack Winter Jacket",
-      "url": "https://www.pearlizumi.com/products/mens-attack-winter-jacket-11132408",
-      "price": 81,
-      "full_price": 180,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "jackets",
@@ -2664,7 +2655,7 @@
       "url": "https://www.pearlizumi.com/products/mens-pro-winter-jacket-11132401",
       "price": 203,
       "full_price": 290,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "jackets",
@@ -2673,7 +2664,7 @@
       "url": "https://www.pearlizumi.com/products/mens-pro-rain-jacket-11132402",
       "price": 231,
       "full_price": 330,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "jackets",
@@ -2682,7 +2673,7 @@
       "url": "https://usa.pedalmafia.cc/products/mens-core-thermal-jersey-baby-blue",
       "price": 158,
       "full_price": 158,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "jackets",
@@ -2691,7 +2682,7 @@
       "url": "https://usa.pedalmafia.cc/products/mens-pro-sub-0-thermal-jacket-black",
       "price": 200,
       "full_price": 200,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "jackets",
@@ -2700,7 +2691,7 @@
       "url": "https://usa.pedalmafia.cc/products/mens-pro-symapatex-heavy-rain-jacket-black",
       "price": 320,
       "full_price": 320,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "jackets",
@@ -2709,7 +2700,7 @@
       "url": "https://www.pissei.com/en/man/top/jackets/primapelle-winter-jacket-809456.html",
       "price": 255,
       "full_price": 255,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "jackets",
@@ -2718,7 +2709,7 @@
       "url": "https://www.pissei.com/en/man/top/jackets/primapelle-plus-winter-jacket-814335.html",
       "price": 315,
       "full_price": 315,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "jackets",
@@ -2727,7 +2718,7 @@
       "url": "https://www.pissei.com/en/man/top/jackets/bufera-jacket-809301.html",
       "price": 450,
       "full_price": 450,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "jackets",
@@ -2736,7 +2727,7 @@
       "url": "https://www.q36-5.com/en-us/shop/gregarius-winter-jacket-black/",
       "price": 430,
       "full_price": 430,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "jackets",
@@ -2745,7 +2736,7 @@
       "url": "https://www.q36-5.com/en-us/shop/rain-shell-jacket-black/",
       "price": 430,
       "full_price": 430,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "jackets",
@@ -2754,7 +2745,16 @@
       "url": "https://www.q36-5.com/en-us/shop/dottore-termico-jacket-black/",
       "price": 600,
       "full_price": 600,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
+    },
+    {
+      "category": "jackets",
+      "brand": "Rapha",
+      "product": "Men's Brevet Insulated Jacket",
+      "url": "https://www.rapha.cc/us/en/product/mens-brevet-insulated-jacket/BIJ06XXDPW",
+      "price": 145,
+      "full_price": 145,
+      "date": "2026-11-26"
     },
     {
       "category": "jackets",
@@ -2763,16 +2763,16 @@
       "url": "https://www.rapha.cc/us/en/product/mens-core-winter-jacket/CWK04XXDBH",
       "price": 200,
       "full_price": 200,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "jackets",
       "brand": "Rapha",
       "product": "Men's Pro Team Insulated GORE-TEX Rain Jacket",
       "url": "https://www.rapha.cc/us/en/product/mens-pro-team-insulated-gore-tex-rain-jacket/AHF01XXDNW",
-      "price": 420,
+      "price": 252,
       "full_price": 420,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "jackets",
@@ -2781,7 +2781,7 @@
       "url": "https://us.santinicycling.com/mens-cycling-jackets/ready-to-ride-winter-jacket-6760.html",
       "price": 192,
       "full_price": 192,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "jackets",
@@ -2790,7 +2790,7 @@
       "url": "https://us.santinicycling.com/unisex/magic-rain-jacket-unisex-6016.html",
       "price": 240,
       "full_price": 240,
-      "date": "2026-11-24"
+      "date": "2026-11-26"
     },
     {
       "category": "jackets",
@@ -2799,7 +2799,7 @@
       "url": "https://us.santinicycling.com/unisex/power-shield-pro-all-weather-jacket-6771.html",
       "price": 300,
       "full_price": 300,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "jackets",
@@ -2808,16 +2808,7 @@
       "url": "https://searchandstate.com/products/s1-j-riding-jacket",
       "price": 285,
       "full_price": 285,
-      "date": "2026-11-25"
-    },
-    {
-      "category": "jackets",
-      "brand": "Specialized",
-      "product": "Men's RBX Comp Rain Jacket",
-      "url": "https://www.specialized.com/us/en/mens-rbx-comp-rain-jacket/p/200435",
-      "price": 33.99,
-      "full_price": 169.99,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "jackets",
@@ -2826,7 +2817,7 @@
       "url": "https://www.specialized.com/us/en/mens-sl-rain-jacket/p/200456",
       "price": 104.99,
       "full_price": 349.99,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "jackets",
@@ -2835,7 +2826,7 @@
       "url": "https://www.specialized.com/us/en/mens-race-series-rain-jacket/p/187977",
       "price": 104.99,
       "full_price": 349.99,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "jackets",
@@ -2844,7 +2835,7 @@
       "url": "https://www.sportful.com/en-us/products/classic-2-jacket-1126502",
       "price": 133,
       "full_price": 190,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "jackets",
@@ -2853,7 +2844,7 @@
       "url": "https://www.sportful.com/en-us/products/fiandre-2-jacket-1125500",
       "price": 261,
       "full_price": 290,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "jackets",
@@ -2862,7 +2853,7 @@
       "url": "https://www.sportful.com/en-us/products/fiandre-hyperjacket-1126500",
       "price": 346.5,
       "full_price": 385,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "jackets",
@@ -2871,7 +2862,7 @@
       "url": "https://www.universalcolours.com/products/mens-mono-insulated-jacket-slate-grey",
       "price": 230,
       "full_price": 230,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "jackets",
@@ -2880,7 +2871,7 @@
       "url": "https://www.universalcolours.com/products/mens-mono-rain-jacket-vivid-blue",
       "price": 230,
       "full_price": 230,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "jackets",
@@ -2889,7 +2880,7 @@
       "url": "https://www.decathlon.com/products/van-rysel-mens-road-cycling-winter-jacket-rcr-2-blue-345268-fw25",
       "price": 110,
       "full_price": 159.99,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "jackets",
@@ -2898,7 +2889,7 @@
       "url": "https://store.voler.com/products/1010p12",
       "price": 149,
       "full_price": 149,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "gilets",
@@ -2907,7 +2898,7 @@
       "url": "https://www.7mesh.com/products/mens-chilco-vest-black",
       "price": 144,
       "full_price": 180,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "gilets",
@@ -2916,7 +2907,7 @@
       "url": "https://www.7mesh.com/products/mens-seton-vest-black",
       "price": 144,
       "full_price": 180,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "gilets",
@@ -2925,7 +2916,7 @@
       "url": "https://www.albioncycling.com/en-us/products/unisex-primaloft-active-evolve-body-warmer-graphite-1",
       "price": 150,
       "full_price": 150,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "gilets",
@@ -2934,7 +2925,7 @@
       "url": "https://www.albioncycling.com/en-us/products/mens-wind-gilet-black",
       "price": 225,
       "full_price": 225,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "gilets",
@@ -2943,7 +2934,7 @@
       "url": "https://alecycling.com/en-us/products/vest-man-vento-20-21-167",
       "price": 84.99,
       "full_price": 84.99,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "gilets",
@@ -2952,16 +2943,16 @@
       "url": "https://alecycling.com/en-us/products/vest-man-light-pack-20-26-108",
       "price": 109.99,
       "full_price": 109.99,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "gilets",
       "brand": "Alé",
       "product": "Water Repellent Vest Man Riparo",
       "url": "https://alecycling.com/en-us/products/water-repellent-vest-man-riparo-25-006",
-      "price": 218,
-      "full_price": 218,
-      "date": "2026-11-25"
+      "price": 219,
+      "full_price": 219,
+      "date": "2026-11-26"
     },
     {
       "category": "gilets",
@@ -2970,7 +2961,7 @@
       "url": "https://www.assos.com/us/mille-gt-wind-vest-s11-11-34-433-18.html",
       "price": 140,
       "full_price": 140,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "gilets",
@@ -2979,7 +2970,7 @@
       "url": "https://www.assos.com/us/equipe-r-spring-fall-gilet-s11-11-34-413-18.html",
       "price": 200,
       "full_price": 200,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "gilets",
@@ -2988,7 +2979,7 @@
       "url": "https://www.assos.com/us/mille-gts-spring-fall-vest-s11-11-34-422-18.html",
       "price": 230,
       "full_price": 230,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "gilets",
@@ -2997,7 +2988,7 @@
       "url": "https://attaquercycling.com/products/intra-stow-gilet-black",
       "price": 100,
       "full_price": 145,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "gilets",
@@ -3006,7 +2997,7 @@
       "url": "https://attaquercycling.com/products/race-3-0-rain-gilet-black",
       "price": 150,
       "full_price": 225,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "gilets",
@@ -3015,7 +3006,7 @@
       "url": "https://attaquercycling.com/products/all-day-quilted-gilet-26-black",
       "price": 230,
       "full_price": 230,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "gilets",
@@ -3024,16 +3015,16 @@
       "url": "https://bioracer.com/products/icon-gilet-cool-grey",
       "price": 50,
       "full_price": 100,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "gilets",
       "brand": "Bioracer",
       "product": "Spitfire Protect Gilet",
       "url": "https://bioracer.com/products/spitfire-protect-gilet",
-      "price": 72,
-      "full_price": 144,
-      "date": "2026-11-25"
+      "price": 73,
+      "full_price": 145,
+      "date": "2026-11-26"
     },
     {
       "category": "gilets",
@@ -3042,25 +3033,25 @@
       "url": "https://bioracer.com/products/wind-gilet-eclipse-black",
       "price": 89,
       "full_price": 111,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "gilets",
       "brand": "Black Sheep Cycling",
       "product": "Men's Team Vest - Black",
       "url": "https://us.blacksheep.cc/products/mens-team-vest-black",
-      "price": 43,
-      "full_price": 108,
-      "date": "2026-11-25"
+      "price": 44,
+      "full_price": 109,
+      "date": "2026-11-26"
     },
     {
       "category": "gilets",
       "brand": "Black Sheep Cycling",
       "product": "Men's ActiveDown Vest - Black Forest",
       "url": "https://us.blacksheep.cc/products/activedown-vest-black-forest",
-      "price": 58,
-      "full_price": 145,
-      "date": "2026-11-25"
+      "price": 59,
+      "full_price": 146,
+      "date": "2026-11-26"
     },
     {
       "category": "gilets",
@@ -3069,7 +3060,7 @@
       "url": "https://www.cafeducycliste.com/en-us/products/men-cycling-gilet-edith-black",
       "price": 119,
       "full_price": 170,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "gilets",
@@ -3078,7 +3069,7 @@
       "url": "https://www.cafeducycliste.com/en-us/products/men-cycling-gilet-sibille-black",
       "price": 182,
       "full_price": 260,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "gilets",
@@ -3087,7 +3078,7 @@
       "url": "https://www.castelli-cycling.com/en-us/products/squadra-stretch-vest-4521512",
       "price": 56,
       "full_price": 80,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "gilets",
@@ -3096,7 +3087,7 @@
       "url": "https://www.castelli-cycling.com/en-us/products/espresso-2-vest-4526013",
       "price": 105,
       "full_price": 150,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "gilets",
@@ -3105,7 +3096,7 @@
       "url": "https://www.castelli-cycling.com/en-us/products/perfetto-2-vest-4526505",
       "price": 157.5,
       "full_price": 210,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "gilets",
@@ -3114,7 +3105,7 @@
       "url": "https://www.endurasport.com/en-us/products/unisex-forty1thirty-vest-bronze-re3250bz",
       "price": 72,
       "full_price": 120,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "gilets",
@@ -3123,7 +3114,7 @@
       "url": "https://www.endurasport.com/en-us/products/mens-pro-sl-primaloft®-gilet-black-re9144bk",
       "price": 126,
       "full_price": 210,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "gilets",
@@ -3132,7 +3123,7 @@
       "url": "https://www.endurasport.com/en-us/products/mens-pro-sl-race-insulated-gilet-black-re9416blk",
       "price": 200,
       "full_price": 200,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "gilets",
@@ -3141,7 +3132,7 @@
       "url": "https://giordanacycling.com/products/s5-zephyr-vest-mens",
       "price": 75,
       "full_price": 100,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "gilets",
@@ -3150,7 +3141,7 @@
       "url": "https://giordanacycling.com/products/s5-fr-c-pro-wind-vest-mens",
       "price": 112.5,
       "full_price": 150,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "gilets",
@@ -3159,7 +3150,7 @@
       "url": "https://giordanacycling.com/products/w5-mens-silverline-winter-vest",
       "price": 146.25,
       "full_price": 195,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "gilets",
@@ -3168,7 +3159,7 @@
       "url": "https://isadore.com/wind-gilet-deep-night-grey",
       "price": 94.25,
       "full_price": 145,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "gilets",
@@ -3177,7 +3168,7 @@
       "url": "https://isadore.com/rain-gilet-anthracite",
       "price": 120,
       "full_price": 200,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "gilets",
@@ -3186,7 +3177,7 @@
       "url": "https://isadore.com/insulated-vest-black-sand-25",
       "price": 147,
       "full_price": 210,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "gilets",
@@ -3195,7 +3186,7 @@
       "url": "https://lecol.cc/en-us/products/sport-gilet-1",
       "price": 65,
       "full_price": 130,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "gilets",
@@ -3204,7 +3195,7 @@
       "url": "https://lecol.cc/en-us/products/pro-insulated-gilet",
       "price": 110,
       "full_price": 218,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "gilets",
@@ -3213,7 +3204,7 @@
       "url": "https://lecol.cc/en-us/products/unisex-arc-insulated-gilet",
       "price": 125,
       "full_price": 250,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "gilets",
@@ -3222,7 +3213,7 @@
       "url": "https://maap.cc/us/products/team-flow-vest-thistle",
       "price": 150,
       "full_price": 150,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "gilets",
@@ -3231,7 +3222,7 @@
       "url": "https://maap.cc/us/products/team-thermal-vest-carbon-blue",
       "price": 195,
       "full_price": 195,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "gilets",
@@ -3240,7 +3231,7 @@
       "url": "https://maap.cc/us/products/pro-atmos-vest-deep-navy",
       "price": 300,
       "full_price": 300,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "gilets",
@@ -3249,7 +3240,7 @@
       "url": "https://www.ornotbike.com/products/mens-lightweight-vest-apex",
       "price": 94,
       "full_price": 118,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "gilets",
@@ -3258,7 +3249,7 @@
       "url": "https://www.ornotbike.com/products/mens-alpha-riding-vest-black",
       "price": 121,
       "full_price": 152,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "gilets",
@@ -3267,7 +3258,7 @@
       "url": "https://www.ornotbike.com/products/micro-climate-vest-obsidian",
       "price": 126,
       "full_price": 158,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "gilets",
@@ -3276,7 +3267,7 @@
       "url": "https://pasnormalstudios.com/en-us/products/mens-mechanism-stow-away-gilet-black",
       "price": 165,
       "full_price": 165,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "gilets",
@@ -3285,16 +3276,16 @@
       "url": "https://pasnormalstudios.com/en-us/products/mens-essential-insulated-gilet-black-1",
       "price": 200,
       "full_price": 200,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "gilets",
       "brand": "Pearl iZUMi",
       "product": "Men's Expedition PRO Alpha Vest",
       "url": "https://www.pearlizumi.com/products/mens-expedition-pro-alpha-vest-11132407",
-      "price": 85.5,
+      "price": 80.75,
       "full_price": 190,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "gilets",
@@ -3303,7 +3294,7 @@
       "url": "https://www.pearlizumi.com/products/mens-pro-barrier-vest-11132205",
       "price": 98,
       "full_price": 140,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "gilets",
@@ -3312,7 +3303,7 @@
       "url": "https://www.pearlizumi.com/products/mens-pi-pro-black-wind-vest-11132601",
       "price": 105,
       "full_price": 150,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "gilets",
@@ -3321,7 +3312,7 @@
       "url": "https://usa.pedalmafia.cc/products/mens-core-light-vest-black",
       "price": 148,
       "full_price": 148,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "gilets",
@@ -3330,7 +3321,7 @@
       "url": "https://usa.pedalmafia.cc/products/mens-core-insulated-vest-black-1",
       "price": 158,
       "full_price": 158,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "gilets",
@@ -3339,7 +3330,7 @@
       "url": "https://usa.pedalmafia.cc/products/mens-pro-sympatex-heavy-rain-vest-black",
       "price": 260,
       "full_price": 260,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "gilets",
@@ -3348,7 +3339,7 @@
       "url": "https://www.pissei.com/en/man/top/vests-and-windbreaker/alito-windproof-vest-791.html",
       "price": 83,
       "full_price": 83,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "gilets",
@@ -3357,7 +3348,7 @@
       "url": "https://www.pissei.com/en/man/top/vests-and-windbreaker/thunder-thermal-vest-814966.html",
       "price": 113,
       "full_price": 113,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "gilets",
@@ -3366,7 +3357,7 @@
       "url": "https://www.pissei.com/en/man/top/vests-and-windbreaker/primapelle-vest-812508.html",
       "price": 165,
       "full_price": 165,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "gilets",
@@ -3375,7 +3366,7 @@
       "url": "https://www.q36-5.com/en-us/shop/air-vest-black/",
       "price": 150,
       "full_price": 150,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "gilets",
@@ -3384,7 +3375,7 @@
       "url": "https://www.q36-5.com/en-us/shop/rain-shell-vest-black/",
       "price": 240,
       "full_price": 240,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "gilets",
@@ -3393,7 +3384,7 @@
       "url": "https://www.q36-5.com/en-us/shop/dottore-hybrid-vest-black/",
       "price": 260,
       "full_price": 260,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "gilets",
@@ -3402,16 +3393,16 @@
       "url": "https://www.rapha.cc/us/en/product/mens-core-gilet/AQW01XXBLW",
       "price": 115,
       "full_price": 115,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "gilets",
       "brand": "Rapha",
       "product": "Men's Pro Team Insulated Gilet",
       "url": "https://www.rapha.cc/us/en/product/mens-pro-team-insulated-gilet/BMZ01XXGGW",
-      "price": 250,
+      "price": 187,
       "full_price": 250,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "gilets",
@@ -3420,7 +3411,7 @@
       "url": "https://www.rapha.cc/us/en/product/mens-brevet-lightweight-insulated-gilet/BIG10XXFRT",
       "price": 270,
       "full_price": 270,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "gilets",
@@ -3429,7 +3420,7 @@
       "url": "https://us.santinicycling.com/unisex/ready-to-ride-windproof-vest-unisex-7052.html",
       "price": 108,
       "full_price": 108,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "gilets",
@@ -3438,7 +3429,7 @@
       "url": "https://us.santinicycling.com/unisex/guard-nimbus-unisex-rainproof-vest-6964.html",
       "price": 132,
       "full_price": 132,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "gilets",
@@ -3447,7 +3438,7 @@
       "url": "https://us.santinicycling.com/unisex/alpha-insulated-vest-6501.html",
       "price": 192,
       "full_price": 192,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "gilets",
@@ -3456,7 +3447,7 @@
       "url": "https://searchandstate.com/products/uv-1-ultralight-vest",
       "price": 145,
       "full_price": 145,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "gilets",
@@ -3465,7 +3456,7 @@
       "url": "https://searchandstate.com/products/tec-vest",
       "price": 165,
       "full_price": 165,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "gilets",
@@ -3474,7 +3465,7 @@
       "url": "https://searchandstate.com/products/s1-v-riding-vest",
       "price": 225,
       "full_price": 225,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "gilets",
@@ -3483,7 +3474,7 @@
       "url": "https://www.specialized.com/us/en/mens-sl-pro-wind-gilet/p/187981",
       "price": 44.99,
       "full_price": 114.99,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "gilets",
@@ -3492,7 +3483,7 @@
       "url": "https://www.specialized.com/us/en/mens-prime-wind-vest/p/1000127563",
       "price": 99.99,
       "full_price": 149.99,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "gilets",
@@ -3501,7 +3492,7 @@
       "url": "https://www.sportful.com/en-us/products/pro-2-vest-1125020",
       "price": 84,
       "full_price": 120,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "gilets",
@@ -3510,7 +3501,7 @@
       "url": "https://www.sportful.com/en-us/products/fiandre-pro-vest-1124042",
       "price": 96,
       "full_price": 160,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "gilets",
@@ -3519,16 +3510,16 @@
       "url": "https://www.sportful.com/en-us/products/supergiara-2-vest-1125505",
       "price": 97.5,
       "full_price": 150,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "gilets",
       "brand": "Universal Colours",
       "product": "Men's Mono Gilet 2.0",
       "url": "https://www.universalcolours.com/products/mens-mono-gilet-2-0-bamboo-black",
-      "price": 150,
+      "price": 115,
       "full_price": 150,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "gilets",
@@ -3537,7 +3528,7 @@
       "url": "https://www.universalcolours.com/products/mens-chroma-insulated-gilet-slate-grey",
       "price": 240,
       "full_price": 240,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "gilets",
@@ -3546,7 +3537,7 @@
       "url": "https://www.decathlon.com/products/van-rysel-mens-road-cycling-ultra-light-sleeveless-windproof-gilet-black-304048",
       "price": 59.99,
       "full_price": 59.99,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "gilets",
@@ -3555,7 +3546,7 @@
       "url": "https://store.voler.com/products/1010m97",
       "price": 105,
       "full_price": 105,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "gilets",
@@ -3564,7 +3555,7 @@
       "url": "https://store.voler.com/products/1010p14",
       "price": 129,
       "full_price": 129,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "gilets",
@@ -3573,7 +3564,7 @@
       "url": "https://store.voler.com/products/1010p48",
       "price": 139,
       "full_price": 139,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "bib-tights",
@@ -3582,7 +3573,7 @@
       "url": "https://www.albioncycling.com/en-us/products/mens-thermal-pocket-bib-tights",
       "price": 430,
       "full_price": 430,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "bib-tights",
@@ -3591,16 +3582,16 @@
       "url": "https://alecycling.com/en-us/products/bibtights-man-winter-20-26-002",
       "price": 129,
       "full_price": 129,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "bib-tights",
       "brand": "Alé",
       "product": "Bibtights Man Voltage",
       "url": "https://alecycling.com/en-us/products/bibtights-man-voltage-26-001",
-      "price": 200,
-      "full_price": 200,
-      "date": "2026-11-25"
+      "price": 201,
+      "full_price": 201,
+      "date": "2026-11-26"
     },
     {
       "category": "bib-tights",
@@ -3609,7 +3600,7 @@
       "url": "https://alecycling.com/en-us/products/bibtights-man-thermo-shield-27-010",
       "price": 223,
       "full_price": 223,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "bib-tights",
@@ -3618,7 +3609,7 @@
       "url": "https://www.assos.com/us/mille-gt-spring-fall-bib-tights-s11-11-14-310-18.html",
       "price": 230,
       "full_price": 230,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "bib-tights",
@@ -3627,7 +3618,7 @@
       "url": "https://www.assos.com/us/mille-gt-hashoogi-winter-bib-tights-s11-11-14-302-18.html",
       "price": 280,
       "full_price": 280,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "bib-tights",
@@ -3636,7 +3627,7 @@
       "url": "https://www.assos.com/us/equipe-rs-johdah-ultraz-winter-bib-tights-s11-11-14-306-18.html",
       "price": 500,
       "full_price": 500,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "bib-tights",
@@ -3645,7 +3636,7 @@
       "url": "https://attaquercycling.com/products/intra-bib-long-black",
       "price": 215,
       "full_price": 305,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "bib-tights",
@@ -3654,7 +3645,7 @@
       "url": "https://attaquercycling.com/products/all-day-bib-long-black-reflective",
       "price": 355,
       "full_price": 355,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "bib-tights",
@@ -3663,16 +3654,16 @@
       "url": "https://attaquercycling.com/products/race-bib-longs-black",
       "price": 375,
       "full_price": 375,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "bib-tights",
       "brand": "Bioracer",
       "product": "Tempest Light Bibtights Black",
       "url": "https://bioracer.com/products/tempest-light-bibtights-black",
-      "price": 113,
-      "full_price": 133,
-      "date": "2026-11-25"
+      "price": 114,
+      "full_price": 134,
+      "date": "2026-11-26"
     },
     {
       "category": "bib-tights",
@@ -3681,16 +3672,16 @@
       "url": "https://bioracer.com/products/tempest-pixel-bibtights-black",
       "price": 125,
       "full_price": 156,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "bib-tights",
       "brand": "Bioracer",
       "product": "Tempest Protect Pixel Bibtights Black",
       "url": "https://bioracer.com/products/tempest-protect-pixel-bibtights-black",
-      "price": 140,
-      "full_price": 200,
-      "date": "2026-11-25"
+      "price": 141,
+      "full_price": 201,
+      "date": "2026-11-26"
     },
     {
       "category": "bib-tights",
@@ -3699,7 +3690,7 @@
       "url": "https://www.cafeducycliste.com/en-us/products/men-cycling-bibtight-elise2-black",
       "price": 273,
       "full_price": 390,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "bib-tights",
@@ -3708,7 +3699,7 @@
       "url": "https://www.cafeducycliste.com/en-us/products/men-cycling-bibtight-rosie-black",
       "price": 273,
       "full_price": 390,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "bib-tights",
@@ -3717,7 +3708,7 @@
       "url": "https://www.cafeducycliste.com/en-us/products/men-cycling-bibtight-marie2-black",
       "price": 280,
       "full_price": 350,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "bib-tights",
@@ -3726,7 +3717,7 @@
       "url": "https://www.castelli-cycling.com/en-us/products/competizione-bibtight-4525514",
       "price": 127.5,
       "full_price": 170,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "bib-tights",
@@ -3735,7 +3726,7 @@
       "url": "https://www.castelli-cycling.com/en-us/products/espresso-2-bibtight-4526518",
       "price": 157.5,
       "full_price": 210,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "bib-tights",
@@ -3744,7 +3735,7 @@
       "url": "https://www.castelli-cycling.com/en-us/products/thermowoven-bibtight-4526516",
       "price": 300,
       "full_price": 400,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "bib-tights",
@@ -3753,7 +3744,7 @@
       "url": "https://www.endurasport.com/en-us/products/mens-gv500-thermal-bib-tights-black-re5096bk",
       "price": 100,
       "full_price": 200,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "bib-tights",
@@ -3762,7 +3753,7 @@
       "url": "https://www.endurasport.com/en-us/products/mens-pro-sl-bib-tights-ii-black-re3178bk",
       "price": 290,
       "full_price": 290,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "bib-tights",
@@ -3771,7 +3762,7 @@
       "url": "https://giordanacycling.com/products/w5-silverline-thermal-bib-tight",
       "price": 131.25,
       "full_price": 175,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "bib-tights",
@@ -3780,7 +3771,7 @@
       "url": "https://giordanacycling.com/products/mens-g-shield-bib-tight",
       "price": 168.75,
       "full_price": 225,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "bib-tights",
@@ -3789,7 +3780,7 @@
       "url": "https://giordanacycling.com/products/mens-av-windfront-bib-tight",
       "price": 221.25,
       "full_price": 295,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "bib-tights",
@@ -3798,7 +3789,7 @@
       "url": "https://isadore.com/signature-thermal-tights-black",
       "price": 162.5,
       "full_price": 250,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "bib-tights",
@@ -3807,7 +3798,7 @@
       "url": "https://isadore.com/debut-thermal-tights-black",
       "price": 174.25,
       "full_price": 205,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "bib-tights",
@@ -3816,7 +3807,7 @@
       "url": "https://isadore.com/signature-deep-winter-tights-black",
       "price": 247,
       "full_price": 380,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "bib-tights",
@@ -3825,7 +3816,7 @@
       "url": "https://lecol.cc/en-us/products/sport-cargo-bib-tights-ii",
       "price": 135,
       "full_price": 273,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "bib-tights",
@@ -3834,7 +3825,7 @@
       "url": "https://lecol.cc/en-us/products/pro-bib-tights",
       "price": 150,
       "full_price": 300,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "bib-tights",
@@ -3843,7 +3834,7 @@
       "url": "https://lecol.cc/en-us/products/hors-categorie-bib-tights",
       "price": 180,
       "full_price": 355,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "bib-tights",
@@ -3852,7 +3843,7 @@
       "url": "https://maap.cc/us/products/maap-apex-deep-winter-tight-navy",
       "price": 195,
       "full_price": 390,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "bib-tights",
@@ -3861,7 +3852,7 @@
       "url": "https://maap.cc/us/products/team-bib-evo-cargo-tights-black-black",
       "price": 200,
       "full_price": 335,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "bib-tights",
@@ -3870,7 +3861,7 @@
       "url": "https://www.ornotbike.com/products/thermal-cargo-bib-tight-obsidian",
       "price": 198,
       "full_price": 248,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "bib-tights",
@@ -3879,7 +3870,7 @@
       "url": "https://www.ornotbike.com/products/mens-lightweight-cargo-bib-tight-obsidian",
       "price": 218,
       "full_price": 218,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "bib-tights",
@@ -3888,7 +3879,7 @@
       "url": "https://www.ornotbike.com/products/mens-super-thermal-cargo-bib-tight-obsidian",
       "price": 222,
       "full_price": 278,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "bib-tights",
@@ -3897,7 +3888,7 @@
       "url": "https://pasnormalstudios.com/en-us/products/mens-mechanism-thermal-long-bibs-black",
       "price": 350,
       "full_price": 350,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "bib-tights",
@@ -3906,34 +3897,34 @@
       "url": "https://pasnormalstudios.com/en-us/products/mens-mechanism-deep-winter-long-bibs-black",
       "price": 370,
       "full_price": 370,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "bib-tights",
       "brand": "Pearl iZUMi",
       "product": "Men's Quest Thermal Cycling Bib Tights",
       "url": "https://www.pearlizumi.com/products/mens-quest-thermal-cycling-bib-tights-11112406",
-      "price": 97.5,
+      "price": 91,
       "full_price": 130,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
+    },
+    {
+      "category": "bib-tights",
+      "brand": "Pearl iZUMi",
+      "product": "Men's Expedition Thermal Cycling Bib Tights",
+      "url": "https://www.pearlizumi.com/products/mens-expedition-thermal-cycling-bib-tights-11112221",
+      "price": 143.5,
+      "full_price": 205,
+      "date": "2026-11-26"
     },
     {
       "category": "bib-tights",
       "brand": "Pearl iZUMi",
       "product": "Men's AmFIB® Lite Cycling Bib Tights",
       "url": "https://www.pearlizumi.com/products/mens-amfib-lite-cycling-bib-tights-11112213",
-      "price": 157.5,
+      "price": 147,
       "full_price": 210,
-      "date": "2026-11-25"
-    },
-    {
-      "category": "bib-tights",
-      "brand": "Pearl iZUMi",
-      "product": "Men's AmFIB® Cycling Bib Tights",
-      "url": "https://www.pearlizumi.com/products/mens-amfib-cycling-bib-tights-11112210",
-      "price": 168.75,
-      "full_price": 225,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "bib-tights",
@@ -3942,7 +3933,7 @@
       "url": "https://usa.pedalmafia.cc/products/mens-core-thermal-bib-tight-black",
       "price": 188,
       "full_price": 188,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "bib-tights",
@@ -3951,7 +3942,7 @@
       "url": "https://usa.pedalmafia.cc/products/mens-pro-sub-0-thermal-bib-tight-black",
       "price": 288,
       "full_price": 288,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "bib-tights",
@@ -3960,7 +3951,7 @@
       "url": "https://www.pissei.com/en/man/bottom/bib-tights/sanremo-bib-tights-814487.html",
       "price": 225,
       "full_price": 225,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "bib-tights",
@@ -3969,7 +3960,7 @@
       "url": "https://www.pissei.com/en/man/bottom/bib-tights/primapelle-winter-bib-tights-809199.html",
       "price": 240,
       "full_price": 240,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "bib-tights",
@@ -3978,7 +3969,7 @@
       "url": "https://www.pissei.com/en/man/bottom/bib-tights/bufera-plus-bib-tights-809128.html",
       "price": 315,
       "full_price": 315,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "bib-tights",
@@ -3996,7 +3987,7 @@
       "url": "https://www.q36-5.com/en-us/shop/dottore-hybrid-bib-tights-black/",
       "price": 400,
       "full_price": 400,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "bib-tights",
@@ -4005,7 +3996,7 @@
       "url": "https://www.q36-5.com/en-us/shop/dottore-termico-bib-tights-black/",
       "price": 440,
       "full_price": 440,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "bib-tights",
@@ -4014,7 +4005,16 @@
       "url": "https://www.rapha.cc/us/en/product/mens-core-winter-tights-with-pad/CPD02XXBLK",
       "price": 200,
       "full_price": 200,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
+    },
+    {
+      "category": "bib-tights",
+      "brand": "Rapha",
+      "product": "Men's Classic Winter Tights",
+      "url": "https://www.rapha.cc/us/en/product/mens-classic-winter-tights/CGX01XXDNY",
+      "price": 292,
+      "full_price": 390,
+      "date": "2026-11-26"
     },
     {
       "category": "bib-tights",
@@ -4023,16 +4023,7 @@
       "url": "https://www.rapha.cc/us/en/product/mens-pro-team-lightweight-tights/BMX01XXBBK",
       "price": 295,
       "full_price": 295,
-      "date": "2026-11-25"
-    },
-    {
-      "category": "bib-tights",
-      "brand": "Rapha",
-      "product": "Men's Classic Winter Tights",
-      "url": "https://www.rapha.cc/us/en/product/mens-classic-winter-tights/CGX01XXDNY",
-      "price": 390,
-      "full_price": 390,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "bib-tights",
@@ -4041,7 +4032,7 @@
       "url": "https://us.santinicycling.com/mens-cycling-suit-clothing/kick-off-men-s-bib-tights-7453.html",
       "price": 145,
       "full_price": 145,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "bib-tights",
@@ -4050,7 +4041,7 @@
       "url": "https://us.santinicycling.com/men-s-cycling-bib-tights/ready-to-ride-bib-tights-6747.html",
       "price": 156,
       "full_price": 156,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "bib-tights",
@@ -4059,7 +4050,7 @@
       "url": "https://www.sportful.com/en-us/products/supergiara-2-bibtight-1126506",
       "price": 129.5,
       "full_price": 185,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "bib-tights",
@@ -4068,7 +4059,7 @@
       "url": "https://www.sportful.com/en-us/products/fiandre-2-bibtight-1126505",
       "price": 168,
       "full_price": 210,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "bib-tights",
@@ -4077,7 +4068,7 @@
       "url": "https://www.sportful.com/en-us/products/deepwinter-bibtight-1126504",
       "price": 176,
       "full_price": 220,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "bib-tights",
@@ -4086,7 +4077,7 @@
       "url": "https://www.universalcolours.com/products/mens-mono-bib-tight-eclipse-navy",
       "price": 225,
       "full_price": 225,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "bib-tights",
@@ -4095,7 +4086,7 @@
       "url": "https://www.universalcolours.com/products/mens-mono-cargo-bib-tight-black",
       "price": 245,
       "full_price": 245,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "bib-tights",
@@ -4104,7 +4095,7 @@
       "url": "https://www.decathlon.com/products/van-rysel-mens-winter-road-cycling-tights-racer-black-350516",
       "price": 119,
       "full_price": 119,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "bib-tights",
@@ -4113,34 +4104,16 @@
       "url": "https://store.voler.com/products/1110946",
       "price": 249,
       "full_price": 249,
-      "date": "2026-11-25"
-    },
-    {
-      "category": "base-layers",
-      "brand": "7mesh",
-      "product": "Men's Ashlu Merino Sleeveless Base Layer",
-      "url": "https://www.7mesh.com/products/mens-ashlu-merino-sleeveless-base-layer",
-      "price": 48,
-      "full_price": 80,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "base-layers",
       "brand": "7mesh",
       "product": "Men's Ashlu Merino Long Sleeve Base Layer",
       "url": "https://www.7mesh.com/products/mens-ashlu-merino-long-sleeve-base-layer",
-      "price": 50,
+      "price": 60,
       "full_price": 100,
-      "date": "2026-11-25"
-    },
-    {
-      "category": "base-layers",
-      "brand": "7mesh",
-      "product": "Men's Horizon Long Sleeve Base Layer",
-      "url": "https://www.7mesh.com/products/mens-horizon-long-sleeve-base-layer",
-      "price": 56,
-      "full_price": 80,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "base-layers",
@@ -4149,16 +4122,16 @@
       "url": "https://alecycling.com/en-us/products/short-sleeve-base-layer-man-argon-26-139",
       "price": 69.99,
       "full_price": 69.99,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "base-layers",
       "brand": "Alé",
       "product": "Short Sleeve Base Layer Man Merino",
       "url": "https://alecycling.com/en-us/products/short-sleeve-base-layer-man-merino-27-013",
-      "price": 85,
-      "full_price": 85,
-      "date": "2026-11-25"
+      "price": 86,
+      "full_price": 86,
+      "date": "2026-11-26"
     },
     {
       "category": "base-layers",
@@ -4167,7 +4140,7 @@
       "url": "https://alecycling.com/en-us/products/long-sleeve-base-layer-man-k-base-26-060",
       "price": 98,
       "full_price": 98,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "base-layers",
@@ -4176,7 +4149,7 @@
       "url": "https://www.assos.com/us/summer-ns-skin-layer-p1-p11-40-466-1o.html",
       "price": 67,
       "full_price": 95,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "base-layers",
@@ -4185,7 +4158,7 @@
       "url": "https://www.assos.com/us/winter-ls-skin-layer-p1-p11-40-454-18.html",
       "price": 140,
       "full_price": 140,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "base-layers",
@@ -4194,7 +4167,7 @@
       "url": "https://www.assos.com/us/equipe-winter-skin-layer-p1-p11-40-473-18.html",
       "price": 235,
       "full_price": 235,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "base-layers",
@@ -4203,7 +4176,7 @@
       "url": "https://attaquercycling.com/products/undershirt-summer-weight-black",
       "price": 80,
       "full_price": 80,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "base-layers",
@@ -4212,7 +4185,7 @@
       "url": "https://attaquercycling.com/products/merino-base-layer-short-sleeved-black",
       "price": 90,
       "full_price": 90,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "base-layers",
@@ -4221,7 +4194,7 @@
       "url": "https://attaquercycling.com/products/merino-base-layer-long-sleeved-black",
       "price": 100,
       "full_price": 100,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "base-layers",
@@ -4230,7 +4203,7 @@
       "url": "https://bioracer.com/products/short-sleeve-breeze-base-layer-black",
       "price": 44,
       "full_price": 55,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "base-layers",
@@ -4239,7 +4212,7 @@
       "url": "https://bioracer.com/products/thermal-long-sleeve-base-layer",
       "price": 44,
       "full_price": 55,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "base-layers",
@@ -4248,7 +4221,7 @@
       "url": "https://bioracer.com/products/thermal-long-sleeve-merino-base-layer",
       "price": 80,
       "full_price": 100,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "base-layers",
@@ -4256,8 +4229,8 @@
       "product": "ActiveMerino SS Baselayer - Off White",
       "url": "https://us.blacksheep.cc/products/activemerino-ss-baselayer-off-white",
       "price": 26,
-      "full_price": 64,
-      "date": "2026-11-25"
+      "full_price": 65,
+      "date": "2026-11-26"
     },
     {
       "category": "base-layers",
@@ -4266,7 +4239,7 @@
       "url": "https://us.blacksheep.cc/products/activemerino-ls-baselayer-off-white",
       "price": 29,
       "full_price": 71,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "base-layers",
@@ -4275,7 +4248,7 @@
       "url": "https://www.cafeducycliste.com/en-us/products/men-cycling-baselayer-liliane-short-sleeve-white",
       "price": 68,
       "full_price": 85,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "base-layers",
@@ -4284,7 +4257,7 @@
       "url": "https://www.cafeducycliste.com/en-us/products/men-cycling-baselayer-coline-black",
       "price": 92,
       "full_price": 115,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "base-layers",
@@ -4293,7 +4266,7 @@
       "url": "https://www.cafeducycliste.com/en-us/products/men-cycling-baselayer-carmen-mountain-fog",
       "price": 94.5,
       "full_price": 135,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "base-layers",
@@ -4302,7 +4275,7 @@
       "url": "https://www.castelli-cycling.com/en-us/products/core-seamless-base-layer-ss-4520575",
       "price": 63.75,
       "full_price": 85,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "base-layers",
@@ -4311,7 +4284,7 @@
       "url": "https://www.castelli-cycling.com/en-us/products/medio-base-layer-ls-4525526",
       "price": 75,
       "full_price": 100,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "base-layers",
@@ -4320,7 +4293,7 @@
       "url": "https://www.castelli-cycling.com/en-us/products/merino-seamless-baselayer-4524527",
       "price": 82.5,
       "full_price": 110,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "base-layers",
@@ -4329,7 +4302,7 @@
       "url": "https://www.endurasport.com/en-us/products/mens-translite-s-s-base-layer-ii-white-re3208wh",
       "price": 30,
       "full_price": 50,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "base-layers",
@@ -4338,7 +4311,7 @@
       "url": "https://www.endurasport.com/en-us/products/mens-baabaa-blend-l-s-base-layer-black-re3183bk",
       "price": 67.5,
       "full_price": 90,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "base-layers",
@@ -4347,7 +4320,7 @@
       "url": "https://www.endurasport.com/en-us/products/mens-baabaa-pro-l-s-base-layer-top-grey-re3249gy",
       "price": 90,
       "full_price": 120,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "base-layers",
@@ -4356,7 +4329,7 @@
       "url": "https://giordanacycling.com/products/mens-dri-release-sleeveless-base-layer",
       "price": 22.5,
       "full_price": 30,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "base-layers",
@@ -4365,7 +4338,7 @@
       "url": "https://giordanacycling.com/products/ceramic-base-layer-short-sleeve",
       "price": 60,
       "full_price": 80,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "base-layers",
@@ -4374,7 +4347,7 @@
       "url": "https://giordanacycling.com/products/ceramic-base-layer-long-sleeve",
       "price": 67.5,
       "full_price": 90,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "base-layers",
@@ -4383,7 +4356,7 @@
       "url": "https://isadore.com/light-short-sleeve-baselayer-black",
       "price": 56,
       "full_price": 70,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "base-layers",
@@ -4392,7 +4365,7 @@
       "url": "https://isadore.com/merino-short-sleeve-baselayer-black",
       "price": 72,
       "full_price": 90,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "base-layers",
@@ -4401,7 +4374,7 @@
       "url": "https://isadore.com/winter-wind-block-long-sleeve-baselayer-black",
       "price": 116,
       "full_price": 145,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "base-layers",
@@ -4410,7 +4383,7 @@
       "url": "https://lecol.cc/en-us/products/pro-mesh-short-sleeve-base-layer",
       "price": 40,
       "full_price": 90,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "base-layers",
@@ -4419,7 +4392,7 @@
       "url": "https://lecol.cc/en-us/products/arc-merino-long-sleeve-base-layer",
       "price": 50,
       "full_price": 102,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "base-layers",
@@ -4428,7 +4401,7 @@
       "url": "https://lecol.cc/en-us/products/deep-winter-base-layer",
       "price": 55,
       "full_price": 109,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "base-layers",
@@ -4437,7 +4410,7 @@
       "url": "https://www.ornotbike.com/products/delta-sleeveless-base-layer",
       "price": 49,
       "full_price": 62,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "base-layers",
@@ -4446,7 +4419,7 @@
       "url": "https://www.ornotbike.com/products/merino-base-layer-gravel",
       "price": 63,
       "full_price": 79,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "base-layers",
@@ -4455,7 +4428,7 @@
       "url": "https://pasnormalstudios.com/en-us/products/mens-sleeveless-base-layer-black",
       "price": 76,
       "full_price": 76,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "base-layers",
@@ -4464,7 +4437,7 @@
       "url": "https://pasnormalstudios.com/en-us/products/mens-thermal-long-sleeve-base-layer-off-white",
       "price": 116,
       "full_price": 116,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "base-layers",
@@ -4473,25 +4446,34 @@
       "url": "https://pasnormalstudios.com/en-us/products/mens-thermal-hooded-windproof-base-layer-dark-stone",
       "price": 165,
       "full_price": 165,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "base-layers",
       "brand": "Pearl iZUMi",
       "product": "Men's Transfer Mesh Sleeveless Baselayer",
       "url": "https://www.pearlizumi.com/products/mens-transfer-mesh-sleeveless-baselayer-11122502",
-      "price": 45,
+      "price": 42,
       "full_price": 60,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
+    },
+    {
+      "category": "base-layers",
+      "brand": "Pearl iZUMi",
+      "product": "Men's Transfer Mesh Short Sleeve Baselayer",
+      "url": "https://www.pearlizumi.com/products/mens-transfer-mesh-short-sleeve-baselayer-11122503",
+      "price": 49,
+      "full_price": 70,
+      "date": "2026-11-26"
     },
     {
       "category": "base-layers",
       "brand": "Pearl iZUMi",
       "product": "Men's Transfer Wool Long Sleeve Baselayer",
       "url": "https://www.pearlizumi.com/products/mens-transfer-wool-long-sleeve-baselayer-11122307",
-      "price": 60,
+      "price": 56,
       "full_price": 80,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "base-layers",
@@ -4500,7 +4482,7 @@
       "url": "https://usa.pedalmafia.cc/products/mens-pro-merino-short-sleeve-base-layer-grey",
       "price": 90,
       "full_price": 90,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "base-layers",
@@ -4509,7 +4491,7 @@
       "url": "https://usa.pedalmafia.cc/products/mens-pro-merino-long-sleeve-base-layer-grey",
       "price": 100,
       "full_price": 100,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "base-layers",
@@ -4518,7 +4500,7 @@
       "url": "https://www.pissei.com/en/man/top/underwear/sleeveless-baselayer-attaque-807274.html",
       "price": 60,
       "full_price": 60,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "base-layers",
@@ -4527,7 +4509,7 @@
       "url": "https://www.pissei.com/en/man/top/underwear/mindanao-short-sleeve-base-layer-809565.html",
       "price": 90,
       "full_price": 90,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "base-layers",
@@ -4536,7 +4518,7 @@
       "url": "https://www.pissei.com/en/man/top/underwear/argentum-winter-long-sleeve-base-layer-811980.html",
       "price": 135,
       "full_price": 135,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "base-layers",
@@ -4545,7 +4527,7 @@
       "url": "https://www.q36-5.com/en-us/shop/base-layer-2-short-sleeve-red/",
       "price": 110,
       "full_price": 110,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "base-layers",
@@ -4554,7 +4536,7 @@
       "url": "https://www.q36-5.com/en-us/shop/base-layer-4-plus-long-sleeve-black/",
       "price": 160,
       "full_price": 160,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "base-layers",
@@ -4563,7 +4545,7 @@
       "url": "https://www.q36-5.com/en-us/shop/base-layer-5-plus-long-sleeve-hoodie-black/",
       "price": 190,
       "full_price": 190,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "base-layers",
@@ -4572,7 +4554,7 @@
       "url": "https://www.rapha.cc/us/en/product/mens-lightweight-base-layer---sleeveless/BFK02XXWBW",
       "price": 85,
       "full_price": 85,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "base-layers",
@@ -4581,7 +4563,7 @@
       "url": "https://www.rapha.cc/us/en/product/mens-merino-base-layer---long-sleeve/CHZ01XXPWA",
       "price": 120,
       "full_price": 120,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "base-layers",
@@ -4590,7 +4572,7 @@
       "url": "https://www.rapha.cc/us/en/product/mens-winter-windblock-base-layer/IBL03XXBBK",
       "price": 205,
       "full_price": 205,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "base-layers",
@@ -4599,7 +4581,7 @@
       "url": "https://us.santinicycling.com/base-layers/lieve-baselayer-1042.html",
       "price": 42,
       "full_price": 42,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "base-layers",
@@ -4608,7 +4590,7 @@
       "url": "https://us.santinicycling.com/base-layers/dry-baselayer-3283.html",
       "price": 65,
       "full_price": 65,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "base-layers",
@@ -4617,7 +4599,7 @@
       "url": "https://us.santinicycling.com/base-layers/next-2-skin-baselayer-5007.html",
       "price": 108,
       "full_price": 108,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "base-layers",
@@ -4626,7 +4608,7 @@
       "url": "https://searchandstate.com/products/sleeveless-merino-base-layer",
       "price": 60,
       "full_price": 85,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "base-layers",
@@ -4635,7 +4617,7 @@
       "url": "https://searchandstate.com/products/sleeveless-synthetic-base-layer",
       "price": 85,
       "full_price": 85,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "base-layers",
@@ -4644,7 +4626,7 @@
       "url": "https://searchandstate.com/products/thermal-merino-base-layer",
       "price": 135,
       "full_price": 135,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "base-layers",
@@ -4653,7 +4635,7 @@
       "url": "https://www.specialized.com/us/en/mens-power-grid-short-sleeve-baselayer/p/200374",
       "price": 42.99,
       "full_price": 84.99,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "base-layers",
@@ -4662,7 +4644,7 @@
       "url": "https://www.specialized.com/us/en/mens-seamless-short-sleeve-base-layer/p/200378",
       "price": 59.99,
       "full_price": 89.99,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "base-layers",
@@ -4671,7 +4653,7 @@
       "url": "https://www.specialized.com/us/en/mens-seamless-long-sleeve-base-layer/p/200379",
       "price": 69.99,
       "full_price": 99.99,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "base-layers",
@@ -4680,7 +4662,7 @@
       "url": "https://www.sportful.com/en-us/products/pro-baselayer-sleeveless-1125039",
       "price": 38.5,
       "full_price": 55,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "base-layers",
@@ -4689,7 +4671,7 @@
       "url": "https://www.sportful.com/en-us/products/pro-baselayer-tee-1125040",
       "price": 42,
       "full_price": 60,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "base-layers",
@@ -4698,7 +4680,7 @@
       "url": "https://www.sportful.com/en-us/products/bodyfit-pro-baselayer-short-sleeves-1120564",
       "price": 50.99,
       "full_price": 84.99,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "base-layers",
@@ -4707,7 +4689,7 @@
       "url": "https://www.universalcolours.com/products/mono-sleeveless-base-layer-white",
       "price": 47,
       "full_price": 67,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "base-layers",
@@ -4716,7 +4698,7 @@
       "url": "https://www.universalcolours.com/products/mens-thermal-base-layer-off-white",
       "price": 97,
       "full_price": 97,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "base-layers",
@@ -4725,7 +4707,7 @@
       "url": "https://www.decathlon.com/products/cycling-summer-training-base-layer-623",
       "price": 39.99,
       "full_price": 39.99,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "base-layers",
@@ -4734,7 +4716,7 @@
       "url": "https://store.voler.com/products/1010n20",
       "price": 35,
       "full_price": 39,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "base-layers",
@@ -4743,7 +4725,7 @@
       "url": "https://store.voler.com/products/m-lightweight-merino-tank-base",
       "price": 55,
       "full_price": 55,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "base-layers",
@@ -4752,16 +4734,16 @@
       "url": "https://store.voler.com/products/1010n82",
       "price": 79,
       "full_price": 79,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "gloves",
       "brand": "Alé",
       "product": "Summer Gloves Unisex Velocissimo",
       "url": "https://alecycling.com/en-us/products/summer-gloves-unisex-velocissimo-16-185",
-      "price": 32,
+      "price": 33,
       "full_price": 46,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "gloves",
@@ -4770,7 +4752,7 @@
       "url": "https://alecycling.com/en-us/products/winter-gloves-unisex-scirocco-22-86",
       "price": 42,
       "full_price": 61,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "gloves",
@@ -4779,7 +4761,7 @@
       "url": "https://alecycling.com/en-us/products/winter-gloves-unisex-riparo-26-029",
       "price": 84,
       "full_price": 84,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "gloves",
@@ -4788,7 +4770,7 @@
       "url": "https://www.assos.com/us/endurance-gloves-s11-p13-50-551-18.html",
       "price": 46,
       "full_price": 65,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "gloves",
@@ -4797,7 +4779,7 @@
       "url": "https://www.assos.com/us/spring-fall-gloves-p1-p13-52-552-18.html",
       "price": 100,
       "full_price": 100,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "gloves",
@@ -4806,7 +4788,7 @@
       "url": "https://www.assos.com/us/ultraz-winter-gloves-p1-p13-52-555-18.html",
       "price": 135,
       "full_price": 135,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "gloves",
@@ -4815,7 +4797,7 @@
       "url": "https://attaquercycling.com/products/gloves-short-finger-logo-black",
       "price": 60,
       "full_price": 60,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "gloves",
@@ -4824,7 +4806,7 @@
       "url": "https://attaquercycling.com/products/gloves-light-winter-logo-black",
       "price": 80,
       "full_price": 80,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "gloves",
@@ -4833,7 +4815,7 @@
       "url": "https://attaquercycling.com/products/gloves-deep-winter-logo-black",
       "price": 115,
       "full_price": 115,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "gloves",
@@ -4842,7 +4824,7 @@
       "url": "https://bioracer.com/products/summer_gloves_black",
       "price": 32,
       "full_price": 40,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "gloves",
@@ -4851,7 +4833,7 @@
       "url": "https://bioracer.com/products/alaska-pro-winter-gloves",
       "price": 37,
       "full_price": 73,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "gloves",
@@ -4859,8 +4841,8 @@
       "product": "Tempest Gloves",
       "url": "https://bioracer.com/products/tempest-gloves",
       "price": 66,
-      "full_price": 77,
-      "date": "2026-11-25"
+      "full_price": 78,
+      "date": "2026-11-26"
     },
     {
       "category": "gloves",
@@ -4868,26 +4850,26 @@
       "product": "Racing Glove - Radical Black",
       "url": "https://us.blacksheep.cc/products/racing-glove-black",
       "price": 32,
-      "full_price": 57,
-      "date": "2026-11-25"
+      "full_price": 58,
+      "date": "2026-11-26"
     },
     {
       "category": "gloves",
       "brand": "Black Sheep Cycling",
       "product": "ThermoFleece Gloves 2.0 - Black",
       "url": "https://us.blacksheep.cc/products/thermofleece-gloves-2-0-black",
-      "price": 39,
+      "price": 40,
       "full_price": 71,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "gloves",
       "brand": "Black Sheep Cycling",
       "product": "ThermoFleece Gloves - Black",
       "url": "https://us.blacksheep.cc/products/thermofleece-gloves-black",
-      "price": 82,
-      "full_price": 82,
-      "date": "2026-11-25"
+      "price": 83,
+      "full_price": 83,
+      "date": "2026-11-26"
     },
     {
       "category": "gloves",
@@ -4896,7 +4878,7 @@
       "url": "https://www.cafeducycliste.com/en-us/products/unisex-cycling-gloves-lightweight2-black",
       "price": 40,
       "full_price": 50,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "gloves",
@@ -4905,7 +4887,7 @@
       "url": "https://www.cafeducycliste.com/en-us/products/unisex-cycling-summer-mitts2-black",
       "price": 64,
       "full_price": 80,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "gloves",
@@ -4914,7 +4896,7 @@
       "url": "https://www.cafeducycliste.com/en-us/products/unisex-cycling-gloves-classic-black",
       "price": 72,
       "full_price": 90,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "gloves",
@@ -4923,7 +4905,7 @@
       "url": "https://www.castelli-cycling.com/en-us/products/competizione-3-glove-4526029",
       "price": 33.75,
       "full_price": 45,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "gloves",
@@ -4932,7 +4914,7 @@
       "url": "https://www.castelli-cycling.com/en-us/products/perfetto-light-2-glove-4526523",
       "price": 60,
       "full_price": 80,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "gloves",
@@ -4941,7 +4923,7 @@
       "url": "https://www.castelli-cycling.com/en-us/products/estremo-2-glove-4526524",
       "price": 105,
       "full_price": 140,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "gloves",
@@ -4950,7 +4932,7 @@
       "url": "https://www.endurasport.com/en-us/products/fs260-thermo-gloves-black-re1224bk",
       "price": 33.75,
       "full_price": 45,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "gloves",
@@ -4959,7 +4941,7 @@
       "url": "https://www.endurasport.com/en-us/products/pro-sl-full-finger-gloves-black-re1317bk",
       "price": 42,
       "full_price": 70,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "gloves",
@@ -4968,7 +4950,7 @@
       "url": "https://www.endurasport.com/en-us/products/pro-sl-mitts-black-re1316bk",
       "price": 60,
       "full_price": 60,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "gloves",
@@ -4977,7 +4959,7 @@
       "url": "https://giordanacycling.com/products/corsa-gloves",
       "price": 22.5,
       "full_price": 30,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "gloves",
@@ -4986,7 +4968,7 @@
       "url": "https://giordanacycling.com/products/aero-gloves",
       "price": 37.5,
       "full_price": 50,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "gloves",
@@ -4995,7 +4977,7 @@
       "url": "https://giordanacycling.com/products/w5-av-200-winter-gloves",
       "price": 63.75,
       "full_price": 85,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "gloves",
@@ -5004,7 +4986,7 @@
       "url": "https://isadore.com/signature-light-gloves-black",
       "price": 37.5,
       "full_price": 50,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "gloves",
@@ -5013,7 +4995,7 @@
       "url": "https://isadore.com/autumn-spring-gloves-black",
       "price": 52,
       "full_price": 65,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "gloves",
@@ -5022,7 +5004,7 @@
       "url": "https://isadore.com/deep-winter-gloves",
       "price": 94.25,
       "full_price": 145,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "gloves",
@@ -5031,7 +5013,7 @@
       "url": "https://lecol.cc/en-us/products/pro-lightweight-gloves",
       "price": 45,
       "full_price": 85,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "gloves",
@@ -5040,7 +5022,7 @@
       "url": "https://lecol.cc/en-us/products/hors-categorie-deep-winter-gloves",
       "price": 55,
       "full_price": 109,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "gloves",
@@ -5049,7 +5031,7 @@
       "url": "https://maap.cc/us/products/pro-race-mitt-anthracite",
       "price": 90,
       "full_price": 90,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "gloves",
@@ -5058,7 +5040,7 @@
       "url": "https://maap.cc/us/products/apex-winter-glove-2-0-black",
       "price": 185,
       "full_price": 185,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "gloves",
@@ -5067,7 +5049,7 @@
       "url": "https://www.ornotbike.com/products/lightweight-glove-grayskull",
       "price": 46,
       "full_price": 49,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "gloves",
@@ -5076,7 +5058,7 @@
       "url": "https://www.ornotbike.com/products/merino-gloves",
       "price": 46,
       "full_price": 49,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "gloves",
@@ -5085,7 +5067,7 @@
       "url": "https://www.ornotbike.com/products/alpha-gloves",
       "price": 80,
       "full_price": 85,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "gloves",
@@ -5094,7 +5076,7 @@
       "url": "https://pasnormalstudios.com/en-us/products/escapism-mitts-navy",
       "price": 58,
       "full_price": 58,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "gloves",
@@ -5103,34 +5085,34 @@
       "url": "https://pasnormalstudios.com/en-us/products/escapism-gloves-earth",
       "price": 70,
       "full_price": 70,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "gloves",
       "brand": "Pearl iZUMi",
       "product": "Men's Cyclone Gel Gloves",
       "url": "https://www.pearlizumi.com/products/mens-cyclone-gel-gloves-14142606",
-      "price": 37.5,
+      "price": 35,
       "full_price": 50,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "gloves",
       "brand": "Pearl iZUMi",
       "product": "Men's Elite Gel Full Finger Gloves",
       "url": "https://www.pearlizumi.com/products/mens-elite-gel-full-finger-gloves-14142003",
-      "price": 37.5,
+      "price": 35,
       "full_price": 50,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "gloves",
       "brand": "Pearl iZUMi",
       "product": "Men's AmFIB® Gel Gloves",
       "url": "https://www.pearlizumi.com/products/mens-amfib-gel-gloves-14142010",
-      "price": 60,
+      "price": 56,
       "full_price": 80,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "gloves",
@@ -5139,7 +5121,7 @@
       "url": "https://www.pissei.com/en/man/accessories/gloves/primapelle-gloves-687.html",
       "price": 53,
       "full_price": 53,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "gloves",
@@ -5148,7 +5130,7 @@
       "url": "https://www.pissei.com/en/man/accessories/gloves/bufera-winter-gloves-809038.html",
       "price": 75,
       "full_price": 75,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "gloves",
@@ -5157,7 +5139,7 @@
       "url": "https://www.pissei.com/en/man/accessories/gloves/alaska-winter-gloves-19.html",
       "price": 113,
       "full_price": 113,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "gloves",
@@ -5166,7 +5148,7 @@
       "url": "https://www.q36-5.com/en-us/shop/dottore-pro-long-fingers-gloves-black/",
       "price": 90,
       "full_price": 90,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "gloves",
@@ -5175,7 +5157,7 @@
       "url": "https://www.q36-5.com/en-us/shop/hybrid-gloves-black/",
       "price": 100,
       "full_price": 100,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "gloves",
@@ -5184,7 +5166,7 @@
       "url": "https://www.q36-5.com/en-us/shop/super-termico-winter-gloves-black/",
       "price": 150,
       "full_price": 150,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "gloves",
@@ -5193,25 +5175,25 @@
       "url": "https://www.rapha.cc/us/en/product/core-mitts/CRM03XXDNY",
       "price": 55,
       "full_price": 55,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "gloves",
       "brand": "Rapha",
       "product": "Merino Gloves",
       "url": "https://www.rapha.cc/us/en/product/merino-gloves/CIJ01XXDNY",
-      "price": 90,
+      "price": 67,
       "full_price": 90,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "gloves",
       "brand": "Rapha",
       "product": "Pro Team Winter Gloves",
       "url": "https://www.rapha.cc/us/en/product/pro-team-winter-gloves/PTW03XXBLK",
-      "price": 135,
+      "price": 101,
       "full_price": 135,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "gloves",
@@ -5220,7 +5202,7 @@
       "url": "https://us.santinicycling.com/cycling-clothing-accessories-gloves-unisex-man-woman/brisk-gloves-1082.html",
       "price": 42,
       "full_price": 42,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "gloves",
@@ -5229,7 +5211,7 @@
       "url": "https://us.santinicycling.com/cycling-clothing-accessories-gloves-unisex-man-woman/sp371ttmadss-6014.html",
       "price": 53,
       "full_price": 53,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "gloves",
@@ -5238,7 +5220,7 @@
       "url": "https://us.santinicycling.com/cycling-clothing-accessories-gloves-unisex-man-woman/adapt-gloves-4288.html",
       "price": 67,
       "full_price": 67,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "gloves",
@@ -5247,7 +5229,7 @@
       "url": "https://www.specialized.com/us/en/mens-body-geometry-sport-gel-short-finger-gloves/p/156945",
       "price": 29.99,
       "full_price": 29.99,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "gloves",
@@ -5256,7 +5238,7 @@
       "url": "https://www.specialized.com/us/en/mens-sl-pro-long-finger-gloves/p/157229",
       "price": 34.99,
       "full_price": 34.99,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "gloves",
@@ -5265,7 +5247,7 @@
       "url": "https://www.specialized.com/us/en/mens-neoshell-gloves/p/1000088450",
       "price": 79.99,
       "full_price": 79.99,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "gloves",
@@ -5274,7 +5256,7 @@
       "url": "https://www.sportful.com/en-us/products/classic-gloves-1125025",
       "price": 40,
       "full_price": 40,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "gloves",
@@ -5283,7 +5265,7 @@
       "url": "https://www.sportful.com/en-us/products/winter-gloves-1125533",
       "price": 59.5,
       "full_price": 85,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "gloves",
@@ -5292,16 +5274,16 @@
       "url": "https://www.sportful.com/en-us/products/subzero-gloves-0422532",
       "price": 85.5,
       "full_price": 95,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "gloves",
       "brand": "Universal Colours",
       "product": "Mono Mitts - Black",
       "url": "https://www.universalcolours.com/products/mono-short-finger-gloves-black",
-      "price": 60,
+      "price": 27,
       "full_price": 60,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "gloves",
@@ -5310,7 +5292,7 @@
       "url": "https://www.universalcolours.com/products/mono-thermal-gloves-black",
       "price": 75,
       "full_price": 100,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "gloves",
@@ -5319,7 +5301,7 @@
       "url": "https://www.universalcolours.com/products/primaloft-deep-winter-gloves-black",
       "price": 95,
       "full_price": 130,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "gloves",
@@ -5328,7 +5310,7 @@
       "url": "https://www.decathlon.com/products/van-rysel-road-cycling-gloves-rcr-black-356247",
       "price": 39.99,
       "full_price": 39.99,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "gloves",
@@ -5337,7 +5319,7 @@
       "url": "https://store.voler.com/products/1240696",
       "price": 25,
       "full_price": 25,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "gloves",
@@ -5346,7 +5328,7 @@
       "url": "https://store.voler.com/products/1240701",
       "price": 37,
       "full_price": 37,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "gloves",
@@ -5355,7 +5337,7 @@
       "url": "https://store.voler.com/products/1240702",
       "price": 67,
       "full_price": 67,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "road-bikes",
@@ -5364,7 +5346,7 @@
       "url": "https://us.3t.bike/products/strada-wpnt-ultegra-di2-2x12-discus-40-31",
       "price": 5988,
       "full_price": 5988,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "road-bikes",
@@ -5373,7 +5355,7 @@
       "url": "https://us.3t.bike/products/strada-italia-ultegra-di2-2x12-sharq",
       "price": 9254,
       "full_price": 9254,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "road-bikes",
@@ -5382,7 +5364,7 @@
       "url": "https://us.3t.bike/products/strada-italia-x-dura-ace-pm-di2-2x12-sharq",
       "price": 12956,
       "full_price": 12956,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "road-bikes",
@@ -5391,7 +5373,7 @@
       "url": "https://alliedcycleworks.com/products/echo-sram-rival-xplr-axs-bike",
       "price": 5800,
       "full_price": 5800,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "road-bikes",
@@ -5400,7 +5382,7 @@
       "url": "https://alliedcycleworks.com/products/echo-sram-force-xplr-axs-bike",
       "price": 7380,
       "full_price": 7380,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "road-bikes",
@@ -5409,7 +5391,7 @@
       "url": "https://alliedcycleworks.com/products/echo-sram-red-xplr-axs-bike",
       "price": 10300,
       "full_price": 10300,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "road-bikes",
@@ -5418,7 +5400,7 @@
       "url": "https://us.bmc-switzerland.com/products/teammachine-slr-three-bikes-bmc-27a-000020",
       "price": 2899,
       "full_price": 2899,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "road-bikes",
@@ -5427,7 +5409,7 @@
       "url": "https://us.bmc-switzerland.com/products/teammachine-slr-01-six-bikes-bmc-27a-000033",
       "price": 5799,
       "full_price": 7299,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "road-bikes",
@@ -5436,7 +5418,7 @@
       "url": "https://us.bmc-switzerland.com/products/teammachine-slr-01-one-bikes-bmc-27a-000030",
       "price": 11699,
       "full_price": 14599,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "road-bikes",
@@ -5445,7 +5427,7 @@
       "url": "https://www.cannondale.com/en-us/bikes/road/endurance/synapse/synapse-2",
       "price": 1799,
       "full_price": 1799,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "road-bikes",
@@ -5454,7 +5436,7 @@
       "url": "https://www.cannondale.com/en-us/bikes/road/race/supersix-evo/supersix-evo-4",
       "price": 5499,
       "full_price": 5499,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "road-bikes",
@@ -5463,7 +5445,7 @@
       "url": "https://www.cannondale.com/en-us/bikes/road/race/supersix-evo/supersix-evo-1",
       "price": 9499,
       "full_price": 9499,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "road-bikes",
@@ -5472,7 +5454,7 @@
       "url": "https://www.canyon.com/en-us/road-bikes/endurance-bikes/endurace/allroad/endurace-allroad/4477.html",
       "price": 1499,
       "full_price": 1499,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "road-bikes",
@@ -5481,7 +5463,7 @@
       "url": "https://www.canyon.com/en-us/road-bikes/race-bikes/ultimate/cf-sl/ultimate-cf-7-di2/4419.html",
       "price": 3199,
       "full_price": 3799,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "road-bikes",
@@ -5490,7 +5472,7 @@
       "url": "https://www.canyon.com/en-us/road-bikes/aero-bikes/aeroad/cfr/aeroad-cfr-di2/4039.html",
       "price": 8399,
       "full_price": 10499,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "road-bikes",
@@ -5499,7 +5481,7 @@
       "url": "https://www.cervelo.com/products/caledonia-105-2027",
       "price": 3300,
       "full_price": 3300,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "road-bikes",
@@ -5508,7 +5490,7 @@
       "url": "https://www.cervelo.com/products/soloist-rival-axs-2027",
       "price": 6800,
       "full_price": 6800,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "road-bikes",
@@ -5517,16 +5499,16 @@
       "url": "https://www.cervelo.com/products/s5-red-axs-2027",
       "price": 14500,
       "full_price": 14500,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "road-bikes",
       "brand": "Colnago",
       "product": "V4Rs",
       "url": "https://www.colnago.com/en-us/premium-bikes/v4rs-bike",
-      "price": 8660,
-      "full_price": 8660,
-      "date": "2026-11-25"
+      "price": 8683,
+      "full_price": 8683,
+      "date": "2026-11-26"
     },
     {
       "category": "road-bikes",
@@ -5535,16 +5517,16 @@
       "url": "https://www.colnago.com/en-us/premium-bikes/v5rs-bike",
       "price": 11750,
       "full_price": 11750,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "road-bikes",
       "brand": "Colnago",
       "product": "C72 Road",
       "url": "https://www.colnago.com/en-us/premium-bikes/c72-road-bike",
-      "price": 15846,
-      "full_price": 15846,
-      "date": "2026-11-25"
+      "price": 15888,
+      "full_price": 15888,
+      "date": "2026-11-26"
     },
     {
       "category": "road-bikes",
@@ -5553,7 +5535,7 @@
       "url": "https://factorbikes.com/bike-builder/monza-shimano-ultegra",
       "price": 6999,
       "full_price": 6999,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "road-bikes",
@@ -5562,7 +5544,7 @@
       "url": "https://factorbikes.com/bike-builder/ostro-vam-shimano-ultegra",
       "price": 10399,
       "full_price": 10399,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "road-bikes",
@@ -5571,7 +5553,7 @@
       "url": "https://factorbikes.com/bike-builder/one-shimano-dura-ace",
       "price": 13899,
       "full_price": 13899,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "road-bikes",
@@ -5580,7 +5562,7 @@
       "url": "https://feltbicycles.com/products/vr-expert-shimano-105-di2",
       "price": 5499,
       "full_price": 5499,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "road-bikes",
@@ -5589,7 +5571,7 @@
       "url": "https://feltbicycles.com/products/fr-pro-shimano-ultegra-di2",
       "price": 6999,
       "full_price": 6999,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "road-bikes",
@@ -5598,7 +5580,7 @@
       "url": "https://feltbicycles.com/products/nexar-frd-shimano-durace-ace-di2",
       "price": 12599,
       "full_price": 12599,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "road-bikes",
@@ -5607,7 +5589,7 @@
       "url": "https://www.giant-bicycles.com/us/contend-ar-3",
       "price": 1100,
       "full_price": 1450,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "road-bikes",
@@ -5616,7 +5598,7 @@
       "url": "https://www.giant-bicycles.com/us/defy-advanced-2-2027",
       "price": 3300,
       "full_price": 3300,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "road-bikes",
@@ -5625,7 +5607,7 @@
       "url": "https://www.giant-bicycles.com/us/tcr-advanced-sl-0--red-",
       "price": 10000,
       "full_price": 13500,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "road-bikes",
@@ -5634,7 +5616,7 @@
       "url": "https://www.laufcycles.com/product/uthald",
       "price": 3890,
       "full_price": 3890,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "road-bikes",
@@ -5643,7 +5625,7 @@
       "url": "https://www.laufcycles.com/product/uthald#gid://shopify/Product/7810390425662",
       "price": 5490,
       "full_price": 5490,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "road-bikes",
@@ -5652,7 +5634,7 @@
       "url": "https://www.laufcycles.com/product/uthald#gid://shopify/Product/8061295034430",
       "price": 8190,
       "full_price": 8190,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "road-bikes",
@@ -5661,7 +5643,7 @@
       "url": "https://www.liv-cycling.com/us/avail-ar-3",
       "price": 1100,
       "full_price": 1450,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "road-bikes",
@@ -5670,7 +5652,7 @@
       "url": "https://www.liv-cycling.com/us/langma-advanced-0-2027",
       "price": 4500,
       "full_price": 4500,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "road-bikes",
@@ -5679,7 +5661,7 @@
       "url": "https://www.liv-cycling.com/us/enviliv-advanced-1-2027",
       "price": 5300,
       "full_price": 5300,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "road-bikes",
@@ -5688,7 +5670,7 @@
       "url": "https://www.lookcycle.com/us-en/products/bikes/road-bikes/endurance/765-optimum-105-shimano-rs171",
       "price": 3600,
       "full_price": 3600,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "road-bikes",
@@ -5697,7 +5679,7 @@
       "url": "https://www.lookcycle.com/us-en/products/bikes/road-bikes/altitude/785-huez-rs-ultegra-di2-speed-25",
       "price": 9000,
       "full_price": 9000,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "road-bikes",
@@ -5706,7 +5688,7 @@
       "url": "https://www.lookcycle.com/us-en/products/bikes/road-bikes/aero/795-blade-rs-3-dura-ace-di2-mavic-comete-50-slr-usa",
       "price": 12200,
       "full_price": 12200,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "road-bikes",
@@ -5715,7 +5697,7 @@
       "url": "https://www.specialized.com/us/en/allez-shimano-claris/p/4221796",
       "price": 1099.99,
       "full_price": 1199.99,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "road-bikes",
@@ -5724,7 +5706,7 @@
       "url": "https://www.specialized.com/us/en/tarmac-sl9-comp-sram-rival-axs/p/4293529",
       "price": 4499.99,
       "full_price": 4499.99,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "road-bikes",
@@ -5733,7 +5715,7 @@
       "url": "https://www.specialized.com/us/en/s-works-tarmac-sl9-sram-red-axs/p/4293533",
       "price": 13999.99,
       "full_price": 13999.99,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "road-bikes",
@@ -5742,7 +5724,7 @@
       "url": "https://www.timebicycles.com/en-us/products/nxr-sram-rival-elite",
       "price": 5399,
       "full_price": 5699,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "road-bikes",
@@ -5751,7 +5733,7 @@
       "url": "https://www.timebicycles.com/en-us/products/fluidity-sram-force-axs-2x",
       "price": 7399,
       "full_price": 8199,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "road-bikes",
@@ -5760,7 +5742,7 @@
       "url": "https://www.timebicycles.com/en-us/products/scylon-shimano-dura-ace",
       "price": 10999,
       "full_price": 11999,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "road-bikes",
@@ -5796,7 +5778,7 @@
       "url": "https://us.3t.bike/products/strada-italia-frameset-1",
       "price": 5154,
       "full_price": 5154,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "framesets",
@@ -5805,7 +5787,7 @@
       "url": "https://us.3t.bike/products/extrema-italia-frameset-1",
       "price": 5154,
       "full_price": 5154,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "framesets",
@@ -5814,7 +5796,7 @@
       "url": "https://us.3t.bike/products/strada-italia-x-frameset",
       "price": 6657,
       "full_price": 6657,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "framesets",
@@ -5823,7 +5805,7 @@
       "url": "https://alliedcycleworks.com/products/echo-frameset-kit",
       "price": 4000,
       "full_price": 4000,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "framesets",
@@ -5832,7 +5814,7 @@
       "url": "https://us.bmc-switzerland.com/products/teammachine-r-01-frameset-frames-bmc-27a-000045",
       "price": 4499,
       "full_price": 5599,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "framesets",
@@ -5841,7 +5823,7 @@
       "url": "https://www.cannondale.com/en-us/bikes/road/race/caad14/caad14-frameset",
       "price": 1799,
       "full_price": 1799,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "framesets",
@@ -5850,7 +5832,7 @@
       "url": "https://www.cannondale.com/en-us/bikes/road/race/supersix-evo/supersix-evo-hi-mod-frameset",
       "price": 4499,
       "full_price": 4499,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "framesets",
@@ -5859,7 +5841,7 @@
       "url": "https://www.cannondale.com/en-us/bikes/road/race/supersix-evo/supersix-evo-lab71-frameset",
       "price": 5999,
       "full_price": 5999,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "framesets",
@@ -5868,7 +5850,7 @@
       "url": "https://www.canyon.com/en-us/outlet-bikes/road-bikes/ultimate-cf-sl-frameset/4563.html",
       "price": 1099,
       "full_price": 1999,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "framesets",
@@ -5877,16 +5859,16 @@
       "url": "https://www.canyon.com/en-us/road-bikes/race-bikes/ultimate/cf-slx/ultimate-cf-slx-frameset/4564.html",
       "price": 1899,
       "full_price": 3299,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "framesets",
       "brand": "Cervélo",
       "product": "Soloist FRAMESET",
       "url": "https://www.cervelo.com/products/soloist-frameset-2027",
-      "price": 3500,
-      "full_price": 3500,
-      "date": "2026-11-25"
+      "price": 4000,
+      "full_price": 4000,
+      "date": "2026-11-26"
     },
     {
       "category": "framesets",
@@ -5895,7 +5877,7 @@
       "url": "https://www.cervelo.com/products/caledonia-5-frameset-2027",
       "price": 5000,
       "full_price": 5000,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "framesets",
@@ -5904,25 +5886,25 @@
       "url": "https://www.cervelo.com/products/s5-frameset-2027",
       "price": 6500,
       "full_price": 6500,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "framesets",
       "brand": "Colnago",
       "product": "Master",
       "url": "https://www.colnago.com/en-us/products/master-bike",
-      "price": 3047,
-      "full_price": 3047,
-      "date": "2026-11-25"
+      "price": 3055,
+      "full_price": 3055,
+      "date": "2026-11-26"
     },
     {
       "category": "framesets",
       "brand": "Colnago",
       "product": "Steelnovo",
       "url": "https://www.colnago.com/en-us/products/colnago-steelnovo-snpp",
-      "price": 6138,
-      "full_price": 6138,
-      "date": "2026-11-25"
+      "price": 6154,
+      "full_price": 6154,
+      "date": "2026-11-26"
     },
     {
       "category": "framesets",
@@ -5931,7 +5913,7 @@
       "url": "https://factorbikes.com/bike-builder/monza-standard-package",
       "price": 4099,
       "full_price": 4099,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "framesets",
@@ -5940,7 +5922,7 @@
       "url": "https://factorbikes.com/bike-builder/ostro-vam-premium-package",
       "price": 5999,
       "full_price": 5999,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "framesets",
@@ -5949,7 +5931,7 @@
       "url": "https://factorbikes.com/bike-builder/one-premium-package",
       "price": 7599,
       "full_price": 7599,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "framesets",
@@ -5958,7 +5940,7 @@
       "url": "https://feltbicycles.com/products/nexar-frd-framekit",
       "price": 5199,
       "full_price": 5199,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "framesets",
@@ -5967,7 +5949,7 @@
       "url": "https://www.giant-bicycles.com/us/tcr-advanced-pro-disc-frameset-2024",
       "price": 2100,
       "full_price": 2100,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "framesets",
@@ -5976,7 +5958,7 @@
       "url": "https://www.giant-bicycles.com/us/propel-advanced-pro-ff-2027",
       "price": 3200,
       "full_price": 3200,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "framesets",
@@ -5985,7 +5967,7 @@
       "url": "https://www.giant-bicycles.com/us/propel-advanced-sl-frameset-2024",
       "price": 4200,
       "full_price": 4200,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "framesets",
@@ -5994,7 +5976,7 @@
       "url": "https://www.laufcycles.com/product/uthald#gid://shopify/Product/7450844364862",
       "price": 2290,
       "full_price": 2290,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "framesets",
@@ -6003,7 +5985,7 @@
       "url": "https://www.lookcycle.com/us-en/products/bikes/road-bikes/endurance/765-optimum-frameset-charcoal-satin",
       "price": 2800,
       "full_price": 2800,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "framesets",
@@ -6012,7 +5994,7 @@
       "url": "https://www.lookcycle.com/us-en/products/bikes/road-bikes/altitude/785-huez-rs-frameset-new",
       "price": 3700,
       "full_price": 3700,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "framesets",
@@ -6021,7 +6003,7 @@
       "url": "https://www.lookcycle.com/us-en/products/bikes/road-bikes/aero/795-blade-rs-3-frameset",
       "price": 5900,
       "full_price": 5900,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "framesets",
@@ -6030,7 +6012,7 @@
       "url": "https://www.specialized.com/us/en/allez-sprint-frameset-daluisio-smartweld-alloy/p/4221551",
       "price": 1899.99,
       "full_price": 1899.99,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "framesets",
@@ -6039,7 +6021,7 @@
       "url": "https://www.specialized.com/us/en/aethos-2-frameset-fact-10r-carbon/p/4221561",
       "price": 3499.99,
       "full_price": 3499.99,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "framesets",
@@ -6048,7 +6030,7 @@
       "url": "https://www.specialized.com/us/en/s-works-tarmac-sl9-frameset-fact-12r-carbon/p/4293537",
       "price": 5799.99,
       "full_price": 5799.99,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "framesets",
@@ -6057,7 +6039,7 @@
       "url": "https://www.timebicycles.com/en-us/products/nxr-frameset",
       "price": 2699,
       "full_price": 2999,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "framesets",
@@ -6066,7 +6048,7 @@
       "url": "https://www.timebicycles.com/en-us/products/fluidity-frameset",
       "price": 3199,
       "full_price": 3999,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "framesets",
@@ -6075,7 +6057,7 @@
       "url": "https://www.timebicycles.com/en-us/products/scylon-frameset",
       "price": 3999,
       "full_price": 4999,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "framesets",
@@ -6111,7 +6093,7 @@
       "url": "https://us.huntbikewheels.com/products/hunt-40-carbon-disc-wheelset-ic356",
       "price": 737.4,
       "full_price": 1229,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "wheelsets",
@@ -6120,7 +6102,7 @@
       "url": "https://us.huntbikewheels.com/products/hunt-50-carbon-disc-wheelset-ic354-1",
       "price": 749.4,
       "full_price": 1249,
-      "date": "2026-11-24"
+      "date": "2026-11-26"
     },
     {
       "category": "wheelsets",
@@ -6129,7 +6111,7 @@
       "url": "https://us.huntbikewheels.com/products/hunt-5am-limitless-carbon-spoke-disc-wheelset",
       "price": 2599,
       "full_price": 2599,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "wheelsets",
@@ -6138,7 +6120,7 @@
       "url": "https://www.princetoncarbon.com/product/peak-4550/",
       "price": 3150,
       "full_price": 3150,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "wheelsets",
@@ -6147,7 +6129,7 @@
       "url": "https://www.princetoncarbon.com/product/wake-6560/",
       "price": 3150,
       "full_price": 3150,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "wheelsets",
@@ -6156,7 +6138,7 @@
       "url": "https://www.princetoncarbon.com/product/mach-7580/",
       "price": 3150,
       "full_price": 3150,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "wheelsets",
@@ -6165,7 +6147,7 @@
       "url": "https://ride.shimano.com/products/wh-rs710-c46-tl",
       "price": 1285,
       "full_price": 1285,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "wheelsets",
@@ -6174,7 +6156,7 @@
       "url": "https://ride.shimano.com/products/wh-r8170-c50-tl",
       "price": 1570,
       "full_price": 1570,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "wheelsets",
@@ -6183,7 +6165,7 @@
       "url": "https://ride.shimano.com/products/wh-r9370-c50-tl",
       "price": 2970,
       "full_price": 2970,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "power-meters",
@@ -6192,7 +6174,7 @@
       "url": "https://shop.4iiii.com/products/left-side-precision-3-plus-powermeter-ride-ready",
       "price": 349.99,
       "full_price": 349.99,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "power-meters",
@@ -6201,7 +6183,7 @@
       "url": "https://shop.4iiii.com/products/precision-3-plus-pro-powermeter-factory",
       "price": 439.99,
       "full_price": 549.99,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "power-meters",
@@ -6210,7 +6192,7 @@
       "url": "https://shop.4iiii.com/products/dual-side-precision-3-pro-powermeter-ride-ready",
       "price": 979.99,
       "full_price": 979.99,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "power-meters",
@@ -6219,7 +6201,7 @@
       "url": "https://cycling.favero.com/shop/assioma-duo/",
       "price": 499,
       "full_price": 499,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "power-meters",
@@ -6228,7 +6210,7 @@
       "url": "https://cycling.favero.com/shop/assioma-pro-rs2/",
       "price": 789,
       "full_price": 789,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "power-meters",
@@ -6237,7 +6219,7 @@
       "url": "https://cycling.favero.com/shop/assioma-pro-rl2/",
       "price": 789,
       "full_price": 789,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "power-meters",
@@ -6246,7 +6228,7 @@
       "url": "https://www.garmin.com/en-US/p/1134010/",
       "price": 799.99,
       "full_price": 899.99,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "power-meters",
@@ -6255,7 +6237,7 @@
       "url": "https://www.garmin.com/en-US/p/1133810/",
       "price": 799.99,
       "full_price": 899.99,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "power-meters",
@@ -6264,7 +6246,7 @@
       "url": "https://www.wahoofitness.com/devices/pedals/speedplay-power/speedplay-power-dual-power-meter-pedal-buy",
       "price": 849.99,
       "full_price": 849.99,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "bike-computers",
@@ -6273,7 +6255,7 @@
       "url": "https://www.garmin.com/en-US/p/798938/",
       "price": 299.99,
       "full_price": 349.99,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "bike-computers",
@@ -6282,7 +6264,7 @@
       "url": "https://www.garmin.com/en-US/p/1630197/",
       "price": 499.99,
       "full_price": 599.99,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "bike-computers",
@@ -6291,7 +6273,7 @@
       "url": "https://www.garmin.com/en-US/p/1967830/",
       "price": 799.99,
       "full_price": 799.99,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "bike-computers",
@@ -6300,7 +6282,7 @@
       "url": "https://shop.sram.com/products/karoo",
       "price": 525,
       "full_price": 525,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "bike-computers",
@@ -6309,7 +6291,7 @@
       "url": "https://www.wahoofitness.com/devices/bike-computers/elemnt-bolt-buy",
       "price": 349.99,
       "full_price": 349.99,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "bike-computers",
@@ -6318,7 +6300,7 @@
       "url": "https://www.wahoofitness.com/devices/bike-computers/elemnt-roam-buy",
       "price": 464.99,
       "full_price": 464.99,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "bike-computers",
@@ -6327,7 +6309,7 @@
       "url": "https://www.wahoofitness.com/devices/bike-computers/elemnt-ace-buy",
       "price": 499.99,
       "full_price": 499.99,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "smart-trainers",
@@ -6336,7 +6318,7 @@
       "url": "https://www.garmin.com/en-US/p/690887/",
       "price": 499.99,
       "full_price": 699.99,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "smart-trainers",
@@ -6345,7 +6327,7 @@
       "url": "https://www.garmin.com/en-US/p/1191149/",
       "price": 999.99,
       "full_price": 999.99,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "smart-trainers",
@@ -6354,7 +6336,7 @@
       "url": "https://www.garmin.com/en-US/p/885302/",
       "price": 1799.99,
       "full_price": 1799.99,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "smart-trainers",
@@ -6363,7 +6345,7 @@
       "url": "https://www.wahoofitness.com/devices/indoor-cycling/bike-trainers/kickr-core-2-buy",
       "price": 399.99,
       "full_price": 549.99,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "smart-trainers",
@@ -6372,7 +6354,7 @@
       "url": "https://www.wahoofitness.com/devices/indoor-cycling/bike-trainers/kickr-buy",
       "price": 849.99,
       "full_price": 849.99,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "smart-trainers",
@@ -6381,7 +6363,7 @@
       "url": "https://www.wahoofitness.com/devices/indoor-cycling/smart-bikes/kickr-bike-pro-buy",
       "price": 3999.99,
       "full_price": 3999.99,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "smart-trainers",
@@ -6390,7 +6372,7 @@
       "url": "https://us.zwift.com/products/zwift-ride-kickr-core-2",
       "price": 999.99,
       "full_price": 1299.99,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "helmets",
@@ -6399,7 +6381,7 @@
       "url": "https://www.fizik.com/en-us/products/helmets-kyros-black-fhe1000050010",
       "price": 199.99,
       "full_price": 199.99,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "helmets",
@@ -6408,7 +6390,7 @@
       "url": "https://www.fizik.com/en-us/products/helmets-kassis-white-fhe1000040020",
       "price": 219.99,
       "full_price": 219.99,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "helmets",
@@ -6417,7 +6399,7 @@
       "url": "https://www.fizik.com/en-us/products/helmets-kudo-black-fhe1000010010",
       "price": 319.99,
       "full_price": 319.99,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "helmets",
@@ -6426,16 +6408,16 @@
       "url": "https://www.giro.com/product/agilis-mips-helmet/100000000300000113.html",
       "price": 144.95,
       "full_price": 144.95,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "helmets",
       "brand": "Giro",
       "product": "Helios Spherical Helmet",
       "url": "https://www.giro.com/product/helios-spherical-helmet/100000000300000129.html",
-      "price": 279.95,
+      "price": 223.99,
       "full_price": 279.95,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "helmets",
@@ -6444,7 +6426,7 @@
       "url": "https://www.giro.com/product/aries-spherical/100000000300000146.html",
       "price": 349.95,
       "full_price": 349.95,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "road-shoes",
@@ -6453,7 +6435,7 @@
       "url": "https://www.fizik.com/en-us/products/shoes-tempo-powerstrap-r5-kh-black_black-tpr5pspu21010",
       "price": 149.99,
       "full_price": 149.99,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "road-shoes",
@@ -6462,7 +6444,7 @@
       "url": "https://www.fizik.com/en-us/products/shoes-vento-proxy-kh-vex3bpr1k3c51",
       "price": 269.99,
       "full_price": 269.99,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "road-shoes",
@@ -6471,25 +6453,25 @@
       "url": "https://www.fizik.com/en-us/products/shoes-vega-carbon-white_white-ver1dmr1c2020",
       "price": 469.99,
       "full_price": 469.99,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "road-shoes",
       "brand": "Giro",
       "product": "Stylus II Shoe",
       "url": "https://www.giro.com/product/stylus-ii-shoe/350060000100000112.html",
-      "price": 124.95,
+      "price": 112.99,
       "full_price": 124.95,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "road-shoes",
       "brand": "Giro",
       "product": "Regime II Shoe",
       "url": "https://www.giro.com/product/regime-ii-shoe/350060000100000113.html",
-      "price": 249.95,
+      "price": 224.99,
       "full_price": 249.95,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "road-shoes",
@@ -6498,7 +6480,7 @@
       "url": "https://www.giro.com/product/imperial-ii-shoe/350060000100000106.html",
       "price": 449.95,
       "full_price": 449.95,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "road-shoes",
@@ -6507,7 +6489,7 @@
       "url": "https://www.lakecycling.com/products/cx178",
       "price": 179.99,
       "full_price": 179.99,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "road-shoes",
@@ -6516,7 +6498,7 @@
       "url": "https://www.lakecycling.com/products/cx239",
       "price": 369.99,
       "full_price": 369.99,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "road-shoes",
@@ -6525,7 +6507,7 @@
       "url": "https://www.lakecycling.com/products/cx-403",
       "price": 599.99,
       "full_price": 599.99,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "road-shoes",
@@ -6534,7 +6516,7 @@
       "url": "https://ride.shimano.com/products/sh-rc102",
       "price": 120,
       "full_price": 120,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "road-shoes",
@@ -6543,7 +6525,7 @@
       "url": "https://ride.shimano.com/products/sh-rc703",
       "price": 270,
       "full_price": 270,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "road-shoes",
@@ -6552,7 +6534,7 @@
       "url": "https://ride.shimano.com/products/sh-rc910",
       "price": 525,
       "full_price": 525,
-      "date": "2026-11-24"
+      "date": "2026-11-26"
     },
     {
       "category": "road-shoes",
@@ -6561,7 +6543,7 @@
       "url": "https://sidi.com/en-us/products/prima-3",
       "price": 199.99,
       "full_price": 199.99,
-      "date": "2026-11-24"
+      "date": "2026-11-26"
     },
     {
       "category": "road-shoes",
@@ -6570,7 +6552,7 @@
       "url": "https://sidi.com/en-us/products/genius-x",
       "price": 299.99,
       "full_price": 299.99,
-      "date": "2026-11-24"
+      "date": "2026-11-26"
     },
     {
       "category": "road-shoes",
@@ -6579,7 +6561,7 @@
       "url": "https://sidi.com/en-us/products/shot-4",
       "price": 549.99,
       "full_price": 549.99,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "saddles",
@@ -6588,7 +6570,7 @@
       "url": "https://www.brooksengland.com/en-us/products/saddles-cambium-c15-black-c150000056300",
       "price": 155,
       "full_price": 155,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "saddles",
@@ -6597,7 +6579,7 @@
       "url": "https://www.brooksengland.com/en-us/products/saddles-leather-swift-black-b360h00a17202",
       "price": 220,
       "full_price": 220,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "saddles",
@@ -6606,7 +6588,7 @@
       "url": "https://www.brooksengland.com/en-us/products/saddles-cambium-c13-black-c130000026300",
       "price": 240,
       "full_price": 240,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "saddles",
@@ -6615,7 +6597,7 @@
       "url": "https://enve.com/products/enve-x-selle-italia-boost-slr-saddle-v2",
       "price": 350,
       "full_price": 350,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "saddles",
@@ -6624,7 +6606,7 @@
       "url": "https://enve.com/products/enve-x-reform-saddle",
       "price": 400,
       "full_price": 400,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "saddles",
@@ -6633,7 +6615,7 @@
       "url": "https://enve.com/products/slr-boost-3d-kit-carbonio-superflow",
       "price": 450,
       "full_price": 450,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "saddles",
@@ -6642,7 +6624,7 @@
       "url": "https://www.fizik.com/en-us/products/saddles-arione-r5-black-varior5fa1",
       "price": 119.99,
       "full_price": 119.99,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "saddles",
@@ -6651,7 +6633,7 @@
       "url": "https://www.fizik.com/en-us/products/saddles-arione-r3-black-varior3fa0",
       "price": 174.99,
       "full_price": 174.99,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "saddles",
@@ -6660,7 +6642,7 @@
       "url": "https://www.fizik.com/en-us/products/saddles-arione-r1-adaptive-black-varior1aa0",
       "price": 329.99,
       "full_price": 329.99,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "saddles",
@@ -6669,7 +6651,7 @@
       "url": "https://www.selleitalia.com/slr-endurance-advan/",
       "price": 103.92,
       "full_price": 129.9,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "saddles",
@@ -6678,7 +6660,7 @@
       "url": "https://www.selleitalia.com/slr-elite/",
       "price": 237.92,
       "full_price": 279.9,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "saddles",
@@ -6687,7 +6669,7 @@
       "url": "https://www.selleitalia.com/slr-3d-carbon/",
       "price": 407.92,
       "full_price": 479.9,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "sunglasses",
@@ -6696,7 +6678,7 @@
       "url": "https://www.100percent.com/products/s2-matte-white-pink-hiper-vital-pink-mirror",
       "price": 83.97,
       "full_price": 119.95,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "sunglasses",
@@ -6705,7 +6687,7 @@
       "url": "https://www.100percent.com/products/speedcraft-soft-tact-black-hiper-red-multilayer-mirror-lens-1",
       "price": 111.97,
       "full_price": 159.95,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "sunglasses",
@@ -6714,7 +6696,7 @@
       "url": "https://www.100percent.com/products/aerocraft-gloss-black-chrome-hiper-silver-mirror-lens",
       "price": 139.97,
       "full_price": 199.95,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "sunglasses",
@@ -6723,7 +6705,7 @@
       "url": "https://ride.shimano.com/products/ce-arlt2",
       "price": 65,
       "full_price": 65,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "sunglasses",
@@ -6732,7 +6714,7 @@
       "url": "https://ride.shimano.com/products/ce-tcnm2",
       "price": 100,
       "full_price": 100,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     },
     {
       "category": "sunglasses",
@@ -6741,7 +6723,7 @@
       "url": "https://ride.shimano.com/products/ce-spsl2",
       "price": 150,
       "full_price": 150,
-      "date": "2026-11-25"
+      "date": "2026-11-26"
     }
   ]
 }

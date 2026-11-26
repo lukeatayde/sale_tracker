@@ -1,7 +1,7 @@
 {
   "$schema": "./brands.schema.json",
   "title": "Black Friday 2026 Cycling Sales",
-  "checked": "2026-11-25",
+  "checked": "2026-11-26",
   "tags": [
     {
       "id": "apparel",
@@ -277,13 +277,13 @@
     {
       "name": "Rapha",
       "website": "https://rapha.cc",
-      "status": "not_yet",
-      "detected": null,
+      "status": "live",
+      "detected": "2026-11-26",
       "tags": [
         "apparel"
       ],
       "type": "Modern premium",
-      "notes": "Checked the homepage and shop: no sale or sale page yet. Ran 25% off sitewide last year and says its sale usually starts in late November",
+      "notes": "Black Friday sale page live: up to 50% off apparel and accessories, Nov 26-30",
       "country": "UK"
     },
     {
