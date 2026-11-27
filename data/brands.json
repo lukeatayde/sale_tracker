@@ -1,7 +1,7 @@
 {
   "$schema": "./brands.schema.json",
   "title": "Black Friday 2026 Cycling Sales",
-  "checked": "2026-11-26",
+  "checked": "2026-11-27",
   "tags": [
     {
       "id": "apparel",
@@ -428,7 +428,7 @@
         "apparel"
       ],
       "type": "Modern premium",
-      "notes": "No sale; in past years it skipped Black Friday and offered free repairs instead. Some items are discounted at Sigma Sports",
+      "notes": "No sale; only a November code (NOVEMBERWARMER) for a leg warmer discount with the ABR1 Thermal Pocket Bib Shorts",
       "country": "UK"
     },
     {
@@ -920,7 +920,7 @@
         "components"
       ],
       "type": "Groupsets",
-      "notes": "Its shop has 20% off the Reverb AXS B1 dropper post and 10-15% off AXS batteries and chargers; no Black Friday branding",
+      "notes": "Its shop has up to 32% off the Reverb AXS B1 dropper post and 10-15% off AXS batteries and chargers; no Black Friday branding",
       "country": "USA"
     },
     {
@@ -1022,13 +1022,13 @@
     {
       "name": "Favero",
       "website": "https://favero.com",
-      "status": "not_yet",
-      "detected": null,
+      "status": "live",
+      "detected": "2026-11-27",
       "tags": [
         "components"
       ],
       "type": "Power meters",
-      "notes": "Full prices; free shipping only",
+      "notes": "Black Friday deals on the cycling site: Assioma PRO RL, RS and MX pedals from $399 (regularly $499)",
       "country": "Italy"
     },
     {
@@ -1142,13 +1142,13 @@
     {
       "name": "Vittoria",
       "website": "https://vittoria.com",
-      "status": "not_yet",
-      "detected": null,
+      "status": "live",
+      "detected": "2026-11-27",
       "tags": [
         "components"
       ],
       "type": "Tires",
-      "notes": "No sale banner",
+      "notes": "Black Friday & Cyber Monday: 25% off sitewide, applied in cart, Nov 27-30 (excludes A. Dugast and gift cards)",
       "country": "Italy"
     },
     {
